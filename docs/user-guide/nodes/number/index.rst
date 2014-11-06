@@ -1,9 +1,7 @@
 Number Nodes
 ============
 
-.. toctree::
-   :maxdepth: 2
-   
+.. toctree::   
    float
    float_list
    integer
