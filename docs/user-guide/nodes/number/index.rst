@@ -1,7 +1,6 @@
 Number Nodes
 ============
 
-
 .. toctree::
    :maxdepth: 2
    
