@@ -7,10 +7,11 @@ Simple Header Test
 
 Some Text
 
+    print('hi')
+    >> hi
+
 Guide
 ^^^^^
-
-moreee text
 
 .. toctree::
    :maxdepth: 2
