@@ -26,7 +26,7 @@ html_static_path = ['ystatic']
 htmlhelp_basename = 'AnimationNodesDocumentationdoc'
 
 
-latex_elements = {
+latex_elements = {}
 latex_documents = [
   ('index', 'AnimationNodesDocumentation.tex', u'Animation Nodes Documentation Documentation',
    u'Jacques Lucke', 'manual'),
