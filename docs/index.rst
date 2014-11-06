@@ -14,6 +14,8 @@ moreee text
 
 even more text 5
 
+./test.rst
+
 .. toctree::
    :maxdepth: 2
 
