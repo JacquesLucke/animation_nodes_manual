@@ -12,6 +12,8 @@ Guide
 
 moreee text
 
+and another text
+
 .. toctree::
    :maxdepth: 2
 
