@@ -7,12 +7,3 @@ Animation Nodes Documentation
    user-guide/index
    dev-guide/index
 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
