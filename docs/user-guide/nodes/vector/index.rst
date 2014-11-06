@@ -4,4 +4,4 @@ Vector Nodes
 .. toctree::   
    Combine <vector_combine>
    Separate <vector_separate>
-   Random <random>
+   Random <random_vector>

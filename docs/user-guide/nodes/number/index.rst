@@ -5,4 +5,4 @@ Number Nodes
    float
    float_list
    integer
-   random
+   random_float
