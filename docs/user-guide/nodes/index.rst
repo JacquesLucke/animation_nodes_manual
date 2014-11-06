@@ -1,5 +1,5 @@
 Nodes
-==========
+=====
 
 Here you will find explanations for all the different nodes.
 
@@ -7,3 +7,4 @@ Here you will find explanations for all the different nodes.
    :maxdepth: 2
    
    number/index
+   vector/index
