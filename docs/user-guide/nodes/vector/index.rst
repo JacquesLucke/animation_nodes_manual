@@ -2,6 +2,6 @@ Vector Nodes
 ============
 
 .. toctree::   
-   vector_combine
-   vector_separate
-   random
+   Combine <vector_combine>
+   Separate <vector_separate>
+   Random <random>
