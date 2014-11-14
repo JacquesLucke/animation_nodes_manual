@@ -5,7 +5,7 @@ Object Attribute Output
 
 **Object:** Choose the object where you want to set a property.
 
-**Attribute:** This is the property path and is python related. If you don't know the property path just go to this property, right click on it, copy the data path and paste into the attribute socket.
+**Attribute:** This is the python property path. If you don't know this path just go to this property, right click on it, copy the data path and paste into the attribute socket.
  
  .. image:: copy_data_path.jpg
  
