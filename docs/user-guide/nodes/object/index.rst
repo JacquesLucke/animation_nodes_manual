@@ -1,4 +1,4 @@
-Vector Nodes
+Object Nodes
 ============
 
 .. toctree::   
