@@ -8,3 +8,4 @@ Here you will find explanations for all the different nodes.
    
    number/index
    vector/index
+   object/index
