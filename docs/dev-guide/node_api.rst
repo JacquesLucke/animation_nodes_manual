@@ -20,7 +20,24 @@ This is mostly used to create sockets that a node has after creation.
 ``forbidCompiling()`` and ``allowCompiling`` should always be used to avoid some errors, because so the addon executes the node not until every socket is created.
 
 
-There are several execution models a node can follow.
+There are 2 different main methods how a node can be executed:
 
-Dictionary Mode
-^^^^^^^^^^^^^^^
+Execute Function
+^^^^^^^^^^^^^^^^
+
+The node has a function called ``execute``, which has the socket values as input and the corresponding output.
+The easiest way to use this is the **Dictionary-Mode**.
+
+**Dictionary-Mode:** This means that you have only one input variable next to ``self`` which is a Dictionary. The keys are the socket identifiers (name).
+
+.. code-block:: python
+    :linenos:
+    
+    def execute(self, input):
+        output = {}
+        
+        if input["Condition"]:
+            output["Text"] = "Yes"
+        else: output["Text"] = "No"
+        
+        return output
