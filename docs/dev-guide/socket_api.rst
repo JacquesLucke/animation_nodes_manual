@@ -26,12 +26,12 @@ In addition to that the socket needs a ``drawInput`` function. This is called wh
     
     # from Vector Socket
     def drawInput(self, layout, node, text):
-		col = layout.column(align = True)
-		col.label(text)
-		col.prop(self, "vector", index = 0, text = "X")
-		col.prop(self, "vector", index = 1, text = "Y")
-		col.prop(self, "vector", index = 2, text = "Z")
-		col.separator()
+        col = layout.column(align = True)
+        col.label(text)
+        col.prop(self, "vector", index = 0, text = "X")
+        col.prop(self, "vector", index = 1, text = "Y")
+        col.prop(self, "vector", index = 2, text = "Z")
+        col.separator()
         
 The ``getValue`` function must return an instance of the data type declared above.
 
@@ -39,7 +39,7 @@ The ``getValue`` function must return an instance of the data type declared abov
     :linenos:
     
     def getValue(self):
-		return self.vector
+        return self.vector
         
 The ``getStoreableValue`` and ``setStoreableValue`` functions are used by some internal code. The data they return has to be save to be stored even if an object in Blender is deleted or so.
 
@@ -47,6 +47,6 @@ The ``getStoreableValue`` and ``setStoreableValue`` functions are used by some i
     :linenos:
     
     def setStoreableValue(self, data):
-		self.vector = data
-	def getStoreableValue(self):
-		return self.vector[:]
+        self.vector = data
+    def getStoreableValue(self):
+        return self.vector[:]
