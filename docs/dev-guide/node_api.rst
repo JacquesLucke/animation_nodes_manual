@@ -1,5 +1,5 @@
 Node API
---------
+========
 
 Every Node is a subclass of ``bpy.types.Node`` and ``mn_node_base.AnimationNode``. A node has at least two properties: ``bl_idname`` and ``bl_label``. The id-name should be the class name.
 
@@ -19,4 +19,4 @@ This is mostly used to create sockets that a node has after creation.
 There are several execution models a node can follow.
 
 Dictionary Mode
-===============
+^^^^^^^^^^^^^^^
