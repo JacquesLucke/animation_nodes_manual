@@ -57,14 +57,14 @@ This is a slightly faster method because there is less overhead creating diction
     
     # example from animate float node
     def getInputSocketNames(self):
-		return {"Start" : "start",
+        return {"Start" : "start",
                 "End" : "end",
                 "Time" : "time",
                 "Interpolation" : "interpolation", 
                 "Duration" : "duration", 
                 "Delay" : "delay"}
-	def getOutputSocketNames(self):
-		return {"Current" : "current", 
+    def getOutputSocketNames(self):
+        return {"Current" : "current", 
                 "New Time" : "newTime"}
                 
 The execute function uses these names as parameters. Note that the return order has to be the same like the output socket order.
@@ -73,10 +73,10 @@ The execute function uses these names as parameters. Note that the return order 
     :linenos:
     
     def execute(self, start, end, time, interpolation, duration, delay):
-		duration = max(duration, 1)
-		influence = interpolation[0](max(min(time / duration, 1.0), 0.0), interpolation[1])
-		current = start * (1 - influence) + end * influence
-		return current, time - duration - delay
+        duration = max(duration, 1)
+        influence = interpolation[0](max(min(time / duration, 1.0), 0.0), interpolation[1])
+        current = start * (1 - influence) + end * influence
+        return current, time - duration - delay
         
         
 In-Line Execution
@@ -90,16 +90,16 @@ To use that the node has to have at least 4 additional functions.
     
     # from float clamp node
     def getInputSocketNames(self):
-		return {"Value" : "value",
-			"Min" : "minValue",
-			"Max" : "maxValue"}
-	def getOutputSocketNames(self):
-		return {"Value" : "value"}
+        return {"Value" : "value",
+            "Min" : "minValue",
+            "Max" : "maxValue"}
+    def getOutputSocketNames(self):
+        return {"Value" : "value"}
     
     def useInLineExecution(self):
-		return True
-	def getInLineExecutionString(self, outputUse):
-		return "$value$ = min(max(%value%, %minValue%), %maxValue%)"
+        return True
+    def getInLineExecutionString(self, outputUse):
+        return "$value$ = min(max(%value%, %minValue%), %maxValue%)"
         
 The ``getInLineExecutionString`` function returns a string with python code. The variable names are the same that you defined in the 2 functions above. Output variables are surrounded by ``$`` and inputs by ``%``.
 
@@ -109,14 +109,14 @@ The parameter ``outputUse`` is for optimizing the code like in this example:
     :linenos:
     
     # from Time Info node
-	def getInLineExecutionString(self, outputUse):
-		codeLines = []
-		codeLines.append("scene = bpy.context.scene")
-		if outputUse["Frame"]: codeLines.append("$frame$ = scene.frame_current_final")
-		if outputUse["Start Frame"]: codeLines.append("$start_frame$ = scene.frame_start")
-		if outputUse["End Frame"]: codeLines.append("$end_frame$ = scene.frame_end")
-		if outputUse["Frame Rate"]: codeLines.append("$frame_rate$ = scene.render.fps")
-		return "\n".join(codeLines)
+    def getInLineExecutionString(self, outputUse):
+        codeLines = []
+        codeLines.append("scene = bpy.context.scene")
+        if outputUse["Frame"]: codeLines.append("$frame$ = scene.frame_current_final")
+        if outputUse["Start Frame"]: codeLines.append("$start_frame$ = scene.frame_start")
+        if outputUse["End Frame"]: codeLines.append("$end_frame$ = scene.frame_end")
+        if outputUse["Frame Rate"]: codeLines.append("$frame_rate$ = scene.render.fps")
+        return "\n".join(codeLines)
 
 
 If the code you defined there needs extra modules you can define them the following way:
@@ -126,4 +126,4 @@ If the code you defined there needs extra modules you can define them the follow
     
     # from expression node
     def getModuleList(self):
-		return ["math"]
+        return ["math"]
