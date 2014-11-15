@@ -4,6 +4,10 @@ Node API
 Every Node is a subclass of ``bpy.types.Node`` and ``mn_node_base.AnimationNode``. A node has at least two properties: ``bl_idname`` and ``bl_label``. The id-name should be the class name.
 
 Furthermore every node has an ``init`` function that looks like this:
+
+.. code-block:: python
+    :linenos:
+	
 	def init(self, context):
 		forbidCompiling()
 		self.inputs.new("mn_VectorSocket", "Position")
