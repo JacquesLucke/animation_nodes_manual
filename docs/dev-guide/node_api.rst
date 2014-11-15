@@ -1,5 +1,6 @@
+********
 Node API
-========
+********
 
 Every Node is a subclass of ``bpy.types.Node`` and ``mn_node_base.AnimationNode``. A node has at least two properties: ``bl_idname`` and ``bl_label``. The id-name should be the class name.
 
@@ -23,12 +24,15 @@ This is mostly used to create sockets that a node has after creation.
 There are 2 different main methods how a node can be executed:
 
 Execute Function
-^^^^^^^^^^^^^^^^
+################
 
 The node has a function called ``execute``, which has the socket values as input and the corresponding output.
 The easiest way to use this is the Dictionary-Mode.
 
-**Dictionary-Mode:** This means that you have only one input variable next to ``self`` which is a Dictionary. The keys are the socket identifiers (name). The function must return another dictionary.
+Dictionary-Mode:
+****************
+
+This means that you have only one input variable next to ``self`` which is a Dictionary. The keys are the socket identifiers (name). The function must return another dictionary.
 
 .. code-block:: python
     :linenos:
@@ -43,7 +47,10 @@ The easiest way to use this is the Dictionary-Mode.
         return output
         
 
-**With defined socket names:** This is a slightly faster method because there is less overhead creating dictionaries. Here you first have to define how your variables are named in the execute function.
+With defined socket names: 
+**************************
+
+This is a slightly faster method because there is less overhead creating dictionaries. Here you first have to define how your variables are named in the execute function.
 
 .. code-block:: python
     :linenos:
@@ -76,3 +83,9 @@ The execute function uses these names as parameters. Note that the return order 
 			oldResult = start * (1 - influence) + end * influence
 			difference = current - oldResult
 		return current, time - duration - delay, difference
+        
+        
+In-Line Execution
+#################
+
+TODO
