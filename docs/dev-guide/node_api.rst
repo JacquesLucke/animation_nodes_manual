@@ -127,3 +127,51 @@ If the code you defined there needs extra modules you can define them the follow
     # from expression node
     def getModuleList(self):
         return ["math"]
+        
+        
+Other Features
+##############
+
+**'Output Use' parameter for execution function**
+
+If the node doesn't need to calculate every output under certain circumstances and you use the ``execute`` - method, you may want to use the ``outputUseParameterName``. It works like this:
+
+.. code-block:: python
+    :linenos:
+
+    class mn_TextBlockReader(Node, AnimationNode):
+        bl_idname = "mn_TextBlockReader"
+        bl_label = "Text Block Reader"
+        outputUseParameterName = "useOutput"
+        
+    # ...
+    
+    def getInputSocketNames(self):
+        return {"Text Block" : "textBlock"}
+    def getOutputSocketNames(self):
+        return {"Text" : "text",
+                "Lines" : "lines"}
+    
+    def execute(self, useOutput, textBlock):
+        text = ""
+        if textBlock is not None:
+            text = textBlock.as_string()
+        if useOutput["Lines"]: return text, text.split("\n")
+        else: return text, []
+
+        
+**Determined Nodes**
+
+Nodes that always have the same output with the same inputs should be marked with the ``isDetermined`` attribute. E.g. the ``math node`` but not the ``object info node``, because although the object is the same, the location can be different a millisecond later.
+This attribute is mostly used for loops, so that nodes that have the same output in every iteration aren't calculated multiple times.
+
+.. code-block:: python
+    :linenos:
+
+    class mn_FloatMathNode(Node, AnimationNode):
+        bl_idname = "mn_FloatMathNode"
+        bl_label = "Math"
+        isDetermined = True
+
+        
+        
