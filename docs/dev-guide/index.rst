@@ -5,3 +5,4 @@ Developer Guide
    :maxdepth: 2
    
    node_api
+   socket_api
