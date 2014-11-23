@@ -1,5 +1,5 @@
-Number Nodes
-============
+Animation
+=========
 
 .. toctree::   
    time_info
