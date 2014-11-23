@@ -8,6 +8,9 @@ Float Math
  Depending on the selected operation the node has either one or two inputs.
  
  **Note:**
+ 
  * Division by 0 returns 0.0
- * Logarithm with the base <=0 or =1 takes the _natural logarithm_
+ 
+ * Logarithm with the base <=0 or =1 takes the natural logarithm
+ 
  * Modulo by 0 returns 0.0
