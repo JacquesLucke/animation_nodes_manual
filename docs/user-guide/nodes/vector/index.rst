@@ -5,3 +5,4 @@ Vector Nodes
    Combine <vector_combine>
    Separate <vector_separate>
    Random <random_vector>
+   Wiggle <vector_wiggle>
