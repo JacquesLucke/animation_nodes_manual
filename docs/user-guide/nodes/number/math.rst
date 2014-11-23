@@ -1,7 +1,7 @@
 Float Math
 ==========
 
- .. image:: math_node.jpg
+ .. image:: math_node.png
  
  Gives access to most used math operations on normal numbers. There are other math nodes for vectors and matrices.
  
