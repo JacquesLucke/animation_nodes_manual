@@ -5,6 +5,6 @@ Object Transforms Output
 
 **Object:** Choose the object which you want to change.
 
-**Location, Rotation, Scale:** Transform properties for this object.
+**Location, Rotation, Scale:** Transform properties for this object. Note: Rotation is in radians.
 
 **9 Checkboxes above:** Select which properties are influenced by this node.
