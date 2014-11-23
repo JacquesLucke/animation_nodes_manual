@@ -1,5 +1,5 @@
-Random Vector
-==================
+Wiggle Vector
+=============
 
 .. image:: vector_wiggle_node.png
 
