@@ -2,4 +2,4 @@ Matrix Nodes
 ============
 
 .. toctree:: 
-    Compose Matrix 
+    Compose Matrix <compose_matrix>
