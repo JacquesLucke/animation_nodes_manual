@@ -1,4 +1,15 @@
 Clamp
 ======
 
-The clamp node accepts a value, a maximum and a minimum. If the input value is between the maximum and minimum, then nothing happens and the input value is outputted directly. But if it is greater than the maximum, the maximum will be outputted. The same applies if the value is less than the minimum, then the minimum is outputted.
+The clamp node is used to make sure a value is in a certain range. If it is not the output value is clamped / clipped to the maximum or minimum value.
+
+**Inputs:**
+- Value
+- Max
+- Min
+
+**Behavior:**
+
+If Min <= Value <= Max **Output:** Value
+If Value > Max **Output:** Max
+If Value < Min **Output:** Min
