@@ -18,4 +18,5 @@ To install Animation-Nodes
 5. Activate the add-on and you are **done**!
 
 You can now find the Animation-Nodes editor in the node editor. 
+
 .. image:: animation_node_editor.png
