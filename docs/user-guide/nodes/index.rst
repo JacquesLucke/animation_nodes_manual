@@ -7,7 +7,8 @@ Here you will find explanations for all the different nodes.
    :maxdepth: 2
    
    number/index
-   text/index
    vector/index
+   text/index
    object/index
+   matrix/index
    animation/index
