@@ -1,6 +1,8 @@
 Object info
 ===========
 
+.. image:: object_info.png
+
 The object info node outputs:
 
 - **location:** a vector that contains the position of the object
