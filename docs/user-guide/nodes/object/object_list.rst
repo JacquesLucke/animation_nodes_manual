@@ -1,6 +1,8 @@
 Object List
 ===========
 
+.. image:: object_list.png
+
 The object list node creates a list of objects.
 When you insert it in the node tree, you have 2 options to add objects to the list.
 
