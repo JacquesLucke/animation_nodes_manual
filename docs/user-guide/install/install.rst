@@ -4,7 +4,9 @@ How to Install?
 To install Animation-Nodes 
 
 1. download the zip file at the official repository https://github.com/JacquesLucke/animation-nodes
+
 .. image:: zip.png
+
 **Don't extract / unzip the file.** 
 
 2. Open Blender
