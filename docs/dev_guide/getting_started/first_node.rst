@@ -20,12 +20,38 @@ A node is a single python file. All registration is done automatically.
         import bpy
         from ... base_types.node import AnimationNode
 
-        class TEMPLATENode(bpy.types.Node, AnimationNode):
-            bl_idname = "an_TEMPLATENode"
-            bl_label = "TEMPLATE"
+        class TemplateNode(bpy.types.Node, AnimationNode):
+            bl_idname = "an_TemplateNode"
+            bl_label = "Template Node"
 
             def create(self):
                 pass
 
             def execute(self):
                 return
+
+4.  Replace *Template* with the name of your node.
+
+5.  Create the input and output sockets in the ``create`` function:
+
+    .. code-block:: python
+        :linenos:
+
+        def create(self):
+            self.inputs.new("an_FloatSocket", "Number", "number")
+            self.inputs.new("an_IntegerSocket", "Decimals", "decimals")
+
+            self.outputs.new("an_FloatSocket", "Rounded Value", "value")
+
+    The parameters are:
+        1. ``bl_idname`` of the socket type. You find all existing types here: TODO
+        2. Name of the socket that will be visible in the UI.
+        3. Variable name that will be used in the ``execute`` function
+
+6.  Fill in the execution code:
+
+    .. code-block:: python
+
+        def execute(self, number, decimals):
+            value = round(number, decimals)
+            return value
