@@ -33,6 +33,13 @@ A node is a single python file. All registration is done automatically.
 
 4.  Replace *Template* with the name of your node.
 
+    .. code-block:: python
+        :linenos:
+
+        class RoundNumberNode(bpy.types.Node, AnimationNode):
+            bl_idname = "an_RoundNumberNode"
+            bl_label = "Round Number"
+            
 
 5.  Create the input and output sockets in the ``create`` function:
 
