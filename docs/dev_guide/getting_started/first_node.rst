@@ -45,7 +45,7 @@ A node is a single python file. All registration is done automatically.
             self.outputs.new("an_FloatSocket", "Rounded Value", "value")
 
     The parameters are:
-    
+
         1. ``bl_idname`` of the socket type. You find all existing types here: TODO
         2. Name of the socket that will be visible in the UI.
         3. Variable name that will be used in the ``execute`` function
@@ -73,9 +73,9 @@ This is the final node file:
     import bpy
     from ... base_types.node import AnimationNode
 
-    class TemplateNode(bpy.types.Node, AnimationNode):
-        bl_idname = "an_TemplateNode"
-        bl_label = "Template Node"
+    class RoundNumberNode(bpy.types.Node, AnimationNode):
+        bl_idname = "an_RoundNumberNode"
+        bl_label = "Round Number"
 
         def create(self):
             self.inputs.new("an_FloatSocket", "Number", "number")
