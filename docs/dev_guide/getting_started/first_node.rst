@@ -45,6 +45,7 @@ A node is a single python file. All registration is done automatically.
             self.outputs.new("an_FloatSocket", "Rounded Value", "value")
 
     The parameters are:
+    
         1. ``bl_idname`` of the socket type. You find all existing types here: TODO
         2. Name of the socket that will be visible in the UI.
         3. Variable name that will be used in the ``execute`` function
