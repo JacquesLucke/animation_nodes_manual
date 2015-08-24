@@ -30,7 +30,9 @@ A node is a single python file. All registration is done automatically.
             def execute(self):
                 return
 
+
 4.  Replace *Template* with the name of your node.
+
 
 5.  Create the input and output sockets in the ``create`` function:
 
@@ -40,7 +42,6 @@ A node is a single python file. All registration is done automatically.
         def create(self):
             self.inputs.new("an_FloatSocket", "Number", "number")
             self.inputs.new("an_IntegerSocket", "Decimals", "decimals")
-
             self.outputs.new("an_FloatSocket", "Rounded Value", "value")
 
     The parameters are:
@@ -48,9 +49,37 @@ A node is a single python file. All registration is done automatically.
         2. Name of the socket that will be visible in the UI.
         3. Variable name that will be used in the ``execute`` function
 
+
 6.  Fill in the execution code:
 
     .. code-block:: python
+        :linenos:
+
+        def execute(self, number, decimals):
+            value = round(number, decimals)
+            return value
+
+
+7.  Save, start Blender test if your node works.
+    It isn't in the menu yet but you can find the node by searching for the ``bl_label`` property.
+
+
+This is the final node file:
+
+.. code-block:: python
+    :linenos:
+
+    import bpy
+    from ... base_types.node import AnimationNode
+
+    class TemplateNode(bpy.types.Node, AnimationNode):
+        bl_idname = "an_TemplateNode"
+        bl_label = "Template Node"
+
+        def create(self):
+            self.inputs.new("an_FloatSocket", "Number", "number")
+            self.inputs.new("an_IntegerSocket", "Decimals", "decimals")
+            self.outputs.new("an_FloatSocket", "Rounded Value", "value")
 
         def execute(self, number, decimals):
             value = round(number, decimals)
