@@ -15,7 +15,7 @@ A node is a single python file. All registration is done automatically.
 
     Create a new python file inside the category you choosed: ``nodes\\$category$\\$node_name$.py``
 
-    Copy the node template in:
+    Copy the node template in::
 
       import bpy
       from ... base_types.node import AnimationNode
