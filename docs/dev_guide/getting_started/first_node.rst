@@ -17,15 +17,18 @@ A node is a single python file. All registration is done automatically.
 
     Copy the node template in::
 
-      import bpy
-      from ... base_types.node import AnimationNode
+    .. code-block:: python
+        :linenos:
+        
+        import bpy
+        from ... base_types.node import AnimationNode
 
-      class TEMPLATENode(bpy.types.Node, AnimationNode):
-          bl_idname = "an_TEMPLATENode"
-          bl_label = "TEMPLATE"
+        class TEMPLATENode(bpy.types.Node, AnimationNode):
+            bl_idname = "an_TEMPLATENode"
+            bl_label = "TEMPLATE"
 
-          def create(self):
-              self.outputs.new("an_ColorSocket", "Color", "color")
+            def create(self):
+                self.outputs.new("an_ColorSocket", "Color", "color")
 
-          def execute(self):
-              return
+            def execute(self):
+                return
