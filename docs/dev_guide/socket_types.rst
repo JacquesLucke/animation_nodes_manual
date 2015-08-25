@@ -27,31 +27,31 @@ Sockets that have a corresponding list data type are often called ``base sockets
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
 | Data Type       | bl_idname                   |List | What data it can carry                                              |
 +=================+=============================+=====+=====================================================================+
-| Boolean         | ``an_BooleanSocket``        |  No |                                                                     |
+| Boolean         | ``an_BooleanSocket``        |  No | ``True`` or ``False``                                               |
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
-| Color           | ``an_ColorSocket``          |  No |                                                                     |
+| Color           | ``an_ColorSocket``          |  No | List with four floats: ``[red, green, blue, alpha]                  |
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
-| Edge Indices    | ``an_EdgeIndicesSocket``    | Yes |                                                                     |
+| Edge Indices    | ``an_EdgeIndicesSocket``    | Yes | Tuple containing two integers                                       |
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
-| Float           | ``an_FloatSocket``          | Yes |                                                                     |
+| Float           | ``an_FloatSocket``          | Yes | Normal python float value                                           |
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
-| Generic         | ``an_GenericSocket``        |  No |                                                                     |
+| Generic         | ``an_GenericSocket``        |  No | Can contain anything; Take care when converting to another type     |
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
-| Integer         | ``an_IntegerSocket``        | Yes |                                                                     |
+| Integer         | ``an_IntegerSocket``        | Yes | Normal python integer value                                         |
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
-| Interpolation   | ``an_InterpolationSocket``  |  No |                                                                     |
+| Interpolation   | ``an_InterpolationSocket``  |  No | Tuple: ``(interpolation function, settings; is often None)``        |
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
-| Matrix          | ``an_MatrixSocket``         | Yes |                                                                     |
+| Matrix          | ``an_MatrixSocket``         | Yes | ``mathutils.Matrix`` object                                         |
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
-| Mesh            | ``an_MeshSocket``           |  No |                                                                     |
+| Mesh            | ``an_MeshSocket``           |  No | ``bmesh`` object                                                    |
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
-| Mesh Data       | ``an_MeshDataSocket``       |  No |                                                                     |
+| Mesh Data       | ``an_MeshDataSocket``       |  No | Class that contains vertex locations and edge/polygon indices       |
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
-| Node Control    | ``an_NodeControlSocket``    |  No |                                                                     |
+| Node Control    | ``an_NodeControlSocket``    |  No | Contains no data; the function depends on the node where it is used |
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
-| Object          | ``an_ObjectSocket``         | Yes |                                                                     |
+| Object          | ``an_ObjectSocket``         | Yes | `Blender Object`_ (can be a mesh, lamp, camera, ...)                |
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
-| Object Group    | ``an_ObjectGroupSocket``    |  No |                                                                     |
+| Object Group    | ``an_ObjectGroupSocket``    |  No | Blender object group                                                |
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
 | Particle        | ``an_ParticleSocket``       | Yes |                                                                     |
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
@@ -73,3 +73,6 @@ Sockets that have a corresponding list data type are often called ``base sockets
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
 | Vertex          | ``an_VertexSocket``         | Yes |                                                                     |
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
+
+
+.. _Blender Object: www.blender.org/api/blender_python_api_2_75_1/bpy.types.Object.html
