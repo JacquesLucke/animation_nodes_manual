@@ -19,7 +19,7 @@ The next class properties are only optional.
 
 ``searchTags``:
     Can be two different things:
-    
+
         - Just a list of strings that will be shown in the search box so that
           the user can find the node easier. (e.g. ``searchTags = ["Object Replicator (old)"]``)
         - A list of tuples. Each tuple has the normal search string and a dictionary which contains
@@ -42,3 +42,15 @@ Handling events invoked by the user
 
 The create function
 -------------------
+
+The edit function
+-----------------
+
+The duplicate function
+----------------------
+
+The delete function
+-------------------
+
+Reacting on socket changes
+--------------------------
