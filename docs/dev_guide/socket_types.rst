@@ -49,33 +49,38 @@ Sockets that have a corresponding list data type are often called ``base sockets
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
 | Node Control    | ``an_NodeControlSocket``    |  No | Contains no data; the function depends on the node where it is used |
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
-| Object          | ``an_ObjectSocket``         | Yes | `Blender Object`_ (can be a mesh, lamp, camera, ...)                |
+| Object          | ``an_ObjectSocket``         | Yes | `Object`_ (can be a mesh, lamp, camera, ...) or ``None``            |
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
-| Object Group    | ``an_ObjectGroupSocket``    |  No | `Blender Object Group`_                                             |
+| Object Group    | ``an_ObjectGroupSocket``    |  No | `Object Group`_ or ``None``                                         |
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
-| Particle        | ``an_ParticleSocket``       | Yes |                                                                     |
+| Particle        | ``an_ParticleSocket``       | Yes | `Particle`_ object or ``None``                                      |
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
-| Particle System | ``an_ParticleSystemSocket`` | Yes |                                                                     |
+| Particle System | ``an_ParticleSystemSocket`` | Yes | `Particle System`_ object or ``None``                               |
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
-| Polygon         | ``an_PolygonSocket``        | Yes |                                                                     |
+| Polygon         | ``an_PolygonSocket``        | Yes | Contains vertices, area, center, normal and material index          |
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
-| Polygon Indices | ``an_PolygonIndicesSocket`` | Yes |                                                                     |
+| Polygon Indices | ``an_PolygonIndicesSocket`` | Yes | Tuple containing at least 3 integers                                |
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
-| Sequence        | ``an_SequenceSocket``       |  No |                                                                     |
+| Sequence        | ``an_SequenceSocket``       |  No | `Sequence`_                                                         |
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
-| Spline          | ``an_SplineSocket``         | Yes |                                                                     |
+| Spline          | ``an_SplineSocket``         | Yes | Either a poly or bezier spline object                               |
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
-| String          | ``an_StringSocket``         | Yes |                                                                     |
+| String          | ``an_StringSocket``         | Yes | Normal python text                                                  |
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
-| Text Block      | ``an_TextBlockSocket``      |  No |                                                                     |
+| Text Block      | ``an_TextBlockSocket``      |  No | `Text`_                                                             |
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
-| Vector          | ``an_VectorSocket``         | Yes |                                                                     |
+| Vector          | ``an_VectorSocket``         | Yes | `Vector`_                                                           |
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
-| Vertex          | ``an_VertexSocket``         | Yes |                                                                     |
+| Vertex          | ``an_VertexSocket``         | Yes | Contains a location, normal and vertex group weights                |
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
 
 
 .. _Matrix: http://www.blender.org/api/blender_python_api_2_75_1/mathutils.html?highlight=mathutils#mathutils.Matrix
 .. _BMesh: http://www.blender.org/api/blender_python_api_2_75_1/bmesh.types.html#bmesh.types.BMesh
-.. _Blender Object: http://www.blender.org/api/blender_python_api_2_75_1/bpy.types.Object.html
-.. _Blender Object Group: http://www.blender.org/api/blender_python_api_2_75_1/bpy.types.Group.html
+.. _Object: http://www.blender.org/api/blender_python_api_2_75_1/bpy.types.Object.html
+.. _Object Group: http://www.blender.org/api/blender_python_api_2_75_1/bpy.types.Group.html
+.. _Particle: http://www.blender.org/api/blender_python_api_2_75_1/bpy.types.Particle.html
+.. _Particle System: http://www.blender.org/api/blender_python_api_2_75_1/bpy.types.ParticleSystem.html
+.. _Sequence: http://www.blender.org/api/blender_python_api_2_75_1/bpy.types.Sequence.html
+.. _Text: http://www.blender.org/api/blender_python_api_2_75_1/bpy.types.Text.html
+.. _Vector: http://www.blender.org/api/blender_python_api_2_75_1/mathutils.html#mathutils.Vector
