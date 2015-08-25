@@ -25,6 +25,9 @@ Sockets that have a corresponding list data type are often called ``base sockets
 
 .. _socket-data-types:
 
+All Data Types
+--------------
+
 +-----------------+-----------------------------+----------+---------------------------------------------------------------------+
 | Data Type       | bl_idname                   | Has List | Function or the data it carries                                     |
 +=================+=============================+==========+=====================================================================+
