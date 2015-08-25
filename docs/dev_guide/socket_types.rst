@@ -41,9 +41,9 @@ Sockets that have a corresponding list data type are often called ``base sockets
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
 | Interpolation   | ``an_InterpolationSocket``  |  No | Tuple: ``(interpolation function, settings; is often None)``        |
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
-| Matrix          | ``an_MatrixSocket``         | Yes | ``mathutils.Matrix`` object                                         |
+| Matrix          | ``an_MatrixSocket``         | Yes | `Matrix`_ object                                                    |
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
-| Mesh            | ``an_MeshSocket``           |  No | ``bmesh`` object                                                    |
+| Mesh            | ``an_MeshSocket``           |  No | `BMesh`_ object                                                     |
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
 | Mesh Data       | ``an_MeshDataSocket``       |  No | Class that contains vertex locations and edge/polygon indices       |
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
@@ -75,5 +75,7 @@ Sockets that have a corresponding list data type are often called ``base sockets
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
 
 
+.. _Matrix: http://www.blender.org/api/blender_python_api_2_75_1/mathutils.html?highlight=mathutils#mathutils.Matrix
+.. _BMesh: http://www.blender.org/api/blender_python_api_2_75_1/bmesh.types.html#bmesh.types.BMesh
 .. _Blender Object: http://www.blender.org/api/blender_python_api_2_75_1/bpy.types.Object.html
 .. _Blender Object Group: http://www.blender.org/api/blender_python_api_2_75_1/bpy.types.Group.html
