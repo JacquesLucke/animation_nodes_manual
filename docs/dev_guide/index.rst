@@ -6,3 +6,4 @@ Developer Guide
 
    getting_started/index
    socket_types
+   node_api
