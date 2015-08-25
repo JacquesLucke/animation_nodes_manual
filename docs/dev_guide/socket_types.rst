@@ -25,7 +25,7 @@ Sockets that have a corresponding list data type are often called ``base sockets
 
 
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
-| Data Type       | bl_idname                   |List | What data it can carry                                              |
+| Data Type       | bl_idname                   |List | Function or the data it carries                                     |
 +=================+=============================+=====+=====================================================================+
 | Boolean         | ``an_BooleanSocket``        |  No | ``True`` or ``False``                                               |
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
@@ -51,7 +51,7 @@ Sockets that have a corresponding list data type are often called ``base sockets
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
 | Object          | ``an_ObjectSocket``         | Yes | `Blender Object`_ (can be a mesh, lamp, camera, ...)                |
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
-| Object Group    | ``an_ObjectGroupSocket``    |  No | Blender object group                                                |
+| Object Group    | ``an_ObjectGroupSocket``    |  No | `Blender Object Group`_                                             |
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
 | Particle        | ``an_ParticleSocket``       | Yes |                                                                     |
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
@@ -75,4 +75,5 @@ Sockets that have a corresponding list data type are often called ``base sockets
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
 
 
-.. _Blender Object: www.blender.org/api/blender_python_api_2_75_1/bpy.types.Object.html
+.. _Blender Object: http://www.blender.org/api/blender_python_api_2_75_1/bpy.types.Object.html
+.. _Blender Object Group: http://www.blender.org/api/blender_python_api_2_75_1/bpy.types.Group.html
