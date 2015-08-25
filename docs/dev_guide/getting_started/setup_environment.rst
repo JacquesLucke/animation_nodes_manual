@@ -20,7 +20,7 @@ For move serious development
 
 1. Remove the Animation Nodes addon in the User Preferences
 2. Find the folder where your Blender version saves its addons
-3. Install `git <https://git-scm.com/>`_ or a `gui client <https://git-scm.com/downloads/guis>`_ (I use 'Github for Windows').
+3. Install `git <https://git-scm.com/>`_ or a `gui client <https://git-scm.com/downloads/guis>`_ (I use 'Github Desktop').
 4. Create a `GitHub <https://github.com/>`_ account.
 5. `Fork <https://guides.github.com/activities/forking/>`_ the addon repository.
 6. Clone the repository into Blenders addon folder.
