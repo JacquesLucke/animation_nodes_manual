@@ -25,7 +25,7 @@ Sockets that have a corresponding list data type are often called ``base sockets
 
 
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
-| Data Type       | bl_idname                   |List | Function or the data it carries                                     |
+| Data Type       | bl_idname                   | Has List | Function or the data it carries                                     |
 +=================+=============================+=====+=====================================================================+
 | Boolean         | ``an_BooleanSocket``        |  No | ``True`` or ``False``                                               |
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
