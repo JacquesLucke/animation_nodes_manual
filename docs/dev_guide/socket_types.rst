@@ -20,10 +20,13 @@ represent one socket.
 
 Many sockets come in pairs. E.g. there is an ``Object`` and an ``Object List`` socket.
 List sockets are by default just an empty python list (not a tuple!).
+To get the ``bl_idname`` of a list socket take the base id name and insert ``List`` before ``Socket``.
 Sockets that have a corresponding list data type are often called ``base sockets``.
 
 
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
+| Data Type       | bl_idname                   |List | What data it can carry                                              |
++=================+=============================+=====+=====================================================================+
 | Boolean         | ``an_BooleanSocket``        |  No |                                                                     |
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
 | Color           | ``an_ColorSocket``          |  No |                                                                     |
