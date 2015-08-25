@@ -5,14 +5,12 @@ Creating a new Node
 A node is a single python file. All registration is done automatically.
 
 
-1.  a) Choose one of the existing node categories (folders inside the ``nodes\\`` directory) or
+At first you have to decide in which category your node idea fits.
+
+    a) Choose one of the existing node categories (folders inside the ``nodes\\`` directory) or
     b) Create a new category. To do that make a new folder and put an empty file called ``__init__.py`` inside.
 
-
-2.  Create a new python file inside the category you choosed: ``nodes\\$category$\\$node_name$.py``
-
-
-3.  Copy the template in:
+Then create a new python file inside the category you choosed and copy the template in:
 
     .. code-block:: python
         :linenos:
@@ -30,8 +28,7 @@ A node is a single python file. All registration is done automatically.
             def execute(self):
                 return
 
-
-4.  Replace *Template* with the name of your node.
+Replace *Template* with the name of your node.
 
     .. code-block:: python
         :linenos:
@@ -40,8 +37,7 @@ A node is a single python file. All registration is done automatically.
             bl_idname = "an_RoundNumberNode"
             bl_label = "Round Number"
 
-
-5.  Create the input and output sockets in the ``create`` function:
+Create the input and output sockets in the ``create`` function:
 
     .. code-block:: python
         :linenos:
@@ -57,8 +53,7 @@ A node is a single python file. All registration is done automatically.
         2. Name of the socket that will be visible in the UI.
         3. Variable name that will be used in the ``execute`` function
 
-
-6.  Fill in the execution code:
+Fill in the execution code:
 
     .. code-block:: python
         :linenos:
@@ -67,9 +62,8 @@ A node is a single python file. All registration is done automatically.
             value = round(number, decimals)
             return value
 
-
-7.  Save, start Blender test if your node works.
-    It isn't in the menu yet but you can find the node by searching for the ``bl_label`` property.
+Save, start Blender test if your node works.
+It isn't in the menu yet but you can find the node by searching for the ``bl_label`` property.
 
 
 This is the final node file:
