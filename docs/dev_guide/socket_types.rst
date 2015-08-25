@@ -41,9 +41,9 @@ Sockets that have a corresponding list data type are often called ``base sockets
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
 | Interpolation   | ``an_InterpolationSocket``  |  No | Tuple: ``(interpolation function, settings; is often None)``        |
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
-| Matrix          | ``an_MatrixSocket``         | Yes | `Matrix`_ object                                                    |
+| Matrix          | ``an_MatrixSocket``         | Yes | `Matrix`_                                                           |
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
-| Mesh            | ``an_MeshSocket``           |  No | `BMesh`_ object                                                     |
+| Mesh            | ``an_MeshSocket``           |  No | `BMesh`_                                                            |
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
 | Mesh Data       | ``an_MeshDataSocket``       |  No | Class that contains vertex locations and edge/polygon indices       |
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
