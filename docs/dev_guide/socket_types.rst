@@ -29,7 +29,7 @@ Sockets that have a corresponding list data type are often called ``base sockets
 +=================+=============================+=====+=====================================================================+
 | Boolean         | ``an_BooleanSocket``        |  No | ``True`` or ``False``                                               |
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
-| Color           | ``an_ColorSocket``          |  No | List with four floats: ``[red, green, blue, alpha]                  |
+| Color           | ``an_ColorSocket``          |  No | List with four floats: ``[red, green, blue, alpha]``                |
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
 | Edge Indices    | ``an_EdgeIndicesSocket``    | Yes | Tuple containing two integers                                       |
 +-----------------+-----------------------------+-----+---------------------------------------------------------------------+
