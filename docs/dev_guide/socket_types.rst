@@ -23,6 +23,7 @@ List sockets are by default just an empty python list (not a tuple!).
 To get the ``bl_idname`` of a list socket take the base id name and insert ``List`` before ``Socket``.
 Sockets that have a corresponding list data type are often called ``base sockets``.
 
+.. _socket-data-types:
 
 +-----------------+-----------------------------+----------+---------------------------------------------------------------------+
 | Data Type       | bl_idname                   | Has List | Function or the data it carries                                     |

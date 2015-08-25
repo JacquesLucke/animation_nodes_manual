@@ -39,7 +39,7 @@ A node is a single python file. All registration is done automatically.
         class RoundNumberNode(bpy.types.Node, AnimationNode):
             bl_idname = "an_RoundNumberNode"
             bl_label = "Round Number"
-            
+
 
 5.  Create the input and output sockets in the ``create`` function:
 
@@ -53,7 +53,7 @@ A node is a single python file. All registration is done automatically.
 
     The parameters are:
 
-        1. ``bl_idname`` of the socket type. You find all existing types here: TODO
+        1. ``bl_idname`` of the socket type. You find all existing types here: :ref:`socket-data-types`
         2. Name of the socket that will be visible in the UI.
         3. Variable name that will be used in the ``execute`` function
 
