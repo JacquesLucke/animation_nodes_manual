@@ -5,10 +5,12 @@ Creating a new Node
 A node is a single python file. All registration is done automatically.
 
 At first you have to decide in which category your node idea fits.
+
     a) Choose one of the existing node categories (folders inside the ``nodes\\`` directory) or
     b) Create a new category. To do that make a new folder and put an empty file called ``__init__.py`` inside.
 
 Then create a new python file inside the category you choosed and copy the template in:
+
     .. code-block:: python
         :linenos:
 
@@ -26,6 +28,7 @@ Then create a new python file inside the category you choosed and copy the templ
                 return
 
 Replace *Template* with the name of your node.
+
     .. code-block:: python
         :linenos:
 
@@ -34,6 +37,7 @@ Replace *Template* with the name of your node.
             bl_label = "Round Number"
 
 Create the input and output sockets in the ``create`` function:
+
     .. code-block:: python
         :linenos:
 
@@ -49,6 +53,7 @@ Create the input and output sockets in the ``create`` function:
         3. Variable name that will be used in the ``execute`` function
 
 Fill in the execution code:
+
     .. code-block:: python
         :linenos:
 
