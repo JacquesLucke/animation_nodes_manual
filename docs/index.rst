@@ -1,5 +1,6 @@
+*****************************
 Animation Nodes Documentation
-=========================================================
+*****************************
 
 Welcome to the official documentation of **Animation-Nodes**.
 
