@@ -15,7 +15,7 @@ compositing and material nodes. The menu is fairly large with many submenus.
 It is not ideal for a quick workflow but it helps when you forgot the name
 of a node.
 
-  .. image:: node_menu.PNG
+  .. image:: images/node_menu.PNG
 
 
 Node Search
@@ -25,7 +25,7 @@ The search box (``ctrl-A``) enables you to quickly find and insert nodes by
 their name. Some nodes have multiple search tags to make it easier to find them.
 Also here are all installed nodes. Not only a subset like in the menu.
 
-  .. image:: node_search.PNG
+  .. image:: images/node_search.PNG
 
 
 Node Settings
@@ -37,7 +37,7 @@ Inside the Node
 Directly in the node are all the sockets that can be linked with other nodes.
 Also sometimes there are additional properties you should care about.
 
-  .. image:: settings_inside_node.PNG
+  .. image:: images/settings_inside_node.PNG
 
 Advanced Node Settings
 ^^^^^^^^^^^^^^^^^^^^^^
@@ -49,7 +49,7 @@ these properties in an extra panel in the right properties bar. The panel is cal
 ``Advanced Node Settings``. The settings inside are always for the currently
 active node. I suggest to put this panel at the top.
 
-  .. image:: advanced_node_settings_panel.PNG
+  .. image:: images/advanced_node_settings_panel.PNG
 
 Generic Node Panel
 ^^^^^^^^^^^^^^^^^^
@@ -58,7 +58,7 @@ There are a few properties that all animation nodes have in common. I extended
 the ``Node`` panel to give you access to these. I recommend to drag this panel
 directly under the Advanced Node Settings panel.
 
-  .. image:: generic_node_panel.PNG
+  .. image:: images/generic_node_panel.PNG
 
 Some nodes allow you to remove and reorder individual sockets. Also hiding sockets
 you don't need can improve the look of your node tree. Some nodes hide sockets
@@ -89,7 +89,7 @@ Most of the time you do animations you want `Auto Execution` to be enabled.
 That automatically executes the same nodes the `Execute Node Tree` would execute.
 The execution is triggered by different events. See the tooltips for more information.
 
-  .. image:: tree_settings_panel.PNG
+  .. image:: images/tree_settings_panel.PNG
 
 
 3D View
