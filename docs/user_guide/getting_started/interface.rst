@@ -15,7 +15,8 @@ compositing and material nodes. The menu is fairly large with many submenus.
 It is not ideal for a quick workflow but it helps when you forgot the name
 of a node.
 
-.. image:: node_menu.png
+
+  .. image:: node_menu.png
 
 
 The node search
