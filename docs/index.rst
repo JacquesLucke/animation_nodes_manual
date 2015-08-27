@@ -8,7 +8,7 @@ Animation nodes is a `Blender <http://www.blender.org/>`_ addon to animate about
 Using nodes grants you the ability to create complex and precise animations in a structured and centralized way.
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
 
    user_guide/index
    dev_guide/index
