@@ -26,3 +26,15 @@ their name. Some nodes have multiple search tags to make it easier to find them.
 Also here are all installed nodes. Not only a subset like in the menu.
 
   .. image:: node_search.PNG
+
+
+Node Settings
+=============
+
+Inside the node
+^^^^^^^^^^^^^^^
+
+Directly in the node are all the sockets that can be linked with other nodes.
+Also sometimes there are additional properties you should care about.
+
+  .. image:: settings_inside_node.PNG
