@@ -31,7 +31,7 @@ Also here are all installed nodes. Not only a subset like in the menu.
 Node Settings
 =============
 
-Inside the node
+Inside the Node
 ^^^^^^^^^^^^^^^
 
 Directly in the node are all the sockets that can be linked with other nodes.
@@ -39,7 +39,7 @@ Also sometimes there are additional properties you should care about.
 
   .. image:: settings_inside_node.PNG
 
-Advanced node settings
+Advanced Node Settings
 ^^^^^^^^^^^^^^^^^^^^^^
 
 Some nodes have settings which aren't very useful most of the time but can
@@ -50,3 +50,22 @@ these properties in an extra panel in the right properties bar. The panel is cal
 active node. I suggest to put this panel at the top.
 
   .. image:: advanced_node_settings_panel.PNG
+
+Generic Node Panel
+^^^^^^^^^^^^^^^^^^
+
+There are a few properties that all animation nodes have in common. I extended
+the ``Node`` panel to give you access to these. I recommend to drag this panel
+directly under the Advanced Node Settings panel.
+
+  .. image:: generic_node_panel.PNG
+
+Some nodes allow you to remove and reorder individual sockets. Also hiding sockets
+you don't need can improve the look of your node tree. Some nodes hide sockets
+by default because you need them only in rare cases.
+
+If the active node allows some customization of the sockets you can also expose
+the operators to do so into the node. (To test this you can create an expression
+node, make some sockets and press the buttons below ``Toogle Operation Visibility``)
+
+The identifier at the button may not be important for you. It is more for developers.
