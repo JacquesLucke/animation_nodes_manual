@@ -90,3 +90,11 @@ That automatically executes the same nodes the `Execute Node Tree` would execute
 The execution is triggered by different events. See the tooltips for more information.
 
   .. image:: tree_settings_panel.PNG
+
+
+3D View
+=======
+
+Furthermore there are some things in the ``AN`` tab of the tool shelf in the 3D view.
+They enable you to work with the `ID Key` system that allows you to store default
+values like `Initial Transformations` on a per object basis.
