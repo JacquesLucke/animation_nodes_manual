@@ -5,6 +5,8 @@ Node API
 All nodes are subclasses of ``bpy.types.Node`` and ``animation_node.base_types.node.AnimationNode``.
 This second super class allowed me to add many functions that make working with nodes very easy.
 
+Each node has a unique identifier.
+
 Class Properties
 ================
 
