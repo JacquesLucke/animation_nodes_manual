@@ -66,6 +66,27 @@ by default because you need them only in rare cases.
 
 If the active node allows some customization of the sockets you can also expose
 the operators to do so into the node. (To test this you can create an expression
-node, make some sockets and press the buttons below ``Toogle Operation Visibility``)
+node, make some sockets and press the buttons below `Toogle Operation Visibility`)
 
 The identifier at the button may not be important for you. It is more for developers.
+
+
+Tree Settings
+=============
+
+Animation Node Tree Panel
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+This panel does not have many functions yet. If you don't use `Auto Execution`
+you can execute the currently active node tree. Executing a tree means to
+execute all `Main` networks. That includes everything except `Groups`, `Loops`.
+The time below shows the time it took to execute.
+
+Auto Execution Panel
+^^^^^^^^^^^^^^^^^^^^
+
+Most of the time you do animations you want `Auto Execution` to be enabled.
+That automatically executes the same nodes the `Execute Node Tree` would execute.
+The execution is triggered by different events. See the tooltips for more information.
+
+  .. image:: tree_settings_panel.PNG
