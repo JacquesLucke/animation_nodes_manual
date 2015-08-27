@@ -16,7 +16,7 @@ It is not ideal for a quick workflow but it helps when you forgot the name
 of a node.
 
 
-  .. image:: node_menu.png
+  .. image:: node_menu.PNG
 
 
 The node search
