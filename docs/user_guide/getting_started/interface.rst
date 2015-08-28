@@ -89,7 +89,7 @@ Most of the time you do animations you want `Auto Execution` to be enabled.
 That automatically executes the same nodes the `Execute Node Tree` would execute.
 The execution is triggered by different events. See the tooltips for more information.
 
-  .. image:: images/tree_settings_panel.PNG
+  .. image:: images/tree_settings_panels.PNG
 
 
 3D View
