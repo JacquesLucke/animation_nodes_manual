@@ -1,8 +1,8 @@
-*****************************
-Animation Nodes Documentation
-*****************************
+**********************
+Animation Nodes Manual
+**********************
 
-Welcome to the official documentation of **Animation-Nodes**.
+Welcome to the official manual of **Animation-Nodes**.
 
 Animation nodes is a `Blender <http://www.blender.org/>`_ addon to animate about everything in Blender by using nodes.
 
