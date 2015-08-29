@@ -7,4 +7,4 @@ User Guide
    install/install
    getting_started/index
    nodes/index
-   examples/index
+   subprograms/index
