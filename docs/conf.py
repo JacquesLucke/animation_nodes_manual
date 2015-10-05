@@ -10,7 +10,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 project = u'Animation Nodes'
-copyright = u'2014, Jacques Lucke'
+copyright = u'2015, Jacques Lucke'
 
 version = '0.0.1'
 release = '0.0.1'
