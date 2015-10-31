@@ -18,11 +18,8 @@ Using nodes grants you the ability to create complex and precise animations in a
 External Links
 **************
 
-Blender Sushi Blog
-==================
+**Blender Sushi:** http://blendersushi.blogspot.de/2015/10/an-re-animation-nodes-by-jacques-lucke.html
 
-**Author:** Jimmy Gunawan
-
-First Impressions: http://blendersushi.blogspot.de/2015/10/an-re-animation-nodes-by-jacques-lucke.html
-
-Controlling Object, Time and Value with Nodes: http://blendersushi.blogspot.de/2015/10/an-controlling-object-time-and-value.html
+**Blender Diplom:**
+    *English:* https://www.youtube.com/playlist?list=PLQYobGgUPfiDme7_YB7dPOqKWoVW_eIVf
+    *German:* https://www.youtube.com/playlist?list=PL310M9jJ4pH8OP21jCQba5dA2R4-rtrM5
