@@ -11,7 +11,7 @@ To install Animation-Nodes
 
 2. Open Blender
 
-3. Go to the User Prefereces in the addon tab
+3. Go to the User Preferences in the Addon tab
 
 4. Click install from file and choose the zip file
 
