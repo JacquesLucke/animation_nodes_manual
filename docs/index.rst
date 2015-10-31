@@ -18,7 +18,8 @@ Using nodes grants you the ability to create complex and precise animations in a
 External Links
 **************
 
-**Blender Sushi:** http://blendersushi.blogspot.de/2015/10/an-re-animation-nodes-by-jacques-lucke.html
+**Blender Sushi:**
+    *English:* http://blendersushi.blogspot.de/2015/10/an-re-animation-nodes-by-jacques-lucke.html
 
 **Blender Diplom:**
     *English:* https://www.youtube.com/playlist?list=PLQYobGgUPfiDme7_YB7dPOqKWoVW_eIVf
