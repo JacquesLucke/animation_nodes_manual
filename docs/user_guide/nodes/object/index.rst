@@ -3,9 +3,9 @@ Object Nodes
 
 .. toctree::
     Object Transforms Input <object_transforms_input>
+    Object Instancer <object_instancer>
     Object Matrices
     Keyframe
-    Object Instancer <object_instancer>
     Copy Data
     Attribute Input
     Attribute Output <object_attribute_output>

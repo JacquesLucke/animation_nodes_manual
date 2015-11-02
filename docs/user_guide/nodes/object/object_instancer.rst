@@ -1,9 +1,10 @@
-Object instancer
+Object Instancer
 ================
 
 .. image:: object_instancer.png
 
-The object instancer node takes an object as input and create a specified number of instances.
-The new instances with the **applied** position, rotation and scale.
+The object instancer node is one of the most important nodes in AN. It allows
+you to create replicates of existing objects or completely new objects.
 
-Combined with loops and transformation matrices, you can achieve some pretty extrordinary results.
+Limitations:
+    * The node is not allowed to be in a subprogram
