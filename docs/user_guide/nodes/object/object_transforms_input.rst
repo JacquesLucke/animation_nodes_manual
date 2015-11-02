@@ -1,5 +1,5 @@
-Object info
-===========
+Object Transforms Input
+=======================
 
 .. image:: object_transforms_input.png
 
