@@ -15,7 +15,7 @@ For simple tests
 3. Start to modify the files.
 
 
-For move serious development
+For more serious development
 ============================
 
 1. Remove the Animation Nodes addon in the User Preferences
