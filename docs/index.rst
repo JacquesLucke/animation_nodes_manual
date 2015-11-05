@@ -19,7 +19,7 @@ External Links
 **************
 
 **Blender Sushi:**
-    *English:* http://blendersushi.blogspot.de/2015/10/an-re-animation-nodes-by-jacques-lucke.html
+    *English:* http://blendersushi.blogspot.de/search/label/anstudy
 
 **Blender Diplom:**
     *English:* https://www.youtube.com/playlist?list=PLQYobGgUPfiDme7_YB7dPOqKWoVW_eIVf
