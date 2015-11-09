@@ -5,8 +5,8 @@ Time Info Node
 
 **Frame:** Returns the final frame (time remapping is applied).
 
-**Start Frame:** Gives the frame where the animation begins.
+**Start Frame:** Start frame of the scene.
 
-**End Frame:** obvious...
+**End Frame:** End frame of the scene.
 
 **Frame Rate:** Frame Rate in this Scene (24 by default).
