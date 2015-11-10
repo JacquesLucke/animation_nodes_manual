@@ -27,3 +27,5 @@ Here is an example on how to access the data:
 
 
 .. image:: images/using_data_interface_node.PNG
+
+Note: After restarting Blender the stored data will not be available anymore.
