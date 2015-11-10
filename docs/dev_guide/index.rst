@@ -7,3 +7,4 @@ Developer Guide
    getting_started/index
    socket_types
    node_api
+   data_interface_node
