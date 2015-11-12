@@ -22,8 +22,12 @@ Here is an example on how to access the data:
         if node.bl_idname == "an_DataInterfaceNode":
 
             node.setValue(VALUE)
+            node.value = VALUE
+
             // or
+
             value = node.getValue()
+            value = node.value
 
 
 .. image:: images/using_data_interface_node.PNG
