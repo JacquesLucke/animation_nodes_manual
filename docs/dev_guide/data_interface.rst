@@ -19,7 +19,7 @@ Here is an example on how to access the data:
     if tree.bl_idname == "an_AnimationNodeTree":
 
         node = tree.nodes[INDEX_OR_NAME]
-        if node.bl_idname = "an_DataInterfaceNode":
+        if node.bl_idname == "an_DataInterfaceNode":
 
             node.setValue(VALUE)
             // or
