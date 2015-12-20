@@ -1,14 +1,16 @@
-Vector Nodes
-============
+Vector
+======
 
 .. toctree::   
-   Combine Vector <combine_vector>
-   Separate Vector <separate_vector>
-   Random Vector <random_vector>
-   Vector Wiggle <vector_wiggle>
-   Vector Length <vector_length>
-   Animate Vector <animate_vector>
-   Vector Distance <vector_distance>
-   Direction to Rotation <direction_to_rotation>
+   Separate <separate>
+   Combine <combine>
+   From Value <from_value>
+   List <list>
+   Randomizse <randomize>
+   Wiggle <wiggle>
+   Mix <mix>
+   Length <length>
+   Distance <distance>
+   Math <math>
    Transform Vector <transform_vector>
-   Vector Math <vector_math>
+   Transform Vector List <transform_vector_list>
