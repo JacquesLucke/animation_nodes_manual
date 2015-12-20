@@ -1,12 +1,20 @@
-Number Nodes
-============
+Number
+======
 
 .. toctree:: 
-    Float <float>
     Integer <integer>
+    Float <float>
+    Integer List <integer_list>
     Float List <float_list>
-    Random <random>
+    Integer Range <integer_range>
+    Float Range <float_range>
+    Randomize <randomize>
     Wiggle <wiggle>
-    Animate <animate>
-    Math <math>
+    Mix <mix>
+    Map Range <map_range>
     Clamp <clamp>
+    Convert Angle <convert_angle>
+    Convert Float to Integer <convert_float_to_integer>
+    Round <round>    
+    Math <math>
+    List Math <list_math>
