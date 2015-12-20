@@ -1,6 +1,6 @@
 Integer
 ==================
 
-The integer node outputs a integer.
+The integer node outputs an integer value.
 
-.. image:: integer_node.png
+.. image:: integer_input_node.png
