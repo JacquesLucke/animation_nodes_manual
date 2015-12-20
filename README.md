@@ -3,7 +3,7 @@ Animation Nodes Manual
 
 http://animation-nodes-manual.readthedocs.org/en/latest/
 
-This is the Official **Maunal** repository for the Animation Nodes Project.
+This is the Official **Manual** repository for the Animation Nodes Project.
 
 If you want to contribute:
 
