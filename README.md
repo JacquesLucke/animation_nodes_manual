@@ -18,5 +18,7 @@ If you want to contribute:
 
 Check it out! It's an awesome Blender add-on to easily animate about everything with a node based setup!
 
+Also check [Animation Nodes Showreel 2015](https://www.youtube.com/watch?v=hnlUhlkxQZU) to see what can be done by using it.
+
 You can find the official **Animation-Nodes** repository at
 https://github.com/JacquesLucke/animation_nodes
