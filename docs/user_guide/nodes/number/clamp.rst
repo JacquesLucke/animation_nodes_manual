@@ -11,8 +11,8 @@ Inputs
 ------
  
 - **Value** - The input value for clamping.
-- **Min** - *Value* will be clamped to Min if less than or equal to it.
-- **Max** - *Value* will be clamped to Max if greater than or equal to it.
+- **Min** - *Value* will be clamped to *Min* if less than or equal to it.
+- **Max** - *Value* will be clamped to *Max* if greater than or equal to it.
 
 Outputs
 -------
@@ -22,3 +22,9 @@ Advanced Node Settings
 -----------------------
 
 - N/A
+
+Examples of Usage
+-----------------
+
+.. image:: clamp_node_example_1.gif
+
