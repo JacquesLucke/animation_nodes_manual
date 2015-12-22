@@ -1,7 +1,10 @@
 Clamp
 ======
 
-This node is used to make sure a value is in a certain range. Any value out of the defined range will be clamped / clipped to the maximum or minimum value.
+Description
+-----------
+
+This node is used to make sure a value is within a certain range. Any value out of the defined range will be clamped / clipped to the *Min* or *Max* value.
 
 .. image:: clamp_node.png
 
@@ -16,18 +19,8 @@ Outputs
 -------
 - **Value**
 
-Behavior
---------
-
-If Min <= Value <= Max, **Output:** Value.
-
-If Value > Max, **Output:** Max value.
-
-If Value < Min, **Output:** Min value.
-
 
 Advanced Node Settings
 -----------------------
 
-- **Change Type**
-- **Show in Viewport** 
+- N/A
