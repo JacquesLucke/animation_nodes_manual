@@ -24,3 +24,6 @@ External Links
 **Blender Diplom:**
     *English:* https://www.youtube.com/playlist?list=PLQYobGgUPfiDme7_YB7dPOqKWoVW_eIVf
     *German:* https://www.youtube.com/playlist?list=PL310M9jJ4pH8OP21jCQba5dA2R4-rtrM5
+
+**Blender Stackexchange:**
+    *English:* http://blender.stackexchange.com/questions/tagged/animation-nodes
