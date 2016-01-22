@@ -27,3 +27,6 @@ External Links
 
 **Blender Stackexchange:**
     *English:* http://blender.stackexchange.com/questions/tagged/animation-nodes
+
+**Local Guru:**
+    *English:* http://www.local-guru.net/blog/tag/animation%20nodes
