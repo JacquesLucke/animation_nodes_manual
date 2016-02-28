@@ -94,6 +94,14 @@ Access many different properties of a given sequence (the image doesn't show all
 .. image:: images_v1_5/sequence_info_node.png
 
 
+Access Hair Data
+****************
+
+The *Particle Info* node gives you access to some more particle properties like
+hair points now (the image only shows a subset of the possible outputs).
+
+.. image:: images_v1_5/particle_info_node.png
+
 Smaller Changes
 ***************
 
