@@ -123,8 +123,20 @@ hair points now (the image only shows a subset of the possible outputs).
 
 .. image:: images_v1_5/particle_info_node.png
 
+
+Get Random List Elements Node
+*****************************
+
+The same node can be archieved with a combination of some existing nodes, but
+having a specialised node for that makes everything easier.
+
+.. image:: images_v1_5/get_random_list_elements.png
+
+
 Smaller Changes
 ***************
 
 The *Get List Element* node has a *Clamp* checkbox now, that allows you to
 clamp the index to the length of the list.
+
+The *Create List* node displays the amount of elements in the output list.
