@@ -74,3 +74,28 @@ Rotation to Direction Node
 This is the reverse of the *Direction to Rotation*.
 
 .. image:: images_v1_5/rotation_to_direction_node.png
+
+
+BVH Tree
+********
+
+Next to the KD-Tree which can be used to find close points, you have access
+to Blenders BVH-Tree module now. A BVH Tree is a data structure that allows quick
+ray cast operations on many polygons.
+
+.. image:: images_v1_5/rotation_to_direction_node.png
+
+
+Sequence Info Node
+******************
+
+Access many different properties of a given sequence (the image doesn't show all).
+
+.. image:: images_v1_5/sequence_info_node.png
+
+
+Smaller Changes
+***************
+
+The *Get List Element* node has a *Clamp* checkbox now, that allows you to
+clamp the index to the length of the list.
