@@ -39,16 +39,24 @@ the node tree. When you start the render it is disabled, because your render
 should not depend on the selection.
 
 
-Math Operations
-***************
+Extended Math Nodes
+*******************
 
-New *Snap* operation that can be used in the *Float, Vector and Euler Math* node.
+New *Snap* operation that can be used in the *Float, Vector, Euler and Quaternion Math* node.
 This enables you to snap values to specific increments.
 
 .. image:: images_v1_5/math_operations.png
 
 New *Vector Angle* node that can calculate the angle between two vectors as well
 as the rotation difference.
+
+
+Quaternion Math Node
+********************
+
+Previously you were not really able to work with quaternions in a more complex way.
+
+.. image:: images_v1_5/quaternion_math_node.png
 
 
 Parse Number Node
