@@ -38,7 +38,6 @@ to set the font of a text object using the *Text Object Output* node.
 .. image:: images_v1_5/fonts.png
 
 
-
 Get Selected Objects Node
 *************************
 
@@ -187,3 +186,5 @@ The *Create List* node displays the amount of elements in the output list.
 The *Object Mesh Data* node outputs the name of the mesh now (the socket is hidden by default).
 
 The *Random Text* node has a *Node Seed* property now.
+
+.. image:: images_v1_5/misc.png
