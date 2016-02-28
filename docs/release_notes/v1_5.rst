@@ -28,3 +28,31 @@ The two new socket types *Shape Key* and *Shape Key List* are part of AN now.
 Also the *Object Instancer* node handles objects with shape keys much better in v1.5.
 
 .. image:: images_v1_5/shape_key_nodes.png
+
+
+Get Selected Objects Node
+*************************
+
+This node can easily be used together with the new conditional debug nodes.
+It's important to know that this node will only work while during creation of
+the node tree. When you start the render it is disabled, because your render
+should not depend on the selection.
+
+
+Math Operations
+***************
+
+New *Snap* operation that can be used in the *Float, Vector and Euler Math* node.
+This enables you to snap values to specific increments.
+
+New *Vector Angle* node that can calculate the angle between two vectors as well
+as the rotation difference.
+
+
+Parse Number Node
+*****************
+
+This node can convert a text into a number which is handy when you want to parse
+a text block or something similiar that contains numbers.
+
+.. image:: images_v1_5/parse_number_node.png
