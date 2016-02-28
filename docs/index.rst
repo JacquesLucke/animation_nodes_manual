@@ -13,6 +13,7 @@ Using nodes grants you the ability to create complex and precise animations in a
 
    user_guide/index
    dev_guide/index
+   release_notes/index
 
 
 External Links
