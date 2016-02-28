@@ -45,6 +45,8 @@ Math Operations
 New *Snap* operation that can be used in the *Float, Vector and Euler Math* node.
 This enables you to snap values to specific increments.
 
+.. image:: images_v1_5/math_operations.png
+
 New *Vector Angle* node that can calculate the angle between two vectors as well
 as the rotation difference.
 
