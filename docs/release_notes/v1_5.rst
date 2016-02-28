@@ -164,6 +164,18 @@ Data Interface Node
 This node allows other addons to exchange data with AN. More information is
 available here: http://animation-nodes-manual.readthedocs.org/en/latest/dev_guide/data_interface.html
 
+
+ID Key System
+*************
+
+The *ID Key* system got a major overhaul again. It is much more stable now, which
+means it doesn't accidently remove some sockets.
+In general the *ID Key System* allows you to store data for individual objects
+in custom properties. The best known usecase for that is to store initial
+transformations of multiple objects so that you can still access them when the
+objects were moved by AN.
+
+
 Smaller Changes
 ***************
 
