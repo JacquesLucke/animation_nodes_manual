@@ -1,2 +1,10 @@
 Release Notes for Version 1.5
 =============================
+
+Custom Frequency Ranges
+***********************
+
+It is possible to bake a custom amount of frequency ranges in the sound bake node.
+Previously there were 10 hardcoded ranges.
+
+.. image:: images_v1_5/custom_frequency_ranges.png
