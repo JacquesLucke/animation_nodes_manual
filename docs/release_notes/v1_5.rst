@@ -30,6 +30,16 @@ Also the *Object Instancer* node handles objects with shape keys much better in 
 .. image:: images_v1_5/shape_key_nodes.png
 
 
+Basic Font Implementation
+*************************
+
+Two new socket types for fonts (*Font* and *Font List*) as well as the ability
+to set the font of a text object using the *Text Object Output* node.
+
+.. image:: images_v1_5/fonts.png
+
+
+
 Get Selected Objects Node
 *************************
 
@@ -140,3 +150,5 @@ The *Get List Element* node has a *Clamp* checkbox now, that allows you to
 clamp the index to the length of the list.
 
 The *Create List* node displays the amount of elements in the output list.
+
+The *Object Mesh Data* node outputs the name of the mesh now (the socket is hidden by default).
