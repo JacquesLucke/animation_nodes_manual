@@ -1,7 +1,6 @@
 Release Notes for Version 1.5
 =============================
 
-
 Custom Frequency Ranges
 ***********************
 
@@ -152,6 +151,18 @@ disadvantages.
 
 .. image:: images_v1_5/dynamic_node_labels.png
 
+
+Shift List Node
+***************
+
+.. image:: images_v1_5/shift_list_node.png
+
+
+Data Interface Node
+*******************
+
+This node allows other addons to exchange data with AN. More information is
+available here: ../dev_guide/data_interface.rst
 
 Smaller Changes
 ***************
