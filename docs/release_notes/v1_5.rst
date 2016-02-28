@@ -4,7 +4,16 @@ Release Notes for Version 1.5
 Custom Frequency Ranges
 ***********************
 
-It is possible to bake a custom amount of frequency ranges in the sound bake node.
+It is possible to bake a custom amount of frequency ranges in the *Sound Bake* node.
 Previously there were 10 hardcoded ranges.
 
 .. image:: images_v1_5/custom_frequency_ranges.png
+
+Conditional Debug Nodes
+***********************
+
+The *Debug* and *Debug Drawer* node have a *Conditional* input now (which is hidden
+by default). This allows more precise and easier debugging in loops and other
+cases where a node is executed multiple times with different inputs.
+
+.. image:: https://cloud.githubusercontent.com/assets/5881326/13332792/0804ea50-dc04-11e5-9488-40018d44e563.gif
