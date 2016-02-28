@@ -162,7 +162,9 @@ Data Interface Node
 *******************
 
 This node allows other addons to exchange data with AN. More information is
-available here: ../dev_guide/data_interface.rst
+available here:
+
+:doc: `../dev_guide/data_interface`
 
 Smaller Changes
 ***************
@@ -173,3 +175,5 @@ clamp the index to the length of the list.
 The *Create List* node displays the amount of elements in the output list.
 
 The *Object Mesh Data* node outputs the name of the mesh now (the socket is hidden by default).
+
+The *Random Text* node has a *Node Seed* property now.
