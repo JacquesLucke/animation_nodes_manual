@@ -4,4 +4,4 @@ User Guide
 .. toctree::
    :maxdepth: 2
 
-   v1.5
+   v1_5
