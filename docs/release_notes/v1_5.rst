@@ -1,6 +1,7 @@
 Release Notes for Version 1.5
 =============================
 
+
 Custom Frequency Ranges
 ***********************
 
@@ -9,6 +10,7 @@ Previously there were 10 hardcoded ranges.
 
 .. image:: images_v1_5/custom_frequency_ranges.png
 
+
 Conditional Debug Nodes
 ***********************
 
@@ -16,4 +18,13 @@ The *Debug* and *Debug Drawer* node have a *Conditional* input now (which is hid
 by default). This allows more precise and easier debugging in loops and other
 cases where a node is executed multiple times with different inputs.
 
-.. image:: https://cloud.githubusercontent.com/assets/5881326/13332792/0804ea50-dc04-11e5-9488-40018d44e563.gif
+.. image:: images_v1_5/conditional_debug_nodes.gif
+
+
+Basic Shape Key Implementation
+******************************
+
+The two new socket types *Shape Key* and *Shape Key List* are part of AN now.
+Also the *Object Instancer* node handles objects with shape keys much better in v1.5.
+
+.. image:: images_v1_5/shape_key_nodes.png
