@@ -78,6 +78,17 @@ them or misuse the *Compose Matrix* node which is slower).
 .. image:: images_v1_5/rotation_matrix_node.png
 
 
+Shear Matrix Node
+*****************
+
+The *Shear Matrix* node calculates a matrix that can be used to shear meshes.
+You can't use this matrix on objects because it cannot be decomposed into
+location, rotation and scale. Instead it can be used with the
+*Transform Vector List* node.
+
+.. image:: images_v1_5/shear_matrix.png
+
+
 Rotation to Direction Node
 **************************
 
