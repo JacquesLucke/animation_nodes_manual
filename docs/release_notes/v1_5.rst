@@ -162,9 +162,7 @@ Data Interface Node
 *******************
 
 This node allows other addons to exchange data with AN. More information is
-available here:
-
-:doc: `../dev_guide/data_interface`
+available here: http://animation-nodes-manual.readthedocs.org/en/latest/dev_guide/data_interface.html
 
 Smaller Changes
 ***************
