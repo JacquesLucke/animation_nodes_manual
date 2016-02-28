@@ -143,6 +143,16 @@ having a specialised node for that makes everything easier.
 .. image:: images_v1_5/get_random_list_elements.png
 
 
+Dynamic Node Labels
+*******************
+
+Dynamic node labels allows you to have cleaner node trees because some nodes can
+show useful information in their label, which allows you to collapse them without
+disadvantages.
+
+.. image:: images_v1_5/dynamic_node_labels.png
+
+
 Smaller Changes
 ***************
 
