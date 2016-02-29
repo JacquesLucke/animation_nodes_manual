@@ -112,7 +112,7 @@ Next to the KD-Tree which can be used to find close points, you have access
 to Blenders BVH-Tree module now. A BVH Tree is a data structure that allows quick
 ray cast operations on many polygons.
 
-.. image:: images_v1_5/rotation_to_direction_node.png
+.. image:: images_v1_5/bvh_tree.png
 
 
 Sequence Info Node
