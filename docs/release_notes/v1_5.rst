@@ -112,7 +112,8 @@ BVH Tree
 
 Next to the KD-Tree which can be used to find close points, you have access
 to Blenders BVH-Tree module now. A BVH Tree is a data structure that allows quick
-ray cast operations on many polygons.
+ray cast operations on many polygons. Make sure to use Blender 2.77 when you use
+these nodes because there is a bug in the previous version.
 
 .. image:: images_v1_5/bvh_tree.png
 
@@ -177,6 +178,92 @@ transformations of multiple objects so that you can still access them when the
 objects were moved by AN.
 
 
+Improved Support for Multiple Scenes
+************************************
+
+The *Object Instancer* takes *Scene List* as input instead of only one scene now.
+This allows you to put the the instances into multiple scenes without having to
+make multiple Instancers.
+
+Each node tree has a *global Scene* that is used in all *Scene* and *Scene List*
+sockets by default. The global scene can by changed in the *Animation Node Tree*
+panel. It is never *None*.
+
+.. image:: images_v1_5/scene_sockets.png
+
+
+List Operations
+***************
+
+There are two new nodes that deal with lists now. The *Set List Element* and
+*Remove List Element* nodes.
+
+The *Remove List Element* node has three modes:
+- Remove only the first occurrence of an element (limited to certain types)
+- Remove all occurrences of an element (limited to certain types)
+- Remove the element at a specific index (works with all list types)
+
+.. image:: images_v1_5/list_operations.png
+
+
+Condition Socket for Reassign Parameter Node
+********************************************
+
+This allows to model functions for eg finding the minimum and maximum using a Loop.
+The *Condition* socket is hidden by default.
+
+.. image:: images_v1_5/condition_in_reassign_parameter_node.png
+
+
+Object Group Operations
+***********************
+
+This new node allows you to dynamically link and unlink objects from an object group.
+
+.. image:: images_v1_5/object_group_operations.png
+
+
+List Math Nodes
+***************
+
+The *Number List Math* node has a new operation now that can be used to quickly
+calculate the average of multiple numbers.
+
+The new *Vector List Math* supports adding multiple vectors together as well as
+calculating the average.
+
+.. image:: images_v1_5/list_math.png
+
+
+Overview and Statistics
+***********************
+
+The *Overview* panel allows you to turn *Auto Execution* on and off for multiple
+node trees at once. Beside that you can jump to a specific tree by clicking on
+its name now.
+
+Clicking on the *Statistics* button opens the new *Statistics View* that can
+give some interesting insights into how large your node tree is.
+The two numbers in the *Nodes* column is the total node count as well as the
+functional nodes (Reroute and Frame nodes are excluded).
+
+.. image:: images_v1_5/overview_statistics.png
+
+
+Set Vertex Color Node
+*********************
+
+The *Set Vertex Color* node didn't change much in its appearance but it is 15x
+faster now. What makes this node so special is that it is the only non-hacky way
+to modify colors of individual objects that use the same material. (A hacky way
+would be to missuse the pass_index property.)
+Also it has very little overhead when the same color is already set.
+The ultimate solution to this problem is to get access to Custom Properties
+of individual objects in Cycles materials.
+
+.. image:: images_v1_5/set_vertex_color.png
+
+
 Smaller Changes
 ***************
 
@@ -190,3 +277,29 @@ The *Object Mesh Data* node outputs the name of the mesh now (the socket is hidd
 The *Random Text* node has a *Node Seed* property now.
 
 .. image:: images_v1_5/misc.png
+
+The *Number*, *Vector*, *Euler* and *Quaternion Wiggle* nodes have a *Speed* socket
+again and a better default speed than before.
+
+.. image:: images_v1_5/wiggle_nodes.png
+
+The *Auto Execution* panel changes when preview rendering is enabled now. This
+is to make it more appearent that the *Always* option is turned of in that case.
+
+.. image:: images_v1_5/auto_execution_panel.png
+
+The *List* category got submenus for the *Create* and *Combine List* nodes in order
+to force the user to make a type decision right at the beginning. It is possible
+to change that type later, but it might not be obvious. (The recommended way
+to insert specific *Create/Combine List* nodes is to use the search.)
+
+.. image:: images_v1_5/list_menu.png
+
+The *Transform Polygon* can be used with a custom pivot point now.
+
+.. image:: images_v1_5/transform_polygon.png
+
+There is a *Boolean List* socket now.
+
+When a user tries to connect a link to a *Script* node he now gets an info popup
+that explains that he should use the *Invoke Subprogram* node to execute the script.
