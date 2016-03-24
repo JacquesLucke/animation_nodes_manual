@@ -53,7 +53,8 @@ Extended Math Nodes
 New *Snap* and *Absolute* operation that can be used in the *Vector, Euler and Quaternion Math* node.
 This enables you to snap values to specific increments.
 
-Note: *Snap* operation is also added to *Float Math* node, while removing the *Round* operation. (To round, you can use *Snap* by setting Step Size to 1, 0.1, 0.01 etc.)
+Note: *Snap* operation is also added to *Float Math* node, while removing the *Round* operation.
+(To round, you can use *Snap* by setting Step Size to 1, 0.1, 0.01 etc.)
 
 .. image:: images_v1_5/math_operations.png
 
@@ -113,7 +114,9 @@ BVH Tree
 Next to the KD-Tree which can be used to find close points, you have access
 to Blenders BVH-Tree module now. A BVH Tree is a data structure that allows quick
 ray cast operations on many polygons. Make sure to use Blender 2.77 when you use
-these nodes because there is a bug in the previous version.
+these nodes because there is a bug in the previous version. The *Raycast* and
+*Find Nearest Surface Point* nodes have additional *Min/Max Distance* inputs
+and a *Polygon Index* socket output which you can unhide in the node panel in the right.
 
 .. image:: images_v1_5/bvh_tree.png
 
@@ -265,6 +268,32 @@ of individual objects in Cycles materials.
 .. image:: images_v1_5/set_vertex_color.png
 
 
+Sort List Node
+**************
+
+Sorting lists was only possible using Expression or Script nodes so far. Using
+the new *Sort List* node this is not needed anymore. The node automatically adapts
+to the list type that it is connected to. There are two sort types that work with
+all list types:
+
+    - **Custom:** You'll get a little text box in which you can insert an expression
+        that will be used to get the sorting-key of the individual objects.
+    - **Key List:** In this mode you can provide the node with an extra list that
+        has the same length as the list you want to sort. The second list contains
+        the sorting-keys for the individual objects. Most of the times you will
+        need to make a simple loop with a generator output to create this key list.
+        Supported key list types are *Float* and *String*.
+
+Beside these two generic sorting modes, there are some simple sorting templates
+for specific list types (currently only for object lists). We can add more of
+these templates over time when needed.
+
+Warning: Moving and sorting objects based on their position is not always a good
+idea, because it leads to flickering..
+
+.. image:: images_v1_5/sort_list.png
+
+
 Smaller Changes
 ***************
 
@@ -304,3 +333,10 @@ There is a *Boolean List* socket now.
 
 When a user tries to connect a link to a *Script* node he now gets an info popup
 that explains that he should use the *Invoke Subprogram* node to execute the script.
+
+AN uses a new better algorithm to sort the nodes before the execution now. This
+results in a small speedup when working with many nodes and large networks.
+
+The *Object Instancer* node supports creation of empty objects now.
+
+.. image:: images_v1_5/instancer_empty_creation.png
