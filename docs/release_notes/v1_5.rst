@@ -294,6 +294,14 @@ idea, because it leads to flickering..
 .. image:: images_v1_5/sort_list.png
 
 
+Geometry Nodes
+**************
+
+A small set of geometry nodes has been added to make certain operations easier.
+
+.. image:: images_v1_5/geometry_nodes.png
+
+
 Smaller Changes
 ***************
 
