@@ -348,3 +348,5 @@ results in a small speedup when working with many nodes and large networks.
 The *Object Instancer* node supports creation of empty objects now.
 
 .. image:: images_v1_5/instancer_empty_creation.png
+
+The *Frame* and *Reroute* nodes are now in the menu like in the other node systems.
