@@ -299,6 +299,22 @@ A small set of geometry nodes has been added to make certain operations easier.
 .. image:: images_v1_5/geometry_nodes.png
 
 
+Object Output Nodes
+*******************
+
+The object output nodes have been unified into more similiar nodes.
+
+The *Set Splines on Object* node does not exist anymore. It is part of the
+*Curve Object Output* node now.
+
+Previously we had three nodes to replace the mesh of an object:
+*Set Mesh Data on Object*, *Set BMesh on Object* and *Set Vertices on Object*.
+These are all part of the *Mesh Object Output* node now. Additionally we
+can set material indices of polygons with this new node.
+
+.. image:: images_v1_5/object_output.png
+
+
 Smaller Changes
 ***************
 
