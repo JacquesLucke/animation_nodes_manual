@@ -20,17 +20,17 @@ External Links
 **************
 
 **Youtube Channel of the Main Developer:**
-    *English:* https://www.youtube.com/channel/UC5ABAuGEvBMmau-1xJsNw6w
+| *English:* https://www.youtube.com/channel/UC5ABAuGEvBMmau-1xJsNw6w
 
 **Blender Diplom:**
-    | *English:* http://www.blenderdiplom.com/en/tutorials/animation-nodes.html
-    | *German:* https://www.youtube.com/playlist?list=PL310M9jJ4pH8OP21jCQba5dA2R4-rtrM5
+| *English:* http://www.blenderdiplom.com/en/tutorials/animation-nodes.html
+| *German:* https://www.youtube.com/playlist?list=PL310M9jJ4pH8OP21jCQba5dA2R4-rtrM5
 
 **Blender Sushi:**
-    *English:* http://blendersushi.blogspot.de/search/label/anstudy
+| *English:* http://blendersushi.blogspot.de/search/label/anstudy
 
 **Blender Stackexchange:**
-    *English:* http://blender.stackexchange.com/questions/tagged/animation-nodes
+| *English:* http://blender.stackexchange.com/questions/tagged/animation-nodes
 
 **Local Guru:**
-    *English:* http://www.local-guru.net/blog/tag/animation%20nodes
+| *English:* http://www.local-guru.net/blog/tag/animation%20nodes
