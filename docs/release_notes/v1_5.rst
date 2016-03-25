@@ -283,7 +283,7 @@ all list types:
 
 Beside these two generic sorting modes, there are some simple sorting templates
 for specific list types (currently only for object lists). We can add more of
-these templates over time when needed.
+these templates over time when needed. The node uses a stable sorting algorithm.
 
 Warning: Moving and sorting objects based on their position is not always a good
 idea, because it leads to flickering..
