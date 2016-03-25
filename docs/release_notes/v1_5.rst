@@ -315,6 +315,12 @@ can set material indices of polygons with this new node.
 .. image:: images_v1_5/object_output.png
 
 
+Change Text Case Node
+*********************
+
+.. image:: images_v1_5/change_text_case_node.png
+
+
 Smaller Changes
 ***************
 
