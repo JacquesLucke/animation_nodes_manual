@@ -273,9 +273,9 @@ the new *Sort List* node this is not needed anymore. The node automatically adap
 to the list type that it is connected to. There are two sort types that work with
 all list types:
 
-    - **Custom:** You'll get a little text box in which you can insert an expression
+    - **Custom**: You'll get a little text box in which you can insert an expression
         that will be used to get the sorting-key of the individual objects.
-    - **Key List:** In this mode you can provide the node with an extra list that
+    - **Key List**: In this mode you can provide the node with an extra list that
         has the same length as the list you want to sort. The second list contains
         the sorting-keys for the individual objects. Most of the times you will
         need to make a simple loop with a generator output to create this key list.
