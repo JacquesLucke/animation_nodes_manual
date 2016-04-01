@@ -1,7 +1,7 @@
 Transforms Input
-=======================
+================
 
-.. image:: object_transforms_input.png
+.. image:: object_transforms_input_node.png
 
 This node has 3 output sockets. The *Location* and *Scale* output have ``Vector``
 as data type while *Rotation* is an ``Euler`` value.

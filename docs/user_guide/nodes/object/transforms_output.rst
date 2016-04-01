@@ -1,7 +1,7 @@
 Transforms Output
-========================
+=================
 
- .. image:: object_transforms_output.png
+ .. image:: object_transforms_output_node.png
 
 **Object:** Choose the object which you want to change.
 

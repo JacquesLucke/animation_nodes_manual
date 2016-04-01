@@ -1,7 +1,7 @@
 Instancer
-================
+=========
 
-.. image:: object_instancer.png
+.. image:: object_instancer_node.png
 
 The instancer node is one of the most important nodes in AN. It allows
 you to create replicates of existing objects or completely new objects.
