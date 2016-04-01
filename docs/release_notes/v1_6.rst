@@ -45,7 +45,13 @@ Minor Changes
 
 The *Compose Matrix* node is roughly 40% faster now.
 
+The *Splines from Object* node is 30% faster for bezier splines.
+
 This *Floating Advanced Panel* that you can open with the U key is fixed now.
 
 The width and location of the selected node in the Node Panel aren't visible
 anymore when *Debug* is disabled in the user preferences of AN.
+
+Help the user to remember to enable the socket when it is linked:
+
+    .. image:: images_v1_6/is_used_helper.png
