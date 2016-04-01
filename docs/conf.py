@@ -1,5 +1,10 @@
-import sys
 import os
+on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
+
+if not on_rtd:  # only import and set the theme if we're building docs locally
+    import sphinx_rtd_theme
+    html_theme = 'sphinx_rtd_theme'
+    html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 extensions = [
     'sphinx.ext.autodoc',
@@ -19,12 +24,7 @@ exclude_patterns = []
 
 pygments_style = 'sphinx'
 
-html_theme = 'default'
-
-html_static_path = ['ystatic']
-
 htmlhelp_basename = 'AnimationNodesdoc'
-
 
 latex_elements = {}
 latex_documents = [

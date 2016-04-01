@@ -13,6 +13,19 @@ If you want to contribute:
 4. Wait for your modifications to be accepted
 5. Congratulations, you have added some very useful information for future users!
 
+## Building the doc locally
+
+* Install python
+* Clone the forked repository to your computer
+* Move to your git folder
+* Execute: `pip install -r requirements.txt`
+* Execute: `sphinx-build -b html docs build`
+* The rendered documentation is now in the build directory as HTML
+
+#### Links
+* https://read-the-docs.readthedocs.org/en/latest/getting_started.html
+* The documentation is written in ReStructuredText: https://de.wikipedia.org/wiki/ReStructuredText
+
 
 **You don't know what Animation Nodes is?**
 
