@@ -24,7 +24,7 @@ External Links
 
 **Blender Diplom:**
     *English:* http://www.blenderdiplom.com/en/tutorials/animation-nodes.html
-    
+
     *German:* https://www.youtube.com/playlist?list=PL310M9jJ4pH8OP21jCQba5dA2R4-rtrM5
 
 **Blender Sushi:**
@@ -35,3 +35,6 @@ External Links
 
 **Local Guru:**
     *English:* http://www.local-guru.net/blog/tag/animation%20nodes
+
+**LollypopMan:**
+    *English:* http://lollypopman.com/tag/animation-nodes/
