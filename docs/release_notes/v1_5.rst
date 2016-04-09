@@ -53,8 +53,8 @@ Extended Math Nodes
 New *Snap* and *Absolute* operation that can be used in the *Vector, Euler and Quaternion Math* node.
 This enables you to snap values to specific increments.
 
-Note: *Snap* operation is also added to *Float Math* node, while removing the *Round* operation.
-(To round, you can use *Snap* by setting Step Size to 1, 0.1, 0.01 etc.)
+Note: *Snap* operation is also added to *Float Math* node, while removing the *Round* operation' from the list.
+(To round, you can use *Snap* by setting Step Size to 1, 0.1, 0.01 etc. Or use the independent *Round* node)
 
 .. image:: images_v1_5/math_operations.png
 
