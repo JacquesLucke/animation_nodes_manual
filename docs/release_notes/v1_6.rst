@@ -75,7 +75,7 @@ Developer Tools
 ***************
 
 Monitored Execution
-===================
+-------------------
 
 Updating older files to work in the newest version has always been an issue
 in AN. With this new addition we finally have a toolset that allows you to find
@@ -85,7 +85,7 @@ still occure but the *Problems* panel clearly shows which node has the error.
 Now you just have to replace that node with a newer version and the error is gone.
 
 Node Profiling
-==============
+--------------
 
 As soon as you start creating more complex node trees you will notice that AN
 can become slow. Very often it is possible to optimize the node setup for better
@@ -96,7 +96,7 @@ AN will record the execution times of each individual node and will draw the
 results into the node editor. This makes it easy to find the performance bottlenecks.
 
 Function Profiling
-==================
+------------------
 
 This feature is more important to people who develop AN, but it can also be
 useful for others to find out which functions make your node tree slow.
