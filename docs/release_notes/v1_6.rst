@@ -35,6 +35,42 @@ Change Matrix Pivot Node
 WIP
 
 
+Fill List Node
+**************
+
+This node can create a new list with a specific length that contains the same
+element at each index. Furthermore it can extend an existing list to the left
+or right.
+
+Screenshot missing!
+
+
+Splines from Object Node
+************************
+
+This node has two options now. You can either load all splines on a curve object
+or only one with an index. Previously you would import all splines first and
+pick one of them with the Get List Element node afterwards. Unfortunally
+this adds unnecessary overhead because you imported the other splines although
+you don't need them.
+
+Screenshot missing!
+
+
+More Dynamic Labels
+*******************
+
+Dynamic labels are becoming more and more important in AN in order to create
+cleaner looking node trees. They allow you to collapse nodes without loosing
+any information on what they are doing.
+
+Here is a list of nodes that have dynamic labels now:
+    - ...
+    - ...
+
+Screenshot missing!
+
+
 Developer Tools
 ***************
 
@@ -67,7 +103,7 @@ useful for others to find out which functions make your node tree slow.
 Unfortunally it isn't very easy to understand the profiling output if you
 don't know anything about programming.
 
-.. image:: images_v1_6/profiling_ui.png
+Screenshot missing!
 
 
 Minor Changes
@@ -82,6 +118,22 @@ This *Floating Advanced Panel* that you can open with the U key is fixed now.
 The width and location of the selected node in the Node Panel aren't visible
 anymore when *Debug* is disabled in the user preferences of AN.
 
+AN always creates a python script based on your node tree. This script
+needs to be recreated each time the node tree changes. In setups with only a
+few nodes you never notice that because it is fast but as soon as you have more
+than a few hundred nodes the time spend for the code creation can become noticable.
+With this release the code generation process is 2-3x faster for large node trees.
+
+You can sort the generator outputs of a loop now. To do it you need to select the
+corresponding Loop Input node and go into the advanced settings.
+
 Help the user to remember to enable the socket when it is linked:
 
-    .. image:: images_v1_6/is_used_helper.png
+.. image:: images_v1_6/is_used_helper.png
+
+I moved the settings for the Debug Drawer node into the advanced settings
+(in the right sidebar of the node editor, or press U while the node is selected).
+The reason for that is that I rarely need to change these settings and they took
+too much space.
+
+Screenshot missing!
