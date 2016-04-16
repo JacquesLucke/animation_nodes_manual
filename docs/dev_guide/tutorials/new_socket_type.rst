@@ -10,21 +10,28 @@ Note: This step-by-step guide only works in after the v1.6 release.
 2.  Insert the **template** below. This is the bare minimum of what is needed in
     for each socket. Here is an overview over the class properties of sockets:
 
-        - ``bl_idname``: This an identifier for the socket type, changing it
-                        breaks all files in which this socket is used.
-        - ``bl_label``: This label is used nowhere but we need to specify it
-                        for Blender.
-        - ``dataType``: A more readable identifier for the socket. It is used in
-                        the socket searches and in many other places within AN.
-        - ``allowedInputTypes``: If this socket is connected to a socket whose type
-                        is not in that list the link will be removed (or a converter
-                        node will be inserted when a rule for that has been specified).
-        - ``drawColor``: Color of the socket in the node editor in RGBA format.
-        - ``storable``: Is *True* when data type can be stored between executions
-                        without the danger of crashing Blender. Examples where
-                        this has to be *False* are *Object*, *Scene*, *Sequence*, ...
-        - ``comparable``: Is *True* when the data type can be hashed with pythons *hash*
-                        function.
+        - ``bl_idname``
+                This an identifier for the socket type, changing it
+                breaks all files in which this socket is used.
+        - ``bl_label``
+                This label is used nowhere but we need to specify it
+                for Blender.
+        - ``dataType``
+                A more readable identifier for the socket. It is used in
+                the socket searches and in many other places within AN.
+        - ``allowedInputTypes``
+                If this socket is connected to a socket whose type
+                is not in that list the link will be removed (or a converter
+                node will be inserted when a rule for that has been specified).
+        - ``drawColor``
+                Color of the socket in the node editor in RGBA format.
+        - ``storable``
+                Is *True* when data type can be stored between executions
+                without the danger of crashing Blender. Examples where
+                this has to be *False* are *Object*, *Scene*, *Sequence*, ...
+        - ``comparable``
+                Is *True* when the data type can be hashed with pythons *hash*
+                function.
 
     .. code-block:: python
         :linenos:
