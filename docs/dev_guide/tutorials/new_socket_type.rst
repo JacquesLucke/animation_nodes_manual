@@ -126,3 +126,38 @@ Here is a simplified float socket that can serve as example:
             @classmethod
             def getDefaultValue(cls):
                 return 0.0
+
+
+The getCopyExpression Function
+==============================
+
+AN automatically finds the areas where data has to be copied. Copies are necessary
+in cases like this one because otherwise both nodes act on the same list object
+what leads to unexpected results:
+
+.. image:: images/copy_example.png
+
+Not all data types can be copied but the types that can should implement the
+``getCopyExpression(self)`` classmethod. This function returns a string which
+will be further processed by the caller. Therefore this string has to contain the
+word ``value``.
+
+Here are a few examples for different data types:
+
+.. code-block:: python
+    :linenos:
+
+    # Vector
+    @classmethod
+    def getCopyExpression(cls):
+        return "value.copy()"
+
+    # Vector List
+    @classmethod
+    def getCopyExpression(cls):
+        return "[element.copy() for element in value]"
+
+    # Float List
+    @classmethod
+    def getCopyExpression(cls):
+        return "value[:]"
