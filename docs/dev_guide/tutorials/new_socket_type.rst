@@ -161,3 +161,60 @@ Here are a few examples for different data types:
     @classmethod
     def getCopyExpression(cls):
         return "value[:]"
+
+
+The getDefaultValueCode Function
+================================
+
+This function only exists to speedup the execution slightly by removing function
+call overhead in some cases. It's mostly used in lists but can be used in other
+places too. This classmethod returns a string that should be the same value as
+returned by the getDefaultValue function when evaluated with the ``eval`` function.
+
+.. code-block:: python
+    :linenos:
+
+    @classmethod
+    def getDefaultValue(cls):
+        return []
+
+    @classmethod
+    def getDefaultValueCode(self):
+        return "[]"
+
+
+List Sockets
+============
+
+List sockets are mostly equal to normal sockets. The only main difference is
+that they have a ``baseDataType`` class property next to the ``dataType``.
+Furthermore it is a convention that the datatype of a list socket is *BASEDATATYPE List*.
+Also the list socket class should be in the same file as the base socket but
+it doesn't have to be.
+
+Here is the code for the *String List* socket:
+
+.. code-block:: python
+    :linenos:
+
+    class StringListSocket(bpy.types.NodeSocket, AnimationNodeSocket):
+    bl_idname = "an_StringListSocket"
+    bl_label = "String List Socket"
+    dataType = "String List"
+    baseDataType = "String"
+    allowedInputTypes = ["String List"]
+    drawColor = (1, 1, 1, 0.5)
+    storable = True
+    comparable = False
+
+    @classmethod
+    def getDefaultValue(cls):
+        return []
+
+    @classmethod
+    def getDefaultValueCode(self):
+        return "[]"
+
+    @classmethod
+    def getCopyExpression(cls):
+        return "value[:]"
