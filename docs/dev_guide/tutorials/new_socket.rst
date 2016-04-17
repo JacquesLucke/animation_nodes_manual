@@ -1,5 +1,5 @@
-Creating a new Socket Type
-**************************
+Creating a new Socket
+*********************
 
 Note: This step-by-step guide only works in after the v1.6 release.
 
