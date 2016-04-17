@@ -3,6 +3,10 @@ Creating a new Node
 
 Note: This step-by-step guide only works in after the v1.6 release.
 
+
+First Steps
+===========
+
 1.  Create a **new file** for the new node. Normally this should be inside a
     *nodes/category/* folder but it can be anywhere. If you create a new category
     don't forget to also insert an empty ``__init__.py`` inside that folder.
@@ -41,7 +45,7 @@ Obviously it does nothing yet, so let's go further.
 
 
 Creating Sockets
-****************
+================
 
 The ``create(self)`` method is called once when the node is created. So it can be
 used to initialize the node. Sockets can be created using the ``newInput`` and

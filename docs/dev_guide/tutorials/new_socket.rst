@@ -3,6 +3,10 @@ Creating a new Socket Type
 
 Note: This step-by-step guide only works in after the v1.6 release.
 
+
+First Steps
+===========
+
 1.  Create a **new file** for the new socket type. Normally this should be inside the
     *sockets* folder but it can be anywhere. The file name should be the data type
     in lower case with underscores.
