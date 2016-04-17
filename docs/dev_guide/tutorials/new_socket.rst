@@ -7,7 +7,7 @@ Note: This step-by-step guide only works in after the v1.6 release.
     *sockets* folder but it can be anywhere. The file name should be the data type
     in lower case with underscores.
 
-2.  Insert the **template** below. This is the bare minimum of what is needed in
+2.  Insert the **template**. This is the bare minimum of what is needed in
     for each socket. Here is an overview over the class properties of sockets:
 
         - ``bl_idname``
