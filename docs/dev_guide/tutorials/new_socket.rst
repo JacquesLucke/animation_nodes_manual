@@ -84,7 +84,7 @@ a few simple steps to make properties in your own node.
     An overview over all possible property types is
     `here <https://www.blender.org/api/blender_python_api_2_77_release/bpy.props.html>`_.
 
-3.  Implement the ``drawProperty(self, layout, text)`` function (example below).
+3.  Implement the ``drawProperty(self, layout, text, node)`` function (example below).
 
 4.  So far the property is displayed in the node but the default value is still
     used everywhere. To use the correct value you have to implement the ``getValue(self)``
@@ -115,7 +115,7 @@ Here is a simplified float socket that can serve as example:
 
             value = FloatProperty(default = 0.0, update = propertyChanged)
 
-            def drawProperty(self, layout, text):
+            def drawProperty(self, layout, text, node):
                 layout.prop(self, "value", text = text)
 
             def getValue(self):
