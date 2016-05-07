@@ -62,13 +62,9 @@ More Dynamic Labels
 
 Dynamic labels are becoming more and more important in AN in order to create
 cleaner looking node trees. They allow you to collapse nodes without loosing
-any information on what they are doing.
+any information on what they are doing. Here are some examples:
 
-Here is a list of nodes that have dynamic labels now:
-    - ...
-    - ...
-
-Screenshot missing!
+    .. image:: images_v1_6/dynamic_labels.png
 
 
 Network Navigation
