@@ -35,14 +35,10 @@ Change Matrix Pivot Node
 WIP
 
 
-Fill List Node
-**************
+Repeat and Fill List Nodes
+**************************
 
-This node can create a new list with a specific length that contains the same
-element at each index. Furthermore it can extend an existing list to the left
-or right.
-
-Screenshot missing!
+    .. image:: images_v1_6/repeat_and_fill_list.png
 
 
 Splines from Object Node
@@ -54,7 +50,7 @@ pick one of them with the Get List Element node afterwards. Unfortunally
 this adds unnecessary overhead because you imported the other splines although
 you don't need them.
 
-Screenshot missing!
+    .. image:: images_v1_6/splines_from_object.png
 
 
 More Dynamic Labels
