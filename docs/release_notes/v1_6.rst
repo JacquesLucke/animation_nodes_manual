@@ -74,26 +74,32 @@ Screenshot missing!
 Developer Tools
 ***************
 
-Monitored Execution
--------------------
+Execution Code Types
+--------------------
 
-Updating older files to work in the newest version has always been an issue
-in AN. With this new addition we finally have a toolset that allows you to find
-and correct the problematic nodes easily. If there is a problem during the node
-tree execution you can enable this option and execute again. The error should
-still occure but the *Problems* panel clearly shows which node has the error.
-Now you just have to replace that node with a newer version and the error is gone.
+AN can generate different execution codes based on the same node tree now.
+This is used for some features which make the execution slower but should have
+zero overhead when they are disabled. Currently there are four different
+execution code types:
 
-Node Profiling
---------------
+    - Default:
+        This should be turned on most of the time. It just creates the execution
+        code like before without any extra features enabled.
+    - Monitor Execution:
+        This creates a ``try-except`` block around the execution code of every
+        node. This is helpfull when a node raises an exception but you cannot
+        tell which one. It should only be turned on when there are problems.
+    - Measure Execution Times:
+        Measure the total and average time each node takes to execute and display
+        the results in the node editor. I personally use this a lot when I try
+        to improve the performance of certain nodes but it also helps to find
+        the performance bottlenecks of whole node trees.
+    - Bake:
+        This is mainly used by the new bake function and should not be activated
+        manually (although it is no problem to activate it).
 
-As soon as you start creating more complex node trees you will notice that AN
-can become slow. Very often it is possible to optimize the node setup for better
-performance. A golden rule of optimization is to only optimize the stuff that
-is slow but until now it was hard to determine which nodes are the slowest
-because we only had the total execution time. When this new feature is enabled
-AN will record the execution times of each individual node and will draw the
-results into the node editor. This makes it easy to find the performance bottlenecks.
+
+    .. image:: images_v1_6/measure_execution_times.png
 
 Function Profiling
 ------------------
