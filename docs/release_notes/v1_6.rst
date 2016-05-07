@@ -173,6 +173,14 @@ Needed Copies (node colors)
 Text File Reader
 ****************
 
+This node can read a text file from the hard drive without having to open it
+in Blender. You can also specify an encoding. Most common are *ascii* and *utf8*
+but there are much more. A full list can be found `here <https://docs.python.org/3.5/library/codecs.html#standard-encodings>`_.
+
+The node caches the text internally and only reloads the text when the file changed.
+
+    .. image:: images_v1_6/text_file_reader.png
+
 
 Developer Tools
 ***************
