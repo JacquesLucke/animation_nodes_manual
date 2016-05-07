@@ -166,10 +166,6 @@ This nodes support baking so far: *Object Attribute Output*, *Object Data Path O
     .. image:: images_v1_6/bake.png
 
 
-Needed Copies (node colors)
-*************
-
-
 Text File Reader
 ****************
 
