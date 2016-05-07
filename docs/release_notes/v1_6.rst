@@ -63,6 +63,10 @@ any information on what they are doing. Here are some examples:
     .. image:: images_v1_6/dynamic_labels.png
 
 
+Slice List
+**********
+
+
 Network Navigation
 ******************
 
@@ -71,6 +75,47 @@ behaviour now. Before this release it was only possible to jump from an
 *Invoke Subprogram* node to the corresponding subprogram. Now function depends
 more on the active node. Just try it out. It should become pretty clear what happens
 when certain nodes are selected. More information can be found `here <https://github.com/JacquesLucke/animation_nodes/issues/480>`_.
+
+
+Execution Triggers
+******************
+
+Until now *Auto Execution* of node trees was limited to certain predefined events
+like *Always*, *Frame Changed*, etc. Most people don't like to have *Always* enabled
+all the time because slows down the scene and heats up the cpu. This is a problem
+because sometimes the result of the node tree only depends on the location of an
+object. So it would make sense to only execute the tree when the location changes.
+This is exactly what these new *Execution Triggers* allow you to do.
+
+    .. image:: images_v1_6/execution_trigger.png
+
+You just need to create the trigger, select an object and write/paste the data
+path to the property.
+
+For convenience some nodes have a button in the advanced settings that quickly
+creates the *Trigger* for this specific node.
+
+    .. image:: images_v1_6/auto_create_trigger.png
+
+
+Structs
+*******
+
+
+Select Area
+***********
+
+
+Bake to Keyframes
+*****************
+
+
+Needed Copies (node colors)
+*************
+
+
+Text File Reader
+****************
 
 
 Developer Tools
@@ -117,14 +162,27 @@ don't know anything about programming.
 Minor Changes
 *************
 
+The execution time is now drawn into the top left corner of the node editor to
+make it visible when the toolbar is closed.
+
 The *Compose Matrix* node is roughly 40% faster now.
 
 The *Splines from Object* node is 30% faster for bezier splines.
+
+The *Shade Object Smooth* node is twice as fast now.
 
 This *Floating Advanced Panel* that you can open with the U key is fixed now.
 
 The width and location of the selected node in the Node Panel aren't visible
 anymore when *Debug* is disabled in the user preferences of AN.
+
+The *Change Text Case* node has two new modes: *Capitalize Words* and *To Title Case*.
+
+When a *Expression* node is collapsed the expression will be in the node label now.
+
+For ages there was a double update whenever a node has been created or removed.
+This is now fixed. This is especially important for large node trees when the
+code generation takes a noticeable amount of time.
 
 AN always creates a python script based on your node tree. This script
 needs to be recreated each time the node tree changes. In setups with only a
