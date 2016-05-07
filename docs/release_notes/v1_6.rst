@@ -139,13 +139,25 @@ With this release the code generation process is 2-3x faster for large node tree
 You can sort the generator outputs of a loop now. To do it you need to select the
 corresponding Loop Input node and go into the advanced settings.
 
+    .. image:: images_v1_6/sort_generators.png
+
 Help the user to remember to enable the socket when it is linked:
 
-.. image:: images_v1_6/is_used_helper.png
+    .. image:: images_v1_6/is_used_helper.png
 
 I moved the settings for the Debug Drawer node into the advanced settings
 (in the right sidebar of the node editor, or press U while the node is selected).
 The reason for that is that I rarely need to change these settings and they took
 too much space.
 
-Screenshot missing!
+    .. image:: images_v1_6/debug_drawer.png
+
+
+Broken Nodes
+------------
+
+I'm not 100% if this is a full list but you'll definitly have to replace these
+nodes when updating older files to this release:
+
+    - Splines from Object
+    - Object Matrix Output
