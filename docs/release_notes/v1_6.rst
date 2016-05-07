@@ -71,6 +71,16 @@ Here is a list of nodes that have dynamic labels now:
 Screenshot missing!
 
 
+Network Navigation
+******************
+
+The functionality of the TAB key has been improved. It has context sensitive
+behaviour now. Before this release it was only possible to jump from an
+*Invoke Subprogram* node to the corresponding subprogram. Now function depends
+more on the active node. Just try it out. It should become pretty clear what happens
+when certain nodes are selected. More information can be found `here <https://github.com/JacquesLucke/animation_nodes/issues/480>`_.
+
+
 Developer Tools
 ***************
 
