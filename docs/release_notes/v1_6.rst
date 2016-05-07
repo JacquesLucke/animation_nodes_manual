@@ -66,6 +66,12 @@ any information on what they are doing. Here are some examples:
 Slice List
 **********
 
+The slice list node has been extended to support all the different slice that
+Python supports. The *Start*, *Stop* and *Step* sockets be enabled and disabled
+as needed.
+
+    .. image:: images_v1_6/slice_list.png
+
 
 Network Navigation
 ******************
