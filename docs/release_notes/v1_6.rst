@@ -90,9 +90,7 @@ This is exactly what these new *Execution Triggers* allow you to do.
     .. image:: images_v1_6/execution_trigger.png
 
 You just need to create the trigger, select an object and write/paste the data
-path to the property.
-
-For convenience some nodes have a button in the advanced settings that quickly
+path to the property. For convenience some nodes have a button in the advanced settings that quickly
 creates the *Trigger* for this specific node.
 
     .. image:: images_v1_6/auto_create_trigger.png
@@ -100,6 +98,21 @@ creates the *Trigger* for this specific node.
 
 Structs
 *******
+
+Structs are a new socket type. It can store multiple values in one socket.
+Having such a type has multiple benefits:
+
+    - It's easier to manage many records.
+    - Can replace Generic Lists in some cases (generic lists are bad because
+      they don't which data type they contain)
+    - Allows us to have a new set of nodes in the future. E.g. for automatically
+      reading and parsing .csv files.
+
+    .. image:: images_v1_6/structs.png
+
+It's also worth mentioning that struct nodes make sure that data types stay correct.
+
+    .. image:: images_v1_6/structs_error.png
 
 
 Select Area
