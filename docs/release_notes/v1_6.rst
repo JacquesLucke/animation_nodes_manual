@@ -109,7 +109,7 @@ useful for others to find out which functions make your node tree slow.
 Unfortunally it isn't very easy to understand the profiling output if you
 don't know anything about programming.
 
-Screenshot missing!
+    .. image:: images_v1_6/profile.png
 
 
 Minor Changes
