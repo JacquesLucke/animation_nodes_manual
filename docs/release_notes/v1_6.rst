@@ -108,6 +108,7 @@ Having such a type has multiple benefits:
     - Allows us to have a new set of nodes in the future. E.g. for automatically
       reading and parsing .csv files.
 
+
     .. image:: images_v1_6/structs.png
 
 It's also worth mentioning that struct nodes make sure that data types stay correct.
@@ -117,6 +118,16 @@ It's also worth mentioning that struct nodes make sure that data types stay corr
 
 Select Area
 ***********
+
+I always found it annoying to use Blenders text editor together with AN, mainly
+because it required so many click to setup it up. For this release I developed
+a new operator that makes it much faster to setup the text editor. The operator
+itself is very generic, it allows you to create/select an area in the Blender
+interface, the caller than decides what to do with this area.
+It is already used in multiple places: *Script* node, *Text Block* socket,
+*Debug Loop* and in the *Developer Panel*.
+
+    .. image:: images_v1_6/select_area.gif
 
 
 Bake to Keyframes
