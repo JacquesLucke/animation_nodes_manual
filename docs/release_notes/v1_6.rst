@@ -133,6 +133,32 @@ It is already used in multiple places: *Script* node, *Text Block* socket,
 Bake to Keyframes
 *****************
 
+Baking animations is often required before rendering. Sometimes because AN is
+unstable during rendering (often this can be fixed by locking the UI during rendering!)
+or AN just does not exist on the computer that will render the animation (think
+about renderfarms).
+
+You could already create keyframes before using the *Set Keyframes* node but it
+can be easier than that. And it is now. The *Bake to Keyframes* button can be
+found in the *Overview* panel. Basicly it works in three steps:
+
+    1. Change the execution code type (more info below) to *Bake*
+    2. Visit each frame in the timeline once
+    3. Change the execution code type to *Default*
+
+If you want to exclude certain node trees from the baking progress you can just
+disable *Auto Execution* for them.
+
+This operator can bake everything that can be animated with keyframes. That
+excludes spline, text and mesh animation!
+
+This nodes support baking so far: *Object Attribute Output*, *Object Data Path Output*,
+*Object Matrix Output*, *Object Transforms Output*, *Object Visibility Output*,
+*Curve Object Output* (limited), *Text Object Output* (limited) and
+*Text Sequence Output* (limited).
+
+    .. image:: images_v1_6/bake.png
+
 
 Needed Copies (node colors)
 *************
@@ -167,7 +193,9 @@ execution code types:
         the performance bottlenecks of whole node trees.
     - Bake:
         This is mainly used by the new bake function and should not be activated
-        manually (although it is no problem to activate it).
+        manually (although it is no problem to activate it). When it is enabled
+        nodes like the *Object Transforms Output* node automatically create keyframes
+        for the properties they change.
 
 
     .. image:: images_v1_6/measure_execution_times.png
