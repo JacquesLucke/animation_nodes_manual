@@ -1,4 +1,1 @@
-Work in progress
-----------------
-
-Sorry, this content is not available yet.
+.. note:: Sorry, this content is not yet available.

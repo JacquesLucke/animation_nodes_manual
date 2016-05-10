@@ -5,3 +5,4 @@ Documentation Guide
     :maxdepth: 1
 
     formatting_examples
+    todos
