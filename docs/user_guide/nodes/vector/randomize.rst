@@ -1,5 +1,5 @@
 Randomize
-==================
+=========
 
 .. image:: random_vector_node.png
 
@@ -7,8 +7,10 @@ Randomize
 
 **Seed:** Two *Randomize* nodes with the same seed will generate the vectors.
 
-**Max Value:** This defines how large the new vector is. 
+**Max Value:** This defines how large the new vector is.
+
 ::
+
 	-val < x < val
 	-val < y < val
 	-val < z < val

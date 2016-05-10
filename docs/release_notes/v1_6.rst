@@ -80,7 +80,7 @@ The functionality of the TAB key has been improved. It has context sensitive
 behaviour now. Before this release it was only possible to jump from an
 *Invoke Subprogram* node to the corresponding subprogram. Now function depends
 more on the active node. Just try it out. It should become pretty clear what happens
-when certain nodes are selected. More information can be found `here <https://github.com/JacquesLucke/animation_nodes/issues/480>`_.
+when certain nodes are selected. More information can be found in this `GitHub Issue <https://github.com/JacquesLucke/animation_nodes/issues/480>`_.
 
 
 Execution Triggers
@@ -171,7 +171,7 @@ Text File Reader
 
 This node can read a text file from the hard drive without having to open it
 in Blender. You can also specify an encoding. Most common are *ascii* and *utf8*
-but there are much more. A full list can be found `here <https://docs.python.org/3.5/library/codecs.html#standard-encodings>`_.
+but there are much more. A full list can be found in the `python documentation on codecs <https://docs.python.org/3.5/library/codecs.html#standard-encodings>`_.
 
 The node caches the text internally and only reloads the text when the file changed.
 

@@ -6,7 +6,7 @@ Spline
     Create from Points <create_from_points>
     Create from Edges <create_from_edges>
     List <list>
-    Append Point <append_list>
+    Append Point <append_point>
     Transform <transform>
     Connect <connect>
     Trim <trim>
@@ -17,6 +17,6 @@ Spline
     Project <project>
     Get Length <get_length>
     Get Samples <get_samples>
-    Set on Object <set_on_object>
+    Object Output <curve_object_output>
     Loft <loft>
     Revolve <revolve>

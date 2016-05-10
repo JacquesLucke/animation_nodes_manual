@@ -23,7 +23,7 @@ copyright = u'2015, Jacques Lucke'
 version = '0.0.1'
 release = '0.0.1'
 
-exclude_patterns = []
+exclude_patterns = ['includes/*']
 
 pygments_style = 'sphinx'
 

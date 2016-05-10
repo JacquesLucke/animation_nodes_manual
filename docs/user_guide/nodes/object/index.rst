@@ -20,5 +20,5 @@ Object
    ID Key <id_key>
    Copy Data <copy_data>
    Set Keyframes <set_keyframes>
-   Utils
+   Utils <utils/index>
    Instancer <instancer>

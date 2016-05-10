@@ -12,12 +12,12 @@ Mesh
    Separate <separate>
    Combine <combine>
    Mesh Data from Polygons <mesh_data_from_polygons>
-   Generators
-   Operators
+   Generators <generators/index>
+   Operators <operators/index>
    Mesh Data List <mesh_data_list>
    Join Mesh Data List <join_mesh_data_list>
    BMesh from Mesh Data <bmesh_from_mesh_data>
-   Tools
+   Tools <tools/index>
    Vertex Locations <vertex_locations>
    Mesh Data <mesh_data>
    BMesh <bmesh>
