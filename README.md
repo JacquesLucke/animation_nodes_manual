@@ -15,7 +15,7 @@ If you want to contribute:
 
 ## Building the doc locally
 
-* Install python
+* Install python (Download page for Windows: https://www.python.org/downloads/)
 * Clone the forked repository to your computer
 * Move to your git folder
 * Execute: `pip install -r requirements.txt`
