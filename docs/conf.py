@@ -8,7 +8,10 @@ if not on_rtd:  # only import and set the theme if we're building docs locally
 
 extensions = [
     'sphinx.ext.autodoc',
+    'sphinx.ext.todo'
 ]
+
+todo_include_todos = True
 
 templates_path = ['ytemplates']
 source_suffix = '.rst'
