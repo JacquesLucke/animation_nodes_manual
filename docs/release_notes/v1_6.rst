@@ -32,7 +32,28 @@ outliner or the 3d viewport.
 Change Matrix Pivot Node
 ************************
 
-WIP
+    .. image:: images_v1_6/change_matrix_pivot_options_and_usage.png
+
+
+This node is mainly a companion or complement to the transform nodes. 
+It helps setting a custom "pivot point" for the transformation operations, 
+a process similar to parenting. 
+Basically it replaces the need for some matrix construction setups that 
+can prove to be confusing sometimes and not very "artist friendly"
+
+It does define the reference pivot in several ways, from simple location 
+to matrix or combinations of vectors and directions.
+
+
+A classic and very used case, would be "flipping" a polygon around an edge, 
+where defining Z as normal and a side (0-1) as center and X direction.
+(this can be defined otherwise with matrices etc. but can prove quite complex setup)
+
+    .. image:: images_v1_6/change_matrix_pivot_flip_polygon.png
+
+
+Note: when using along with polygon transform, to be in control of the results,
+use the World option in polygon transform
 
 
 Repeat and Fill List Nodes
