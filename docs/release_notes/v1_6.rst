@@ -7,16 +7,6 @@ Convert to Integer List Node
 .. image:: images_v1_6/convert_to_integer_node.png
 
 
-Slice List Node
-***************
-
-The *Slice List* node has two options now. You can either input an start and end
-index or the start index and the length the output list. You can choose between
-both options in the advanced node settings.
-
-.. image:: images_v1_6/slice_list_node.png
-
-
 Popup to Rename Objects
 ***********************
 
