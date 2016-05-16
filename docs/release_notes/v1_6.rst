@@ -14,8 +14,8 @@ This is exactly what these new *Execution Triggers* allow you to do.
     .. image:: images_v1_6/execution_trigger.png
 
 You just need to create the trigger, select an object and write/paste the data
-path to the property. For convenience some nodes have a button in the advanced settings that quickly
-creates the *Trigger* for this specific node.
+path to the property. For convenience some nodes have a button in the advanced
+settings that quickly creates the *Trigger* for this specific node.
 
     .. image:: images_v1_6/auto_create_trigger.png
 
