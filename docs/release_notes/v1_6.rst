@@ -25,14 +25,14 @@ Change Matrix Pivot Node
 .. image:: images_v1_6/change_pivot_matrix_use.png
 
 
-This node is mainly a companion or complement to the transform nodes. 
-It helps setting a custom "pivot point" for the transformation operations, 
-a process similar to parenting. 
-Basically it replaces the need for some matrix construction setups that 
+This node is mainly a companion or complement to the transform nodes.
+It helps setting a custom "pivot point" for the transformation operations,
+a process similar to parenting.
+Basically it replaces the need for some matrix construction setups that
 can prove to be confusing sometimes and not very "artist friendly"
 
 
-Basic usage exmples: 
+Basic usage exmples:
 
 - transform (rotation) of object goes around Empty
 - Rotetion aroud axis, where X and Z are defined by points
@@ -40,11 +40,11 @@ Basic usage exmples:
 .. image:: images_v1_6/change_pivot_matrix_example_parent.png
 .. image:: images_v1_6/change_pivot_matrix_example_axes.png
 
-It does define the reference pivot in several ways, from simple location 
+It does define the reference pivot in several ways, from simple location
 to matrix or combinations of vectors and directions.
 
 
-A classic and very used case, would be "flipping" a polygon around an edge, 
+A classic and very used case, would be "flipping" a polygon around an edge,
 where defining Z as normal and a side (0-1) as center and X direction.
 (this can be defined otherwise with matrices etc. but can prove quite complex setup)
 
@@ -198,6 +198,27 @@ The node caches the text internally and only reloads the text when the file chan
     .. image:: images_v1_6/text_file_reader.png
 
 
+Expression Node
+***************
+
+The *Expression* node got two improvements in this release.
+
+1. When it is collapsed the expression will be in the node label now.
+
+  .. image:: images_v1_6/collapsed_expression.png
+
+2. Previously the expression node was almost always used together with a *Convert* node.
+   This is not necessary anymore because the output socket of the expression node
+   changes its type automatically now. Furthermore the data type of the expression result
+   is checked and corrected if possible. This is to make sure that the node does
+   not infiltrate the node tree with invalid data. The automatic type checking
+   can be turned off to remove overhead in extreme cases.
+   The output data type can be changed manually by clicking on the little button
+   next to the expression field.
+
+ .. image:: images_v1_6/expression_type_correction.png
+
+
 Developer Tools
 ***************
 
@@ -259,8 +280,6 @@ The width and location of the selected node in the Node Panel aren't visible
 anymore when *Debug* is disabled in the user preferences of AN.
 
 The *Change Text Case* node has two new modes: *Capitalize Words* and *To Title Case*.
-
-When a *Expression* node is collapsed the expression will be in the node label now.
 
 For ages there was a double update whenever a node has been created or removed.
 This is now fixed. This is especially important for large node trees when the
