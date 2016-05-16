@@ -1,10 +1,50 @@
 Release Notes for Version 1.6
 =============================
 
-Convert to Integer List Node
-****************************
+Execution Triggers
+******************
 
-.. image:: images_v1_6/convert_to_integer_node.png
+Until now *Auto Execution* of node trees was limited to certain predefined events
+like *Always*, *Frame Changed*, etc. Most people don't like to have *Always* enabled
+all the time because slows down the scene and heats up the cpu. This is a problem
+because sometimes the result of the node tree only depends on the location of an
+object. So it would make sense to only execute the tree when the location changes.
+This is exactly what these new *Execution Triggers* allow you to do.
+
+    .. image:: images_v1_6/execution_trigger.png
+
+You just need to create the trigger, select an object and write/paste the data
+path to the property. For convenience some nodes have a button in the advanced settings that quickly
+creates the *Trigger* for this specific node.
+
+    .. image:: images_v1_6/auto_create_trigger.png
+
+
+
+
+Network Navigation
+******************
+
+The functionality of the TAB key has been improved. It has context sensitive
+behaviour now. Before this release it was only possible to jump from an
+*Invoke Subprogram* node to the corresponding subprogram. Now function depends
+more on the active node. Just try it out. It should become pretty clear what happens
+when certain nodes are selected. More information can be found in this
+`GitHub Issue <https://github.com/JacquesLucke/animation_nodes/issues/480>`_.
+
+
+Select Area
+***********
+
+I always found it annoying to use Blenders text editor together with AN, mainly
+because it required so many click to setup it up. For this release I developed
+a new operator that makes it much faster to setup the text editor. The operator
+itself is very generic, it allows you to create/select an area in the Blender
+interface, the caller than decides what to do with this area.
+It is already used in multiple places: *Script* node, *Text Block* socket,
+*Debug Loop* and in the *Developer Panel*.
+
+    .. image:: images_v1_6/select_area.gif
 
 
 Popup to Rename Objects
@@ -17,6 +57,36 @@ want to clean up your scene but don't want to seach all the objects in the
 outliner or the 3d viewport.
 
 .. image:: images_v1_6/object_renaming.gif
+
+
+Bake to Keyframes
+*****************
+
+Baking animations is often required before rendering. Sometimes because AN is
+unstable during rendering (often this can be fixed by locking the UI during rendering!)
+or AN just does not exist on the computer that will render the animation (think
+about renderfarms).
+
+You could already create keyframes before using the *Set Keyframes* node but it
+can be easier than that. And it is now. The *Bake to Keyframes* button can be
+found in the *Overview* panel. Basicly it works in three steps:
+
+    1. Change the execution code type (more info below) to *Bake*
+    2. Visit each frame in the timeline once
+    3. Change the execution code type to *Default*
+
+If you want to exclude certain node trees from the baking progress you can just
+disable *Auto Execution* for them.
+
+This operator can bake everything that can be animated with keyframes. That
+excludes spline, text and mesh animation!
+
+This nodes support baking so far: *Object Attribute Output*, *Object Data Path Output*,
+*Object Matrix Output*, *Object Transforms Output*, *Object Visibility Output*,
+*Curve Object Output* (limited), *Text Object Output* (limited) and
+*Text Sequence Output* (limited).
+
+    .. image:: images_v1_6/bake.png
 
 
 Change Matrix Pivot Node
@@ -55,73 +125,6 @@ Note: when using along with polygon transform, to be in control of the results,
 use the World option in polygon transform
 
 
-Repeat and Fill List Nodes
-**************************
-
-    .. image:: images_v1_6/repeat_and_fill_list.png
-
-
-Splines from Object Node
-************************
-
-This node has two options now. You can either load all splines on a curve object
-or only one with an index. Previously you would import all splines first and
-pick one of them with the Get List Element node afterwards. Unfortunally
-this adds unnecessary overhead because you imported the other splines although
-you don't need them.
-
-    .. image:: images_v1_6/splines_from_object.png
-
-
-More Dynamic Labels
-*******************
-
-Dynamic labels are becoming more and more important in AN in order to create
-cleaner looking node trees. They allow you to collapse nodes without loosing
-any information on what they are doing. Here are some examples:
-
-    .. image:: images_v1_6/dynamic_labels.png
-
-
-Slice List
-**********
-
-The slice list node has been extended to support all the different slice that
-Python supports. The *Start*, *Stop* and *Step* sockets be enabled and disabled
-as needed.
-
-    .. image:: images_v1_6/slice_list_node.png
-
-
-Network Navigation
-******************
-
-The functionality of the TAB key has been improved. It has context sensitive
-behaviour now. Before this release it was only possible to jump from an
-*Invoke Subprogram* node to the corresponding subprogram. Now function depends
-more on the active node. Just try it out. It should become pretty clear what happens
-when certain nodes are selected. More information can be found in this `GitHub Issue <https://github.com/JacquesLucke/animation_nodes/issues/480>`_.
-
-
-Execution Triggers
-******************
-
-Until now *Auto Execution* of node trees was limited to certain predefined events
-like *Always*, *Frame Changed*, etc. Most people don't like to have *Always* enabled
-all the time because slows down the scene and heats up the cpu. This is a problem
-because sometimes the result of the node tree only depends on the location of an
-object. So it would make sense to only execute the tree when the location changes.
-This is exactly what these new *Execution Triggers* allow you to do.
-
-    .. image:: images_v1_6/execution_trigger.png
-
-You just need to create the trigger, select an object and write/paste the data
-path to the property. For convenience some nodes have a button in the advanced settings that quickly
-creates the *Trigger* for this specific node.
-
-    .. image:: images_v1_6/auto_create_trigger.png
-
-
 Structs
 *******
 
@@ -142,48 +145,10 @@ It's also worth mentioning that struct nodes make sure that data types stay corr
     .. image:: images_v1_6/structs_error.png
 
 
-Select Area
-***********
+Geometry Nodes
+**************
 
-I always found it annoying to use Blenders text editor together with AN, mainly
-because it required so many click to setup it up. For this release I developed
-a new operator that makes it much faster to setup the text editor. The operator
-itself is very generic, it allows you to create/select an area in the Blender
-interface, the caller than decides what to do with this area.
-It is already used in multiple places: *Script* node, *Text Block* socket,
-*Debug Loop* and in the *Developer Panel*.
-
-    .. image:: images_v1_6/select_area.gif
-
-
-Bake to Keyframes
-*****************
-
-Baking animations is often required before rendering. Sometimes because AN is
-unstable during rendering (often this can be fixed by locking the UI during rendering!)
-or AN just does not exist on the computer that will render the animation (think
-about renderfarms).
-
-You could already create keyframes before using the *Set Keyframes* node but it
-can be easier than that. And it is now. The *Bake to Keyframes* button can be
-found in the *Overview* panel. Basicly it works in three steps:
-
-    1. Change the execution code type (more info below) to *Bake*
-    2. Visit each frame in the timeline once
-    3. Change the execution code type to *Default*
-
-If you want to exclude certain node trees from the baking progress you can just
-disable *Auto Execution* for them.
-
-This operator can bake everything that can be animated with keyframes. That
-excludes spline, text and mesh animation!
-
-This nodes support baking so far: *Object Attribute Output*, *Object Data Path Output*,
-*Object Matrix Output*, *Object Transforms Output*, *Object Visibility Output*,
-*Curve Object Output* (limited), *Text Object Output* (limited) and
-*Text Sequence Output* (limited).
-
-    .. image:: images_v1_6/bake.png
+.. todo:: Insert links to descriptions of new nodes + image
 
 
 Text File Reader
@@ -191,7 +156,8 @@ Text File Reader
 
 This node can read a text file from the hard drive without having to open it
 in Blender. You can also specify an encoding. Most common are *ascii* and *utf8*
-but there are much more. A full list can be found in the `python documentation on codecs <https://docs.python.org/3.5/library/codecs.html#standard-encodings>`_.
+but there are much more. A full list can be found in the
+`python documentation on codecs <https://docs.python.org/3.5/library/codecs.html#standard-encodings>`_.
 
 The node caches the text internally and only reloads the text when the file changed.
 
@@ -219,10 +185,48 @@ The *Expression* node got two improvements in this release.
  .. image:: images_v1_6/expression_type_correction.png
 
 
-Geometry Nodes
-**************
+More Dynamic Labels
+*******************
 
-.. todo:: Insert links to descriptions of new nodes + image
+Dynamic labels are becoming more and more important in AN in order to create
+cleaner looking node trees. They allow you to collapse nodes without loosing
+any information on what they are doing. Here are some examples:
+
+   .. image:: images_v1_6/dynamic_labels.png
+
+
+Slice List
+**********
+
+The slice list node has been extended to support all the different slice that
+Python supports. The *Start*, *Stop* and *Step* sockets be enabled and disabled
+as needed.
+
+   .. image:: images_v1_6/slice_list_node.png
+
+
+Splines from Object Node
+************************
+
+This node has two options now. You can either load all splines on a curve object
+or only one with an index. Previously you would import all splines first and
+pick one of them with the Get List Element node afterwards. Unfortunally
+this adds unnecessary overhead because you imported the other splines although
+you don't need them.
+
+   .. image:: images_v1_6/splines_from_object.png
+
+
+Repeat and Fill List Nodes
+**************************
+
+   .. image:: images_v1_6/repeat_and_fill_list.png
+
+
+Convert to Integer List Node
+****************************
+
+.. image:: images_v1_6/convert_to_integer_node.png
 
 
 Developer Tools
