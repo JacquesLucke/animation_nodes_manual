@@ -240,7 +240,9 @@ execution code types:
         code like before without any extra features enabled.
     - Monitor Execution:
         This creates a ``try-except`` block around the execution code of every
-        node. This is helpfull when a node raises an exception but you cannot
+        node. Furthermore it checks if all the linked outputs have been calculated
+        or if a node forgot something (this would raise an Exception in another
+        node). This mode is helpfull when a node raises an exception but you cannot
         tell which one. It should only be turned on when there are problems.
     - Measure Execution Times:
         Measure the total and average time each node takes to execute and display
@@ -285,6 +287,9 @@ The width and location of the selected node in the Node Panel aren't visible
 anymore when *Debug* is disabled in the user preferences of AN.
 
 The *Change Text Case* node has two new modes: *Capitalize Words* and *To Title Case*.
+
+To make you aware of any problems in the node tree there will be a thin red border
+around the node editor now (only when problems exist obviously).
 
 For ages there was a double update whenever a node has been created or removed.
 This is now fixed. This is especially important for large node trees when the
