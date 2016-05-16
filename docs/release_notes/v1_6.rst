@@ -173,7 +173,7 @@ The *Expression* node got two improvements in this release.
    changes its type automatically now. Furthermore the data type of the expression result
    is checked and corrected if possible. This is to make sure that the node does
    not infiltrate the node tree with invalid data. The automatic type checking
-   can be turned off to remove overhead in extreme cases.
+   can be turned off in the advanced settings to remove overhead in extreme cases.
    The output data type can be changed manually by clicking on the little button
    next to the expression field.
 
