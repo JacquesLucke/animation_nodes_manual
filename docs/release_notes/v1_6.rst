@@ -102,10 +102,10 @@ Basically it replaces the need for some matrix construction setups that
 can prove to be confusing sometimes and not very "artist friendly"
 
 
-Basic usage exmples:
+Basic usage examples:
 
 - transform (rotation) of object goes around Empty
-- Rotetion aroud axis, where X and Z are defined by points
+- Rotation around axis, where X and Z are defined by points
 
 .. image:: images_v1_6/change_pivot_matrix_example_parent.png
 .. image:: images_v1_6/change_pivot_matrix_example_axes.png
@@ -113,16 +113,14 @@ Basic usage exmples:
 It does define the reference pivot in several ways, from simple location
 to matrix or combinations of vectors and directions.
 
-
 A classic and very used case, would be "flipping" a polygon around an edge,
 where defining Z as normal and a side (0-1) as center and X direction.
 (this can be defined otherwise with matrices etc. but can prove quite complex setup)
 
 .. image:: images_v1_6/change_pivot_matrix_flip_poly.png
 
-
-Note: when using along with polygon transform, to be in control of the results,
-use the World option in polygon transform
+.. note:: When used along with a *Transform Polygon* node, the pivot type of
+          that node should be set to *World*.
 
 
 Structs
