@@ -219,6 +219,12 @@ The *Expression* node got two improvements in this release.
  .. image:: images_v1_6/expression_type_correction.png
 
 
+Geometry Nodes
+**************
+
+.. todo:: Insert links to descriptions of new nodes + image
+
+
 Developer Tools
 ***************
 
