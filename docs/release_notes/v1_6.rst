@@ -140,10 +140,125 @@ It's also worth mentioning that struct nodes make sure that data types stay corr
     .. image:: images_v1_6/structs_error.png
 
 
+BMesh Mesh Data
+***************
+
+This is a node that exposes vertices, edges and faces as mesh data (Vectors and Indices) or 
+Animation Nodes Vertes and Polygon data, just like the Object Mesh Data node, but from BMesh.
+
+    .. image:: images_v1_6/bmesh_mesh_data.png
+
+
+This comes handy when you need certain mesh data processed (like recalculatng normals) 
+and then use it further without the need to put it into a "real" blender object. 
+Also may find it useful for having Polygon or Vertex data out of mesh data made by nodes.
+
+    .. image:: images_v1_6/bmesh_mesh_data_example.png
+
+In the example, we use the transform polygon template, but to provide polygons 
+out of the grid mesh, this bmesh to mesh data is used.
+
+
 Geometry Nodes
 **************
 
-.. todo:: Insert links to descriptions of new nodes + image
+There is a new set of tools (and menu) called Geometry. This contains "helper" functions
+to process some data or establish relations between elements, somehow more complex than 
+vector math or matrix or rotation functions. 
+
+.. image:: images_v1_6/geom_menu.png
+
+For now there is a basic set of functions, as follows:
+
+ 
+1. **Plane definition** (point/Normal to Matrix, Matrix to Point/Normal)
+
+Some geometry nodes need planes defined as Point / Normal, while if you try to define a plane 
+by an Empty or other methods, the Normal is not always at hand.
+ 
+.. image:: images_v1_6/geom_plane_def.png
+
+This is a conversion Node to help define a Plane by matrix or by a Point In Plane and Plane Normal,
+a simplified variant of rotations nodes, as in the image.
+ 
+Rotations menu / Rotation to Direction (and direction to Rotation) can also be used for this, 
+actually with some more precision. But if the orientation of the plane around the normal 
+is not required, this conversion node is a simplified method. 
+
+2. **Point List Normal**
+
+This node calculates the normal of a set of points (vectors) as if they were forming a polygon.
+
+.. image:: images_v1_6/gem_normal.png
+
+This is useful for extracting Normals of polygons created by nodes and not from a mesh, but also it 
+can be used to find the Normal of a Plane out of 3 points instead of the above methods.
+
+May check if the normal can be calculated by Is Valid output. For colinear points and other cases the 
+normal may not be computable.
+A list of min 3 different points is required.
+
+ Note that 
+The order of the points matters, corect calculation resulting from points ordered like a closed polygon
+Polygons use the counterclockwise (trigonometric) order to orient face (and normal) up. 
+So the opposed order will give flipped normal.
+
+
+.
+ *Relation of a Point to Line or Plane*
+
+3. **Project Point on Line**
+
+.. image:: images_v1_6/geom_prj_point_line.png
+
+This node provides several informations:
+ - the location of the closest point on line (projection of the point)
+ - the factor [0-1] of this projection in relation to start and end of the line segment
+ - the distance point to line
+
+If the point is on line, the distance is 0.0. If the point is inside the segment, 
+factor is between 0 and 1, while below 0 or above 1 shows on what side is 
+positioned outside the segment.
+
+4. **Project Point on Plane**
+
+.. image:: images_v1_6/geom_prj_point_plane.png
+
+This node provides several informations:
+ - the location of the closest point on a plane (projection of the point)
+ - the signed distance point to plane. Negative values mean below plane, related to normal
+
+
+.
+ *Intersections of  Line, Plane and Sphere*
+
+5. **Intersect Line Line**
+6. **Intersect Line Plane**
+7. **Intersect Line Sphere**
+
+8. **Intersect Plane Plane**
+9. **Intersect Plane Sphere**
+10. **Intersect Sphere Sphere**
+
+11. **Intersect Polyline Plane**
+
+This is a special case of Line Plane intersections that has many applications, for polygons, splines or objects. 
+
+For one thing the Polyline may be defined in 2 ways:
+- as a set of Points, from a Polygon points or Spline samples, using this to intersect a poly or spline with a plane
+- as vectors and edges, using this to see all edges of an object that intersect a certain plane
+
+In both cases there wil be returned:
+- a list of vectors for intersection points
+- indexes of edges that are cut so that u can use only those edges further
+- what side of the plane edges are on (1, -1 for above, below and 0 if cut) to help keep only part of the edges further
+- Is Valid, if any intersections at all
+
+This helps "cut" a polyline or spline with a plane, but also to create lines or splines inside respective contour.
+Also may use to make level curves or section contours out of objects.
+
+There are many applications to this to be further explored into other docs or tutorials.
+
 
 
 Text File Reader
