@@ -143,19 +143,19 @@ It's also worth mentioning that struct nodes make sure that data types stay corr
 BMesh Mesh Data
 ***************
 
-This is a node that exposes vertices, edges and faces as mesh data (Vectors and Indices) or 
+This is a node that exposes vertices, edges and faces as mesh data (Vectors and Indices) or
 Animation Nodes Vertes and Polygon data, just like the Object Mesh Data node, but from BMesh.
 
     .. image:: images_v1_6/bmesh_mesh_data.png
 
 
-This comes handy when you need certain mesh data processed (like recalculatng normals) 
-and then use it further without the need to put it into a "real" blender object. 
+This comes handy when you need certain mesh data processed (like recalculatng normals)
+and then use it further without the need to put it into a "real" blender object.
 Also may find it useful for having Polygon or Vertex data out of mesh data made by nodes.
 
     .. image:: images_v1_6/bmesh_mesh_data_example.png
 
-In the example, we use the transform polygon template, but to provide polygons 
+In the example, we use the transform polygon template, but to provide polygons
 out of the grid mesh, this bmesh to mesh data is used.
 
 
@@ -163,27 +163,27 @@ Geometry Nodes
 **************
 
 There is a new set of tools (and menu) called Geometry. This contains "helper" functions
-to process some data or establish relations between elements, somehow more complex than 
-vector math or matrix or rotation functions. 
+to process some data or establish relations between elements, somehow more complex than
+vector math or matrix or rotation functions.
 
 .. image:: images_v1_6/geom_menu.png
 
 For now there is a basic set of functions, as follows:
 
- 
+
 1. **Plane definition** (point/Normal to Matrix, Matrix to Point/Normal)
 
-Some geometry nodes need planes defined as Point / Normal, while if you try to define a plane 
+Some geometry nodes need planes defined as Point / Normal, while if you try to define a plane
 by an Empty or other methods, the Normal is not always at hand.
- 
+
 .. image:: images_v1_6/geom_plane_def.png
 
 This is a conversion Node to help define a Plane by matrix or by a Point In Plane and Plane Normal,
 a simplified variant of rotations nodes, as in the image.
- 
-Rotations menu / Rotation to Direction (and direction to Rotation) can also be used for this, 
-actually with some more precision. But if the orientation of the plane around the normal 
-is not required, this conversion node is a simplified method. 
+
+Rotations menu / Rotation to Direction (and direction to Rotation) can also be used for this,
+actually with some more precision. But if the orientation of the plane around the normal
+is not required, this conversion node is a simplified method.
 
 2. **Point List Normal**
 
@@ -191,16 +191,16 @@ This node calculates the normal of a set of points (vectors) as if they were for
 
 .. image:: images_v1_6/gem_normal.png
 
-This is useful for extracting Normals of polygons created by nodes and not from a mesh, but also it 
+This is useful for extracting Normals of polygons created by nodes and not from a mesh, but also it
 can be used to find the Normal of a Plane out of 3 points instead of the above methods.
 
-May check if the normal can be calculated by Is Valid output. For colinear points and other cases the 
+May check if the normal can be calculated by Is Valid output. For colinear points and other cases the
 normal may not be computable.
 A list of min 3 different points is required.
 
- Note that 
+ Note that
 The order of the points matters, corect calculation resulting from points ordered like a closed polygon
-Polygons use the counterclockwise (trigonometric) order to orient face (and normal) up. 
+Polygons use the counterclockwise (trigonometric) order to orient face (and normal) up.
 So the opposed order will give flipped normal.
 
 
@@ -216,8 +216,8 @@ This node provides several informations:
  - the factor [0-1] of this projection in relation to start and end of the line segment
  - the distance point to line
 
-If the point is on line, the distance is 0.0. If the point is inside the segment, 
-factor is between 0 and 1, while below 0 or above 1 shows on what side is 
+If the point is on line, the distance is 0.0. If the point is inside the segment,
+factor is between 0 and 1, while below 0 or above 1 shows on what side is
 positioned outside the segment.
 
 4. **Project Point on Plane**
@@ -242,7 +242,7 @@ This node provides several informations:
 
 11. **Intersect Polyline Plane**
 
-This is a special case of Line Plane intersections that has many applications, for polygons, splines or objects. 
+This is a special case of Line Plane intersections that has many applications, for polygons, splines or objects.
 
 For one thing the Polyline may be defined in 2 ways:
 - as a set of Points, from a Polygon points or Spline samples, using this to intersect a poly or spline with a plane
@@ -393,6 +393,10 @@ make it visible when the toolbar is closed.
 The *Compose Matrix* node is roughly 40% faster now.
 
 The *Splines from Object* node is 30% faster for bezier splines.
+
+The *Interpolation from Curve Mapping* node does not remap the values anymore.
+If you need an overshoot in the interpolation you can press the minus-icon to
+zoom out.
 
 The *Shade Object Smooth* node is twice as fast now.
 
