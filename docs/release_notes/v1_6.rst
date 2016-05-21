@@ -92,7 +92,6 @@ Change Matrix Pivot Node
 
 .. image:: images_v1_6/change_pivot_matrix_use.png
 
-
 This node is mainly a companion or complement to the transform nodes.
 It helps setting a custom "pivot point" for the transformation operations,
 a process similar to parenting.
