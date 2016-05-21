@@ -5,7 +5,7 @@ Here you will find explanations for all the different nodes.
 
 .. toctree::
    :maxdepth: 3
-   
+
    number/index
    vector/index
    rotation/index
@@ -23,7 +23,7 @@ Here you will find explanations for all the different nodes.
    particles/index
    fcurves/index
    sound/index
+   geometry/index
    kdtree/index
    debug/index
    subprograms/index
-   
