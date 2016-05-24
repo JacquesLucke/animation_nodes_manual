@@ -21,3 +21,5 @@ Mesh
    Vertex Locations <vertex_locations>
    Mesh Data <mesh_data>
    BMesh <bmesh>
+
+.. image:: mesh_overview.png

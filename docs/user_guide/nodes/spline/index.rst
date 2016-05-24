@@ -20,3 +20,5 @@ Spline
     Object Output <curve_object_output>
     Loft <loft>
     Revolve <revolve>
+
+.. image:: spline_overview.png

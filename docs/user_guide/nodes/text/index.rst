@@ -19,3 +19,5 @@ Text
    Character Property <character_property>
    Object Separate <object_separate>
    Object Output <object_output>
+
+.. image:: text_overview.png

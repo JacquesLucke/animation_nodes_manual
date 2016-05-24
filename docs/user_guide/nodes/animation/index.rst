@@ -11,3 +11,5 @@ Animation
     Animate Quaternion <animate_quaternion>
     Animate Matrix <animate_matrix>
     Animate Color <animate_color>
+
+.. image:: animation_overview.png

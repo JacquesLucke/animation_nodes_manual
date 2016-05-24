@@ -7,3 +7,5 @@ Interpolation
     From FCurve <from_fcurve>
     Evaluate <evaluate>
     Mix <mix>
+
+.. image:: interpolation_overview.png

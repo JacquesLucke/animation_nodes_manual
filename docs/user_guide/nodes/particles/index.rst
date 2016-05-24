@@ -8,3 +8,5 @@ Particles
     State Filter <state_filter>
     particle List Info <particle_list_info>
     Particle Info <particle_info>
+
+.. image:: particles_overview.png

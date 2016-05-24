@@ -7,3 +7,5 @@ Debug
     Debug List <debug_list>
     Debug Drawer <debug_drawer>
     Debug Interpolation <debug_interpolation>
+
+.. image:: debug_overview.png

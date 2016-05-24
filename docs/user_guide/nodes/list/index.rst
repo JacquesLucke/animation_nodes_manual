@@ -12,3 +12,5 @@ List
     Reverse <reverse>
     Slice <slice>
     Shift <shift>
+
+.. image:: list_overview.png

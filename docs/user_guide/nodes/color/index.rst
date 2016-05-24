@@ -7,3 +7,5 @@ Color
     Separate Color <separate_color>
     Mix <mix>
     Set Vertex Color <set_vertex_color>
+
+.. image:: color_overview.png

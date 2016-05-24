@@ -6,3 +6,5 @@ FCurves
     Evaluate <evaluate>
     Info <info>
     Keyframes <keyframes>
+
+.. image:: fcurves_overview.png

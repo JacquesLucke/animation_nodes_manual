@@ -22,3 +22,5 @@ Object
    Set Keyframes <set_keyframes>
    Utils <utils/index>
    Instancer <instancer>
+
+.. image:: object_overview.png

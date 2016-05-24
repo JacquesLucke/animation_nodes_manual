@@ -1,6 +1,10 @@
 Nodes
 =====
 
+.. sidebar:: Screenshot [Shift-A]
+
+   .. image:: nodes_overview.png
+
 Here you will find explanations for all the different nodes.
 
 .. toctree::
@@ -17,13 +21,16 @@ Here you will find explanations for all the different nodes.
    object/index
    mesh/index
    spline/index
+   particles/index
    animation/index
    interpolation/index
-   material/index
-   particles/index
    fcurves/index
+   material/index
    sound/index
+   sequence/index
+   geometry/index
    kdtree/index
    debug/index
    subprograms/index
-   
+   layout/index
+

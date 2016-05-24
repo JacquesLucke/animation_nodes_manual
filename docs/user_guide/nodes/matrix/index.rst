@@ -12,3 +12,5 @@ Matrix
     Mix <mix>
     Invert <invert>
     Math <math>
+
+.. image:: matrix_overview.png
