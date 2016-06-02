@@ -2,9 +2,9 @@
 Animation Nodes Manual
 **********************
 
-Welcome to the official manual of **Animation-Nodes**.
+Welcome to the official manual of **Animation-Nodes** (AN).
 
-Animation nodes is a `Blender <http://www.blender.org/>`_ addon to animate about everything in Blender by using nodes.
+AN is a node based visual scripting system designed for motion graphics in `Blender <http://www.blender.org/>`_.
 
 Using nodes grants you the ability to create complex and precise animations in a structured and centralized way.
 
