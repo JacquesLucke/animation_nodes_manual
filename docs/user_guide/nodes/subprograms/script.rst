@@ -11,16 +11,17 @@ Begin by adding a script node, and connecting the script node to a text databloc
 
 .. image:: script_ex1.jpg
 
-
 Importing Animation Nodes Datatypes
 -----------------------------------
 
-Because Animation Nodes is normally installed at "animation_nodes-master", you can't import it using the normal import statement. Dash (-) is not an allowed character in normal module names. To import parts of AN at it's default install location, you can do the following. This is the preferred way to do an import, because this will work inside and outside of script contexts, so it will work if you press "Run Script" in a text editor.::
+When importing Animation Nodes datatypes into script, the animation_nodes module is already imported into the namespace. Because AN can sometimes be installed to different locations. The safest way to import datatypes is with statements like this::
 
-    import importlib
-    PolySpline = importlib.import_module("animation_nodes-master.data_structures.splines.poly_spline")
+    PolySpline = animation_nodes.data_structures.splines.poly_spline.PolySpline
 
-If you have a simple script which doesn't need any debugging, you can simplify this a bit, because the animation_nodes module is already imported into the namespace of AN script nodes. Within the script context only, you can access portions of AN using statements like the one below. However, this will not work outside of the AN script node execution context, such as when you click "Run Script".::
+However, this line will fail if you click "Run Script" inside a Blender text editor, because in that case the AN script environment is not setup. If you wish to be able to click on "Run Script", for example to text syntax. Then you can include the following lines to conditionally setup the animation_nodes module reference in case it is missing.::
 
-    PolySpline = animation_nodes.data_structures.splines.poly_spline
+    import sys
+    if "animation_nodes" not in globals():
+        global animation_nodes 
+        animation_nodes = sys.modules["animation_nodes-master"]
 
