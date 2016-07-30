@@ -38,3 +38,6 @@ External Links
 
 **LollypopMan:**
     *English:* http://lollypopman.com/tag/animation-nodes/
+
+**ONELVXE Studio:**
+    *English:* https://www.youtube.com/playlist?list=PLV9xOovGG3hhavLVC3Zh-90R2rAESw24f
