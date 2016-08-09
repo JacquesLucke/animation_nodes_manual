@@ -20,24 +20,26 @@ External Links
 **************
 
 **Youtube Channel of the Main Developer:**
-    *English:* https://www.youtube.com/channel/UC5ABAuGEvBMmau-1xJsNw6w
+    *English (Videos):* https://www.youtube.com/channel/UC5ABAuGEvBMmau-1xJsNw6w
 
 **Blender Diplom:**
-    *English:* http://www.blenderdiplom.com/en/tutorials/animation-nodes.html
+    *English (Video Tutorials):* http://www.blenderdiplom.com/en/tutorials/animation-nodes.html
 
-    *German:* https://www.youtube.com/playlist?list=PL310M9jJ4pH8OP21jCQba5dA2R4-rtrM5
+    *German (Video Tutorials):* https://www.youtube.com/playlist?list=PL310M9jJ4pH8OP21jCQba5dA2R4-rtrM5
 
 **Blender Sushi:**
-    *English:* http://blendersushi.blogspot.de/search/label/anstudy
+    *English (Blog):* http://blendersushi.blogspot.de/search/label/anstudy
+
+    *English (Live Noding):* https://www.youtube.com/playlist?list=PLsbztkb4az9gVNKH1ai7Kxj37e7gZPD75
 
 **Blender Stackexchange:**
-    *English:* http://blender.stackexchange.com/questions/tagged/animation-nodes
+    *English (Questions):* http://blender.stackexchange.com/questions/tagged/animation-nodes
 
 **Local Guru:**
-    *English:* http://www.local-guru.net/blog/tag/animation%20nodes
+    *English (Experiments):* http://www.local-guru.net/blog/tag/animation%20nodes
 
 **LollypopMan:**
-    *English:* http://lollypopman.com/tag/animation-nodes/
+    *English (Video Tutorial):* http://lollypopman.com/tag/animation-nodes/
 
 **ONELVXE Studio:**
-    *English:* https://www.youtube.com/playlist?list=PLV9xOovGG3hhavLVC3Zh-90R2rAESw24f
+    *English (Video Tutorials):* https://www.youtube.com/playlist?list=PLV9xOovGG3hhavLVC3Zh-90R2rAESw24f
