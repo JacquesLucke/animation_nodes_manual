@@ -1,7 +1,7 @@
 Animation
 =========
 
-.. toctree:: 
+.. toctree::
     Time Info <time_info>
     Delay <delay>
     Repeat <repeat>
@@ -12,4 +12,4 @@ Animation
     Animate Matrix <animate_matrix>
     Animate Color <animate_color>
 
-.. image:: animation_overview.png
+.. image:: images/animation_overview.png

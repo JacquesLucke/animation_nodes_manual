@@ -1,7 +1,7 @@
 Boolean
 =======
 
-.. toctree:: 
+.. toctree::
     Boolean <boolean>
     Invert <invert>
     Compare <compare>
@@ -9,4 +9,4 @@ Boolean
     Switch <switch>
     Boolean to Integer <boolean_to_integer>
 
-.. image:: boolean_overview.png
+.. image:: images/boolean_overview.png

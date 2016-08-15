@@ -1,7 +1,7 @@
 Time Info Node
 ==============
 
-.. image:: time_info_node.png
+.. image:: images/time_info_node.png
 
 **Frame:** Returns the final frame (time remapping is applied).
 

@@ -1,7 +1,7 @@
 Wiggle
 =============
 
-.. image:: vector_wiggle_node.png
+.. image:: images/vector_wiggle_node.png
 
 **Node Seed:** If two nodes have the same value here, they will generate the same random vectors (when the seed is the same). This is like adding another random value to the *Seed* input.
 

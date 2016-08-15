@@ -1,11 +1,11 @@
 Interpolation
 =============
 
-.. toctree:: 
+.. toctree::
     Construct <construct>
     From Curve Mapping <from_curve_mapping>
     From FCurve <from_fcurve>
     Evaluate <evaluate>
     Mix <mix>
 
-.. image:: interpolation_overview.png
+.. image:: images/interpolation_overview.png

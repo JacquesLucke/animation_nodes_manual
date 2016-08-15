@@ -5,11 +5,11 @@ Script
 .. todo:: unfinished content in file user_guide/nodes/subprograms/script.rst
 
 
-.. image:: script_input_nodes.png
+.. image:: images/script_input_nodes.png
 
 Begin by adding a script node, and connecting the script node to a text datablock, created with the Blender text editor. To add input or output variables, use the New Input and New Ouput buttons on the node UI. The input and output names are automatically mapped to global variables in your script. Once input and output variables are configured, you can invoke your script by finding its name under Subprograms-InvokeSubprogram. Here is an example of a very simple script.
 
-.. image:: script_ex1.jpg
+.. image:: images/script_ex1.jpg
 
 Importing Animation Nodes Datatypes
 -----------------------------------
@@ -22,6 +22,5 @@ However, this line will fail if you click "Run Script" inside a Blender text edi
 
     import sys
     if "animation_nodes" not in globals():
-        global animation_nodes 
+        global animation_nodes
         animation_nodes = sys.modules["animation_nodes-master"]
-

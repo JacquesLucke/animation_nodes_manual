@@ -16,4 +16,4 @@ Rotation
     Matrix to Quaternion <matrix_to_quaternion>
     Mix Quaternion <mix_quaternion>
 
-.. image:: rotation_overview.png
+.. image:: images/rotation_overview.png

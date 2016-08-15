@@ -3,7 +3,7 @@ Mesh
 
 .. toctree::
    :maxdepth: 1
-   
+
    Object Mesh Data <object_mesh_data>
    Get Bounding Box <get_bounding_box>
    Vertex Info <vertex_info>
@@ -21,4 +21,4 @@ Mesh
    Tools <tools/index>
    Object Output <object_output>
 
-.. image:: mesh_overview.png
+.. image:: images/mesh_overview.png

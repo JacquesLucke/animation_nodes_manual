@@ -1,7 +1,7 @@
 Vector
 ======
 
-.. toctree::   
+.. toctree::
    Separate <separate>
    Combine <combine>
    From Value <from_value>
@@ -15,4 +15,4 @@ Vector
    Transform Vector <transform_vector>
    Transform Vector List <transform_vector_list>
 
-.. image:: vector_overview.png
+.. image:: images/vector_overview.png

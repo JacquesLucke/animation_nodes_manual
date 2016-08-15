@@ -1,7 +1,7 @@
 List
 ====
 
-.. toctree:: 
+.. toctree::
     Create <create>
     Combine <combine>
     Append <append>
@@ -13,4 +13,4 @@ List
     Slice <slice>
     Shift <shift>
 
-.. image:: list_overview.png
+.. image:: images/list_overview.png

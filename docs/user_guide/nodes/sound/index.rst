@@ -8,4 +8,4 @@ Sound
     Sequences from Channel <sequences_from_channel>
     Evaluate Sound <evaluate_sound>
 
-.. image:: sound_overview.png
+.. image:: images/sound_overview.png

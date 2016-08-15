@@ -3,7 +3,7 @@ Object
 
 .. toctree::
    :maxdepth: 2
-   
+
    Object <object>
    List <list>
    From Group <from_group>
@@ -23,4 +23,4 @@ Object
    Utils <utils/index>
    Instancer <instancer>
 
-.. image:: object_overview.png
+.. image:: images/object_overview.png

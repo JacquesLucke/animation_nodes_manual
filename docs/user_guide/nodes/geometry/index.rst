@@ -10,4 +10,4 @@ Geometry
     project_point_on_plane
     intersect_polyline_plane
 
-.. image:: geometry_overview.png
+.. image:: images/geometry_overview.png

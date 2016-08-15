@@ -1,7 +1,7 @@
 Matrix
 ======
 
-.. toctree:: 
+.. toctree::
     Decompose <decompose>
     Compose <compose>
     List <list>
@@ -13,4 +13,4 @@ Matrix
     Invert <invert>
     Math <math>
 
-.. image:: matrix_overview.png
+.. image:: images/matrix_overview.png

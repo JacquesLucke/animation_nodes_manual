@@ -1,7 +1,7 @@
 Randomize
 ===========
 
-.. image:: random_text_node.png
+.. image:: images/random_text_node.png
 
 **Seed:** Change the seed to get another random text.
 

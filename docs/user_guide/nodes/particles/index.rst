@@ -9,4 +9,4 @@ Particles
     particle List Info <particle_list_info>
     Particle Info <particle_info>
 
-.. image:: particles_overview.png
+.. image:: images/particles_overview.png

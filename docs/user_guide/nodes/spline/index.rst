@@ -21,4 +21,4 @@ Spline
     Loft <loft>
     Revolve <revolve>
 
-.. image:: spline_overview.png
+.. image:: images/spline_overview.png

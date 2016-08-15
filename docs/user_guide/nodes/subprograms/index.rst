@@ -7,4 +7,4 @@ Subprograms
     Script <script>
     Expression <expression>
 
-.. image:: subprograms_overview.png
+.. image:: images/subprograms_overview.png

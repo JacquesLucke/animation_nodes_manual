@@ -6,7 +6,7 @@ Description
 This node assigns the input data (Vertices/BMesh/Mesh Data) to the given or selected object.
 Additionally it's possible to set the material indices of the faces.
 
-.. image:: mesh_object_output.png
+.. image:: images/mesh_object_output.png
 
 Inputs
 ------
@@ -27,5 +27,4 @@ Advanced Node Settings
 Examples of Usage
 -----------------
 
-.. image:: mesh_object_output_example.gif
-
+.. image:: gifs/mesh_object_output_example.gif

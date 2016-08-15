@@ -1,10 +1,10 @@
 FCurves
 =======
 
-.. toctree:: 
+.. toctree::
     From Object <from_object>
     Evaluate <evaluate>
     Info <info>
     Keyframes <keyframes>
 
-.. image:: fcurves_overview.png
+.. image:: images/fcurves_overview.png

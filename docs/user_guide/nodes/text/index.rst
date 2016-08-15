@@ -1,7 +1,7 @@
 Text
 ====
 
-.. toctree::   
+.. toctree::
    Input <input>
    List <list>
    Randomize <randomize>
@@ -20,4 +20,4 @@ Text
    Object Separate <object_separate>
    Object Output <object_output>
 
-.. image:: text_overview.png
+.. image:: images/text_overview.png
