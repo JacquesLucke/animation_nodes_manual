@@ -1,7 +1,7 @@
 Number
 ======
 
-.. toctree:: 
+.. toctree::
     Integer <integer>
     Float <float>
     Integer List <integer_list>
@@ -15,8 +15,9 @@ Number
     Clamp <clamp>
     Convert Angle <convert_angle>
     Convert Float to Integer <convert_float_to_integer>
-    Round <round>    
+    Round <round>
     Math <math>
     List Math <list_math>
+    Parse Number <parse_number>
 
 .. image:: number_overview.png

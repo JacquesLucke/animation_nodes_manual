@@ -1,10 +1,35 @@
 Integer List
-==================
+======
 
-In the **Integer List** Node you can define an arbitrary list of integers. The number of the list elements can be increased with the New Input button or decreased in the properties panel (press n) node section.
-
-You can acces an element with it's index, using the **Get List Element** node. The length of the list can be retrived with **Get List length** node.
-
-The example below pass the numbers from the Fibonacci sequence to x coordinate of the "Sphere" object, frame by frame, using the reciprocal of the list length to decrease the Speed.
+Description
+-----------
+This node is used to create an arbitrary list of integers. A new integer can be added with the *New Input* button. A new integer can also be added by plugging it into the transperant socket.
 
 .. image:: integer_list.png
+
+Inputs
+------
+ 
+- **Integer** - An integer at the index 0.
+- **Integer** - An integer at the index 1.
+- **Integer** - ...
+
+Outputs
+-------
+- **Integer list** - A list that contain all the input integers.
+
+Advanced Node Settings
+-----------------------
+
+- **Change type** - Change the type of the integer list to another list type.
+- **Hide Inputs** - Hide all the inputs in the node.
+- **Remove Inputs** - Remove all the inputs.
+
+Caution
+-------
+A warning pop up when you use the *Remove All* button in the node, while if you used the the *Remove All* button in the *Advanced Node Settings* the inputs will be removed without a warning.
+
+Examples of Usage
+-----------------
+
+.. image:: integer_list.gif
