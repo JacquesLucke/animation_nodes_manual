@@ -32,4 +32,4 @@ A warning pop up when you use the *Remove All* button in the node, while if you 
 Examples of Usage
 -----------------
 
-.. image:: gifs/float_list.gif
+.. image:: gifs/float_list_example_1.gif

@@ -8,7 +8,7 @@ Number
     Float List <float_list>
     Integer Range <integer_range>
     Float Range <float_range>
-    Randomize <randomize>
+    Random Number <random_number>
     Wiggle <wiggle>
     Mix <mix>
     Map Range <map_range>
