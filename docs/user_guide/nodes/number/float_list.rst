@@ -5,7 +5,7 @@ Description
 -----------
 This node is used to create an arbitrary list of floats. A new float can be added with the *New Input* button. A new float can also be added by plugging it into the transperant socket.
 
-.. image:: float_list.png
+.. image:: images/float_list.png
 
 Inputs
 ------
@@ -32,4 +32,4 @@ A warning pop up when you use the *Remove All* button in the node, while if you 
 Examples of Usage
 -----------------
 
-.. image:: float_list.gif
+.. image:: gifs/float_list.gif

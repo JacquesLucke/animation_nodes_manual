@@ -20,4 +20,4 @@ Number
     List Math <list_math>
     Parse Number <parse_number>
 
-.. image:: number_overview.png
+.. image:: images/number_overview.png

@@ -5,11 +5,11 @@ Description
 -----------
 This node is used to make sure a value is in a certain range. Any value out of the defined range will be clamped / clipped to the maximum or minimum value.
 
-.. image:: clamp_node.png
+.. image:: images/clamp_node.png
 
 Inputs
 ------
- 
+
 - **Value** - The input value for clamping.
 - **Min** - *Value* will be clamped to *Min* if less than or equal to it.
 - **Max** - *Value* will be clamped to *Max* if greater than or equal to it.
@@ -26,5 +26,4 @@ Advanced Node Settings
 Examples of Usage
 -----------------
 
-.. image:: clamp_node_example_1.gif
-
+.. image:: gifs/clamp_node_example_1.gif

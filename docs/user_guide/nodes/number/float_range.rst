@@ -5,7 +5,7 @@ Description
 -----------
 This node is use to generate an list of floats between 2 floats. It support a custom step size which define the difference between floats in the list.
 
-.. image:: float_range.png
+.. image:: images/float_range.png
 
 Inputs
 ------
@@ -26,4 +26,4 @@ Advanced Node Settings
 Examples of Usage
 -----------------
 
-.. image:: float_range.gif
+.. image:: gifs/float_range.gif

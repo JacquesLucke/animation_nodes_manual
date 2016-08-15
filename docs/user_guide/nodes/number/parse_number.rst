@@ -5,7 +5,7 @@ Description
 -----------
 This node is used to convert string data type that include numbers into a float data type.
 
-.. image:: parse_number.png
+.. image:: images/parse_number.png
 
 Inputs
 ------
@@ -30,4 +30,4 @@ The input text should only include numbers, Otherwise the node will resturn a pa
 Examples of Usage
 -----------------
 
-.. image:: parse_number.gif
+.. image:: gifs/parse_number.gif

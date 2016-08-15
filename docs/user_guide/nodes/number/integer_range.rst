@@ -5,7 +5,7 @@ Description
 -----------
 This node is use to generate an list of integers between 2 integers. It support a custom step size which define the difference between integers in the list.
 
-.. image:: integer_range.png
+.. image:: images/integer_range.png
 
 Inputs
 ------
@@ -26,4 +26,4 @@ Advanced Node Settings
 Examples of Usage
 -----------------
 
-.. image:: integer_range.gif
+.. image:: gifs/integer_range.gif
