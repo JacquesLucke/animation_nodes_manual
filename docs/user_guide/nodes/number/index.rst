@@ -9,8 +9,8 @@ Number
     Integer Range <integer_range>
     Float Range <float_range>
     Random Number <random_number>
-    Wiggle <wiggle>
-    Mix <mix>
+    Wiggle <number_wiggle>
+    Mix Floats <mix_floats>
     Map Range <map_range>
     Clamp <clamp>
     Convert Angle <convert_angle>
