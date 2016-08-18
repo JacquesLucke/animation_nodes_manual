@@ -14,10 +14,10 @@ Number
     Map Range <map_range>
     Clamp <clamp>
     Convert Angle <convert_angle>
-    Convert Float to Integer <convert_float_to_integer>
-    Round <round>
+    Round <round_number>
     Math <math>
-    List Math <list_math>
+    List Math <number_list_math>
     Parse Number <parse_number>
+    Float To Integer <float_to_integer>
 
 .. image:: images/number_overview.png
