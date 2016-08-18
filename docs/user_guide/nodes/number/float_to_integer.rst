@@ -9,7 +9,7 @@ This node convert floats into integers using one of 3 algorithms. (See advanced 
 
 Inputs
 ------
- 
+
 - **Float** - A float to convert to integer.
 
 Outputs
@@ -21,6 +21,7 @@ Advanced Node Settings
 ----------------------
 
 The node has 3 algorithms to do the conversion:
+
 - **Floor** - It returns only the whole number.
 - **Ceiling** - It returns the next whole number.
 - **Round** - Standard round operation, Where *floor* is used if the fraction is less than 0.5 and *ceiling* is used if the fraction is larger than 0.5.
