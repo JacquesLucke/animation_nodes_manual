@@ -4,6 +4,7 @@ Number List Math
 Description
 -----------
 This node carry 5 math operations that deals with lists:
+
 - **Add** - Adds all the elements of the list.
 - **Multiply** - Multiplies all the elements on the list.
 - **Min** - Rerturns the smallest number in the list.
@@ -14,7 +15,7 @@ This node carry 5 math operations that deals with lists:
 
 Inputs
 ------
- 
+
 - **Number list** - A number list, can be integer or float.
 
 Outputs
