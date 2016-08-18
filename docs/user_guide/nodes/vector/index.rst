@@ -2,10 +2,10 @@ Vector
 ======
 
 .. toctree::
-   Separate <separate>
-   Combine <combine>
-   From Value <from_value>
-   List <list>
+   Separate <separate_vector>
+   Combine <combine_vector>
+   From Value <vector_from_value>
+   List <vector_list>
    Randomizse <randomize>
    Wiggle <wiggle>
    Mix <mix>
