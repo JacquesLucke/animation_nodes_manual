@@ -2,6 +2,8 @@ Number
 ======
 
 .. toctree::
+    :maxdepth: 1
+
     Integer <integer>
     Float <float>
     Integer List <integer_list>
