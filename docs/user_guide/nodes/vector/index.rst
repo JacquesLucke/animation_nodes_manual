@@ -6,9 +6,9 @@ Vector
    Combine <combine_vector>
    From Value <vector_from_value>
    List <vector_list>
-   Randomizse <randomize>
-   Wiggle <wiggle>
-   Mix <mix>
+   Random Vector <random_vector>
+   Wiggle <vector_wiggle>
+   Mix Vectors <mix_vectors>
    Length <length>
    Distance <distance>
    Math <math>
