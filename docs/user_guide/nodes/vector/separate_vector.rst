@@ -1,4 +1,4 @@
-Speparate Vector
+Separate Vector
 ================
 
 Description
@@ -6,7 +6,7 @@ Description
 This node takes a 3D vector and returns it's components.
 
 .. image:: images/separate_vector_node.png
-   :width: 180pt
+   :width: 160pt
 
 Inputs
 ------
