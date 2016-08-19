@@ -6,10 +6,11 @@ Description
 This node takes a 3D vector and returns it's components.
 
 .. image:: images/separate_vector_node.png
+   :width: 180pt
 
 Inputs
 ------
- 
+
 - **Vector** - A 3D vector to decompose.
 
 Outputs
