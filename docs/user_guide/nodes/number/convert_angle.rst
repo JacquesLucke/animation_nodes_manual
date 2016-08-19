@@ -6,10 +6,11 @@ Description
 This node let you convert from *Degree* to *Radian* or from *Radian* to *Degree*.
 
 .. image:: images/convert_angle_node.png
+   :width: 160pt
 
 Inputs
 ------
- 
+
 - **Degree/Radian** - The angle to convert.
 
 Outputs

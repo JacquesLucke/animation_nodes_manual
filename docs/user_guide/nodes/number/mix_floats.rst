@@ -6,10 +6,11 @@ Description
 This node mix between 2 floats by a defined factor.
 
 .. image:: images/mix_floats_node.png
+   :width: 160pt
 
 Inputs
 ------
- 
+
 - **Factor** - A float that control the amount of each float input to the output, Where 0 means the first float only and 1 means the second float only.
 
 

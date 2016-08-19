@@ -6,10 +6,11 @@ Description
 This node compose a 3D vector from X,Y,Z components.
 
 .. image:: images/combine_vector_node.png
+   :width: 160pt
 
 Inputs
 ------
- 
+
 - **X** - The X component of the output vector.
 - **Y** - The Y component of the output vector.
 - **Z** - The Z component of the output vector.

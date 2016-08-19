@@ -6,6 +6,7 @@ Description
 This node is used to create an arbitrary list of floats. A new float can be added with the *New Input* button. A new float can also be added by plugging it into the transperant socket.
 
 .. image:: images/float_list.png
+   :width: 160pt
 
 Inputs
 ------

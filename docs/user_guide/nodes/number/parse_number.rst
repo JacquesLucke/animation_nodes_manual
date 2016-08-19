@@ -6,6 +6,7 @@ Description
 This node is used to convert string data type that include numbers into a float data type.
 
 .. image:: images/parse_number_node.png
+   :width: 160pt
 
 Inputs
 ------

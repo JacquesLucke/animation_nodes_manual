@@ -6,10 +6,11 @@ Description
 This node generate a random vector with a defined magnitude.
 
 .. image:: images/random_vector_node.png
+   :width: 160pt
 
 Inputs
 ------
- 
+
 - **Seed** - Seed for the random generator, Where different seed generate different random vector.
 - **Scale** - The magnitude of the generated vector.
 

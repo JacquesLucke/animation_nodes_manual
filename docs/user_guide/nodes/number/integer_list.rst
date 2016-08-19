@@ -6,6 +6,7 @@ Description
 This node is used to create an arbitrary list of integers. A new integer can be added with the *New Input* button. A new integer can also be added by plugging it into the transperant socket.
 
 .. image:: images/integer_list_node.png
+   :width: 160pt
 
 Inputs
 ------

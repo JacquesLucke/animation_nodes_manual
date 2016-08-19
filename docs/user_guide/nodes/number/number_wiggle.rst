@@ -8,10 +8,11 @@ This node is a 1D pelin noise generator, You can think of it as random numbers t
 It is a function of variable **Evolution**, Which means every value of the variable **Evolution** has a corresponding value calculated based on the node options and this value is the output of the node.
 
 .. image:: images/number_wiggle_node.png
+   :width: 160pt
 
 Inputs
 ------
- 
+
 - **Seed** - Seed for the random generator, Where different seed generate different noise.
 - **Evolution** - A float that is the variable of the function wiggle.
 - **Speed** - It is the frequency of the noise or the rate of change of the values.

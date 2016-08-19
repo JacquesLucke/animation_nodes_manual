@@ -6,10 +6,11 @@ Description
 This node is used to create an arbitrary list of vectors. A new vector can be added with the *New Input* button. A new vector can also be added by plugging it into the transperant socket.
 
 .. image:: images/vector_list_node.png
+   :width: 160pt
 
 Inputs
 ------
- 
+
 - **Vector** - A vector at the index 0.
 - **Vector** - A vector at the index 1.
 - **Vector** - ...

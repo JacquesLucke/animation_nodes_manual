@@ -6,10 +6,11 @@ Description
 This node compose a vector with a uniform value in all of it's components.
 
 .. image:: images/vector_from_value_node.png
+   :width: 160pt
 
 Inputs
 ------
- 
+
 - **Value** - A value that is the X,Y and Z component of the output vector.
 
 Outputs

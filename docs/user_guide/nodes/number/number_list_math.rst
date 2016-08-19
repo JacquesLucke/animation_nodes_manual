@@ -12,6 +12,7 @@ This node carry 5 math operations that deals with lists:
 - **Average** - Returns the average of all the elements of the list.
 
 .. image:: images/number_list_math_node.png
+   :width: 160pt
 
 Inputs
 ------

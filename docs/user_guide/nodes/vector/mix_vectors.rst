@@ -6,10 +6,11 @@ Description
 This node mix between 2 vectors by a defined factor.
 
 .. image:: images/mix_vectors_node.png
+   :width: 160pt
 
 Inputs
 ------
- 
+
 - **Factor** - A float that control the amount of each vector input to the output, Where 0 means the first vector only and 1 means the second vector only.
 
 

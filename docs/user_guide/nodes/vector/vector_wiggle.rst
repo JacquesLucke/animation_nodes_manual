@@ -7,11 +7,12 @@ This node generate a random vector by generating a 1D perlin noise in all of it'
 It is just like a :doc:`Number Wiggle <../number/number_wiggle>` node in the vector's components.
 
 .. image:: images/vector_wiggle_node.png
+   :width: 160pt
 
 Inputs
 ------
- 
-The inputs are just like :doc:`Number Wiggle <../number/number_wiggle>` node except for the Amplitude. 
+
+The inputs are just like :doc:`Number Wiggle <../number/number_wiggle>` node except for the Amplitude.
 
 
 - **Amplitude** - A vector that control the the amplitude of each component's perlin noise.
@@ -38,5 +39,3 @@ Examples of Usage
 -----------------
 
 .. image:: gifs/vector_wiggle_node_example.gif
-
-

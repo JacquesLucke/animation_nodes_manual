@@ -34,6 +34,7 @@ This node carry 26 math operation:
 
 
 .. image:: images/math_node.png
+   :width: 160pt
 
 Inputs
 ------

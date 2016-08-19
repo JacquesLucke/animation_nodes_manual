@@ -3,14 +3,15 @@ Map Range
 
 Description
 -----------
-This node remap a value from a defined interval to a new interval. 
+This node remap a value from a defined interval to a new interval.
 Every value has a relative position in a specific interval, This node find a new value that match the relative position but in a new defined interval.
 
 .. image:: images/map_range_node.png
+   :width: 160pt
 
 Inputs
 ------
- 
+
 - **Value** - A float that should to be remaped.
 - **Input Min** - The start of the original interval.
 - **Input Max** - The end of the original interval.
