@@ -12,8 +12,10 @@ Vector
     Random Vector <random_vector>
     Wiggle <vector_wiggle>
     Mix Vectors <mix_vectors>
-    Length <length>
     Math <math>
+	Dot Product <dot_product>
+	Vector Angle <vector_angle>
+	Vector Length <vector_length>
     Transform Vector <transform_vector>
     Transform Vector List <transform_vector_list>
     Project Point on Line <project_point_on_line>
