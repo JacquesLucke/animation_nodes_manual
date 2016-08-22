@@ -3,7 +3,7 @@ Vector Math
 
 Description
 -----------
-This node carry 11 Vector math operation:
+This node carries 11 vector math operation:
 
 - **Add** - Add input vector A to input vector B.
 - **Subtract** - Subtract input vector B from input vector A.
@@ -19,6 +19,7 @@ This node carry 11 Vector math operation:
 
 .. image:: images/vector_math_node.png
    :width: 160pt
+
 
 Inputs
 ------
@@ -42,3 +43,18 @@ Notes
 -----
 
 - The **Project** operation will project the vector on a hypothetical straight line that has the same location and slope of the input line if the input line was shorter than the projection.
+
+Operations
+----------
+
+.. image:: gifs/vector_math_node_add.gif
+.. image:: gifs/vector_math_node_subtract.gif
+.. image:: gifs/vector_math_node_multiply.gif
+.. image:: gifs/vector_math_node_divide.gif
+.. image:: gifs/vector_math_node_cross_product.gif
+.. image:: gifs/vector_math_node_project.gif
+.. image:: gifs/vector_math_node_reflect.gif
+.. image:: gifs/vector_math_node_normalize.gif
+.. image:: gifs/vector_math_node_scale.gif
+.. image:: gifs/vector_math_node_absolute.gif
+.. image:: gifs/vector_math_node_snap.gif
