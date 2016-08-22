@@ -1,9 +1,32 @@
-Transform vector
+Transform Vector
 ================
 
-The transform vector node can apply transformations to a vector. 
+Description
+-----------
+This node transform a point based on an input *Transformation Matrix*.
 
-This node takes 2 inputs:
+.. image:: images/transform_vector_node.png
+   :width: 160pt
 
-- **A vector:** to which we will apply a transformation
-- **A transformation matrix:** that holds the information about the transformations.
+Inputs
+------
+ 
+- **Vector** - The vector to transform.
+- **Matrix** - A transformation matrix.
+
+Outputs
+-------
+
+- **Vector** - The new coordinates of the point after transformation.
+
+Advanced Node Settings
+----------------------
+
+- N/A
+
+Examples of Usage
+-----------------
+
+.. image:: gifs/transform_vector_node_example.gif
+
+
