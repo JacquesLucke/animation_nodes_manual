@@ -11,6 +11,9 @@ Rotation
     Mix Euler <mix_euler>
     Random Euler <random_euler>
     Euler Wiggle <euler_wiggle>
+	Combine Quaternion <combine_quaternion>
+	Separate Quaternion <separate_quaternion>
+	Quaternion List <quaternion_list>
     Convert Rotation Types <convert_rotation_types>
     Direction to Rotation <direction_to_rotation>
     Rotation to Direction <rotation_to_direction>
