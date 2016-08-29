@@ -14,6 +14,7 @@ Rotation
 	Combine Quaternion <combine_quaternion>
 	Separate Quaternion <separate_quaternion>
 	Quaternion List <quaternion_list>
+	Quaternion Math <quaternion_math>
     Convert Rotation Types <convert_rotation_types>
     Direction to Rotation <direction_to_rotation>
     Rotation to Direction <rotation_to_direction>
