@@ -1,6 +1,41 @@
 Characters
 ==========
 
-.. image:: images/characters_node.png
+Description
+-----------
+This node return a string that contain all the characters in a specific category including:
 
-This node returns some texts with a specific character set. This is mostly used together with the random text node.
+- **Lower Case**
+- **Upper Case**
+- **Digits**
+- **Special**
+- **Line Break**
+- **All**
+
+.. image:: images/characters_node.png
+   :width: 160pt
+
+Inputs
+------
+
+- N/A
+
+Outputs
+-------
+
+- **Lower Case** - All lower case characters.
+- **Upper Case** - All upper case characters.
+- **Digits** - All the digits.
+- **Special** - All special characters like (:,?").
+- **Line Break** - Include a new line.
+- **All** - All of the previouse category.
+
+Advanced Node Settings
+----------------------
+
+- N/A
+
+Examples of Usage
+-----------------
+
+.. image:: gifs/characters_node_example.gif
