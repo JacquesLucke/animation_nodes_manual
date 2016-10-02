@@ -26,7 +26,10 @@ Download the Source Code
 
     After that there should be a folder called exactly ``animation_nodes`` in
     the ``addons`` folder. It should contain these two files (beside others):
-    ``__init__.py`` and ``setup.py``.
+    ``__init__.py`` and ``setup.py``. (If you are using this guide before the
+    official AN 2.0 release you have to switch to the ``cython`` branch.
+    You can do this either by running ``git checkout cython`` or by using the
+    GUI you installed.)
 
     Blender should now already be able to find the addon but it cannot be activated
     yet because we first need to compile it.
