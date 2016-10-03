@@ -19,26 +19,23 @@ Download the Source Code
     `Fork <https://guides.github.com/activities/forking/>`_ the addon repository.
 
 5.
-    Clone the repository into Blenders addon folder.
+    Clone the repository to your local hard drive.
 
-    The path should be like this:
-    ``C:\Users\#NAME#\AppData\Roaming\Blender Foundation\Blender\2.77\scripts\addons``
+    .. attention::
+        The cloning target location used to be the addon folder of Blender.
+        This is no longer the case. You can clone it anywhere you want.
 
-    After that there should be a folder called exactly ``animation_nodes`` in
-    the ``addons`` folder. It should contain these two files (beside others):
-    ``__init__.py`` and ``setup.py``. (If you are using this guide before the
-    official AN 2.0 release you have to switch to the ``cython`` branch.
-    You can do this either by running ``git checkout cython`` or by using the
-    GUI you installed.)
 
-    Blender should now already be able to find the addon but it cannot be activated
-    yet because we first need to compile it.
+    If you are using this guide before the official AN 2.0 release you have to
+    switch to the ``cython`` branch. You can do this either by running
+    ``git checkout cython`` or by using the GUI you installed.
+
 
 
 Compile the Code
 ****************
 
-1.
+1. Install Python
     Install Python 3.5.x on your system. Older versions are not supported.
     I suggest to install *Anaconda* (which contains Python 3.5.x) because
     it makes installing Cython later much easier.
@@ -53,7 +50,7 @@ Compile the Code
     to run ``python3 -V`` or ``python3.5 -V``. If that is the case, use this
     version later.
 
-2.
+2. Install Cython
     When you installed *Anaconda* there is now an command line tool called ``conda``.
     It allows you to easily install other python packages.
 
@@ -62,27 +59,34 @@ Compile the Code
     If you have not used the *Anaconda* package, look here for more information
     on how to install cython: http://cython.readthedocs.io/en/latest/src/quickstart/install.html
 
-If you are lucky this was it already (in my case it was not..)
+3. Run the ``setup.py`` script
+    Open the ``setup.py`` file. Inside there is a variable called ``addonsDirectory``
+    at the top. You may want to change it to the location of the addons folder
+    of your Blender version. This allows the setup script to automatically copy
+    the complete build into this folder. Take care that you don't accidently
+    commit this change (or at least undo it before making Pull Requests).
+    If you know a better solution to this problem, please create an Issue on Github.
 
-To test if everything is setup correctly we can just try to compile AN now.
-For that navigate into the ``animation_nodes`` addon folder and open up a
-terminal. (In Windows 10 you can hold down shift and right click into the
-folder. Holding down shift will show you an extra option to open up a console)
+    Run ``python setup.py``.
 
-Run this command: ``python setup.py`` (or ``python3`` or whatever you need)
+    This can take multiple minutes the first time.
+    Take a look into the **Troubleshooting** section if an error occured.
 
-Now it should start to do something. The whole script can take a minute or two
-to run. If it runs without problems you're done. You can now start Blender
-and activate the addon. If not, checkout the troubleshooting section.
+The ``setup.py`` file has a few command line arguments:
 
-As long as you only change ``.py`` files you don't have to recompile again.
+    - ``-all``
+        This will rebuild all cython files which can be quite useful when
+        Cython does not automatically detect all files that need to update
+        after you've made a change. Should not be needed in most cases though.
+    - ``-export``
+        Create an ``animation_nodes.zip`` file that can be shared with others.
 
 
 Troubleshooting
 ***************
 
-If your problem is not mentioned here, please report it here:
-https://github.com/JacquesLucke/animation_nodes_manual/issues/new
+If your problem is not mentioned here, please
+`report <https://github.com/JacquesLucke/animation_nodes_manual/issues/new>`_ it.
 
 unable to find vcvarsall.bat
 ----------------------------
