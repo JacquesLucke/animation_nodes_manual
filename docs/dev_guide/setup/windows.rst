@@ -30,6 +30,12 @@ Download the Source Code
     switch to the ``cython`` branch. You can do this either by running
     ``git checkout cython`` or by using the GUI you installed.
 
+6.
+    Now there should be a file called ``config.default.py``. Duplicate it and
+    name the new file ``config.py``. Open the new file and change it so that the
+    variable ``addonsDirectory`` contains the path to the addons folder on your
+    system. This will be read later to copy the build directly there automatically.
+
 
 
 Compile the Code
