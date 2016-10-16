@@ -30,12 +30,6 @@ Download the Source Code
     switch to the ``cython`` branch. You can do this either by running
     ``git checkout cython`` or by using the GUI you installed.
 
-6.
-    Now there should be a file called ``config.default.py``. Duplicate it and
-    name the new file ``config.py``. Open the new file and change it so that the
-    variable ``addonsDirectory`` contains the path to the addons folder on your
-    system. This will be read later to copy the build directly there automatically.
-
 
 
 Compile the Code
@@ -66,12 +60,12 @@ Compile the Code
     on how to install cython: http://cython.readthedocs.io/en/latest/src/quickstart/install.html
 
 3. Run the ``setup.py`` script
-    Open the ``setup.py`` file. Inside there is a variable called ``addonsDirectory``
-    at the top. You may want to change it to the location of the addons folder
-    of your Blender version. This allows the setup script to automatically copy
-    the complete build into this folder. Take care that you don't accidently
-    commit this change (or at least undo it before making Pull Requests).
-    If you know a better solution to this problem, please create an Issue on Github.
+    The repository you downloaded contains a ``config.default.py`` file.
+    When you run the ``setup.py`` script the first time, it copies the
+    default-configs into a ``config.py`` file. This file is not tracked by
+    git, so you can adapt it depending on your system. It's main purpose atm is
+    to store the path to Blenders addon directory. You might want to change this
+    path so that the compiled build can be copied over there automatically.
 
     Run ``python setup.py``.
 
@@ -86,6 +80,8 @@ The ``setup.py`` file has a few command line arguments:
         after you've made a change. Should not be needed in most cases though.
     - ``-export``
         Create an ``animation_nodes.zip`` file that can be shared with others.
+    - ``-nocopy``
+        Don't copy the compiled build over to Blenders addon directory.
 
 
 Troubleshooting
