@@ -42,6 +42,9 @@ Compile the Code
 
     Download Anaconda: https://www.continuum.io/downloads
 
+    Make sure that Anaconda has been added to the system environmant variable ``PATH``.
+    If you had an open console you'll have to restart it.
+
     To test if you are using the right version you can run ``python -V`` in
     any terminal. For me it returns ``Python 3.5.1 :: Anaconda 4.0.0 (64-bit)``,
     different outputs are possible, just make sure that the Python version is correct.
@@ -59,7 +62,7 @@ Compile the Code
     If you have not used the *Anaconda* package, look here for more information
     on how to install cython: http://cython.readthedocs.io/en/latest/src/quickstart/install.html
 
-3. Run the ``setup.py`` script
+3. Run the Setup script
     The repository you downloaded contains a ``config.default.py`` file.
     When you run the ``setup.py`` script the first time, it copies the
     default-configs into a ``config.py`` file. This file is not tracked by
