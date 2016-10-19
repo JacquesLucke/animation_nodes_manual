@@ -72,18 +72,21 @@ Compile the Code
 
     Run ``python setup.py``.
 
+    Make sure that the 'current' path is correct in the console. You should *not*
+    do something like ``python path\to\setup.py``.
+
     This can take multiple minutes the first time.
     Take a look into the **Troubleshooting** section if an error occured.
 
 The ``setup.py`` file has a few command line arguments:
 
-    - ``-all``
+    - ``--all``
         This will rebuild all cython files which can be quite useful when
         Cython does not automatically detect all files that need to update
         after you've made a change. Should not be needed in most cases though.
-    - ``-export``
+    - ``--export``
         Create an ``animation_nodes.zip`` file that can be shared with others.
-    - ``-nocopy``
+    - ``--nocopy``
         Don't copy the compiled build over to Blenders addon directory.
 
 
