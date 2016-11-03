@@ -27,7 +27,7 @@ Advanced Node Settings
 Note
 ----
 
-By how the *Mix floats* works, A factor that is larger than 1 won't be clamped but rather multiplied to the second float, That's why the node has an option to *Clamp Factor*. So if *Clamp factor* is enables, Any factor that is larger than 1 will resturn the second float.
+By how the *Mix floats* works, A factor that is larger than 1 won't be clamped but rather multiplied to the second float, That's why the node has an option to *Clamp Factor*. So if *Clamp factor* is enables, Any factor that is larger than 1 will return the second float.
 
 Examples of Usage
 -----------------
