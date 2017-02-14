@@ -1,4 +1,4 @@
-Get List Element
+Get List Length
 ================
 
 Description
