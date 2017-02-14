@@ -43,3 +43,6 @@ External Links
 
 **ONELVXE Studio:**
     *English (Video Tutorials):* https://www.youtube.com/playlist?list=PLV9xOovGG3hhavLVC3Zh-90R2rAESw24f
+
+**Zach Hixson:**
+    *English (Video Tutorials):* https://www.youtube.com/playlist?list=PLJSCK4DjIWhk-JIGOIJKLUB1bGXfDBgzZ
