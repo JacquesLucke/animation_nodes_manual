@@ -100,16 +100,16 @@ This node is already fully functional now. We will continue to work on this node
         bl_idname = "an_CopyLocationWithOffsetNode"
         bl_label = "Copy Location with Offset"
 
-    def create(self):
-        self.newInput("Object", "Source", "source")
-        self.newInput("Object", "Target", "target")
-        self.newInput("Vector", "Offset", "offset")
+        def create(self):
+            self.newInput("Object", "Source", "source")
+            self.newInput("Object", "Target", "target")
+            self.newInput("Vector", "Offset", "offset")
 
-    def execute(self, source, target, offset):
-        if source is None or target is None:
-            return
+        def execute(self, source, target, offset):
+            if source is None or target is None:
+                return
 
-        target.location = source.location + offset
+            target.location = source.location + offset
 
 
 .. _Cython: http://www.cython.org/
