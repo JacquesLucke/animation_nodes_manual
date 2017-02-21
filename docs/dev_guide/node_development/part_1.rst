@@ -1,5 +1,5 @@
-Node Development - Part 1
-=========================
+Part 1 - Introduction and First Node
+====================================
 
 Welcome to this introduction into node development in Animation Nodes 2.0 or higher. In this guide you will learn how to get started with writing your own nodes (and I suggest you learn this before you try to modify existing nodes!). It will consist of multiple parts. Each part will go a bit more into detail so that you will be able to write more complex nodes in the end.
 
@@ -77,7 +77,7 @@ When creating a socket, we have to specify at least three parameters:
 3. Identifier:
     The identifier is not very important for us yet. However you it shouldn't change if not absolutely necessary, but changing it is not as bad as changing the ``bl_idname``. It is common to use this identifier as variable name in the code later.
 
-Last but not least we have to put some code into the ``execute`` function. As soon as the node has input values this function has to have parameters. In this case we need three parameters, the names should correspond to the socket identifiers. In the function body we can do whatever we want with these objects. One thing we have to take care of is an object can be ``None``. This has to be checked before anything else happens because if there is an error in the node, the whole node tree suddenly stops working.
+Last but not least we have to put some code into the ``execute`` function. As soon as the node has input sockets this function has to have parameters. In this case we need three parameters, the names should correspond to the socket identifiers. Also the order has to be the same. In the function body we can do whatever we want with these objects. One thing we have to take care of is an object can be ``None``. This has to be checked before anything else happens because if there is an error in the node, the whole node tree suddenly stops working.
 
 .. code-block:: python
     :linenos:
@@ -88,7 +88,7 @@ Last but not least we have to put some code into the ``execute`` function. As so
 
         target.location = source.location + offset
 
-This node is already fully functional now. We will continue to work on this node in the next part. Here is all the code for this node again:
+This node is already fully functional now. Below is all the code for this node again. To test it you have to restart Blender. If you you used the Complete Setup described at the top you also have to run ``python setup.py`` in order to recompile the code and copy it over to Blenders addon directory. Otherwise restarting Blender is enouph.
 
 .. code-block:: python
     :linenos:
@@ -111,5 +111,8 @@ This node is already fully functional now. We will continue to work on this node
 
             target.location = source.location + offset
 
+.. image:: gifs/copy_location_with_offset_1.gif
+
+We will continue to work on this node in the next part.
 
 .. _Cython: http://www.cython.org/

@@ -2,6 +2,7 @@ Node Development
 ================
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
 
-    Part 1 <part_1>
+    Part 1 - Introduction and First Node <part_1>
+    Part 2 - Output Sockets<part_2>
