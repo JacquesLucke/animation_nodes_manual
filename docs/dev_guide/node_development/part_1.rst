@@ -1,7 +1,7 @@
 Part 1 - Introduction and First Node
 ====================================
 
-Welcome to this introduction into node development in Animation Nodes 2.0 or higher. In this guide you will learn how to get started with writing your own nodes (and I suggest you learn this before you try to modify existing nodes!). It will consist of multiple parts. Each part will go a bit more into detail so that you will be able to write more complex nodes in the end.
+Welcome to this introduction into node development in Animation Nodes 2.0 or higher. In this guide you will learn how to get started with writing your own nodes (and I suggest you learn this before you try to modify existing nodes!). It will consist of multiple parts. Each part will go a bit more into detail so that you will be able to write more complex nodes in the end. The following tutorials expect you to have a basic knowledge in Python.
 
 To develop your own nodes you have to setup your development environment first. There are basicly two possible setups:
 
