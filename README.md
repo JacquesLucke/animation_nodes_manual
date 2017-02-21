@@ -18,7 +18,7 @@ If you want to contribute:
 * Install python (Download page for Windows: https://www.python.org/downloads/)
 * Clone the forked repository to your computer
 * Move to your git folder
-* Execute: `pip install -r requirements.txt`
+* Execute: `pip install -r requirements.txt --ignore-installed`
 * Execute: `sphinx-build -b html docs build`
 * The rendered documentation is now in the build directory as HTML
 

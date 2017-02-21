@@ -5,7 +5,7 @@ Developer Guide
     :maxdepth: 2
 
     Setup Environment <setup/index>
-    tutorials/index
+    Node Development <node_development/index>
     socket_types
     node_api
     data_interface
