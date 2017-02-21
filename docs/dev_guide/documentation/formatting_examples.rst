@@ -32,9 +32,9 @@ Capitalise on low hanging fruit to identify a ballpark value added activity to b
 .. tip:: For certain tips for the user.
 
 
-.. code:: python
+.. code-block:: python
+    :linenos:
 
-  def my_function():
-      "just a test"
-      print 8/2
-
+    def my_function():
+        "just a test"
+        print(8/2)
