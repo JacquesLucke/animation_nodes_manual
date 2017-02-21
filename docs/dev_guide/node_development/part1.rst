@@ -77,4 +77,39 @@ When creating a socket, we have to specify at least three parameters:
 3. Identifier:
     The identifier is not very important for us yet. However you it shouldn't change if not absolutely necessary, but changing it is not as bad as changing the ``bl_idname``. It is common to use this identifier as variable name in the code later.
 
+Last but not least we have to put some code into the ``execute`` function. As soon as the node has input values this function has to have parameters. In this case we need three parameters, the names should correspond to the socket identifiers. In the function body we can do whatever we want with these objects. One thing we have to take care of is an object can be ``None``. This has to be checked before anything else happens because if there is an error in the node, the whole node tree suddenly stops working.
+
+.. code-block:: python
+    :linenos:
+
+    def execute(self, source, target, offset):
+        if source is None or target is None:
+            return
+
+        target.location = source.location + offset
+
+This node is already fully functional now. We will continue to work on this node in the next part. Here is all the code for this node again:
+
+.. code-block:: python
+    :linenos:
+
+    import bpy
+    from ... base_types.node import AnimationNode
+
+    class CopyLocationWithOffsetNode(bpy.types.Node, AnimationNode):
+        bl_idname = "an_CopyLocationWithOffsetNode"
+        bl_label = "Copy Location with Offset"
+
+    def create(self):
+        self.newInput("Object", "Source", "source")
+        self.newInput("Object", "Target", "target")
+        self.newInput("Vector", "Offset", "offset")
+
+    def execute(self, source, target, offset):
+        if source is None or target is None:
+            return
+
+        target.location = source.location + offset
+
+
 .. _Cython: http://www.cython.org/
