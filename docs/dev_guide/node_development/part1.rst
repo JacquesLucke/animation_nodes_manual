@@ -22,4 +22,59 @@ Now you are ready to create the actual file. Since Animation Nodes 2.0 there are
 2. `Cython`_ files: ``.pyx``
     Cython is another programming language that builds on top of Python. The main benefit is that it can be compiled into machine code which can make it much faster than normal python code. For most nodes this is absolute overkill, the performance benefit will only be visible be computational expensive operations. Also you can only work with Cython files when you setup the complete working environment.
 
+
+The First Node
+**************
+
+The first simple node we want to create will be able to copy the location of one object to another object with an offset.
+
+First create a file for this node following the rules above. Then copy this little template code into the file:
+
+.. code-block:: python
+    :linenos:
+
+    import bpy
+    from ... base_types.node import AnimationNode
+
+    class TemplateNode(bpy.types.Node, AnimationNode):
+        bl_idname = "an_TemplateNode"
+        bl_label = "Template"
+
+        def create(self):
+            pass
+
+        def execute(self):
+            pass
+
+This template is what I personally use for all new nodes, it is very easy to build up on it.
+
+Now we have to choose a name for our new node. The most important thing here is the ``bl_idname`` because this is the identifier for your node, when you change it later on, all files that used this node will be broken. Also it should have a prefix like ``an_`` so that it there will be no problems with other addons. So make sure that you give it a good name that tells as exact as possible what the node does. The class name and the ``bl_label`` property can be changed later without problems if necessary. Here is the updated "header" for our specific example:
+
+.. code-block:: python
+    :linenos:
+
+    class CopyLocationWithOffsetNode(bpy.types.Node, AnimationNode):
+        bl_idname = "an_CopyLocationWithOffsetNode"
+        bl_label = "Copy Location with Offset"
+
+The next step is to create the sockets we need. Therefor there is the ``create(self)`` function. In our example node we need three inputs. One source object, one target object and the offset vector. So let's create those:
+
+.. code-block:: python
+    :linenos:
+
+    def create(self):
+        #               Type      Name   Identifier
+        self.newInput("Object", "Source", "source")
+        self.newInput("Object", "Target", "target")
+        self.newInput("Vector", "Offset", "offset")
+
+When creating a socket, we have to specify at least three parameters:
+
+1. Type:
+    This will determine which socket will be created, every socket has a different color. There are a lot of socket types. Here are a few common one: ``Object``, ``Vector``, ``Float``, ``Integer``, ``Object List``, ...
+2. Name:
+    This name will be displayed in the Node Editor in Blender.
+3. Identifier:
+    The identifier is not very important for us yet. However you it shouldn't change if not absolutely necessary, but changing it is not as bad as changing the ``bl_idname``. It is common to use this identifier as variable name in the code later.
+
 .. _Cython: http://www.cython.org/
