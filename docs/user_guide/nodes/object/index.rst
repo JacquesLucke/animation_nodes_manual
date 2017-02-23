@@ -4,7 +4,7 @@ Object
 .. toctree::
    :maxdepth: 2
 
-   Object <object>
+   Object Input <object_input>
    List <list>
    From Group <from_group>
    Transforms Input <transforms_input>
