@@ -11,4 +11,4 @@ Clicking the eye dropper icon will set the input object to the active object in 
 .. image:: images/object_input_node.png
    :width: 160pt
 
-.. include:: /includes/nodes_includes/show_in_viewport.rst
+.. include:: /includes/nodes/show_in_viewport.rst
