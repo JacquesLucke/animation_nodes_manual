@@ -5,7 +5,7 @@ Object
    :titlesonly:
 
    Object Input <object_input>
-   List <list>
+   Object List <object_list>
    From Group <from_group>
    Transforms Input <transforms_input>
    Transforms Output <transforms_output>
