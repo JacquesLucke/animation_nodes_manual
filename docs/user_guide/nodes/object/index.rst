@@ -2,7 +2,7 @@ Object
 ======
 
 .. toctree::
-   :maxdepth: 1
+   :titlesonly:
 
    Object Input <object_input>
    List <list>
