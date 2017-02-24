@@ -11,7 +11,7 @@ Object
    Transforms Output <object_transforms_output>
    Matrix Input <matrix_input>
    Matrix Output <matrix_output>
-   Attribute Input <attribute_input>
+   Attribute Input <object_attribute_input>
    Attribute Output <attribute_output>
    Data Path Output <data_path_output>
    Visibility Input <visibility_input>
