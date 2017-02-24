@@ -7,7 +7,7 @@ Object
    Object Input <object_input>
    Object List <object_list>
    Objects From Group <objects_from_group>
-   Transforms Input <transforms_input>
+   Transforms Input <object_transforms_input>
    Transforms Output <transforms_output>
    Matrix Input <matrix_input>
    Matrix Output <matrix_output>
