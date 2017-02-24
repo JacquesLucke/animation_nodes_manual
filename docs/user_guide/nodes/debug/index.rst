@@ -2,6 +2,8 @@ Debug
 =====
 
 .. toctree::
+   :titlesonly:
+
     Debug <debug>
     Debug Loop <debug_loop>
     Debug List <debug_list>

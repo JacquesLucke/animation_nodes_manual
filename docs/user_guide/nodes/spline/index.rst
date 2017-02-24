@@ -2,6 +2,8 @@ Spline
 ======
 
 .. toctree::
+   :titlesonly:
+
     Get from Object <get_from_object>
     Create from Points <create_from_points>
     Create from Edges <create_from_edges>

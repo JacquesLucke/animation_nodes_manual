@@ -2,6 +2,8 @@ Animation
 =========
 
 .. toctree::
+   :titlesonly:
+
     Time Info <time_info>
     Delay <delay>
     Repeat <repeat>

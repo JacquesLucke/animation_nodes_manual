@@ -2,7 +2,7 @@ Vector
 ======
 
 .. toctree::
-    :maxdepth: 1
+   :titlesonly:
 
     Separate <separate_vector>
     Combine <combine_vector>

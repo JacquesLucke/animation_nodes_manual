@@ -2,7 +2,7 @@ List
 ====
 
 .. toctree::
-    :maxdepth: 1
+   :titlesonly:
 
     Create List <create_list>
     Combine List <combine_list>

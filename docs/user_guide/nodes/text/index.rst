@@ -2,7 +2,7 @@ Text
 ====
 
 .. toctree::
-    :maxdepth: 1
+   :titlesonly:
 
     String <string_input>
     String List <string_list>

@@ -2,6 +2,8 @@ Sound
 =====
 
 .. toctree::
+   :titlesonly:
+
     Bake Sound <bake>
     Sound from Sequences <sound_from_sequences>
     Get All Sequences <get_all_sequences>

@@ -2,7 +2,7 @@ Matrix
 ======
 
 .. toctree::
-    :maxdepth: 1
+   :titlesonly:
 
     Compose Matrix <compose_matrix>
     Decompose Matrix <decompose_matrix>

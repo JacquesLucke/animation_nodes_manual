@@ -2,6 +2,8 @@ KD & BVH Tree
 =============
 
 .. toctree::
+   :titlesonly:
+
     Construct <construct>
     Find Nearest <find_nearest>
     Find Amount <find_amount>

@@ -4,7 +4,7 @@ Layout
 Here you will find explanations for the layout nodes.
 
 .. toctree::
-   :maxdepth: 3
+   :titlesonly:
 
    frame
    reroute
