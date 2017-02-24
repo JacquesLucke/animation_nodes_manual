@@ -13,7 +13,7 @@ Object
    Matrix Output <matrix_output>
    Attribute Input <object_attribute_input>
    Attribute Output <object_attribute_output>
-   Data Path Output <data_path_output>
+   Data Path Output <object_data_path_output>
    Visibility Input <visibility_input>
    Visibility Output <visibility_output>
    Layer Visibility Output <layer_visibility_output>
