@@ -18,6 +18,7 @@ Object
    Visibility Output <object_visibility_output>
    Layer Visibility Output <object_layer_visibility_output>
    Shape Keys From Object <shape_keys_from_object>
+   Shape key Output <shape_key_output>
    ID Key <id_key>
    Copy Data <copy_data>
    Set Keyframes <set_keyframes>
