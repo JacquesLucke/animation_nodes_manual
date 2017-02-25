@@ -15,7 +15,7 @@ Object
    Attribute Output <object_attribute_output>
    Data Path Output <object_data_path_output>
    Visibility Input <object_visibility_input>
-   Visibility Output <visibility_output>
+   Visibility Output <object_visibility_output>
    Layer Visibility Output <layer_visibility_output>
    ID Key <id_key>
    Copy Data <copy_data>
