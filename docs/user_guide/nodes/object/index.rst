@@ -22,6 +22,7 @@ Object
    ID Key <object_id_key>
    Copy Data <copy_object_data>
    Set Keyframes <set_keyframes>
+   Object Group Operation <object_group_operation>
    Utils <utils/index>
    Instancer <instancer>
 
