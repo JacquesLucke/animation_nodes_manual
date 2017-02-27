@@ -24,6 +24,6 @@ Object
    Set Keyframes <set_keyframes>
    Object Group Operation <object_group_operation>
    Utils <utils/index>
-   Instancer <instancer>
+   Instancer <object_instancer>
 
 .. image:: images/object_overview.png
