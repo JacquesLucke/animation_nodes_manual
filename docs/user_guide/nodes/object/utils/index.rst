@@ -9,3 +9,4 @@ Utils
     Update Matrices <update_object_matrices>
     Rest Transforms <reset_object_transforms>
     Copy Transforms <copy_transforms>
+    Get Selected Objects <get_selected_objects>

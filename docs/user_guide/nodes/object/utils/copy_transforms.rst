@@ -6,7 +6,7 @@ Description
 This node will copy the location, rotation and scale of an object to another.
 
 .. image:: images/copy_transforms_node.png
-   :width: 160pt
+   :width: 200pt
 
 Inputs
 ------
