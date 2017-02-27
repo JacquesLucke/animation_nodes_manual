@@ -10,3 +10,4 @@ Utils
     Rest Transforms <reset_object_transforms>
     Copy Transforms <copy_transforms>
     Get Selected Objects <get_selected_objects>
+    Get Active Camera <get_active_camera>
