@@ -20,7 +20,7 @@ Object
    Shape Keys From Object <shape_keys_from_object>
    Shape key Output <shape_key_output>
    ID Key <object_id_key>
-   Copy Data <copy_data>
+   Copy Data <copy_object_data>
    Set Keyframes <set_keyframes>
    Utils <utils/index>
    Instancer <instancer>
