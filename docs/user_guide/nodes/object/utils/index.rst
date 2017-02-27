@@ -6,3 +6,4 @@ Utils
 
     Move <move_object>
     Transform <transform_object>
+    Update Matrices <update_object_matrices>
