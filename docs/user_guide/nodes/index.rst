@@ -8,8 +8,8 @@ Nodes
 Here you will find explanations for all the different nodes.
 
 .. toctree::
-   :maxdepth: 2
-   
+   :titlesonly:
+
    number/index
    vector/index
    rotation/index
@@ -33,4 +33,3 @@ Here you will find explanations for all the different nodes.
    debug/index
    subprograms/index
    layout/index
-

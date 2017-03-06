@@ -2,6 +2,8 @@ Subprograms
 ===========
 
 .. toctree::
+   :titlesonly:
+
     Group <group>
     Loop <loop>
     Script <script>

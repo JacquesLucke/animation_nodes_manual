@@ -2,7 +2,7 @@ Number
 ======
 
 .. toctree::
-    :maxdepth: 1
+   :titlesonly:
 
     Integer <integer>
     Float <float>

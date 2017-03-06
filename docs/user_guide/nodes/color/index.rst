@@ -2,7 +2,7 @@ Color
 =====
 
 .. toctree::
-    :maxdepth: 1
+   :titlesonly:
 
     Choose Color <choose_color>
     Combine Color <combine_color>

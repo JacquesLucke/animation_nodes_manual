@@ -2,6 +2,8 @@ FCurves
 =======
 
 .. toctree::
+   :titlesonly:
+
     From Object <from_object>
     Evaluate <evaluate>
     Info <info>

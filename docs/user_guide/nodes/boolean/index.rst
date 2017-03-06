@@ -2,7 +2,7 @@ Boolean
 =======
 
 .. toctree::
-    :maxdepth: 1
+   :titlesonly:
 
     Boolean Input <boolean_input>
     Boolean to Integer <boolean_to_integer>

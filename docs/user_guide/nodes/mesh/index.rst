@@ -2,7 +2,7 @@ Mesh
 ====
 
 .. toctree::
-   :maxdepth: 1
+   :titlesonly:
 
    Object Mesh Data <object_mesh_data>
    Get Bounding Box <get_bounding_box>

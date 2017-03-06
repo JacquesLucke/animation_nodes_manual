@@ -2,7 +2,7 @@ Rotation
 ========
 
 .. toctree::
-    :maxdepth: 1
+   :titlesonly:
 
     Combine Euler <combine_euler>
     Separate Euler <separate_euler>

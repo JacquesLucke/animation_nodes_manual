@@ -1,5 +1,30 @@
-Matrix output
-=============
+Object Matrix Output
+====================
 
-.. include:: /includes/workinprogress.rst
-.. todo:: No content in file user_guide/nodes/object/matrix_output.rst
+Description
+-----------
+This node set the transformations of the input object to the input transformation matrix.
+
+.. image:: images/matrix_output_node.png
+   :width: 160pt
+
+Inputs
+------
+
+- **Object** - An object.
+- **Matrix** - An input transformation matrix.
+
+Outputs
+-------
+
+- **Object** - The input object.
+
+Advanced Node Settings
+----------------------
+
+- **Type** - This option will let you choose the type of the transformation applied including: World, Local, Basis and Parent Inverse.
+
+Examples of Usage
+-----------------
+
+.. image:: gifs/object_matrix_output_node_example.gif
