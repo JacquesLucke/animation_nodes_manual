@@ -12,5 +12,6 @@ Mesh
    Polygon Info <polygon_info>
    Transform Polygon <transform_polygon>
    Mesh Data From Polygons <mesh_data_from_polygons>
+   Generators <generators/index>
 
 .. image:: images/mesh_overview.png
