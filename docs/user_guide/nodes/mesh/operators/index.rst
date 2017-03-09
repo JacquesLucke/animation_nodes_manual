@@ -5,3 +5,4 @@ Operators
    :titlesonly:
 
    Find Close Vertices <find_close_vertices>
+   Edges To Planes <edges_to_planes>
