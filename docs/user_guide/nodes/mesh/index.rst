@@ -17,5 +17,6 @@ Mesh
    Generators <generators/index>
    Operators <operators/index>
    Mesh Data List <mesh_data_list>
+   Join Mesh Data List <join_mesh_data_list>
 
 .. image:: images/mesh_overview.png
