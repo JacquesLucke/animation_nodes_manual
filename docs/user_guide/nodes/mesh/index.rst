@@ -11,6 +11,7 @@ Mesh
    Vertex Info <vertex_info>
    Polygon Info <polygon_info>
    Transform Polygon <transform_polygon>
+   Separate <separate_mesh_data>
    Mesh Data From Polygons <mesh_data_from_polygons>
    Generators <generators/index>
 
