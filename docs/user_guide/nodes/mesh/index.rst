@@ -20,5 +20,6 @@ Mesh
    Join Mesh Data List <join_mesh_data_list>
    Bmesh From Mesh Data <bmesh_from_mesh_data>
    Tools <tools/index>
+   Object Output <object_output>
 
 .. image:: images/mesh_overview.png
