@@ -15,5 +15,6 @@ Mesh
    Combine <combine_mesh_data>
    Mesh Data From Polygons <mesh_data_from_polygons>
    Generators <generators/index>
+   Operators <operators/index>
 
 .. image:: images/mesh_overview.png
