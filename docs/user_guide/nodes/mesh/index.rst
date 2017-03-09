@@ -10,5 +10,6 @@ Mesh
    Bmesh Mesh Data <bmesh_mesh_data>
    Vertex Info <vertex_info>
    Polygon Info <polygon_info>
+   Transform Polygon <transform_polygon>
 
 .. image:: images/mesh_overview.png
