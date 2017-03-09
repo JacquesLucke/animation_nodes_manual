@@ -12,6 +12,7 @@ Mesh
    Polygon Info <polygon_info>
    Transform Polygon <transform_polygon>
    Separate <separate_mesh_data>
+   Combine <combine_mesh_data>
    Mesh Data From Polygons <mesh_data_from_polygons>
    Generators <generators/index>
 
