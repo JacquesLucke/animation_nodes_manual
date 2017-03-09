@@ -18,5 +18,6 @@ Mesh
    Operators <operators/index>
    Mesh Data List <mesh_data_list>
    Join Mesh Data List <join_mesh_data_list>
+   Bmesh From Mesh Data <bmesh_from_mesh_data>
 
 .. image:: images/mesh_overview.png
