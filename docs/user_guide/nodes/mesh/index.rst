@@ -9,5 +9,6 @@ Mesh
    Bmesh From Object <bmesh_from_object>
    Bmesh Mesh Data <bmesh_mesh_data>
    Vertex Info <vertex_info>
+   Polygon Info <polygon_info>
 
 .. image:: images/mesh_overview.png
