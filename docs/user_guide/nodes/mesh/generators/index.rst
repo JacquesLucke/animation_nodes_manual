@@ -5,3 +5,4 @@ Generators
    :titlesonly:
 
    Line <line>
+   Grid <grid>
