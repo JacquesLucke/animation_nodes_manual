@@ -13,5 +13,6 @@ Spline
    Connect Splines <connect_splines>
    Trim Spline <trim_spline>
    Make Spline Cyclic <make_spline_cyclic>
+   Smooth Bezier Spline <smooth_bezier_spline>
 
 .. image:: images/spline_overview.png
