@@ -17,5 +17,6 @@ Spline
    Spline Info <spline_info>
    Evaluate Spline <evaluate_spline>
    Project On Spline <project_on_spline>
+   Get Spline Length <get_spline_length>
 
 .. image:: images/spline_overview.png
