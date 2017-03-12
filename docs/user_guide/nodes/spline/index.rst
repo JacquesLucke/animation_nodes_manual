@@ -10,5 +10,6 @@ Spline
    Create Spline List <create_spline_list>
    Append Point To Spline <append_point_to_spline>
    Transform Spline <transform_spline>
+   Connect Splines <connect_splines>
 
 .. image:: images/spline_overview.png
