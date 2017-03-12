@@ -12,5 +12,6 @@ Spline
    Transform Spline <transform_spline>
    Connect Splines <connect_splines>
    Trim Spline <trim_spline>
+   Make Spline Cyclic <make_spline_cyclic>
 
 .. image:: images/spline_overview.png
