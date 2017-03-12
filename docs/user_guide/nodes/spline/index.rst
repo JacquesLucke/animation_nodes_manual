@@ -16,5 +16,6 @@ Spline
    Smooth Bezier Spline <smooth_bezier_spline>
    Spline Info <spline_info>
    Evaluate Spline <evaluate_spline>
+   Project On Spline <project_on_spline>
 
 .. image:: images/spline_overview.png
