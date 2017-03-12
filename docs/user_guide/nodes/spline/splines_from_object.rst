@@ -30,4 +30,4 @@ Advanced Node Settings
 Examples of Usage
 -----------------
 
-.. image:: gifs/splines_from_object_node_example.gif
+.. image:: gifs/connect_splines_node_example.gif
