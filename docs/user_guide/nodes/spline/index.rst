@@ -11,5 +11,6 @@ Spline
    Append Point To Spline <append_point_to_spline>
    Transform Spline <transform_spline>
    Connect Splines <connect_splines>
+   Trim Spline <trim_spline>
 
 .. image:: images/spline_overview.png
