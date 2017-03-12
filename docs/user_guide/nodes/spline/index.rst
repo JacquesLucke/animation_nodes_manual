@@ -21,5 +21,6 @@ Spline
    Get Spline Samples <get_spline_samples>
    Curve Object Output <curve_object_output>
    Loft Splines <loft_splines>
+   Revolve Spline <revolve_spline>
 
 .. image:: images/spline_overview.png
