@@ -20,5 +20,6 @@ Spline
    Get Spline Length <get_spline_length>
    Get Spline Samples <get_spline_samples>
    Curve Object Output <curve_object_output>
+   Loft Splines <loft_splines>
 
 .. image:: images/spline_overview.png
