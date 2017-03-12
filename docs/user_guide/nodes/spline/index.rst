@@ -8,5 +8,6 @@ Spline
    Spline From Points <spline_from_points>
    Splines From Edges <splines_from_edges>
    Create Spline List <create_spline_list>
+   Append Point To Spline <append_point_to_spline>
 
 .. image:: images/spline_overview.png
