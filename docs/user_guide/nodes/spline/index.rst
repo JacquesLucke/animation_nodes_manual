@@ -15,5 +15,6 @@ Spline
    Make Spline Cyclic <make_spline_cyclic>
    Smooth Bezier Spline <smooth_bezier_spline>
    Spline Info <spline_info>
+   Evaluate Spline <evaluate_spline>
 
 .. image:: images/spline_overview.png
