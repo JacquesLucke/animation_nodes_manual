@@ -3,7 +3,7 @@ Vector Math
 
 Description
 -----------
-This node carries 11 vector math operation:
+This node performs 11 vector math operations:
 
 - **Add** - Add input vector A to input vector B.
 - **Subtract** - Subtract input vector B from input vector A.
@@ -23,11 +23,11 @@ This node carries 11 vector math operation:
 
 Inputs
 ------
- 
+
 - **Vector A** - The first vector.
 - **Vector B** - The second vector.
 
-(Inputs are dynamic, Means the node has either one or two inputs based on selected operation.Those inputs can also be scalar or vectors based on the operation)
+(Inputs are dynamic, Means the node has either one or two inputs based on selected operation. Those inputs can also be scalar or vectors based on the operation)
 
 Outputs
 -------

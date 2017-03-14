@@ -3,7 +3,7 @@ Vector Wiggle
 
 Description
 -----------
-This node generate a random vector by generating a 1D perlin noise in all of it's components.
+This node generates a random vector by generating a 1D perlin noise in all of its components.
 It is just like a :doc:`Number Wiggle <../number/number_wiggle>` node in the vector's components.
 
 .. image:: images/vector_wiggle_node.png

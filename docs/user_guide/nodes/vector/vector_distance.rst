@@ -3,14 +3,14 @@ Vector Distance
 
 Description
 -----------
-This node calculate the distance between 2 points defined by 2 input vectors.
+This node calculates the distance between 2 points defined by 2 input vectors.
 
 .. image:: images/vector_distance_node.png
    :width: 160pt
 
 Inputs
 ------
- 
+
 - **Vector A** - The coordinates of the first point.
 - **Vector B** - The coordinates of the second point.
 

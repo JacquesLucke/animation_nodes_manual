@@ -3,15 +3,15 @@ Vector Length
 
 Description
 -----------
-This node calculate the magnitude of the input vector.
+This node calculates the magnitude of the input vector.
 
 .. image:: images/vector_length_node.png
    :width: 160pt
 
 Inputs
 ------
- 
-- **Vector** - A vector to calculate it's magnitude.
+
+- **Vector** - A vector to calculate its magnitude.
 
 Outputs
 -------
