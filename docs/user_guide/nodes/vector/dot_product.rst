@@ -3,14 +3,14 @@ Dot Product
 
 Description
 -----------
-This node calculate the dot product of the 2 input vectors.
+This node calculates the dot product of the 2 input vectors.
 
 .. image:: images/dot_product_node.png
    :width: 160pt
 
 Inputs
 ------
- 
+
 - **Vector A** - The first vector.
 - **Vector B** - The second vector.
 
