@@ -3,13 +3,13 @@ Math
 
 Description
 -----------
-This node carry 26 math operation:
+This node performs 26 math operations:
 
 - **Add** - Adds input A to input B.
 - **Subtract** - Subtract input B from input A.
-- **Multiply** - Multiply input A by input B.
+- **Multiply** - Multiplies input A by input B.
 - **Divide** - Divides input A by input B.
-- **Sine** - Calculate the sin of input A.
+- **Sine** - Calculate the sine of input A.
 - **Cosine** - Claculate the cosine of input A.
 - **Tangent** - Calculate the tangent of input A.
 - **Arcsine** - Calaculate the arcsine of input A.

@@ -3,7 +3,7 @@ Integer List
 
 Description
 -----------
-This node is used to create an arbitrary list of integers. A new integer can be added with the *New Input* button. A new integer can also be added by plugging it into the transperant socket.
+This node is used to create an arbitrary list of integers. A new integer can be added with the *New Input* button. A new integer can also be added by plugging it into the transparent socket.
 
 .. image:: images/integer_list_node.png
    :width: 160pt
@@ -28,7 +28,7 @@ Advanced Node Settings
 
 Caution
 -------
-A warning pop up when you use the *Remove All* button in the node, while if you used the the *Remove All* button in the *Advanced Node Settings* the inputs will be removed without a warning.
+A warning will pop up when you use the *Remove All* button in the node, while if you used the the *Remove All* button in the *Advanced Node Settings* the inputs will be removed without a warning.
 
 Examples of Usage
 -----------------

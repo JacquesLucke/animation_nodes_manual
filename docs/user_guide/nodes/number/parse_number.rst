@@ -26,7 +26,7 @@ Advanced Node Settings
 Caution
 -------
 
-The input text should only include numbers, Otherwise the node will resturn a parsing error.
+The input text should only include numbers, Otherwise the node will return a parsing error.
 
 Examples of Usage
 -----------------
