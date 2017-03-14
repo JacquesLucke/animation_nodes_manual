@@ -3,14 +3,14 @@ Get List Length
 
 Description
 -----------
-This node return the number of elements in the input list.
+This node returns the number of elements in the input list.
 
 .. image:: images/get_list_length_node.png
    :width: 160pt
 
 Inputs
 ------
- 
+
 - **List** - An input list.
 
 Outputs
