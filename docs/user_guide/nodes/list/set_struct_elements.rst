@@ -3,8 +3,8 @@ Set Struct Elements
 
 Description
 -----------
-This node creates struct elements and set its values. See demonstration for more
-information about struct elements.A new key can be added using the plus button
+This node creates struct elements and sets its values. See demonstration for more
+information about struct elements. A new key can be added using the plus button
 or by plugging its value into the transparent socket.
 
 .. image:: images/set_struct_elements_node.png
@@ -17,7 +17,7 @@ Struct elements are not lists. They are what is known as dictionaries.
 Dictionaries are lists but each element is known by a **Keys** instead of an indicies.
 A key is a string that usually explain the value it is carrying.
 Dictionaries unlike lists don't care about the elements order.
-Dictionaries can carry multiple data type.
+Dictionaries can carry multiple data types.
 
 An example of a dictionaries : Name = Bob, Age = 19, Height = 1.70 .
 Notice That every element has a key (Name,Age,Height) that describe its value
