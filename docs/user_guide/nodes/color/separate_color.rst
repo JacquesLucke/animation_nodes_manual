@@ -3,7 +3,7 @@ Separate Color
 
 Description
 -----------
-This node decomposes an input color data and output its individual channels.
+This node decomposes input color data and outputs its individual channels.
 It supports RGB, HSV, HSL and YIQ color models. All are in linear color space.
 
 .. image:: images/separate_color_node.png
