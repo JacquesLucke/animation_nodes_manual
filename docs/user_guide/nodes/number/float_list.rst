@@ -3,7 +3,7 @@ Float List
 
 Description
 -----------
-This node is used to create an arbitrary list of floats. A new float can be added with the *New Input* button. A new float can also be added by plugging it into the transperant socket.
+This node is used to create an arbitrary list of floats. A new float can be added with the *New Input* button. A new float can also be added by plugging it into the transparent socket.
 
 .. image:: images/float_list.png
    :width: 160pt
@@ -17,7 +17,7 @@ Inputs
 
 Outputs
 -------
-- **Float list** - A list that contain all the input floats.
+- **Float list** - A list that contains all the input floats.
 
 Advanced Node Settings
 -----------------------
@@ -28,7 +28,7 @@ Advanced Node Settings
 
 Caution
 -------
-A warning pop up when you use the *Remove All* button in the node, while if you used the the *Remove All* button in the *Advanced Node Settings* the inputs will be removed without a warning.
+A warning will pop up when you use the *Remove All* button in the node, while if you used the the *Remove All* button in the *Advanced Node Settings* the inputs will be removed without a warning.
 
 Examples of Usage
 -----------------

@@ -3,7 +3,7 @@ To Integer
 
 Description
 -----------
-This node convert floats into integers using one of 3 algorithms. (See advanced node settings)
+This node converts floats into integers using one of 3 algorithms. (See advanced node settings)
 
 .. image:: images/to_integer_node.png
    :width: 160pt
@@ -16,7 +16,7 @@ Inputs
 Outputs
 -------
 
-- **Integer** - Resulted integer.
+- **Integer** - Output as integer.
 
 Advanced Node Settings
 ----------------------

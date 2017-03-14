@@ -3,7 +3,7 @@ Convert Angle
 
 Description
 -----------
-This node let you convert from *Degree* to *Radian* or from *Radian* to *Degree*.
+This node allows you to convert from *Degree* to *Radian* or from *Radian* to *Degree*.
 
 .. image:: images/convert_angle_node.png
    :width: 160pt
