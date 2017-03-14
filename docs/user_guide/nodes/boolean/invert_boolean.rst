@@ -3,7 +3,7 @@ Invert Boolean
 
 Description
 -----------
-This node invert the boolean. In other word, if the input is ``False`` it 
+This node inverts the boolean. In other words, if the input is ``False`` it 
 becomes ``True`` and if it was ``True`` it will be ``False``.
 
 .. image:: images/invert_boolean_node.png

@@ -3,7 +3,7 @@ Logic Operators
 
 Description
 -----------
-This node perform standard logical gates operations like ``And, Or, Xor``.
+This node performs standard logical gates operations like ``And, Or, Xor``.
 
 .. image:: images/logic_operators_node.png
    :width: 160pt
@@ -20,10 +20,10 @@ Demonstration
     e.g. ``True or True = True``, ``True or False = True``, ``False or False = False``.
 
 - **A xor B**
-    If A and B are different then the output is ``True``.
+    If A and B are different, then the output is ``True``.
     e.g. ``True xor True = False``, ``True xor false = True``, ``False xor False = False``.
 
-- If you used a **Not** Operation that means the output is the inverse of the boolean.
+- If you used a **Not** Operation, that means the output is the inverse of the boolean.
 
 Inputs
 ------

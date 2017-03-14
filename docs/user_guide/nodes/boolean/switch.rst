@@ -3,7 +3,7 @@ Switch
 
 Description
 -----------
-This node return the first input if the condition was ``True`` and the second
+This node returns the first input if the condition was ``True`` and the second
 input if the condition was ``False``.
 
 .. image:: images/switch_node.png
@@ -12,7 +12,7 @@ input if the condition was ``False``.
 Inputs
 ------
 
-- **Condition** - A boolean that define the output.
+- **Condition** - A boolean that defines the output.
 - **If True** - The value that should be the output if the condition is ``True``.
 - **If False** - The value that should be the output if the condition is ``False``.
 
@@ -30,7 +30,7 @@ Advanced Node Settings
 Note
 ----
 
-The type of the node change automatically when you input another data type.
+The type of the node changes automatically when you input another data type.
 
 Examples of Usage
 -----------------
