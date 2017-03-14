@@ -3,7 +3,7 @@ Random Vector
 
 Description
 -----------
-This node generate a random vector with a defined magnitude.
+This node generates a random vector with a defined magnitude.
 
 .. image:: images/random_vector_node.png
    :width: 160pt
@@ -11,7 +11,7 @@ This node generate a random vector with a defined magnitude.
 Inputs
 ------
 
-- **Seed** - Seed for the random generator, Where different seed generate different random vector.
+- **Seed** - Seed for the random generator, where different seed generates different random vector.
 - **Scale** - The magnitude of the generated vector.
 
 Outputs
@@ -29,7 +29,7 @@ Note
 
 The node has an **extra seed** (*Node Seed*) that can be used to differentiate between nodes with the same seed, e.g., When using multiple *Random vector* nodes in a loop while using the index as a seed, you can change the extra seed to get different results from the other nodes.
 
-Animation Nodes automatically change the *Node Seed* when you duplicate or add a new *Random vector* node.
+Animation Nodes automatically changes the *Node Seed* when you duplicate or add a new *Random vector* node.
 
 Examples of Usage
 -----------------

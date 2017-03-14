@@ -3,14 +3,14 @@ Transform Vector
 
 Description
 -----------
-This node transform a point based on an input *Transformation Matrix*.
+This node transforms a point based on an input *Transformation Matrix*.
 
 .. image:: images/transform_vector_node.png
    :width: 160pt
 
 Inputs
 ------
- 
+
 - **Vector** - The vector to transform.
 - **Matrix** - A transformation matrix.
 
@@ -28,5 +28,3 @@ Examples of Usage
 -----------------
 
 .. image:: gifs/transform_vector_node_example.gif
-
-
