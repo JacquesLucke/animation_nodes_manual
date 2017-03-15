@@ -3,7 +3,7 @@ Convert Rotation Types
 
 Description
 -----------
-this node convert from a rotation type to another. It support :
+This node converts from a rotation type to another. It supports :
 
 - Quaternion to Euler.
 - Euler to Quaternion.
@@ -19,7 +19,7 @@ this node convert from a rotation type to another. It support :
 
 Inputs
 ------
- 
+
 Inputs are defined based on the conversion type.
 
 Outputs

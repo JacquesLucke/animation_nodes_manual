@@ -3,7 +3,7 @@ Combine Euler
 
 Description
 -----------
-This node compose an euler from X,Y,Z components.
+This node composes an euler from X,Y,Z components.
 
 .. image:: images/combine_euler_node.png
    :width: 160pt

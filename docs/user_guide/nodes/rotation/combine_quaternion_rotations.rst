@@ -3,7 +3,7 @@ Combine Quaternion Rotations
 
 Description
 -----------
-This node takes a list of quaternions and rotate the first quaternion by the next
+This node takes a list of quaternions and rotates the first quaternion by the next
 quaternion in the list till the end and the result is output as a quaternion.
 
 It follows the rotation rule we studied before.
@@ -30,7 +30,7 @@ Note
 ----
 
 As we know from before, Quaternion rotation uses Hamilton Product which is not
-commutative, So the order of quaternions in the list matter.
+commutative, so the order of quaternions in the list matters.
 
 Examples of Usage
 -----------------
