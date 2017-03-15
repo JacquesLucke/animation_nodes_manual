@@ -25,7 +25,7 @@ Inputs
 Outputs
 -------
 
-- **Matrix** - A transformation matrix that carry the shearing information.
+- **Matrix** - A transformation matrix that contains the shearing information.
 
 Advanced Node Settings
 ----------------------

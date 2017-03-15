@@ -19,7 +19,7 @@ Note that the input may be an **euler** if the rotation matrix is generated for 
 Outputs
 -------
 
-- **Matrix** - A transformation matrix that carry the rotation information.
+- **Matrix** - A transformation matrix that contains the rotation information.
 
 Advanced Node Settings
 ----------------------
