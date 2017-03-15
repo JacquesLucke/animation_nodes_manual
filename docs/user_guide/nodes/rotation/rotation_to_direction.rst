@@ -3,29 +3,29 @@ Rotation To Direction
 
 Description
 -----------
-This node convert input rotation to a corresponding vector.
+This node converts input rotation to a corresponding vector.
 
 .. image:: images/rotation_to_direction_node.png
    :width: 160pt
 
 Demonstration
 -------------
-To better understand how this node work, you can think of it as follow, It basically get you the local selected axis of the object.
+To better understand how this node works, you can think of it as follows: it gets you the local selected axis of the object.
 
-In this example you can see that the resulte vector is always aligned to the selected axis which is Z in this case.
+In this example, you can see that the resultant vector is always aligned to the selected axis which is Z in this case.
 
 .. image:: gifs/rotation_to_direction_node_demonstration.gif
 
 Inputs
 ------
- 
-- **Rotation** - The rotation that define the direction.
-- **Length** - The magnitude of the resulted vector.
+
+- **Rotation** - The rotation that defines the direction.
+- **Length** - The magnitude of the resultant vector.
 
 Outputs
 -------
 
-- **Direction** - The resulted vector.
+- **Direction** - The resultant vector.
 
 Advanced Node Settings
 ----------------------
