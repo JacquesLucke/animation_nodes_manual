@@ -8,5 +8,6 @@ Particles
    Get Particles <get_particles>
    Particles From Object <particles_from_object>
    Filter Particles <filter_particles>
+   Particle List Info <particle_list_info>
 
 .. image:: images/particles_overview.png
