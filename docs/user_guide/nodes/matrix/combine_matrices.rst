@@ -3,7 +3,7 @@ Combine Matrices
 
 Description
 -----------
-This takes a list of transformation matrices and multiply them together in order.
+This takes a list of transformation matrices and performs them together in order.
 
 .. image:: images/combine_matrices_node.png
    :width: 160pt
