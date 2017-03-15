@@ -3,7 +3,7 @@ Mix Quaternions
 
 Description
 -----------
-This node mix between 2 quaternions by a defined factor.
+This node mixes between 2 quaternions by a defined factor.
 
 .. image:: images/mix_quaternions_node.png
    :width: 160pt
@@ -12,7 +12,7 @@ Inputs
 ------
 
 - **Factor**
-    A float that control the amount of each quaternion input to the output,
+    A float that controls the amount of each quaternion input to the output,
     where 0 means the first quaternion only and 1 means the second quaternion only.
 
 
@@ -20,7 +20,7 @@ Outputs
 -------
 
 - **Result**
-    The result quaternion of mixing the two quaternions by the input factor.
+    The resultant quaternion of mixing the two quaternions by the input factor.
 
 Advanced Node Settings
 ----------------------

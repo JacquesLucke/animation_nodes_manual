@@ -3,7 +3,7 @@ Quaternion Wiggle
 
 Description
 -----------
-This node generate a random quaternion by generating a 1D perlin noise in all of it's components.
+This node generates a random quaternion by generating a 1D perlin noise in all of its components.
 It is just like a :doc:`Number Wiggle <../number/number_wiggle>` node in the quaternion's components.
 
 .. image:: images/quaternion_wiggle_node.png
@@ -15,7 +15,7 @@ Inputs
 The inputs are just like :doc:`Number Wiggle <../number/number_wiggle>` node except for the Amplitude.
 
 
-- **Amplitude** - A quaternion that control the the amplitude of each component's perlin noise.
+- **Amplitude** - A quaternion that controls the the amplitude of each component's perlin noise.
 
 
 Outputs
