@@ -3,7 +3,7 @@ Matrix Math
 
 Description
 -----------
-This node aloows you to multiply 2 transformation matrices.
+This node allows you to multiply 2 transformation matrices.
 Multiplying transformation matrices gets you a transformation matrix that will
 perform all the input transformation matrices. So if you multiplied a rotation
 matrix by a translation matrix the resultant matrix is a transformation matrix that

@@ -3,7 +3,7 @@ Replace Text
 
 Description
 -----------
-This node replace a part of the input string by another string.
+This node replaces a part of the input string by another string.
 
 .. image:: images/replace_text_node.png
    :width: 160pt

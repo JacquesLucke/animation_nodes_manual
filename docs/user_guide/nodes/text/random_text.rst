@@ -3,7 +3,7 @@ Random String
 
 Description
 -----------
-This node generate a random string based on an input characters.
+This node generates a random string based on an input characters.
 
 .. image:: images/random_text_node.png
    :width: 160pt
@@ -33,7 +33,7 @@ between nodes with the same seed, e.g., When using multiple *Random String* node
 in a loop while using the index as a seed, you can change the extra seed to get
 different results from the other nodes.
 
-Animation Nodes automatically change the *Node Seed* when you duplicate or add a new *Random String* node.
+Animation Nodes automatically changes the *Node Seed* when you duplicate or add a new *Random String* node.
 
 Examples of Usage
 -----------------

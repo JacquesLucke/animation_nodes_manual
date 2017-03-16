@@ -3,7 +3,7 @@ Fill Text
 
 Description
 -----------
-This node fill the empty characters by a string based on a defined number of characters.
+This node fills the empty characters by a string based on a defined number of characters.
 
 Suppose you have the string "AN", if you defined the length as "5" then you have
 "AN   " (notice the 3 empty spaces).Then those empty spaces will be filled by the
