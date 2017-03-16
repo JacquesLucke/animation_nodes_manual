@@ -3,7 +3,7 @@ Timecode Generator
 
 Description
 -----------
-This node return the current time (based on input frame and a given frame rate)
+This node returns the current time (based on input frame and a given frame rate)
 in miliseconds, seconds, minutes and house separated by a colon.
 
 .. image:: images/timecode_generator_node.png

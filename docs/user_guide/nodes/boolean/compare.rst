@@ -23,7 +23,7 @@ Outputs
 Advanced Node Settings
 ----------------------
 
-- **Change Type** - Change the input type to other data type.
+- **Change Type** - Changes the input type to other data type.
 
 Note
 ----
@@ -32,8 +32,8 @@ Note
     Means A does not equal to B
 
 - **A is B**
-    Unlike A = B, This check if the inputs are the same object.
-    Means if 2 integer lists have the same value and length, tt will still
+    Unlike A = B, This checks if the inputs are the same object.
+    It means if 2 integer lists have the same value and length, it will still
     return ``False`` because they are not the same object even though
     they have the same elements.
 
