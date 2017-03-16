@@ -3,7 +3,7 @@ Boolean To Integer
 
 Description
 -----------
-This node return 1 if the input is ``True`` and 0 if the input is ``False``.
+This node returns 1 if the input is ``True`` and 0 if the input is ``False``.
 
 .. image:: images/boolean_to_integer_node.png
    :width: 160pt

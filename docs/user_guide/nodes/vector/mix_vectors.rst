@@ -3,7 +3,7 @@ Mix Vectors
 
 Description
 -----------
-This node mix between 2 vectors by a defined factor.
+This node mixes between 2 vectors by a defined factor.
 
 .. image:: images/mix_vectors_node.png
    :width: 160pt
@@ -11,7 +11,7 @@ This node mix between 2 vectors by a defined factor.
 Inputs
 ------
 
-- **Factor** - A float that control the amount of each vector input to the output, Where 0 means the first vector only and 1 means the second vector only.
+- **Factor** - A float that controls the amount of each vector input to the output, Where 0 means the first vector only and 1 means the second vector only.
 
 
 Outputs
@@ -27,7 +27,7 @@ Advanced Node Settings
 Note
 ----
 
-By how the *Mix Vectors* works, A factor that is larger than 1 won't be clamped but rather multiplied to the second float, That's why the node has an option to *Clamp Factor*. So if *Clamp factor* is enables, Any factor that is larger than 1 will resturn the second vector.
+How the *Mix Vectors* works, a factor that is larger than 1 won't be clamped but rather multiplied to the second float- that's why the node has an option to *Clamp Factor*. So if *Clamp factor* is enabled, Any factor that is larger than 1 will return the second vector.
 
 Examples of Usage
 -----------------

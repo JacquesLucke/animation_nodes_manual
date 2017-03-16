@@ -5,9 +5,9 @@ Description
 -----------
 This node is used to create an arbitrary list of a specific data type. A new
 element can be added with the *New Input* button. A new element can also be
-added by plugging it into the transperant socket. The type of the node change
+added by plugging it into the transparent socket. The type of the node change
 automatically to whatever the data type you input.
-Means if you input an integer, the list type will be integer.
+This means if you input an integer, the list type will be integer.
 
 .. image:: images/create_list_node.png
    :width: 160pt
@@ -26,9 +26,9 @@ Outputs
 Advanced Node Settings
 -----------------------
 
-- **Change type** - Change the type of the list to another list type.
-- **Hide Inputs** - Hide all the inputs in the node.
-- **Remove Inputs** - Remove all the inputs.
+- **Change type** - Changes the type of the list to another list type.
+- **Hide Inputs** - Hides all the inputs in the node.
+- **Remove Inputs** - Removes all the inputs.
 
 Caution
 -------

@@ -3,7 +3,7 @@ Random Number
 
 Description
 -----------
-This node generate a random float between a minimum and a maximum value.
+This node generates a random float between a minimum and a maximum value.
 
 .. image:: images/random_number_node.png
    :width: 160pt

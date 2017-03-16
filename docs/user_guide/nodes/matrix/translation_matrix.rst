@@ -12,12 +12,12 @@ The transformation matrix can then be multiplied to a matrix to perform the tran
 Inputs
 ------
 
-- **Translation** - A vector that store the amount of translation in the output transformation matrix.
+- **Translation** - A vector that stores the amount of translation in the output transformation matrix.
 
 Outputs
 -------
 
-- **Matrix** - A transformation matrix that carry the translation information.
+- **Matrix** - A transformation matrix that contains the translation information.
 
 Advanced Node Settings
 ----------------------

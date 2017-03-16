@@ -3,7 +3,7 @@ Project Point on Line
 
 .. image:: images/project_point_on_line.png
 
-This node provides several information:
+This node provides several useful outputs:
  - the location of the closest point on line (projection of the point)
  - the factor [0-1] of this projection in relation to start and end of the line segment
  - the distance between the point and the line

@@ -3,7 +3,7 @@ Decompose Matrix
 
 Description
 -----------
-This node forms a 4x4 transformation matrix based on input translation,rotation and scalling.
+This node forms a 4x4 transformation matrix based on input translation, rotation, and scalling.
 
 .. image:: images/compose_matrix_node.png
    :width: 160pt

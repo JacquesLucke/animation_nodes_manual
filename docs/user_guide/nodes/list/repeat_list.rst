@@ -20,11 +20,11 @@ Options
 
 
 - **Amount**
-    This option all you to exactly define the amount of repetition.
+    This option defines the amount of repetition.
 - **Length**
-    This option all you to define the length of the output list.
+    This option defines the length of the output list.
     The amount of repetition is set automatically to fill that length, all the
-    elements that exceed that length will be cut off.So if the length is 5 the
+    elements which exceed that length will be cut off. If the length is 5, the
     output list will be [1,2,3,1,2] Notice that the second 3 was cut because
     it exceeded the defined length.
 - **Below Length**
@@ -34,10 +34,10 @@ Options
     Notice that the whole second repetition was rejected because it didn't make
     it to the last element.
 - **Above Length**
-    Just like **Below Length** this option allow you to define the length but if
+    Just like **Below Length** this option allows you to define the length but if
     the length was sufficient to add at least one element from the second repetition,
     the whole second repetition will be added. So if the length was 5 the output
-    will be ``[1,2,3,1,2,3]``. Notice that the second 3 was not suppose to be
+    will be ``[1,2,3,1,2,3]``. Notice that the second 3 was not supposed to be
     in the list but it was added anyway.
 
 Inputs

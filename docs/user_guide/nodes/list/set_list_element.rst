@@ -3,7 +3,7 @@ Set List Element
 
 Description
 -----------
-This node replace the value of the element at the input index by the input value.
+This node replaces the value of the element at the input index by the input value.
 
 .. image:: images/set_list_element_node.png
    :width: 160pt

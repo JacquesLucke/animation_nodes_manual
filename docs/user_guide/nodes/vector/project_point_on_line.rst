@@ -3,7 +3,7 @@ Project Point On Line
 
 Description
 -----------
-This node takes a defined point and a defined line and returns information about the projection of this point on that line like :
+This node takes a defined point and a defined line and returns information about the projection of this point on that line such as:
 
  - The closest point on the line.
  - The shortest distance between the point and line.
@@ -14,7 +14,7 @@ This node takes a defined point and a defined line and returns information about
 
 Inputs
 ------
- 
+
 - **Point** - The coordinates of the point that will be projected.
 - **Line Start** - The coordinates of the line starting point.
 - **Line End** - The coordinates of the line ending point.

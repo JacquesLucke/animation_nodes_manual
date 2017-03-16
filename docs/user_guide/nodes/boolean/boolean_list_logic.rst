@@ -3,8 +3,8 @@ Boolean List Logic
 
 Description
 -----------
-This node return ``True`` if all of the value are ``True`` or ``False`` if all
-the value are ``False`` and the inverse of the operations.
+This node returns ``True`` if all of the values are ``True`` or ``False`` if all
+the values are ``False`` and the inverse of the operations.
 
 .. image:: images/boolean_list_logic_node.png
    :width: 160pt
@@ -13,10 +13,10 @@ Demonstration
 -------------
 
 - **All True**
-    Return True if all the booleans are True and False if not.
-    
+    Returns True if all the booleans are True and False if not.
+
 - **All False**
-    Return True if all the booleans are False and False if not.
+    Returns True if all the booleans are False and False if not.
 
 - If you used a **Not** Operation that means the output is the inverse of the boolean.
 

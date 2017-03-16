@@ -3,7 +3,7 @@ Choose Color
 
 Description
 -----------
-This node output a color data you choosed from the color picker.
+This node outputs color data chosen from the color picker.
 
 .. image:: images/choose_color_node.png
    :width: 160pt

@@ -3,7 +3,7 @@ Vector List math
 
 Description
 -----------
-This node carry 2 Vector math operation:
+This node performs 2 Vector math operations:
 
 - **Add** - Add all the vectors in the input list.
 - **Average** - Average the vectors in the input list.
@@ -13,7 +13,7 @@ This node carry 2 Vector math operation:
 
 Inputs
 ------
- 
+
 - **Vector List** - The vector list to operate on.
 
 Outputs

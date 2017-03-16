@@ -3,7 +3,7 @@ Compare
 
 Description
 -----------
-This node compares 2 values using standard mathematical inequalities like
+This node compares 2 values using standard mathematical inequalities such as
 >,<,<=,>=,=,=! and return ``True`` if it was satisfied and ``False`` if not.
 
 .. image:: images/compare_node.png
