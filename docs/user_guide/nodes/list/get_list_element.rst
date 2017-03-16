@@ -3,7 +3,7 @@ Get List Element
 
 Description
 -----------
-This node return the element at the input index. So if the input index is 1 and
+This node returns the element at the input index. So if the input index is 1 and
 the input list is [1,2,3] then the output will be 2. (Notice that indices start from 0 and not 1)
 
 .. image:: images/get_list_element_node.png

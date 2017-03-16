@@ -21,12 +21,12 @@ Inputs
 
 Outputs
 -------
-- **list** - A list that contain all the input lists.
+- **list** - A list that contains all the input lists.
 
 Advanced Node Settings
 -----------------------
 
-- **Change type** - Change the type of the list to another list type.
+- **Change type** - Changes the type of the list to another list type.
 
 Examples of Usage
 -----------------

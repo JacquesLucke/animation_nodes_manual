@@ -11,7 +11,7 @@ This node returns single or multiple random list elements.
 Inputs
 ------
 
-- **Seed** - Seed for the random generator, Where different seed return different random elements.
+- **Seed** - Seed for the random generator, where different seed return different random elements.
 - **List** - The input list.
 - **Amount** - The number of random elements in the output list.
 
