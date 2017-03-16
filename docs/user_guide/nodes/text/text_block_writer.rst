@@ -3,7 +3,7 @@ Text Block writer
 
 Description
 -----------
-This node write a string to a blender text block.
+This node writes a string to a blender text block.
 
 .. image:: images/text_block_writer_node.png
    :width: 160pt

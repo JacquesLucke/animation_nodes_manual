@@ -3,7 +3,7 @@ Text File Reader
 
 Description
 -----------
-This node read a file from your disk.
+This node reads a file from your disk.
 
 .. image:: images/text_file_reader_node.png
    :width: 160pt
