@@ -3,7 +3,7 @@ Object Transforms Input
 
 Description
 -----------
-This node return the current location, rotation and scale of the input object.
+This node returns the current location, rotation, and scale of the input object.
 
 .. image:: images/object_transforms_input_node.png
    :width: 160pt
@@ -15,10 +15,10 @@ Inputs
 
 Outputs
 -------
-- **Location** - A vector that contain the current location of the input object.
-- **Rotation** - An euler that contain the current rotation of the input object.
-- **Scale** - A vector that contain the current scale of the input object.
-- **Quaternion** - A quaternion that contain the current rotation of the input object.
+- **Location** - A vector that contains the current location of the input object.
+- **Rotation** - An euler that contains the current rotation of the input object.
+- **Scale** - A vector that contains the current scale of the input object.
+- **Quaternion** - A quaternion that contains the current rotation of the input object.
 
 Advanced Node Settings
 ----------------------

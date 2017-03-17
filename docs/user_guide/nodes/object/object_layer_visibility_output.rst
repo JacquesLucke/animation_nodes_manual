@@ -3,7 +3,7 @@ Object Layer Visibility Output
 
 Description
 -----------
-This node let you move objects through blender's layers system.
+This node lets you move objects through blender's layers system.
 
 .. image:: images/object_layer_visibility_output_node.png
    :width: 160pt
