@@ -12,5 +12,6 @@ Animation
    Animate Euler <animate_euler>
    Animate Quaternion <animate_quaternion>
    Animate Matrix <animate_matrix>
+   Animate Color <animate_color>
 
 .. image:: images/animation_overview.png
