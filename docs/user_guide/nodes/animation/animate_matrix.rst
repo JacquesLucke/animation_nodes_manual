@@ -1,11 +1,11 @@
-Animate Euler
-=============
+Animate Matrix
+==============
 
 Description
 -----------
-This node mixs between two eulers where the factor for mixing is the time mapped to an input interval---*Duration*.
+This node mixs between two matrices where the factor for mixing is the time mapped to an input interval---*Duration*.
 
-.. image:: images/animate_euler_node.png
+.. image:: images/animate_matrix_node.png
    :width: 160pt
 
 Inputs
@@ -31,4 +31,4 @@ Advanced Node Settings
 Examples of Usage
 -----------------
 
-.. image:: gifs/animate_euler_node_example.gif
+.. image:: gifs/animate_matrix_node_example.gif

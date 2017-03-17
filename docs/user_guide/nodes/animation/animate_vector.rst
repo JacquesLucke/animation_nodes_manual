@@ -20,7 +20,7 @@ Inputs
 Outputs
 -------
 
-- **Time** - The different between the input time and the duration (Isn't afected by the input interpolation).
+- **Time** - The different between the input time and the duration (Isn't affected by the input interpolation).
 - **Result** - The value of the animation evaluated at the input time or the result of mixing.
 
 Advanced Node Settings
