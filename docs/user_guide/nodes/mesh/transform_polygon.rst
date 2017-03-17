@@ -3,9 +3,9 @@ Transform Vector
 
 Description
 -----------
-This node transform an input polygon based on an input transformation matrix.
+This node transforms an input polygon based on an input transformation matrix.
 
-It support using the **Center** of the polygon, the center of the **world** `(0,0,0)` and a **custom** vector as a pivot for the transformation
+It supports using the **Center** of the polygon, the center of the **world** `(0,0,0)` and a **custom** vector as a pivot for the transformation
 
 .. image:: images/transform_polygon_node.png
    :width: 160pt

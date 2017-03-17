@@ -3,7 +3,7 @@ Join Mesh Data List
 
 Description
 -----------
-This node combine multiple mesh data blocks into a single block of mesh data.
+This node combines multiple mesh data blocks into a single block of mesh data.
 
 .. image:: images/join_mesh_data_list_node.png
    :width: 160pt

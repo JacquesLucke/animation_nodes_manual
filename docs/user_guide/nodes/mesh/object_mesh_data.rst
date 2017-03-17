@@ -3,7 +3,7 @@ Object Mesh Data
 
 Description
 -----------
-This node return some data about the input object like its vertices and polygons info. The data is from blender's object data block, which means, when the object is edited in edit mode, **AN** won't update the output data unless you change to object mode.
+This node returns some data about the input object like its vertices and polygons info. The data is from blender's object data block, which means, when the object is edited in edit mode, **AN** won't update the output data unless you change to object mode.
 
 .. image:: images/object_mesh_data_node.png
    :width: 160pt
@@ -13,18 +13,18 @@ Inputs
 
 - **Object** - An object.
 - **Use World Space** - This option allow you to choose between local and global coordinate space for the output vectors (vertices location).
-- **Use Modifiers** - This option if enabled will return the data as modifiers were applied, that include both the generative and defomative modifiers.
+- **Use Modifiers** - This option if enabled will return the data as modifiers were applied, that includes both the generative and defomative modifiers.
 - **Scene** - `To Do`
 
 Outputs
 -------
 
-- **Vertex Locations** - A vector list that include vertices locations of the input object.
-- **Edge Indices** - A list of edge indices that include all the edges of the input object.
-- **Polygon Indices** - A list of polygon indices that include all the polygons of the input object.
+- **Vertex Locations** - A vector list that includes vertices locations of the input object.
+- **Edge Indices** - A list of edge indices that includes all the edges of the input object.
+- **Polygon Indices** - A list of polygon indices that includes all the polygons of the input object.
 - **Vertices** - A list of vertex data for each vertex in the input object. (see notes)
 - **Polygons** - A list of polygon data for each polygon in the input object. (see notes)
-- **Mesh Name** - A string that contain the name of the mesh.
+- **Mesh Name** - A string that contains the name of the mesh.
 
 Advanced Node Settings
 ----------------------

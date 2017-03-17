@@ -3,24 +3,24 @@ Object Output
 
 Description
 -----------
-This node edit the input object's data based on a new input data.
+This node edits the input object's data based on a new input data.
 
 .. image:: images/mesh_object_output_node.png
    :width: 200pt
 
 Options
 -------
-- **Mesh Data** - This option let you write a mesh data block to the input object. Since the mesh data block carry only the vertices locations,edge indices and polygons indices info, those data will be the only data in the output object. (A bmesh data block carry more information than the mesh data block like vertices normals.)
-- **Bmesh** - This option let you write a bmesh data block to the input object. A bmesh data block carry much more information than the mesh data block, such extra informations like *Vertex Normals*, *Vertex group weights* and *Material indices*.
-- **Vertices** - This option will only edit the vertices locations, that is, the input object should already have some data and you are just editing the vertices locations of these data. This option is much faster than the **Mesh Data** option assuming all you do is editing the vertices.
+- **Mesh Data** - This option lets you write a mesh data block to the input object. Since the mesh data block carries only the vertices locations, edge, indices, and polygons indices info, those will be the only data in the output object. (A bmesh data block carries more information than the mesh data block like vertices normals.)
+- **Bmesh** - This option lets you write a bmesh data block to the input object. A bmesh data block carry much more information than the mesh data block, such extra informations like *Vertex Normals*, *Vertex group weights* and *Material indices*.
+- **Vertices** - This option will only edit the vertices locations, that is, the input object should already have some data and you are just editing the vertices locations of this data. This option is much faster than the **Mesh Data** option assuming all you do is edit the vertices.
 
 Inputs
 ------
 
 - **Object** - An object to edit, The plus button let you add a new object and write to it.
-- **Mesh Data** - A mesh data to write to the input object. (Only for the Mesh Data option)
-- **Bmesh** - A bmesh to write to the input object. (Only for the Bmesh option)
-- **Vertices** - A vector list that represent the new locations for the vertices. (Only for the vertices option)
+- **Mesh Data** - Mesh data to write to the input object. (Only for the Mesh Data option)
+- **Bmesh** - Bmesh to write to the input object. (Only for the Bmesh option)
+- **Vertices** - Vector list that represents the new locations for the vertices. (Only for the vertices option)
 - **Material Indices** - An integer list, the 1st integer represent the index of the material of the 1st polygon, the 2nd integer represent the index of the material of the 2nd polygon, ....
 
 
