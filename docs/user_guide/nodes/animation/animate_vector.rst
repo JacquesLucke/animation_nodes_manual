@@ -3,14 +3,14 @@ Animate Vector
 
 Description
 -----------
-This node mix between two vectors where the factor for mixing is the time mapped to an input interval---*Duration*.
+This node mixs between two vectors where the factor for mixing is the time mapped to an input interval---*Duration*.
 
 .. image:: images/animate_vector_node.png
    :width: 160pt
- 
+
 Inputs
 ------
- 
+
 - **Time** - A time or the factor for mixing.
 - **Start** - A value to start the animation with or the first input for mixing.
 - **End** - A value to end the animation with or the second input for mixing.

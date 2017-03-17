@@ -1,11 +1,11 @@
-Animate Euler
-=============
+Animate Quaternion
+==================
 
 Description
 -----------
-This node mixs between two eulers where the factor for mixing is the time mapped to an input interval---*Duration*.
+This node mixs between two quaternions where the factor for mixing is the time mapped to an input interval---*Duration*.
 
-.. image:: images/animate_euler_node.png
+.. image:: images/animate_quaternion_node.png
    :width: 160pt
 
 Inputs
@@ -31,4 +31,4 @@ Advanced Node Settings
 Examples of Usage
 -----------------
 
-.. image:: gifs/animate_euler_node_example.gif
+.. image:: gifs/animate_quaternion_node_example.gif
