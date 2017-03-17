@@ -3,7 +3,7 @@ Object Matrix Output
 
 Description
 -----------
-This node set the transformations of the input object to the input transformation matrix.
+This node sets the transformations of the input object to the input transformation matrix.
 
 .. image:: images/matrix_output_node.png
    :width: 160pt

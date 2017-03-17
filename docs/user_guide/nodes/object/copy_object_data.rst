@@ -3,7 +3,7 @@ Copy Object Data
 
 Description
 -----------
-This node copy the data of one object to another. (They become linked)
+This node copies the data of one object to another. (They become linked)
 
 .. image:: images/copy_object_data_node.png
    :width: 160pt
