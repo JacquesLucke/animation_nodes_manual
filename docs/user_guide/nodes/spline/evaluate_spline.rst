@@ -19,7 +19,7 @@ Inputs
 Outputs
 -------
 
-- **Location** - A vector that represent the position of the point in the curve that correspond to the input parameter.
+- **Location** - A vector that represents the position of the point in the curve that correspond to the input parameter.
 - **Tangent** - A vector that is aligned with the tangent line to the evaluated point.
 
 Advanced Node Settings

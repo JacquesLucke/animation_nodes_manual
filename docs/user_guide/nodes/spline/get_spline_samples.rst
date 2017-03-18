@@ -21,8 +21,8 @@ Inputs
 Outputs
 -------
 
-- **Positions** - A vector list that contain the evaluated points positions.
-- **Tangent** - A vector list that contain vectors that are aligned with the tangent line to the evaluated points.
+- **Positions** - A vector list that contains the evaluated points positions.
+- **Tangent** - A vector list that contains vectors that are aligned with the tangent line to the evaluated points.
 
 Advanced Node Settings
 ----------------------

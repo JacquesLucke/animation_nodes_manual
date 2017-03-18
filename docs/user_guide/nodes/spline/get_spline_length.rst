@@ -10,7 +10,7 @@ This node will return the length of the input spline, it can be restricted to a 
 
 .. include:: /includes/nodes/uniform_vs_resolution.rst
 
-In this node, those options only matters when an interval is defined since the interpolation method is only used to define the interval and not to get the length.
+In this node, those options only matter when an interval is defined since the interpolation method is only used to define the interval and not to get the length.
 
 Inputs
 ------

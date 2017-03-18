@@ -3,7 +3,7 @@ Append Point To Spline
 
 Description
 -----------
-This node add a new point(handle) to the input spline.
+This node adds a new point(handle) to the input spline.
 
 .. image:: images/append_point_to_spline_node.png
    :width: 160pt
