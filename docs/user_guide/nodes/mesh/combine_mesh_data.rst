@@ -3,7 +3,7 @@ Combine Mesh Data
 
 Description
 -----------
-This node combine individual mesh data into a mesh data block.
+This node combines individual mesh data into a mesh data block.
 
 .. image:: images/combine_mesh_data_node.png
    :width: 160pt
@@ -11,9 +11,9 @@ This node combine individual mesh data into a mesh data block.
 Inputs
 ------
 
-- **Vertex Locations** - A vector list that contain the locations of the vertices of the input mesh data.
-- **Edges Indices** - An edge indices list that contain the edge information of the input mesh data.
-- **Polygons Indices** - A polygon indices list that contain the polygon information of the input mesh data.
+- **Vertex Locations** - A vector list that contains the locations of the vertices of the input mesh data.
+- **Edges Indices** - An edge indices list that contains the edge information of the input mesh data.
+- **Polygons Indices** - A polygon indices list that contains the polygon information of the input mesh data.
 
 Outputs
 -------
