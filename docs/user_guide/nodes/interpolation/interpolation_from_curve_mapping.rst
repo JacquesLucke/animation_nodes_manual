@@ -3,14 +3,14 @@ Interpolation From Curve Mapping
 
 Description
 -----------
-This node takes some points and return a function that represent a spline interpolation of the input points.
+This node takes some points and returns a function that represents a spline interpolation of the input points.
 
 .. image:: images/interpolation_from_curve_mapping_node.png
    :width: 160pt
- 
+
 Inputs
 ------
- 
+
 - Editing the curve work just like blender's interpolation curve.
 
 Outputs
