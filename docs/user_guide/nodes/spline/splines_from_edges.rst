@@ -3,7 +3,7 @@ Spline From edges
 
 Description
 -----------
-This node create a linear poly spline for every input edge, that is, every edge will represent a linear poly spline that have 2 handles which are the vertices of the edge.
+This node creates a linear poly spline for every input edge, that is, every edge will represent a linear poly spline that have 2 handles which are the vertices of the edge.
 
 .. image:: images/splines_from_edges_node.png
    :width: 160pt

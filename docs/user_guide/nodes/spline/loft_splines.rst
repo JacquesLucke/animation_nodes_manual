@@ -3,7 +3,7 @@ Loft Splines
 
 Description
 -----------
-This node generate a mesh by sampling some points on the input splines and bridge (connect) them in order.
+This node generates a mesh by sampling some points on the input splines and bridge (connect) them in order.
 
 .. image:: images/loft_splines_node.png
    :width: 160pt
@@ -35,7 +35,7 @@ Inputs
 Outputs
 -------
 
-- **Vertices** - A vector list that contain the vertices locations of the output mesh.
+- **Vertices** - A vector list that contains the vertices locations of the output mesh.
 - **Polygons** - A polygon indices list that carry the polygons information of the output mesh.
 
 Advanced Node Settings

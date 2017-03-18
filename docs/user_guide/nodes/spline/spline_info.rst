@@ -3,7 +3,7 @@ Spline Info
 
 Description
 -----------
-This node return some information about the input spline as the location of its handles and whether the spline is closed, that is, every handle is connected to two other handles.
+This node returns some information about the input spline as the location of its handles and whether the spline is closed, that is, every handle is connected to two other handles.
 
 .. image:: images/spline_info_node.png
    :width: 160pt

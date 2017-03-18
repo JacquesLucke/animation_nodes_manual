@@ -30,7 +30,7 @@ Outputs
 -------
 
 - **Position** - The position of the point---on the curve---that is closest to the input point.
-- **Tangent** - A vector that respresent the tangent line to the output position point.
+- **Tangent** - A vector that respresents the tangent line to the output position point.
 - **Parameter** - The location of the output position point in the normalized distance of the spline. (Is not calculated if the Extended option is enabled)
 
 Advanced Node Settings

@@ -3,7 +3,7 @@ Spline From Points
 
 Description
 -----------
-This node create a new spline from input vectors, each vector will represent the position of a handle in the output spline.
+This node creates a new spline from input vectors, each vector will represent the position of a handle in the output spline.
 
 .. image:: images/spline_from_points_node.png
    :width: 160pt
@@ -17,7 +17,7 @@ Options
 Inputs
 ------
 
-- **Points** - A vector list that represent the position of the handles of the output splines.
+- **Points** - A vector list that represents the position of the handles of the output splines.
 - **Cyclic** - A boolean which if True will connect the first handle to the last handle and thus having a closed spline.
 
 Outputs

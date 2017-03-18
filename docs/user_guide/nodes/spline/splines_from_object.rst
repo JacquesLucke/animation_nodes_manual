@@ -3,7 +3,7 @@ Splines From Object
 
 Description
 -----------
-This node return the spline(s) of the input curve.
+This node returns the spline(s) of the input curve.
 
 A spline is the data that form curves, a curve is composed of a single or multiple splines.
 
@@ -15,7 +15,7 @@ The node has an option to return the splines in the world space or in local spac
 Inputs
 ------
 
-- **Object** - A curve to return it's splines.
+- **Object** - A curve to return its splines.
 
 Outputs
 -------
