@@ -16,7 +16,7 @@ Inputs
 Outputs
 -------
 
-- **Interpolation** - A function that represent the input FCurve.
+- **Interpolation** - A function that represents the input FCurve.
 
 Advanced Node Settings
 ----------------------

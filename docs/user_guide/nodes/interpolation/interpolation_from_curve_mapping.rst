@@ -11,7 +11,7 @@ This node takes some points and returns a function that represents a spline inte
 Inputs
 ------
 
-- Editing the curve work just like blender's interpolation curve.
+- Editing the curve works just like blender's interpolation curve.
 
 Outputs
 -------

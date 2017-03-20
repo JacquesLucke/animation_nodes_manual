@@ -3,7 +3,7 @@ Evaluate Interpolation
 
 Description
 -----------
-This node evaluate the input function(Interpolation) at the input value(Position).
+This node evaluates the input function(Interpolation) at the input value(Position).
 
 .. image:: images/evaluate_interpolation_node.png
    :width: 160pt
