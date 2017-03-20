@@ -3,7 +3,7 @@ Animate Color
 
 Description
 -----------
-This node mixs between two colors where the factor for mixing is the time mapped to an input interval---*Duration*.
+This node mixes between two colors where the factor for mixing is the time mapped to an input interval---*Duration*.
 
 .. image:: images/animate_color_node.png
    :width: 160pt

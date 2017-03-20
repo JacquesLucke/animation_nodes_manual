@@ -3,7 +3,7 @@ Animate Matrix
 
 Description
 -----------
-This node mixs between two matrices where the factor for mixing is the time mapped to an input interval---*Duration*.
+This node mixes between two matrices where the factor for mixing is the time mapped to an input interval---*Duration*.
 
 .. image:: images/animate_matrix_node.png
    :width: 160pt

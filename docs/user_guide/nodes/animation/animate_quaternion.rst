@@ -3,7 +3,7 @@ Animate Quaternion
 
 Description
 -----------
-This node mixs between two quaternions where the factor for mixing is the time mapped to an input interval---*Duration*.
+This node mixes between two quaternions where the factor for mixing is the time mapped to an input interval---*Duration*.
 
 .. image:: images/animate_quaternion_node.png
    :width: 160pt

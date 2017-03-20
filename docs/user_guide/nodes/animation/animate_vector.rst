@@ -3,7 +3,7 @@ Animate Vector
 
 Description
 -----------
-This node mixs between two vectors where the factor for mixing is the time mapped to an input interval---*Duration*.
+This node mixes between two vectors where the factor for mixing is the time mapped to an input interval---*Duration*.
 
 .. image:: images/animate_vector_node.png
    :width: 160pt

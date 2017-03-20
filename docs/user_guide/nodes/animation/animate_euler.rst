@@ -3,7 +3,7 @@ Animate Euler
 
 Description
 -----------
-This node mixs between two eulers where the factor for mixing is the time mapped to an input interval---*Duration*.
+This node mixes between two eulers where the factor for mixing is the time mapped to an input interval---*Duration*.
 
 .. image:: images/animate_euler_node.png
    :width: 160pt

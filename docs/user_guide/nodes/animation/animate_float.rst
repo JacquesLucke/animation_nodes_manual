@@ -3,7 +3,7 @@ Animate Float
 
 Description
 -----------
-This node mixs between two floats where the factor for mixing is the time mapped to an input interval---*Duration*.
+This node mixes between two floats where the factor for mixing is the time mapped to an input interval---*Duration*.
 
 .. image:: images/animate_float_node.png
    :width: 160pt
