@@ -3,7 +3,7 @@ FCurve Info
 
 Description
 -----------
-This node returns some inormation about the input fcurve.
+This node returns some information about the input fcurve.
 
 .. image:: images/fcurve_info_node.png
    :width: 160pt
