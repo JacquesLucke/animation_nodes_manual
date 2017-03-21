@@ -34,7 +34,7 @@ First create a file for this node following the rules above. Then copy this litt
     :linenos:
 
     import bpy
-    from ... base_types.node import AnimationNode
+    from ... base_types import AnimationNode
 
     class TemplateNode(bpy.types.Node, AnimationNode):
         bl_idname = "an_TemplateNode"
@@ -94,7 +94,7 @@ This node is already fully functional now. Below is all the code for this node a
     :linenos:
 
     import bpy
-    from ... base_types.node import AnimationNode
+    from ... base_types import AnimationNode
 
     class CopyLocationWithOffsetNode(bpy.types.Node, AnimationNode):
         bl_idname = "an_CopyLocationWithOffsetNode"

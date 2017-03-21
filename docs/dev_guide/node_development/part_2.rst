@@ -7,7 +7,7 @@ In the last part we created our first little node that copies the location from 
     :linenos:
 
     import bpy
-    from ... base_types.node import AnimationNode
+    from ... base_types import AnimationNode
 
     class CopyLocationWithOffsetNode(bpy.types.Node, AnimationNode):
         bl_idname = "an_CopyLocationWithOffsetNode"
@@ -56,7 +56,7 @@ The node is completely functional now again.
 
     import bpy
     from mathutils import Vector
-    from ... base_types.node import AnimationNode
+    from ... base_types import AnimationNode
 
     class CopyLocationWithOffsetNode(bpy.types.Node, AnimationNode):
         bl_idname = "an_CopyLocationWithOffsetNode"
@@ -113,7 +113,7 @@ Again our node is fully functional and so we come to the end of this part.
 
     import bpy
     from mathutils import Vector
-    from ... base_types.node import AnimationNode
+    from ... base_types import AnimationNode
 
     class CopyLocationWithOffsetNode(bpy.types.Node, AnimationNode):
         bl_idname = "an_CopyLocationWithOffsetNode"

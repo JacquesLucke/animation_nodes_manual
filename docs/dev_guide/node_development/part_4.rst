@@ -21,7 +21,7 @@ For our example we will use an ``EnumProperty`` to allow the user to switch betw
 
     import bpy
     from bpy.props import *
-    from ... base_types.node import AnimationNode
+    from ... base_types import AnimationNode
 
     # first define the modes the node can have
     # item tuple: (identifier, display name, description, icon, value)
@@ -78,7 +78,7 @@ With that new knowledge it is easy to fill in the missing code in the correct fu
     from bpy.props import *
     from math import sin, cos, pi
     from ... data_structures import Vector3DList
-    from ... base_types.node import AnimationNode
+    from ... base_types import AnimationNode
 
     modeItems = [
         ("LINE", "Line", "Distribute points on line", "", 0),

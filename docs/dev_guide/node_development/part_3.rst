@@ -7,7 +7,7 @@ In this chapter we want to give the nodes some properties so that the user of ou
     :linenos:
 
     import bpy
-    from ... base_types.node import AnimationNode
+    from ... base_types import AnimationNode
 
     class CopyLocationWithOffsetNode(bpy.types.Node, AnimationNode):
         bl_idname = "an_CopyLocationWithOffsetNode"
@@ -37,7 +37,7 @@ Now we want to create three properties, one for each axis. They should have the 
     import bpy
     from bpy.props import *
     from ... events import propertyChanged
-    from ... base_types.node import AnimationNode
+    from ... base_types import AnimationNode
 
     class CopyLocationWithOffsetNode(bpy.types.Node, AnimationNode):
         bl_idname = "an_CopyLocationWithOffsetNode"
@@ -80,7 +80,7 @@ Now the new feature is complete, here is the full code again:
     import bpy
     from bpy.props import *
     from ... events import propertyChanged
-    from ... base_types.node import AnimationNode
+    from ... base_types import AnimationNode
 
     class CopyLocationWithOffsetNode(bpy.types.Node, AnimationNode):
         bl_idname = "an_CopyLocationWithOffsetNode"
