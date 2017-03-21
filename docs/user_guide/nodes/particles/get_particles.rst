@@ -3,7 +3,7 @@ Get Particles
 
 Description
 -----------
-This node returns a particle list that contain the particles in the input particle system.
+This node returns a particle list that contains the particles in the input particle system.
 
 .. image:: images/get_particles_node.png
    :width: 160pt

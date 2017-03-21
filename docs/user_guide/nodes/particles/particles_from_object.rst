@@ -3,7 +3,7 @@ Particles From Object
 
 Description
 -----------
-This node returns a particle list that contain all the particles in all the particle systems in the input object.
+This node returns a particle list that contains all the particles in all the particle systems in the input object.
 
 .. image:: images/particles_from_object_node.png
    :width: 160pt
