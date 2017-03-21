@@ -3,7 +3,7 @@ Text Object Output
 
 Description
 -----------
-This node enable you to control text objects' properties.
+This node allows you to control text objects' properties.
 
 .. image:: images/text_object_output_node.png
    :width: 160pt
@@ -19,7 +19,7 @@ Inputs
 - **Bevel Resolution** - The resolution of the text bevel.
 - **Letter Spacing** - The length of the spaces between the letters.
 - **Word Spacing** - The length of the spaces between the words.
-- **Line Spacing** - The hight of the spaces between lines.
+- **Line Spacing** - The height of the spaces between lines.
 - **X Offset** - Amount of offseting text in the X axis.
 - **Y Offset** - Amount of offseting text in the X axis.
 - **Align** - Aligment method. A list of possible values can be found in the advanced node setting panel.

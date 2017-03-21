@@ -4,23 +4,23 @@ Spline
 .. toctree::
    :titlesonly:
 
-    Get from Object <get_from_object>
-    Create from Points <create_from_points>
-    Create from Edges <create_from_edges>
-    List <list>
-    Append Point <append_point>
-    Transform <transform>
-    Connect <connect>
-    Trim <trim>
-    Make Cyclic <make_cyclic>
-    Smooth Bezier <smooth_bezier>
-    Info <info>
-    Evaluate <evaluate>
-    Project <project>
-    Get Length <get_length>
-    Get Samples <get_samples>
-    Object Output <curve_object_output>
-    Loft <loft>
-    Revolve <revolve>
+   Splines From Object <splines_from_object>
+   Spline From Points <spline_from_points>
+   Splines From Edges <splines_from_edges>
+   Create Spline List <create_spline_list>
+   Append Point To Spline <append_point_to_spline>
+   Transform Spline <transform_spline>
+   Connect Splines <connect_splines>
+   Trim Spline <trim_spline>
+   Make Spline Cyclic <make_spline_cyclic>
+   Smooth Bezier Spline <smooth_bezier_spline>
+   Spline Info <spline_info>
+   Evaluate Spline <evaluate_spline>
+   Project On Spline <project_on_spline>
+   Get Spline Length <get_spline_length>
+   Get Spline Samples <get_spline_samples>
+   Curve Object Output <curve_object_output>
+   Loft Splines <loft_splines>
+   Revolve Spline <revolve_spline>
 
 .. image:: images/spline_overview.png

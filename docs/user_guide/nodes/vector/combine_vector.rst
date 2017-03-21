@@ -3,7 +3,7 @@ Combine Vector
 
 Description
 -----------
-This node compose a 3D vector from X,Y,Z components.
+This node composes a 3D vector from X,Y,Z components.
 
 .. image:: images/combine_vector_node.png
    :width: 160pt

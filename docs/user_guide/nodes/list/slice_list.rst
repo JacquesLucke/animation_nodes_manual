@@ -3,7 +3,7 @@ Slice List
 
 Description
 -----------
-This node output only a portion of the input list.The type of the node change
+This node outputs only a portion of the input list. The type of the node changes
 automatically to whatever the data type you input.
 
 .. image:: images/slice_list_node.png
@@ -13,24 +13,24 @@ Options
 -------
 
 - **Start,End and Step**
-    **Start** define the start index of the output list.So if the input list is
-    [1,2,3,4] and Start value is 2 then the new list will be [3,4] thats
+    **Start** defines the start index of the output list. So if the input list is
+    [1,2,3,4] and Start value is 2 then the new list will be [3,4] that's
     because the node will reject the elements before that index and output a list
-    that start from that index.
+    that starts from that index.
 
-    **End** in the other hand define the ending index of the output list.
+    **End** on the other hand defines the ending index of the output list.
     So assuming the start is 0 and end is 2 the output list will be [1,2,3]
     thats because the node will reject the elements after that index and output a
-    list that end by that index.
+    list that ends by that index.
 
-    **Step** define the step size between every index. So if the step size is
+    **Step** define the step size between each index. So if the step size is
     equal to 2 then the output list will be [1,3] notice that the index jumped
     2 values to get from 1 to 3 and that what the step size define.
 
 - **End Vs Length**
     As explained above, the **End** define the ending index.
     **Length** on the other hand defines the index starting from the start value.
-    In other words, the length is the length of the output list that start by the **Start** value.
+    In other words, the length is the length of the output list that starts with the **Start** value.
 
 Inputs
 ------

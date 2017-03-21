@@ -3,7 +3,7 @@ Object ID Key
 
 Description
 -----------
-This node return the values of a specific ID key.
+This node returns the values of a specific ID key.
 
 ID keys are are values that are set to objects and they are constants unless you update them. An example would be storing the initial transformation of an object in an ID key and then access it for different reasons using the Object ID key node.
 

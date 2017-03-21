@@ -1,12 +1,32 @@
-Time Info Node
-==============
+Time Info
+=========
+
+Description
+-----------
+This node returns some information about scene playback.
 
 .. image:: images/time_info_node.png
+   :width: 160pt
 
-**Frame:** Returns the final frame (time remapping is applied).
+Inputs
+------
 
-**Start Frame:** Start frame of the scene.
+- **Scene** - A scene to return its playback information.
 
-**End Frame:** End frame of the scene.
+Outputs
+-------
 
-**Frame Rate:** Frame Rate in this Scene (24 by default).
+- **Frame** - Current frame.It is a float because of existance of subframes.
+- **Start Frame** - First frame of the scene playback range.
+- **End Frame** - Last frame of the scene playback range.
+- **Frame Rate** - The frame rate of the playback.
+
+Advanced Node Settings
+----------------------
+
+- N/A
+
+Examples of Usage
+-----------------
+
+.. image:: gifs/time_info_node_example.gif

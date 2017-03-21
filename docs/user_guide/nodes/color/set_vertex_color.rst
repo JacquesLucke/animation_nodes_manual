@@ -3,7 +3,7 @@ Set Vertex Color
 
 Description
 -----------
-This node create a vertex color layer and fill it with a single color.
+This node creates a vertex color layer and fills it with a single color.
 
 .. image:: images/set_vertex_color_node.png
    :width: 160pt
@@ -24,8 +24,8 @@ Advanced Node Settings
 ----------------------
 
 - **Check Color**
-    If this is enabled, Animation Nodes will check if the color haven't changed
-    before setting the new color. If it haven't, Animation Nodes will return the
+    If this is enabled, Animation Nodes will check if the color has changed
+    before setting the new color. If it hasn't, Animation Nodes will return the
     object without any change.
 
     This will result a speed up in the execution time if you are not changing

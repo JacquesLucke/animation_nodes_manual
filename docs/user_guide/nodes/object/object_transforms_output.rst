@@ -3,7 +3,7 @@ Object Transforms Output
 
 Description
 -----------
-This node set the location, rotation and scale of the input object to the input transformations.
+This node sets the location, rotation, and scale of the input object to the input transformations.
 
 To output a property, enable its representative check box.
 
@@ -14,9 +14,9 @@ Inputs
 ------
 
 - **Object** - An object.
-- **Location** - A vector that contain the location of the object.
-- **Rotation** - An euler that contain the rotation of the object.
-- **Scale** - A vector that contain the scale of the object.
+- **Location** - A vector that contains the location of the object.
+- **Rotation** - An euler that contains the rotation of the object.
+- **Scale** - A vector that contains the scale of the object.
 
 Outputs
 -------

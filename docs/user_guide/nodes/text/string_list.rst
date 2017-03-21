@@ -19,7 +19,7 @@ Inputs
 
 Outputs
 -------
-- **String list** - A list that contain all the input strings.
+- **String list** - A list that contains all the input strings.
 
 Advanced Node Settings
 -----------------------
@@ -30,7 +30,7 @@ Advanced Node Settings
 
 Caution
 -------
-A warning pop up when you use the *Remove All* button in the node, while if you
+A warning will pop up when you use the *Remove All* button in the node, while if you
 used the the *Remove All* button in the *Advanced Node Settings* the inputs will
 be removed without a warning.
 

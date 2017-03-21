@@ -3,7 +3,7 @@ Quaternion List
 
 Description
 -----------
-This node is used to create an arbitrary list of quaternions. A new quaternion can be added with the *New Input* button. A new quaternion can also be added by plugging it into the transperant socket.
+This node is used to create an arbitrary list of quaternions. A new quaternion can be added with the *New Input* button. A new quaternion can also be added by plugging it into the transparent socket.
 
 .. image:: images/quaternion_list_node.png
    :width: 160pt
@@ -28,7 +28,7 @@ Advanced Node Settings
 
 Caution
 -------
-A warning pop up when you use the *Remove All* button in the node, while if you used the the *Remove All* button in the *Advanced Node Settings* the inputs will be removed without a warning.
+A warning pops up when you use the *Remove All* button in the node, while if you used the *Remove All* button in the *Advanced Node Settings* the inputs will be removed without a warning.
 
 Examples of Usage
 -----------------

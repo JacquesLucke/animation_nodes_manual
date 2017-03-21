@@ -3,7 +3,7 @@ Characters
 
 Description
 -----------
-This node return a string that contain all the characters in a specific category including:
+This node returns a string that contains all the characters in a specific category including:
 
 - **Lower Case**
 - **Upper Case**
@@ -28,7 +28,7 @@ Outputs
 - **Digits** - All the digits.
 - **Special** - All special characters like (:,?").
 - **Line Break** - Include a new line.
-- **All** - All of the previouse category.
+- **All** - All of the previous category.
 
 Advanced Node Settings
 ----------------------

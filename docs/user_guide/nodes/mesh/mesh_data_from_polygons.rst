@@ -1,5 +1,31 @@
-Mesh data from polygons
+Mesh Data From Polygons
 =======================
 
-.. include:: /includes/workinprogress.rst
-.. todo:: No content in file user_guide/nodes/mesh/mesh_data_from_polygons.rst
+Description
+-----------
+This node creates a mesh data block from a list of polygons.
+
+You may think that this node create mesh data from just polygons, but in fact, the polygon data block contains the vertices locations that create each polygon, however, indices are not provided so the resultant mesh data will have faces that are separated from each other.
+
+.. image:: images/mesh_data_from_polygons_node.png
+   :width: 160pt
+
+Inputs
+------
+
+- **Polygons** - A list of polygon data.
+
+Outputs
+-------
+
+- **Mesh Data** - The mesh data of the resulted mesh.
+
+Advanced Node Settings
+----------------------
+
+- N/A
+
+Examples of Usage
+-----------------
+
+.. image:: gifs/transform_polygon_node_example.gif

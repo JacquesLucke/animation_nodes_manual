@@ -3,7 +3,7 @@ Vector Math
 
 Description
 -----------
-This node carries 7 euler math operation:
+This node performs 7 euler math operationa:
 
 - **Add** - Add corresponding elements of the input eulers.
 - **Subtract** - Subtract corresponding elements of the input eulers.
@@ -22,7 +22,7 @@ Inputs
 - **Euler A** - The first euler.
 - **Euler B** - The second euler.
 
-(Inputs are dynamic, Means the node has either one or two inputs based on selected operation.Those inputs can also be scalar or eulers based on the operation)
+(Inputs are dynamic. This means the node has either one or two inputs based on selected operation. These inputs can also be scalar or eulers based on the operation)
 
 Outputs
 -------

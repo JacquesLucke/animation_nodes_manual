@@ -3,7 +3,7 @@ Objects From Group
 
 Description
 -----------
-This node return a list of objects that are included in the input object group.
+This node returns a list of objects that are included in the input object group.
 
 .. image:: images/objects_from_group_node.png
    :width: 160pt
@@ -15,7 +15,7 @@ Inputs
 
 Outputs
 -------
-- **Objects** - A list that contain all the objects in the input object group.
+- **Objects** - A list that contains all the objects in the input object group.
 
 Advanced Node Settings
 ----------------------

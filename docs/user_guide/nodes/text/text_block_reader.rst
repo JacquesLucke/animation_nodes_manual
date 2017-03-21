@@ -3,7 +3,7 @@ Text Block Reader
 
 Description
 -----------
-This node read a blender text data block.
+This node reads a blender text data block.
 
 .. image:: images/text_block_reader_node.png
    :width: 160pt

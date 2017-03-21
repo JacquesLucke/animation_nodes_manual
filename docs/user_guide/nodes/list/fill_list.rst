@@ -3,7 +3,7 @@ Fill List
 
 Description
 -----------
-This node takes an input list and an input integer that define the length of the
+This node takes an input list and an input integer that defines the length of the
 output list. If the length of the output list is larger than the length of the
 input list, the empty spaces are filled with the input element. Those empty spaces
 can either be to the left of the list or to its right and that's what **Left**

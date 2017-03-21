@@ -3,7 +3,7 @@ Shape key Output
 
 Description
 -----------
-This node edit the values of shape keys.
+This node edits the values of shape keys.
 
 .. image:: images/shape_key_output_node.png
    :width: 160pt

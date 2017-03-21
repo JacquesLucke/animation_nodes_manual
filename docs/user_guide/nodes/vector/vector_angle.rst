@@ -3,7 +3,7 @@ Vector Angle
 
 Description
 -----------
-This node calculate the angle between 2 vectors.
+This node calculates the angle between 2 vectors.
 The main advantage of using this node over the Dot product operation is the ability to input a non normalized vector.
 
 .. image:: images/vector_angle_node.png
@@ -11,7 +11,7 @@ The main advantage of using this node over the Dot product operation is the abil
 
 Inputs
 ------
- 
+
 - **Vector A** - The first vector.
 - **Vector B** - The second vector.
 

@@ -3,7 +3,7 @@ Object Matrix Input
 
 Description
 -----------
-This node return the transformation matrix of the input object.
+This node returns the transformation matrix of the input object.
 
 .. image:: images/matrix_input_node.png
    :width: 160pt

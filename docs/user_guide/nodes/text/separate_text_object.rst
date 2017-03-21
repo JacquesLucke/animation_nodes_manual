@@ -3,8 +3,8 @@ Separate Text Object
 
 Description
 -----------
-This node is more of an operation. It takes a text object and separates its
-characters into another type of data objects.
+This node takes a text object and separates its
+characters into another type of data object.
 
 .. image:: images/separate_text_object_node.png
    :width: 160pt
@@ -20,12 +20,12 @@ Inputs
 Outputs
 -------
 
-- **Text Objects** - A list that contain the newly created objects.
+- **Text Objects** - A list that contains the newly created objects.
 
 Advanced Node Settings
 ----------------------
 
-- **Parent To Main Containter** - Parent the objects to animation nodes' containter.
+- **Parent To Main Container** - Parent the objects to animation nodes' container.
 
 Examples of Usage
 -----------------

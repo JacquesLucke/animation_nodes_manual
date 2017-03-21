@@ -3,7 +3,7 @@ Join Text
 
 Description
 -----------
-This node join a list of strings in a single string.
+This node joins a list of strings in a single string.
 
 .. image:: images/join_texts_node.png
    :width: 160pt

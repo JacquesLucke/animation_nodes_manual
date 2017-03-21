@@ -4,7 +4,7 @@ Append To List
 Description
 -----------
 This node can be used to add an extra element to a list of the same data type.
-The type of the node change automatically to whatever the data type you input.
+The type of the node changes automatically to whatever the data type you input.
 
 .. image:: images/append_to_list_node.png
    :width: 160pt

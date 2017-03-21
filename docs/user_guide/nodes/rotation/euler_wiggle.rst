@@ -3,7 +3,7 @@ Vector Wiggle
 
 Description
 -----------
-This node generate a random euler by generating a 1D perlin noise in all of it's components.
+This node generates a random euler by generating a 1D perlin noise in all of its components.
 It is just like a :doc:`Number Wiggle <../number/number_wiggle>` node in the euler's components.
 
 .. image:: images/euler_wiggle_node.png
@@ -15,7 +15,7 @@ Inputs
 The inputs are just like :doc:`Number Wiggle <../number/number_wiggle>` node except for the Amplitude.
 
 
-- **Amplitude** - An euler that control the the amplitude of each component's perlin noise.
+- **Amplitude** - An euler that controls the the amplitude of each component's perlin noise.
 
 
 Outputs

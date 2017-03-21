@@ -3,7 +3,7 @@ Split Text
 
 Description
 -----------
-This node split input string into multiple strings based on the chosen algorithm.
+This node splits input string into multiple strings based on the chosen algorithm.
 
 .. image:: images/split_text_node.png
    :width: 160pt
@@ -12,14 +12,14 @@ Options
 -------
 
 - **Separator**
-    This option allow splitting string by a specific character. So if the input
+    This option allows splitting string by a specific character. So if the input
     text is "Animation,Nodes" the output list will contain : -Animation and -Nodes.
 - **N Characters**
-    This option allow splitting string each n number of characters. So if the
+    This option allows splitting string each n number of characters. So if the
     input text is "Animation Nodes" and N = 2 the output list will
     contain: -An,-im,-at,-io,-n,,-No,-de,-s.
 - **Regular Expression**
-    This node enable you to use "regex" operations in python enabling more control.
+    This node aloows you to use "regex" operations in python enabling more control.
     So if the input string is "Animation Nodes" and I want to split by white spaces,
     I can use the "/s" operations which will return -Animation and -Nodes.
     A list of operations can be found here: https://docs.python.org/3/library/re.html
@@ -38,7 +38,7 @@ Inputs
 Outputs
 -------
 
-- **Text list** - A list of strings that contain string parts.
+- **Text list** - A list of strings that contains string parts.
 - **Length** - The number of strings in the list.
 
 Advanced Node Settings

@@ -1,6 +1,8 @@
 Generators
 ==========
 
-.. toctree:: 
-    Line <line>
-    Grid <grid>
+.. toctree::
+   :titlesonly:
+
+   Line <line>
+   Grid <grid>
