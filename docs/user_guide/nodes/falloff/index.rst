@@ -9,6 +9,7 @@ Falloff
    Random Falloff <random_falloff>
    Index Mask Falloff <index_mask_falloff>
    Fade Falloff <fade_falloff>
+   Wiggle Falloff <wiggle_falloff>
 
 Abstractly speaking a falloff is a function that calculates the influence of an effect for a specific object. Often zero means *no effect* and one means *100%*. However, values not within this range are possible in many cases.
 
