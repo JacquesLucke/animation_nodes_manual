@@ -24,6 +24,7 @@ Here you will find explanations for all the different nodes.
    particles/index
    animation/index
    interpolation/index
+   falloff/index
    fcurves/index
    material/index
    sound/index
