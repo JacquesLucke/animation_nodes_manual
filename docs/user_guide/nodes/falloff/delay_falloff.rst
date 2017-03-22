@@ -4,6 +4,7 @@ Delay Falloff
 This node is very practical if you want to apply an effect an many objects with an offset in time.
 
 .. image:: images/delay_falloff_node.png
+   :width: 160pt
 
 Inputs
 ------
