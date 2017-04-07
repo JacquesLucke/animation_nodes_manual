@@ -3,7 +3,7 @@ Construct KD Tree
 
 Description
 -----------
-This node construct a KD Tree from the input vector list.
+This node constructs a KD Tree from the input vector list.
 
 .. image:: images/construct_kd_tree_node.png
    :width: 160pt

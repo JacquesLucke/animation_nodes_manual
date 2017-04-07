@@ -3,7 +3,7 @@ Find Nearest Point
 
 Description
 -----------
-This node find the nearest point in the input KD Tree to a given point
+This node finds the nearest point in the input KD Tree to a given point.
 
 .. image:: images/find_nearest_point_node.png
    :width: 160pt
@@ -11,7 +11,7 @@ This node find the nearest point in the input KD Tree to a given point
 Inputs
 ------
 
-- **KD Tree** - A KD tree that contain your sample points.
+- **KD Tree** - A KD tree that contain your points.
 - **Vector** - A vector that represent the location of the point in which we want to find its nearest point.
 
 Outputs
