@@ -29,7 +29,7 @@ Here you will find explanations for all the different nodes.
    sound/index
    sequence/index
    geometry/index
-   kdtree/index
+   kd&bvhtree/index
    debug/index
    subprograms/index
    layout/index
