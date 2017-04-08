@@ -8,6 +8,7 @@ KD & BVH Tree
    Find Nearest Point <find_nearest_point>
    Find Nearest Points <find_nearest_points>
    Find Points In Radius <find_points_in_radius>
+   Construct BVH Tree <construct_bvh_tree>
 
 
 .. image:: images/kdtree_overview.png
