@@ -1,5 +1,5 @@
 Ray Cast BVH Tree
-==================
+=================
 
 Description
 -----------
@@ -23,6 +23,7 @@ Outputs
 - **Location** - A vector that represents the location of the point of intersection if there was any. (It is a null vector if there was no intersection)
 - **Normal** - A unit vector that represents the surface normal at the point of intersection if there was any. (It is a null vector if there was no intersection)
 - **Distance** - The distance between the ray start and the point of intersection if there was any. (It is zero if there was no intersection)
+- **Polygon Index** - The index of the polygon that the ray intersect if it did. (It is -1 if there was no intersection)
 - **Hit** - A boolean which is True if there was an intersection and False otherwise.
 
 Advanced Node Settings
