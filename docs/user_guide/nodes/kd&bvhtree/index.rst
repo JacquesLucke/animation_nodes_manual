@@ -9,6 +9,7 @@ KD & BVH Tree
    Find Nearest Points <find_nearest_points>
    Find Points In Radius <find_points_in_radius>
    Construct BVH Tree <construct_bvh_tree>
+   Ray Cast BVH Tree <ray_cast_bvh_tree>
 
 
 .. image:: images/kdtree_overview.png
