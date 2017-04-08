@@ -11,6 +11,7 @@ KD & BVH Tree
    Construct BVH Tree <construct_bvh_tree>
    Ray Cast BVH Tree <ray_cast_bvh_tree>
    Find Nearest Surface Point <find_nearest_surface_point>
+   Is Inside Volume <is_inside_volume>
 
 
 .. image:: images/kdtree_overview.png
