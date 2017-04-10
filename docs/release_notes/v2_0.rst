@@ -1,0 +1,24 @@
+Release Notes for Version 2.0
+=============================
+
+This release had three main goals:
+
+    - Cython:
+        Many parts of Animation Nodes has been rewritten using this programming language. It's a language that mixes Python and C and is perfectly suited to develop addons with higher performance for Blender. There is one disadvantage though, we now have different versions of Animation Nodes for different platforms. So you have to download the correct version for your platform.
+
+        .. image:: images_v2_0/cython_performance_example.gif
+
+    - Vectorization:
+        Lists are an essential part of Animation Nodes. In previous versions the only way to use lists effectively was to use a subprogram called loop. These have a many advantages as they give you a lot of flexibility. They are not perfect though. In many cases the flexibility a loop can give you is not needed. This release includes an alternative to loops: Vectorized Nodes. A vectorized node is a node that can work on individual values as well as on lists. Together with the usage of Cython this also leads to big speedup for some operations.
+
+        .. image:: images_v2_0/vectorization_example.gif
+
+        Not all nodes which could have this functionality have it yet. Fortunately, vectorizing a node does not break it, so some nodes can be vectorized after the first release of AN 2.0.
+    - Falloffs:
+        While the first to goals where mainly targeted at all users of Animation Nodes, falloffs have been designed specifically for motion graphics. In general a falloff is a function that tells an effect how much it should influence a specific object. For now there are only two nodes that use falloffs effectively (Offset Matrices and Offset Vectors), however you can expect to see more of those in the future.
+
+        .. image:: images_v2_0/falloff_example.gif
+
+
+Compatibility
+*************
