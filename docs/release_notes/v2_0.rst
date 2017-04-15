@@ -15,10 +15,133 @@ This release had three main goals:
 
         Not all nodes which could have this functionality have it yet. Fortunately, vectorizing a node does not break it, so some nodes can be vectorized after the first release of AN 2.0.
     - Falloffs:
-        While the first to goals where mainly targeted at all users of Animation Nodes, falloffs have been designed specifically for motion graphics. In general a falloff is a function that tells an effect how much it should influence a specific object. For now there are only two nodes that use falloffs effectively (Offset Matrices and Offset Vectors), however you can expect to see more of those in the future.
+        While the first to goals where mainly targeted at all users of Animation Nodes, falloffs have been designed specifically for motion graphics. In general a falloff is a function that tells an effect how much it should influence a specific object. You can think of it like a mask for an effect (similar on how we can use wheight painting to control the influence of some modifiers). For now there are only two nodes that use falloffs effectively (Offset Matrices and Offset Vectors), however you can expect to see more of those in the future.
 
         .. image:: images_v2_0/falloff_example.gif
 
 
 Compatibility
 *************
+
+Similar to the last releases, this release will break most existing files in a way so that they don't work anymore in this release. This is necessary to not slow down future development (keeping old stuff working always means that some new features would not be possible). There might be some files that still work in this release but you should not expect that.
+
+Updating files to work in this version is easy in some cases but very difficult in others. In general I suggest to either use the old version for old files or rebuild the node trees from scratch.
+
+It is also possible to change existing files in a way that they automatically load the correct version of AN when loaded. This might also be useful when you want to render animations that use AN on a renderfarm, basicly you can put the .blend file and the addon into a .zip file and upload it to the renderfarm (Note: this is only possible when the renderfarm allows you to execute python scripts, sometimes you first have to ask for permission). For more information contact me (mail@jlucke.com).
+
+
+Interpolations
+**************
+
+The interpolation system has been upgraded to cython to allow much faster evaluation of interpolations. Beside these under-the-hood changes, some new node functionalities have been added as well.
+
+TODO: IMAGES
+
+    - New *Mirror Interpolation* node
+    - New *Chain* option in *Mix Interpolations* node
+    - New *Cache Interpolation* option in *Interpolation from Curve Mapping* node (should be used when the falloff is evaluated very often)
+    - The *Evaluate Interpolation* node has been vectorized.
+
+
+Sounds
+******
+
+The *Single* and *Equalizer* sound types are called *Average* and *Spectrum* now. These names are used more often in other software as well.
+
+Also the output of the *Evaluate Sound* node is called *Volume/Volumes* now depending on which sound type is selected.
+
+There is a new *Sound Falloff* node that makes some sound effects much easier. It is still possible to use the old approach to do sound animations though.
+
+TODO: LINK
+
+
+Splines
+*******
+
+The most notable change is that each spline point (poly and bezier) has a radius now. This allows for some very interesting effects.
+
+TODO: Join Evaluate and Sample Spline nodes
+
+The *Spline Info* node has been upgraded to output more information depending on which spline type is selected. These options include the left/right handles for every bezier spline point and the radius of every point.
+
+The *Trim Spline* falloff produces a much cleaner result for bezier splines now.
+
+TODO: IMAGE
+
+The spline input of the *Curve Object Output* node has been vectorized. This means that no *Create List* node is needed anymore if you only want to set one spline on the curve object.
+
+There is a new *Spline Falloff* node.
+
+TODO: LINK
+
+.. image:: images_v2_0/spline_nodes.png
+
+
+Find Close Points
+*****************
+
+The *Find Close Vertices* has been renamed to *Find Close Points*. Also the functionality of the node has been upgraded to make it easier to use.
+
+.. image:: images_v2_0/find_close_points_node.png
+
+TODO: LINK
+
+
+Data Input
+**********
+
+The *Data Input* nodes are all the nodes with names like *Integer Input*, *Float Input*, *Object Input*, ... (They all share the same base). Originally these nodes also had an input socket which confused many people. Therefor this socket is hidden now but it is possible to unhide it.
+
+TODO: IMAGE
+
+
+BVH/KD Tree
+***********
+
+Get List Element
+****************
+
+The *Get List Element* node can output a list now if multiple indices are provided as input. Together with the new implicit conversion from Edge/Polygon Indices to Integer List this node is ideal to get e.g. all the vertices of a specific polygon.
+
+Also the UI of the node has changed. Two options that were only visible in the advanced settings before are visible all the time now.
+
+.. image:: images_v2_0/get_list_element_example.png
+
+
+ID Keys
+*******
+
+The ID Key system allows you to store data per object (or more general, per ID object). There are two default ID Keys, one that can store the initial transformation of an object and one that can store an integer index. The index can be used for sorting the objects but other uses are possible as well.
+
+ID Keys already exist for a long time but more of the functionality is available to the user now. E.g. it is possible to create and remove your own ID Keys.
+
+To access this data in the node tree you need to use the *Object ID Key* node. This node is vectorized now, so you can get the values for many objects at the same time.
+
+TODO: IMAGE
+
+
+Polygons
+********
+
+Matrices
+********
+
+Offset Vectors
+**************
+
+Offset Matrices
+***************
+
+Text
+****
+
+Math
+****
+
+Viewer
+******
+
+Keyboard Shortcuts
+******************
+
+Animation Nodes currently uses the *W*, *E* and *U* key in the node editor. The *W* and *E* key have not changed since the last release but the *U* key now opens a popup that not only shows the advanced settings of a node but also it's sockets. This is useful as some nodes have hidden sockets or allow reordering/deletion of sockets.
