@@ -13,5 +13,6 @@ Geometry
    Intersect Line Sphere <intersect_line_sphere>
    Intersect Plane Plane <intersect_plane_plane>
    Intersect Sphere Plane <intersect_sphere_plane>
+   Intersect Sphere Sphere <intersect_sphere_sphere>
 
 .. image:: images/geometry_overview.png
