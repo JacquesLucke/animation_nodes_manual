@@ -8,5 +8,6 @@ Geometry
    Point List Normal <point_list_normal>
    Project Point On Line <project_point_on_line>
    Project Point On Plane <project_point_on_plane>
+   Intersect Line Line <intersect_line_line>
 
 .. image:: images/geometry_overview.png
