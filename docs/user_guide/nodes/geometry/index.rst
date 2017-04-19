@@ -9,5 +9,6 @@ Geometry
    Project Point On Line <project_point_on_line>
    Project Point On Plane <project_point_on_plane>
    Intersect Line Line <intersect_line_line>
+   Intersect Line Plane <intersect_line_plane>
 
 .. image:: images/geometry_overview.png
