@@ -10,5 +10,6 @@ Geometry
    Project Point On Plane <project_point_on_plane>
    Intersect Line Line <intersect_line_line>
    Intersect Line Plane <intersect_line_plane>
+   Intersect Line Sphere <intersect_line_sphere>
 
 .. image:: images/geometry_overview.png
