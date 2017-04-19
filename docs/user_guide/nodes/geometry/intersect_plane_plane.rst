@@ -3,7 +3,7 @@ Intersect Plane Plane
 
 Description
 -----------
-This node return some information about the intersection of input planes.
+This node returns some information about the intersection of input planes.
 
 .. image:: images/intersect_plane_plane_node.png
    :width: 160pt
