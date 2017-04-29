@@ -46,3 +46,9 @@ External Links
 
 **Zach Hixson:**
     *English (Video Tutorials):* https://www.youtube.com/playlist?list=PLJSCK4DjIWhk-JIGOIJKLUB1bGXfDBgzZ
+
+**Omar Ahmad:**
+        *English (Text and Animation Tutorials):* https://squircleart.github.io/posts.html
+
+**BIG3:**
+        *English (Video Examples):* https://www.youtube.com/playlist?list=PLxhvHjvBEdqgvnNKQmdedLz9pwXEaPTYe
