@@ -16,5 +16,6 @@ Geometry
    Intersect Sphere Sphere <intersect_sphere_sphere>
    Intersect Polyline Plane <intersect_polyline_plane>
    Triangulate Polygons <triangulate_polygons>
+   Triangulate BMesh <triangulate_bmesh>
 
 .. image:: images/geometry_overview.png
