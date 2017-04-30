@@ -3,6 +3,7 @@ Direction To Rotation
 
 Description
 -----------
+
 This node converts a direction to a rotation, A vector that defines a direction is inputed and a corresponding rotation is outputed.
 
 .. image:: images/direction_to_rotation_node.png

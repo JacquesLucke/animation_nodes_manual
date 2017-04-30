@@ -3,6 +3,7 @@ Separate Quaternion
 
 Description
 -----------
+
 This node takes a quaternion and returns its components.
 
 .. image:: images/separate_quaternion_node.png
