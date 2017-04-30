@@ -5,6 +5,7 @@ Number Wiggle
 
 Description
 -----------
+
 This node is a 1D perlin noise generator, You can think of it as random numbers that are smoothly connected to each other.
 
 It is a function of variable **Evolution**, Which means every value of the variable **Evolution** has a corresponding value calculated based on the node options and this value is the output of the node.
@@ -15,10 +16,10 @@ It is a function of variable **Evolution**, Which means every value of the varia
 Inputs
 ------
 
-- **Seed** - Seed for the random generator, Where different seed generate different noise.
+- **Seed** - Seed for the random generator, where different seed generate different noise.
 - **Evolution** - A float that is the variable of the function wiggle.
 - **Speed** - It is the frequency of the noise or the rate of change of the values.
-- **Amplitude** - It is the range of the output values in both positive and negative direction, Means if the *Amplitude* is equal to 1, the value will range between -1 and 1.
+- **Amplitude** - It is the range of the output values in both positive and negative direction, Means if the *Amplitude* is equal to 1, the values will range between -1 and 1.
 - **Octaves** - It is the number of levels of details.
 - **Persistance** - It is the strength of the details added from *Octaves*
 

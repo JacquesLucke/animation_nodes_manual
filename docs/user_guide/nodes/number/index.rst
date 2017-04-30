@@ -1,6 +1,8 @@
 Number
 ======
 
+Number category contains nodes that process and generates integers and floats.
+
 .. toctree::
    :titlesonly:
 

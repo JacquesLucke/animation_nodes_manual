@@ -3,6 +3,7 @@ To Integer
 
 Description
 -----------
+
 This node converts floats into integers using one of 3 algorithms. (See advanced node settings)
 
 .. image:: images/to_integer_node.png
