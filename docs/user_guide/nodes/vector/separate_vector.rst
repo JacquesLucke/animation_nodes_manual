@@ -3,6 +3,7 @@ Separate Vector
 
 Description
 -----------
+
 This node takes a 3D vector and returns its components.
 
 .. image:: images/separate_vector_node.png

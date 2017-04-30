@@ -3,7 +3,8 @@ Mix Vectors
 
 Description
 -----------
-This node mixes between 2 vectors by a defined factor.
+
+This node mixes between 2 vectors based on a factor.
 
 .. image:: images/mix_vectors_node.png
    :width: 160pt

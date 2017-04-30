@@ -3,6 +3,7 @@ Vector Math
 
 Description
 -----------
+
 This node performs 11 vector math operations:
 
 - **Add** - Add input vector A to input vector B.
