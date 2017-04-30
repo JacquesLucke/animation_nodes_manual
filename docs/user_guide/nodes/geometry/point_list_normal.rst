@@ -1,16 +1,37 @@
 Point List Normal
 =================
 
-This node calculates the normal of a set of points (vectors) as if they were forming a polygon.
+Description
+-----------
+This node takes multiple vectors which represent points of a polygon and return the normal of that polygon.
 
-.. image:: images/point_list_normal.png
+At least 3 points are needed to compute the normal. If more than 3 points were input, the resulted normal will be the average of the normals of each 3 points.
 
-This is useful for extracting normals of polygons created by nodes and not from a mesh, but also it
-can be used to find the normal of a plane out of 3 points instead of the above methods.
+.. image:: images/point_list_normal_node.png
+   :width: 160pt
 
-The Is Valid output may be used to check if the normal can be calculated. For colinear points and other cases the
-normal may not be computable.
-A list of min 3 different points is required.
+Inputs
+------
 
-.. note:: The order of the points matters as the flipped normal will be returned
-          when the input points are in reversed order.
+- **Point List** - A vector list that contain the locations of the polygon points.
+
+Outputs
+-------
+
+- **Normal** - A unit vector that represent the normal of the polygon. A zero vector if points weren't valid.
+- **Is Valid** - A boolean which is True if blender was able to calculate the normal.
+
+Advanced Node Settings
+----------------------
+
+- N/A
+
+Notes
+-----
+
+The order of points matter as cross product is used to compute the normals, So points in reversed order will return a normal that is in the reverse direction of the normal computed by the original list.
+
+Examples of Usage
+-----------------
+
+.. image:: gifs/point_list_normal_node_example.gif

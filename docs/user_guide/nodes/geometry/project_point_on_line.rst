@@ -1,13 +1,34 @@
-Project Point on Line
+Project Point On Line
 =====================
 
-.. image:: images/project_point_on_line.png
+Description
+-----------
+This node takes a point and a line and returns information about the projection of this point on that line.
 
-This node provides several useful outputs:
- - the location of the closest point on line (projection of the point)
- - the factor [0-1] of this projection in relation to start and end of the line segment
- - the distance between the point and the line
+.. image:: images/project_point_on_line_node.png
+   :width: 160pt
 
-If the point is on line, the distance is 0.0. If the point is inside the segment,
-factor is between 0 and 1, while below 0 or above 1 shows on what side is
-positioned outside the segment.
+Illustration
+------------
+
+.. image:: images/project_point_on_line_node_illustration.png
+
+Inputs
+------
+
+- **Point** - The coordinates of the point that will be projected.
+- **Line Start** - The coordinates of the line starting point.
+- **Line End** - The coordinates of the line ending point.
+
+
+Outputs
+-------
+
+- **Projection** - The coordinates of the closest point on the line to the input point. Mathematically this point is the point that makes a perpendicular line to the input line.
+- **Projection Factor** - It is the ratio between the length of the line formed by the projected point and the input line's first point and the length of the input line. Or in more mathematical word, it is the scalar of the convex combination of the starting and ending point to get the projected point.
+- **Distance** - It is the shortest distance between the input point and the input line, Which is also the distance between the projected point and the input point.
+
+Advanced Node Settings
+----------------------
+
+- N/A

@@ -1,19 +1,42 @@
 Intersect Polyline Plane
 ========================
 
-.. image:: images/intersect_polyline_plane.png
+Description
+-----------
+This node returns some information about the intersection of the input polygon with the input plane.
 
-This is a special case of Line Plane intersections that has many applications, for polygons, splines or objects.
+.. image:: images/intersect_polyline_plane_node.png
+   :width: 180pt
 
-The node takes a vector list. By default the order in which the vectors are in the
-list will determine the line segments. Optionally there is also an *Edge Indices*
-input which (when enabled) determines the line segments.
+Illustration
+------------
 
-In both cases there will be returned (some outputs are hidden by default):
-  - a list of vectors for intersection points
-  - indices of edges that are cut so that you can use only those edges further
-  - what side of the plane edges are on (1, -1 for above, below and 0 if cut) to help keep only part of the edges further
-  - Is Valid, if any intersections at all
+.. image:: images/intersect_polyline_plane_node_illustration.png
 
-This helps "cut" a polyline or spline with a plane, but also to create lines or splines inside respective contour.
-It also may be used to make level curves or section contours out of objects.
+Orange points are the only intersections with the input plane.
+
+Options
+-------
+
+- **Cyclic Points** - If enabled, the connection between the last and first point will be considered for possible intersections. If this connections is defined in the edge indices then there is no need to check this option.
+
+Inputs
+------
+
+- **Positions** - The locations of the vertices of the polygon.
+- **Edge Indices** - An edge indices list that describe the connections between polygon's vertices.
+- **Plane Point** - A point on the required plane.
+- **Plane Normal** - A unit vector that represent the normal of the required plane.
+
+Outputs
+-------
+
+- **Intersection List** - A vector list the contain the locations of the points of intersection with the plane.
+- **Intersected Edge Index** - An integer list that contains the indices of the edges that intersected with the plane.
+- **Intersected Edge Plane Side** - `To Do`
+- **Is Valid** - A boolean which is True if an intersection was found, and Fasle otherwise.
+
+Advanced Node Settings
+----------------------
+
+- N/A
