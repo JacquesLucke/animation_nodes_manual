@@ -3,8 +3,8 @@ Translation Matrix
 
 Description
 -----------
-This node generates a translation transformation matrix based on an input vector.
-The transformation matrix can then be multiplied to a matrix to perform the translation.
+
+This node generates a translation transformation matrix based on an input vector. The transformation matrix can then be multiplied to a matrix to perform the translation.
 
 .. image:: images/translation_matrix_node.png
    :width: 160pt

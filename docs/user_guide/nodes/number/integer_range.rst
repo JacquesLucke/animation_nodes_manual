@@ -29,4 +29,4 @@ Advanced Node Settings
 Examples of Usage
 -----------------
 
-.. image:: gifs/integer_range_example_1.gif
+.. image:: gifs/integer_range_node_example.gif

@@ -29,4 +29,4 @@ Advanced Node Settings
 Examples of Usage
 -----------------
 
-.. image:: gifs/clamp_example_1.gif
+.. image:: gifs/clamp_node_example.gif

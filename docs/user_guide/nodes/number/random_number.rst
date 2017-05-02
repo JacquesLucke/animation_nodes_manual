@@ -42,4 +42,4 @@ Animation Nodes automatically change the *Node Seed* when you duplicate or add a
 Examples of Usage
 -----------------
 
-.. image:: gifs/random_number.gif
+.. image:: gifs/random_number_node_example.gif

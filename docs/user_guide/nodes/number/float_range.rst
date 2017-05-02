@@ -36,4 +36,4 @@ Advanced Node Settings
 Examples of Usage
 -----------------
 
-.. image:: gifs/float_range_example_1.gif
+.. image:: gifs/float_range_node_example.gif

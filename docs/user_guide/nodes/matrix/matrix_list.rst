@@ -1,25 +1,25 @@
-Float List
-==========
+Matrix List
+===========
 
 Description
 -----------
 
-This node is used to create an arbitrary list of floats. A new float can be added with the *New Input* button. A new float can also be added by plugging it into the transparent socket.
+This node is used to create an arbitrary list of matrices. A new matrix can be added with the *New Input* button. A new matrix can also be added by plugging it into the transparent socket.
 
-.. image:: images/float_list_node.png
+.. image:: images/matrix_list_node.png
    :width: 160pt
 
 Inputs
 ------
 
-- **Float** - A float at the index 0.
-- **Float** - A float at the index 1.
-- **Float** - ...
+- **Matrix** - A matrix at the index 0.
+- **Matrix** - A matrix at the index 1.
+- **Matrix** - ...
 
 Outputs
 -------
 
-- **Float list** - A list that contains all the input floats.
+- **matrix list** - A list that contains all the input matrices.
 
 Advanced Node Settings
 ----------------------
@@ -36,4 +36,4 @@ A warning will pop up when you use the *Remove Unlinked Inputs* button in the no
 Examples of Usage
 -----------------
 
-.. image:: gifs/float_list_node_example.gif
+.. image:: gifs/combine_matrices_node_example.gif

@@ -36,4 +36,4 @@ A warning will pop up when you use the *Remove Unlinked Inputs* button in the no
 Examples of Usage
 -----------------
 
-.. image:: gifs/integer_list_example_1.gif
+.. image:: gifs/integer_list_node_example.gif

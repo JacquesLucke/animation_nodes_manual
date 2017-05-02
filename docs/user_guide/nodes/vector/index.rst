@@ -23,5 +23,3 @@ Vector category include nodes that process and generate vectors.
 	Vector List Math <vector_list_math>
     Transform Vector <transform_vector>
     Offset vector <offset_vector>
-
-.. image:: images/vector_overview.png

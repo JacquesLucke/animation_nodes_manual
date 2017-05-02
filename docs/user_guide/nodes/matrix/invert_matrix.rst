@@ -3,8 +3,8 @@ Invert Matrix
 
 Description
 -----------
-This node inverts the input transformation matrix.
-In other words, this node will return a matrix that reverses the effect of the input matrix.
+
+This node inverts the input transformation matrix. In other words, this node will return a matrix that reverses the effect of the input matrix. If the matrix is multiplied by its inverse, the result will be an identitie matrix.
 
 .. image:: images/invert_matrix_node.png
    :width: 160pt
@@ -12,7 +12,7 @@ In other words, this node will return a matrix that reverses the effect of the i
 Inputs
 ------
 
-- **Matrix** - A trasnformation matrix to invert.
+- **Matrix** - A transformation matrix to invert.
 
 Outputs
 -------

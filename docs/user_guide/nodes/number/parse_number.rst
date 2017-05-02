@@ -32,4 +32,4 @@ The input text should only include numbers, otherwise the node will return a par
 Examples of Usage
 -----------------
 
-.. image:: gifs/parse_number_example_1.gif
+.. image:: gifs/parse_number_node_example.gif
