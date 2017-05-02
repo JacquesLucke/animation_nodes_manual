@@ -3,6 +3,7 @@ Characters
 
 Description
 -----------
+
 This node returns a string that contains all the characters in a specific category including:
 
 - **Lower Case**

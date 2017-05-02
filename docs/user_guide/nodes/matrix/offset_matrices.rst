@@ -36,7 +36,7 @@ Translation
 ^^^^^^^^^^^
 
 - **Global Axis** - This option translate matrices in global space.
-- **Local Axis** - This option translate matrices in local space, in other words, the translation vector is rotated based on the rotation of the transfromation matrix before it get added.
+- **Local Axis** - This option translate matrices in local space, in other words, the translation vector is rotated based on the rotation of the transformation matrix before it get added.
 
 Rotations
 ^^^^^^^^^

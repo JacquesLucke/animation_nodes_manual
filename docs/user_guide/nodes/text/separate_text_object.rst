@@ -3,11 +3,16 @@ Separate Text Object
 
 Description
 -----------
-This node takes a text object and separates its
-characters into another type of data object.
+
+This node takes a text object and separates its characters into individual objects.
 
 .. image:: images/separate_text_object_node.png
    :width: 160pt
+
+Options
+-------
+
+- **Type** - Lets you choose the type of the output object, it can be Text, Curve or a Mesh.
 
 Inputs
 ------
@@ -25,7 +30,7 @@ Outputs
 Advanced Node Settings
 ----------------------
 
-- **Parent To Main Container** - Parent the objects to animation nodes' container.
+- **Parent To Main Container** - Parent the objects to Animation Nodes' container.
 
 Examples of Usage
 -----------------

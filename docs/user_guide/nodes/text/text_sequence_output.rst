@@ -3,6 +3,7 @@ Text Sequence Output
 
 Description
 -----------
+
 This node can control a text sequence strip.
 
 .. image:: images/text_sequence_output_node.png

@@ -1,7 +1,7 @@
-String
-======
+Text
+====
 
-This node outputs a string (text).
+This node outputs a text.
 
 .. image:: images/string_input_node.png
    :width: 160pt

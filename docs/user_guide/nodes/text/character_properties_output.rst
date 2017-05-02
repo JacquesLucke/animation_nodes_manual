@@ -3,6 +3,7 @@ Character Properties Output
 
 Description
 -----------
+
 This node controls the property of the input text object in a specific character interval.
 
 .. image:: images/character_properties_output_node.png
@@ -28,9 +29,7 @@ Outputs
 Advanced Node Settings
 ----------------------
 
-- **Allow negative index**
-    This option will allow you to invert the interval by entering negative
-    values for the start and end indicies.
+- **Allow negative index** - This option will allow you to invert the interval by entering negative values for the start and end indicies.
 
 Examples of Usage
 -----------------

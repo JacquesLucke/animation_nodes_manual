@@ -3,6 +3,7 @@ Text File Reader
 
 Description
 -----------
+
 This node reads a file from your disk.
 
 .. image:: images/text_file_reader_node.png
@@ -12,7 +13,7 @@ Inputs
 ------
 
 - **Path** - The path of the file.
-- **Encoding** - The encoding method. A list of avilable encoding can be found here: https://docs.python.org/3/library/codecs.html#standard-encodings
+- **Encoding** - The encoding method. A list of avilable encoding can be found `here`_.
 
 Outputs
 -------
@@ -28,3 +29,5 @@ Examples of Usage
 -----------------
 
 .. image:: gifs/text_file_reader_node_example.gif
+
+.. _here : https://docs.python.org/3/library/codecs.html#standard-encodings
