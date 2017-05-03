@@ -3,6 +3,7 @@ Shuffle List
 
 Description
 -----------
+
 This node redistributes the elements of the list in a random different order.
 
 .. image:: images/shuffle_list_node.png

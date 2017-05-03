@@ -3,17 +3,24 @@ Get Random List Element
 
 Description
 -----------
-This node returns single or multiple random list elements.
+
+This node returns single or multiple elements from the input list randomly.
 
 .. image:: images/get_random_list_element_node.png
-   :width: 160pt
+   :width: 200pt
+
+Options
+-------
+
+- **Single** - Returns a single random element.
+- **Multiple** - Returns multiple random elements.
 
 Inputs
 ------
 
 - **Seed** - Seed for the random generator, where different seed return different random elements.
 - **List** - The input list.
-- **Amount** - The number of random elements in the output list.
+- **Amount** - The number of random elements in the output list. (Only in multiple option)
 
 Outputs
 -------
