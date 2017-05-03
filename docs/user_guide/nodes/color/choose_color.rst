@@ -3,6 +3,7 @@ Choose Color
 
 Description
 -----------
+
 This node outputs color data chosen from the color picker.
 
 .. image:: images/choose_color_node.png
