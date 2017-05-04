@@ -3,6 +3,7 @@ Transform Object
 
 Description
 -----------
+
 This node transform the input object by the input transformation matrix every node execution.
 
 .. image:: images/transform_object_node.png
@@ -22,7 +23,7 @@ Outputs
 Advanced Node Settings
 ----------------------
 
-- **Use Cenetr** - This will use the object's current location as the origin of transformation.
+- **Use Center** - This will use the object's current location as the origin of transformation.
 
 Examples of Usage
 -----------------

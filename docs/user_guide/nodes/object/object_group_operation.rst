@@ -3,6 +3,7 @@ Object Group Operations
 
 Description
 -----------
+
 This node adds or removes objects from input object group.
 
 .. image:: images/object_group_operation_node.png
