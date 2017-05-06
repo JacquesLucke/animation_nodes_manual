@@ -3,6 +3,7 @@ Revolve Splines
 
 Description
 -----------
+
 This node creates a mesh from the input splines by revolving the profile spline around the axis spline.
 
 .. image:: images/revolve_spline_node.png

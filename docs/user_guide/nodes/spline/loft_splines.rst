@@ -3,6 +3,7 @@ Loft Splines
 
 Description
 -----------
+
 This node generates a mesh by sampling some points on the input splines and bridge (connect) them in order.
 
 .. image:: images/loft_splines_node.png
@@ -41,8 +42,8 @@ Outputs
 Advanced Node Settings
 ----------------------
 
-- **Spline Distribution** - The method used to sample spline samples (see Evaluate Node for more info)
-- **Surface Distribution** - The method used to sample surface segments (see Evaluate Node for more info)
+- **Spline Distribution** - The method used to sample spline samples (see Evaluate Spline Node for more info)
+- **Surface Distribution** - The method used to sample surface segments (see Evaluate Spline Node for more info)
 - **Resolution** - The number of handles used to create the spline used to perform the evaluation when using the Uniform Distribution.
 
 Examples of Usage

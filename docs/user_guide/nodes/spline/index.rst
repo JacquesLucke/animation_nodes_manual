@@ -1,6 +1,8 @@
 Spline
 ======
 
+This category include nodes that can process and create curves.
+
 .. toctree::
    :titlesonly:
 
@@ -12,8 +14,10 @@ Spline
    Transform Spline <transform_spline>
    Connect Splines <connect_splines>
    Trim Spline <trim_spline>
+   Set Spline Radius <set_spline_radius>
    Make Spline Cyclic <make_spline_cyclic>
    Smooth Bezier Spline <smooth_bezier_spline>
+   Change Spline Type <change_spline_type>
    Spline Info <spline_info>
    Evaluate Spline <evaluate_spline>
    Project On Spline <project_on_spline>
@@ -22,5 +26,3 @@ Spline
    Curve Object Output <curve_object_output>
    Loft Splines <loft_splines>
    Revolve Spline <revolve_spline>
-
-.. image:: images/spline_overview.png
