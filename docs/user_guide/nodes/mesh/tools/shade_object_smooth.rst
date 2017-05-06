@@ -3,6 +3,7 @@ Shade Object Smooth
 
 Description
 -----------
+
 This node set the shading of the input object to smooth or flat.
 
 .. image:: images/shade_object_smooth_node.png

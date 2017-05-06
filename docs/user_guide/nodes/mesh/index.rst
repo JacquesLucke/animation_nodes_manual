@@ -1,6 +1,8 @@
 Mesh
 ====
 
+This category include nodes that process and create mesh objects.
+
 .. toctree::
    :titlesonly:
 
@@ -8,18 +10,20 @@ Mesh
    Get Bounding Box <get_bounding_box>
    Bmesh From Object <bmesh_from_object>
    Bmesh Mesh Data <bmesh_mesh_data>
-   Vertex Info <vertex_info>
-   Polygon Info <polygon_info>
-   Transform Polygon <transform_polygon>
+   Transform Polygons <transform_polygons>
+   Replicate Mesh Data <replicate_mesh_data>
+   Calculate Edge Length <calculate_edge_length>
+   Create Edges <create_edges>
+   Extract Polygon Transforms <extract_polygon_transforms>
+   Mesh Data From Object <mesh_data_from_object>
+   Prepare Polygon Transformation <prepare_polygon_transformation>
+   Separate Polygons <separate_polygons>
    Separate <separate_mesh_data>
    Combine <combine_mesh_data>
-   Mesh Data From Polygons <mesh_data_from_polygons>
    Generators <generators/index>
    Operators <operators/index>
    Mesh Data List <mesh_data_list>
    Join Mesh Data List <join_mesh_data_list>
-   Bmesh From Mesh Data <bmesh_from_mesh_data>
+   Bmesh From Mesh Data <create_bmesh>
    Tools <tools/index>
-   Object Output <object_output>
-
-.. image:: images/mesh_overview.png
+   Mesh Object Output <mesh_object_output>

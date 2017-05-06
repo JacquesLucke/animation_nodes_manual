@@ -3,6 +3,7 @@ Combine Mesh Data
 
 Description
 -----------
+
 This node combines individual mesh data into a mesh data block.
 
 .. image:: images/combine_mesh_data_node.png
@@ -28,4 +29,4 @@ Advanced Node Settings
 Examples of Usage
 -----------------
 
-.. image:: gifs/combine_mesh_data_node_example.gif
+.. image:: gifs/prepare_polygon_transformation_node_example.gif

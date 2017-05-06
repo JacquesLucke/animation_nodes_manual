@@ -15,7 +15,6 @@ Matrix
     Shear Matrix <shear_matrix>
     Transform Matrix <transform_matrix>
     Invert Matrix <invert_matrix>
-    Change Matrix Pivot <change_matrix_pivot>
     Matrix Math <matrix_math>
     Offset Matrices <offset_matrices>
 

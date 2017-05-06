@@ -18,6 +18,7 @@ Inputs
 
 Outputs
 -------
+
 - **Vector list** - A list that contain all the input vectors.
 
 Advanced Node Settings

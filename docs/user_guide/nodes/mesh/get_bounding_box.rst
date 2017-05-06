@@ -3,6 +3,7 @@ Get Bounding Box
 
 Description
 -----------
+
 This node returns mesh data of a cuboid that represents the bounding box of the input object.
 
 A bounding box is a box that bounds the object, that is, each face of the box is a least upper bound or greatest lower bound of a specific vertex coordinate.
