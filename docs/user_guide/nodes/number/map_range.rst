@@ -5,10 +5,17 @@ Description
 -----------
 
 This node remaps a value from a defined interval to a new interval.
+
 Every value has a relative position in a specific interval, this node find a new value that match the relative position but in a new defined interval.
 
 .. image:: images/map_range_node.png
    :width: 160pt
+
+Options
+-------
+
+- **Clamp** - If enabled, values will be clamped to the interval ``[0,1]``.
+- **Interpolation** - If enabled, values will be evaluated at the input interpolation before being output. (Only available when clamp is enabled, as interpolations work on normalized intervals only)
 
 Inputs
 ------
@@ -30,17 +37,6 @@ Advanced Node Settings
 ----------------------
 
 - N/A
-
-Note
-----
-
-- If the input value is outside the original interval, it will be remapped relative to the start and the end of the new interval. That's why the node has an option to **Clamp The Input**.
-
-
-Warning
--------
-
-**Custom Interpolation** will not work unless **Clamp Input** is enabled, because interpolation operates on normalized scales.
 
 Examples of Usage
 -----------------

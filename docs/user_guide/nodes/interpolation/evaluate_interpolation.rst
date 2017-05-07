@@ -3,7 +3,8 @@ Evaluate Interpolation
 
 Description
 -----------
-This node evaluates the input function(Interpolation) at the input value(Position).
+
+This node evaluates the input Interpolation at the input position.
 
 .. image:: images/evaluate_interpolation_node.png
    :width: 160pt
@@ -11,14 +12,14 @@ This node evaluates the input function(Interpolation) at the input value(Positio
 Inputs
 ------
 
-- **Position** - The value at which the function is evaluated.(`x` in `F(x)` where `F` is the input function.)
-- **Interpolation** - A function to evaluate.(`F` in `F(x)` where `x` is the input position)
+- **Position** - The value at which the interpolation is evaluated at.(`x` in `F(x)` where `F` is the input interpolation.)
+- **Interpolation** - An interpolation to evaluate.(`F` in `F(x)` where `x` is the input position)
 
 
 Outputs
 -------
 
-- **Value** - The output of the function at the value *Position*.(`F(x)` where `F` is the input function and `x` is the input position)
+- **Value** - The output of the interpolation at the value *Position*.(`F(x)` where `F` is the input interpolation and `x` is the input position)
 
 Advanced Node Settings
 ----------------------
@@ -28,4 +29,4 @@ Advanced Node Settings
 Examples of Usage
 -----------------
 
-.. image:: gifs/interpolation_from_curve_mapping_node_example.gif
+.. image:: gifs/curve_interpolation_node_example.gif
