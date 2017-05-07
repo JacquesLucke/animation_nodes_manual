@@ -3,7 +3,8 @@ Repeat Time
 
 Description
 -----------
-This node resets the time every n number of frames where n is the input *Rate*.
+
+This node resets the time every n number of frames where n is the input *Rate*. Technically it is the input *Time* modulo the input *Rate*.
 
 .. image:: images/repeat_time_node.png
    :width: 160pt
