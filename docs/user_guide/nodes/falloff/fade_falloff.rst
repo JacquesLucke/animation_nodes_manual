@@ -4,7 +4,7 @@ Fade Falloff
 Description
 -----------
 
-This node creates a falloff that associate input **Start Value** to all objects with index less than some index and the input **End Value** to all objects with index more than some index, while the objects at indicies in between are associated with values in between the **Start Value** and **End Value** evaluated at the input interpolation.
+This node creates a falloff that associates input **Start Value** to all objects with index less than some index and the input **End Value** to all objects with index more than some index, while the objects at indicies in between are associated with values in between the **Start Value** and **End Value** evaluated at the input interpolation.
 
 .. image:: images/fade_falloff_node.png
    :width: 160pt

@@ -1,19 +1,29 @@
 Delay Falloff
 =============
 
-This node is very practical if you want to apply an effect an many objects with an offset in time.
+Description
+-----------
+
+This node creates a falloff that associates a float that increases as the time increases where objects at indicies that are closer to zero starts increasing before those that are farther away from zero. User can control the rate of increasing relative to time and indices.
 
 .. image:: images/delay_falloff_node.png
    :width: 160pt
 
+Illustration
+------------
+
+.. image:: gifs/delay_falloff_node_example.gif
+
+The vertices of the line are suppose to move one unit in the z-axis but since I used the **Delay Falloff** as a factor, the offset depend on time. We notice, as the time increase, that the vertex at first index start moving, the vertex at the second index didn't start moving till the time became ``5`` which is the **Delay** input, the vertex at the first index stopped moving when time reached ``10`` which is the **Duration** input. So we conclude that input **Delay** is the time it takes for an object to start moving while the input **Duration** is the amount of time it takes for every object to reach its maximum value which is ``1``. The output is also evaluated at the input interpolation.
+
 Inputs
 ------
 
-- **Time** - Current time. Often this is just the current frame.
-- **Delay** - Default time span between the animation start of two objects.
-- **Duration** - How long the animation will last.
-- **Interpolation** - How fast the influence will change at each point in time.
-- **Offsets** - Optional. When given it specifies how much each object is offsetted in time.
+- **Time** - The current time.
+- **Delay** - Time span between the animation start of two successive objects.
+- **Duration** - Time it takes for an object to each its maximum value (1).
+- **Interpolation** - The output is evaluated at this input interpolation or the velocity function of the animation.
+- **Offsets** - When given, it specifies how much each object is offset in time.
 
 Outputs
 -------
@@ -28,10 +38,4 @@ Advanced Node Settings
 Examples of Usage
 -----------------
 
-Fly in each letter of a text:
-
-    .. image:: images/text_animation_example.png
-
-Scale objects in a group based on selection order:
-
-    .. image:: images/selection_index_example.png
+.. image:: gifs/delay_falloff_node_example.gif
