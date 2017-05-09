@@ -19,7 +19,7 @@ Falloff
    Interpolate Falloff <interpolate_falloff>
    Remape Falloff <remape_falloff>
    Invert Falloff <invert_falloff>
-   Mix Falloff <mix_falloff>
+   Mix Falloffs <mix_falloffs>
    Evaluate Falloff <evaluate_falloff>
 
 Abstractly speaking, a falloff is a function that associates a float to every input object. Those object can be vectors, matrices or indices. The computed floats are usually in the range of ``[0,1]`` but it is possible to go out of that range in some cases. Those floats can then be used as a factor for some effect where zero means no effect and one means full effect.
