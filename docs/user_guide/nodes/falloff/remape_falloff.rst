@@ -12,7 +12,7 @@ This node remaps the floats of the input falloff to a new range. The node assume
 Inputs
 ------
 
-- **Falloff** - An input falloff.
+- **Falloff** - A falloff.
 - **New min** - The new minimum value.
 - **New max** - The new maximum value.
 
