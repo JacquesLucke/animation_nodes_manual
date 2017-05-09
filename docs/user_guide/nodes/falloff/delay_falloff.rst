@@ -4,7 +4,7 @@ Delay Falloff
 Description
 -----------
 
-This node creates a falloff that associates a float that increases as the time increases where objects at indicies that are closer to zero starts increasing before those that are farther away from zero. User can control the rate of increasing relative to time and indices.
+This node creates an index based falloff that associates a float that increases as the time increases where objects at indicies that are closer to zero starts increasing before those that are farther away from zero. User can control the rate of increasing relative to time and indices.
 
 .. image:: images/delay_falloff_node.png
    :width: 160pt
