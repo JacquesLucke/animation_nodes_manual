@@ -1,7 +1,10 @@
 Custom Falloff
 ==============
 
-A falloff essentially is a function that calculates the strength of an effect for each object in a list. This node allows you "precompute" exactly these strengths.
+Description
+-----------
+
+This node creates an index based falloff that associates the first element from the float list to the first object, second element to the second object and so on.
 
 .. image:: images/custom_falloff_node.png
    :width: 160pt
@@ -9,8 +12,8 @@ A falloff essentially is a function that calculates the strength of an effect fo
 Inputs
 ------
 
-- **Strengths** - List of the precomputed strengths.
-- **Fallback** (hidden by default) - Used when the falloff is evaluated for a list that is longer than the list in the *Strengths* input.
+- **Strengths** - A float list the represents the floats of the objects. If the number of object is greater than the length of this list, extra object will have a floats equal to the input fallback value.
+- **Fallback** - The fallback value.
 
 Outputs
 -------
@@ -25,4 +28,4 @@ Advanced Node Settings
 Examples of Usage
 -----------------
 
-.. image:: images/custom_falloff_example.png
+.. image:: gifs/custom_falloff_node_example.gif
