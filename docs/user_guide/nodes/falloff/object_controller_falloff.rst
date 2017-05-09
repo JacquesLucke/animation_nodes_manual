@@ -16,7 +16,7 @@ Options
 
 .. image:: gifs/object_controller_falloff_node_example.gif
 
-- **Directional** - This option associates to every object a float that is equal to inverse the distance along a single axis from it to some controller object. The chosen axis will be the local axis of the controller object, so rotating the object changes the direction. This float is always in ``[0,1]`` range, So some distances will be clamped to ``1`` or ``0``. We conclude that objects that are closer to the controller along some axis will have a large float that doesn't exceed ``1`` and as object gets away, their floats starts to fade till it becomes zero at some point. This float is multiplied by the scale of the controller object, so scaling the controller object will result in increase in the floats of every object.
+- **Directional** - This option associates to every object a float that is equal to inverse the distance from it to some controller object along a single axis. The chosen axis will be the local axis of the controller object, so rotating the object changes the direction. This float is always in ``[0,1]`` range, So some distances will be clamped to ``1`` or ``0``. We conclude that objects that are closer to the controller along some axis will have a large float that doesn't exceed ``1`` and as object gets away, their floats starts to fade till it becomes zero at some point. This float is multiplied by the scale of the controller object, so scaling the controller object will result in increase in the floats of every object.
 
 .. image:: gifs/object_controller_falloff_node_example2.gif
 
