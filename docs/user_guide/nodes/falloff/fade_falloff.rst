@@ -14,7 +14,7 @@ Illustration
 
 .. image:: images/fade_falloff_node_illustration.png
 
-The examples above shows the fade falloff node in action. We offset the vertices of the grid by one unit in the z-axis and used the **Fade Falloff** node as a factor for that offset. The **Start Index** is set to ``0`` so all vertices with index less than ``0`` are offset ``2`` units in the z-axis because the original offset multiplied by the **Start Value** is ``1x2=2``. The **End Index** is set to ``4`` so all vertices with index larger than ``4`` are not offset because the original offset multiplied by the **End Value** is ``1x0=0``. Indices in between however (from ``0`` to ``4``) are offset with amounts linearly changing between ``0`` and ``2``. Had I used a non-linear interpolation, values will no longer linearly change as in the following example:
+The examples above shows the fade falloff node in action. We offset the vertices of the line by one unit in the z-axis and used the **Fade Falloff** node as a factor for that offset. The **Start Index** is set to ``2`` so all vertices with index less than or equal ``2`` are offset ``2`` units in the z-axis because the original offset multiplied by the **Start Value** is ``1x2=2``. The **End Index** is set to ``6`` so all vertices with index larger than or equal ``6`` are not offset because the original offset multiplied by the **End Value** is ``1x0=0``. Indices in between however (from ``2`` to ``6``) are offset with amounts linearly changing between ``0`` and ``2``. Had I used a non-linear interpolation, values will no longer linearly change as in the following example:
 
 .. image:: images/fade_falloff_node_illustration2.png
 
