@@ -28,7 +28,7 @@ The simplest falloff is the **Constant Falloff** which associate a constant floa
 
 The following example shows a node tree that creates 6 copies of a cube which all have a z-location of ``1.5``. While the offset matrices node moved every matrix ``3`` units in the z direction, the constant falloff---Which associated a float of ``0.5`` for every matrix---tuned down the effect of that translation to be ``3x0.5=1.5``, and that's why the final z-location is ``1.5`` and not 3.
 
-    .. image:: images/constant_falloff_example.png
+    .. image:: images/falloff_overview_example.png
 
 A more advanced falloff is the **Point Distance** falloff, which associate a float to every vector where that float equals inverse the distance between the object and an input vector. If we then used that falloff in the previous example, the objects that are closer to the input vector will move more along z-axis and the effect is tuned down as we move away from the input vector.
 

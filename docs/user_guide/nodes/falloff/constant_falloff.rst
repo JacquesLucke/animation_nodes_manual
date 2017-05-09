@@ -1,23 +1,29 @@
 Constant Falloff
 ================
 
-This node creates the simplest form of a falloff. It tells an effect that every object should be influenced with the same strenght. Furthermore it is the default if a falloff input is not connected to anything else.
+Description
+-----------
 
-The two Offset Vector nodes in the image would have the same effect:
+This node creates a falloff that associate a constant float for every object.
 
-    .. image:: images/constant_falloff_default.png
+.. image:: images/constant_falloff_node.png
 
 Inputs
 ------
 
-- **Strength** - Value this falloff evaluates to every time.
+- **Strength** - A float to associate to every object.
 
 Outputs
 -------
 
-- **Falloff** - The actual falloff object. 
+- **Falloff** - The actual falloff object.
 
 Advanced Node Settings
 ----------------------
 
 - N/A
+
+Examples of Usage
+-----------------
+
+.. image:: gifs/constant_falloff_node_example.gif
