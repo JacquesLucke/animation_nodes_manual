@@ -6,7 +6,7 @@ Description
 
 This node evaluate the input falloff at the input index/vector/transformation matrix.
 
-.. image:: images/mix_falloffs_node.png
+.. image:: images/evaluate_falloff_node.png
    :width: 160pt
 
 Options

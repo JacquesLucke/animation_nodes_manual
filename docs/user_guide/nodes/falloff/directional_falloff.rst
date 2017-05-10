@@ -20,7 +20,7 @@ Inputs
 
 - **Position** - The position of the point.
 - **Direction** - The direction vector.
-- **Size** - A float that is multiplied by the floats, can be though of as the slope of decreasing or increasing.
+- **Falloff Width** - A float that is multiplied by the floats, can be though of as the slope of decreasing or increasing.
 
 Outputs
 -------

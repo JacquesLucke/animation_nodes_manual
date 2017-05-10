@@ -7,6 +7,7 @@ Description
 This node creates a falloff that associate a constant float for every object.
 
 .. image:: images/constant_falloff_node.png
+   :width: 160pt
 
 Inputs
 ------

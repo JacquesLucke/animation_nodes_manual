@@ -22,7 +22,7 @@ Falloff
    Mix Falloffs <mix_falloffs>
    Evaluate Falloff <evaluate_falloff>
 
-Abstractly speaking, a falloff is a function that associates a float to every input object. Those object can be vectors, matrices or indices. The computed floats are usually in the range of ``[0,1]`` but it is possible to go out of that range in some cases. Those floats can then be used as a factor for some effect where zero means no effect and one means full effect.
+Abstractly speaking, a falloff is a function that associates a float to every object. Those objects can be vectors, matrices or indices which means that float is computed based on the vectors, matrices or indices which are just integers. The computed floats are usually in the range of ``[0,1]`` but it is possible to go out of that range in some cases. Those floats can then be used as a factor for some effect where zero means no effect and one means full effect, if the the float is larger than 1, the effect will be amplified, so if it was a translation by two units in z-axis and if the float of the object was 2 the translation will be ``2x2=4`` in z-axis.
 
 The simplest falloff is the **Constant Falloff** which associate a constant float for all input objects. A constant falloff is created automatically if no input falloff is provided.
 

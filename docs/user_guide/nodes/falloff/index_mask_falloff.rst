@@ -12,8 +12,8 @@ This node creates an index based falloff that associates one of two input floats
 Options
 -------
 
-- **Every Nth** - This option assign float A to indices that are divisible by some input integer ``n`` and float b to indices that aren't. If ``n`` was ``2`` then the pattern will be ``BABABABA`` because even numbers are divisible by ``2`` while odd aren't. If ``n`` was 3 then the pattern will be ``BBABBABB`` because ``3,6,9`` are divisible by ``3`` while other numbers aren't.
-- **Random** - This option assign float A and B randomly but limited with some probabilities. If the probability is ``1`` all objects will have float B, if zero all object will have float A, if ``0.5`` half of the object will have A and the other half will have B. But it is a probability so it is not guaranteed.
+- **Every Nth** - This option assign input float A to indices that are divisible by some input integer ``n`` and input float B to indices that aren't. If ``n`` was ``2`` then the pattern will be ``BABABABA`` because even numbers are divisible by ``2`` while odd aren't. If ``n`` was 3 then the pattern will be ``BBABBABB`` because ``3,6,9`` are divisible by ``3`` while other numbers aren't.
+- **Random** - This option assign input float A and B randomly but limited with some probability. If the probability is ``1`` all objects will have float B, if zero all object will have float A, if ``0.5`` half of the object will have A and the other half will have B. But it is a probability so it is not guaranteed.
 
 Inputs
 ------
