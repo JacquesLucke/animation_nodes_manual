@@ -3,7 +3,8 @@ Find Nearest Surface Point
 
 Description
 -----------
-This node find the nearest point on the surface of the mesh defined by the BVH to the input point.
+
+This node find the nearest point on the surface of the mesh defined by the BVH tree to the input point.
 
 .. image:: images/find_nearest_surface_point_node.png
    :width: 160pt
