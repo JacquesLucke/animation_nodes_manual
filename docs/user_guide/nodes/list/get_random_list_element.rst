@@ -13,14 +13,14 @@ Options
 -------
 
 - **Single** - Returns a single random element.
-- **Multiple** - Returns multiple random elements.
+- **Multiple** - Returns multiple random elements. The output list can't have a length larger than the input list because the node doesn't allow duplicates.
 
 Inputs
 ------
 
 - **Seed** - Seed for the random generator, where different seed return different random elements.
 - **List** - The input list.
-- **Amount** - The number of random elements in the output list. (Only in multiple option)
+- **Amount** - The number of random elements in the output list. Can't be larger than the the length of the input list. (Only in multiple option)
 
 Outputs
 -------
