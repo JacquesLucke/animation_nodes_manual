@@ -3,6 +3,7 @@ Intersect Polyline Plane
 
 Description
 -----------
+
 This node returns some information about the intersection of the input polygon with the input plane.
 
 .. image:: images/intersect_polyline_plane_node.png

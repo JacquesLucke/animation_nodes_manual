@@ -3,6 +3,7 @@ Triangulate BMesh
 
 Description
 -----------
+
 This node takes a bmesh data type and return a triangulated version of it.
 
 .. image:: images/triangulate_bmesh_node.png

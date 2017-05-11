@@ -3,6 +3,7 @@ Intersect Sphere Sphere
 
 Description
 -----------
+
 This node returns some information about the intersection of the two input spheres.
 
 .. image:: images/intersect_sphere_sphere_node.png

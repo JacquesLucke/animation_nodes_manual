@@ -3,6 +3,7 @@ Barycentric Transform
 
 Description
 -----------
+
 This node perform a barycentric transformation from a triangle to another.
 
 .. image:: images/barycentric_transform_node.png
