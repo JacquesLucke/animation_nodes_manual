@@ -11,6 +11,7 @@ This category include nodes that process and create lists.
     Append to List <append_to_list>
     Get List Element <get_list_element>
     Get Random List Element <get_random_list_element>
+    Random List <random_list>
     Search List Element <search_list_element>
     Set List Element <set_list_element>
     Remove List Element <remove_list_element>

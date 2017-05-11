@@ -35,13 +35,9 @@ Advanced Node Settings
 Note
 ----
 
-The node has an **extra seed** (*Node Seed*) that can be used to differentiate
-between nodes with the same seed, e.g., When using multiple *Get Random List Element*
-nodes in a loop while using the index as a seed, you can change the extra seed to get
-different results from the other nodes.
+The node has an **extra seed** (*Node Seed*) that can be used to differentiate between nodes with the same seed, e.g., When using multiple *Get Random List Element* nodes in a loop while using the index as a seed, you can change the extra seed to get different results from the other nodes.
 
-Animation Nodes automatically changes the *Node Seed* when you duplicate or add a
-new *Get Random List Element* node.
+Animation Nodes automatically changes the *Node Seed* when you duplicate or add a new *Get Random List Element* node.
 
 Examples of Usage
 -----------------
