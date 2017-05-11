@@ -13,6 +13,7 @@ Matrix
     Rotation Matrix <rotation_matrix>
     Scale Matrix <scale_matrix>
     Shear Matrix <shear_matrix>
+    Distribute Matrices <distribute_matrices>
     Transform Matrix <transform_matrix>
     Invert Matrix <invert_matrix>
     Matrix Math <matrix_math>
