@@ -31,6 +31,4 @@ Here you will find explanations for all the different nodes.
    sequence/index
    geometry/index
    kd&bvhtree/index
-   debug/index
-   subprograms/index
-   layout/index
+   viewer/index
