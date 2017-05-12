@@ -13,3 +13,4 @@ This category includes nodes that process and creates booleans.
     Logic Operators <logic_operators>
     Boolean List Logic <boolean_list_logic>
     Boolean to Integer <boolean_to_integer>
+    Number To Boolean <number_to_boolean>
