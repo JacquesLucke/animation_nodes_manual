@@ -12,7 +12,6 @@ This category include nodes that process and create mesh objects.
    Bmesh Mesh Data <bmesh_mesh_data>
    Transform Polygons <transform_polygons>
    Replicate Mesh Data <replicate_mesh_data>
-   Create Edges <create_edges>
    Extract Polygon Transforms <extract_polygon_transforms>
    Mesh Data From Object <mesh_data_from_object>
    Prepare Polygon Transformation <prepare_polygon_transformation>
