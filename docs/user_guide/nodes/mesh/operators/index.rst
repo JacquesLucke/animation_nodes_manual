@@ -9,3 +9,4 @@ Operators
    Create Edge Indices <create_edge_indices>
    Create Polygon Indices <create_polygon_indices>
    Edges Of Polygons <edges_of_polygons>
+   Edge Info <edge_info>
