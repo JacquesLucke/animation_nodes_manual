@@ -14,6 +14,7 @@ Matrix
     Scale Matrix <scale_matrix>
     Shear Matrix <shear_matrix>
     Distribute Matrices <distribute_matrices>
+    Replicate Matrix <replicate_matrix>
     Transform Matrix <transform_matrix>
     Invert Matrix <invert_matrix>
     Matrix Math <matrix_math>
