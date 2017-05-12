@@ -8,6 +8,7 @@ Interpolation
    Curve Interpolation <curve_interpolation>
    Interpolation From Fcurve <interpolation_from_fcurve>
    Mix Interpolation <mix_interpolation>
+   Mirror Interpolation <mirror_interpolation>
    Evaluate Interpolation <evaluate_interpolation>
    Map Range <../number/map_range>
 
