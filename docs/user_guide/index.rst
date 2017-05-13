@@ -2,7 +2,7 @@ User Guide
 ==========
 
 .. toctree::
-   :maxdepth: 2
+   :titlesonly:
 
    install/install
    getting_started/index
