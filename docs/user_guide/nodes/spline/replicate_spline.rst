@@ -1,12 +1,12 @@
-Replicate Mesh Data
-===================
+Replicate Spline
+================
 
 Description
 -----------
 
-This node copy the input mesh data multiple times then transforms each new copy based on a corresponding transformation matrix or a translation vector then copied are combined into a single mesh data. The transformations are input as a list of matrices or vectors where its length is the number of copies.
+This node copy the input spline multiple times then transforms each new copy based on a corresponding transformation matrix or a translation vector. The transformations are input as a list of matrices or vectors where its length is the number of copies.
 
-.. image:: images/replicate_mesh_data_node.png
+.. image:: images/replicate_spline_node.png
    :width: 160pt
 
 Options
@@ -20,14 +20,14 @@ The transformations can either be defined by matrices which support translation,
 Inputs
 ------
 
-- **Mesh Data** - The mesh data.
+- **Spline(s)** - The splines.
 - **Matrices** - A list of transformation matrices that defines the transformations applied on the copies where the first matrix is applied on the first copy, second on second and so on.
 - **Vectors** - A list of vectors that defines the translations applied on the copies where the first translation is applied on the first copy, second on second and so on.
 
 Outputs
 -------
 
-- **Mesh Data** - A mesh data that contains the copies.
+- **Splines** - A spline list that contains the copies of the spline.
 
 Advanced Node Settings
 ----------------------
@@ -37,4 +37,4 @@ Advanced Node Settings
 Examples of Usage
 -----------------
 
-.. image:: gifs/replicate_mesh_data_node_example.gif
+.. image:: gifs/replicate_spline_node_example.gif

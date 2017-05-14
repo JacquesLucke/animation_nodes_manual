@@ -18,6 +18,7 @@ This category include nodes that can process and create curves.
    Make Spline Cyclic <make_spline_cyclic>
    Smooth Bezier Spline <smooth_bezier_spline>
    Change Spline Type <change_spline_type>
+   Replicate Spline <replicate_spline>
    Spline Info <spline_info>
    Evaluate Spline <evaluate_spline>
    Project On Spline <project_on_spline>
