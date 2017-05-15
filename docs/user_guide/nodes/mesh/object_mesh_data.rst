@@ -29,6 +29,7 @@ Outputs
 - **Polygon Centers** - A vector list that contain the locations of the centers of the polygons of the input object. It is computed as the average of vertices of the polygon.
 - **Polygon Normals** - A vector list that contain unit vectors that represent the normals of the polygons of the input object.
 - **Local Polygon Area** - A float list that contain the areas of the polygons of the input object.
+- **Material Indices** - An inter list that contains the material index for each polygon, where the first integer represent the index of the material assigned to the first polygon, ...
 - **Mesh Name** - A string that contains the name of the mesh.
 
 Advanced Node Settings

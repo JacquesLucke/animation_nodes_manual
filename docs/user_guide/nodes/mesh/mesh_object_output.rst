@@ -34,10 +34,9 @@ Outputs
 Advanced Node Settings
 ----------------------
 
-- **Update Mesh** - If enabled, the two following options will appear, those options try to fix corrupt mesh data as much as possible to avoid blender crashing, but they slow down execution, so make sure to disable them if you are absolutely sure that you mesh data is valid:
-    - **Recalculate Edges** - If enabled, AN will recompute edge data from polygon data to make sure they are correct.
-    - **Recalculate Tessellation Faces** - If enabled, AN will recompute polygon data to make sure they are correct.
-- **Validate Mesh** - ``To Do``
+- **Make Mesh Exportable** - If enabled, the mesh will be edited in order to be exported correctly. Use when exporting using Alembic.
+- **Validate Mesh** - If enabled, animation nodes will check if the mesh data is valid and if not, it will try to correct it as much as possible. This option should always be enabled to avoid blender crashes. However, if you are absolutely sure that your mesh data is valid, you should disable it because it slows down execution. 
+- **Print Validation Info** - If enabled and **Validate Mesh** is enabled, animation nodes will print the procedures taken to fix the input mesh data.
 
 Examples of Usage
 -----------------
