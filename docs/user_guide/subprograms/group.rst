@@ -1,45 +1,47 @@
 Group
 =====
 
-A *Group* is composed of two nodes, the **Group Input** and **Group Output** nodes. It is possible to use the **Group Input** node alone to define the *Group* but the **Group Output** can't be used alone to define the *Group*.
+Lets us assume that you have three objects and you want to reset their transformations, hide them and shade them smooth. One might make a node tree for that and copy it three times for each object. This would be extremely inefficient both for performance and usability.
 
-Group Input
------------
+The solution is to use what is known as a **Group** or a **Function**, this group is a container that takes some inputs, do something with them and maybe output some data as well. Once the group is defined, it can be called using an **Invoke Subprogram** node and used multiple times in different areas of your node tree.
 
-A group that is defined only by a **Group Input** node is what you might call an **Operational Group** because it doesn't return anything, it only does.
+Example 1
+---------
 
-We are going to make a group, that sets the input object smooth, reset its transformations and hide it. So I start by adding a new input to the **Group Input** node which is of type **Object** by clicking on the plus button or by connecting a node input to the transparent socket. Then I add the *Reset Transformation* node, *Shade Object Smooth* node and *Object Visibility Output* node and connect the input object to their input.
+Below is a node tree, that reset input object transformations, hide the object and shade it smooth. And we are going to make a group out of it and expose the options.
 
-We have defined the group, let us now call it by adding an **Invoke Subprogram** node and choose our desired subprogram. I added two of them and input an object to each of them. Notice how we didn't have to add the whole node tree two times, we just defined it in a group and called the group two times.
+.. image:: gifs/group_input_node.gif
 
-Both objects should now be hidden, in the center of the world and set to smooth.
+This group has inputs but no outputs, it is what you might call an **Operational Group** because it doesn't return anything, it only does.
 
-.. image:: images/operational_group_node.png
+Had I defined the group, I can call it using the **Invoke Subprogram** node by searching for the group name or by adding it from the subprograms menu in the toolbar or from the nodes menu. Notice that I didn't have to copy the whole node tree for each of the three objects, I just copied the group, which is not only more organized but also faster!
 
-Group Output
-------------
+.. image:: images/invoke_group_node.png
 
-The *Output Group* node can be used to output some data after your process it inside the group.
+Advanced Node Settings
+^^^^^^^^^^^^^^^^^^^^^^
 
-We are going to make a group that represent the mathematical function ``f(x)= x^3+x^2+x``, it takes a number ``x`` and evaluate the previous equation at its value.
+The group input node lets you define the default values for each of the inputs, it only works for basic data types like numbers, vector and booleans. Those values will be set to the invoke node as soon as you add it.
 
-So I add a **Group Output** node by clicking on the plus button called **Output Node**. Then after I compute the value of the function, I plug the output of the last node to the transparent socket to get the output.
+Example 2
+---------
 
-Then I call the group using the **Invoke Subprogram** node.
+We will now make a group that takes some inputs, process them, then output some data. Our function will compute **Euler Characteristic** which is equal to ``V-F+E``.
 
-.. image:: images/group_output_node.png
+After I implement the node tree and add the *group input* node, I can click the **Output Node** button in the *group input* node to add a *group output* node which I then can add my outputs to.
+
+.. image:: gifs/group_output_node.gif
+
+By invoking the group and input the values for the Tetrahedron, Hexahedron and Octahedron, we see that Euler Characteristic is indeed ``2`` for each of them.
+
+.. image:: images/invoke_group_output_node.png
 
 Network Error
 -------------
 
-A network error is raised when there is something wrong with your connections.
+A network error is raised when there is something wrong with your connections. And it is raised in two main situations, if you connect a node that depend on the group to some node inside the group itself and if the *group output* node has no *group input* as it can't exist on its own.
 
-For instance, if you removed the **Group Input** node without removing the **Group Output** node with it. An error will be raised because **Group Output** can not exist on it own. To fix this, you either remove it, or you add a new **Group Input** node, connect your outputs and then click **Use Input In Network** button which will scan the connected network for an **Input Group** node. Or you could click the plus button called **Add Input** to add a new **Group Input**.
+If you removed the *Group Input* node without removing the *Group Output* node with it. An error will be raised because *Group Output* can not exist on it own. To fix this, you either remove it, or you add a new *Group Input* node, connect your outputs and then click **Use Input In Network* button which will scan the connected network for an *Input Group* node. Or you could click the plus button called *Add Input* to add a new *Group Input*.
 
 .. image:: images/network_error.png
    :width: 200pt
-
-Advanced Node Settings
-----------------------
-
-Advanced node settings for the **Group Input** node contain the default values for your inputs. Defaults can only be set to basic data types like floats an integers.
