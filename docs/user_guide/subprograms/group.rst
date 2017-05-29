@@ -41,7 +41,7 @@ Network Error
 
 A network error is raised when there is something wrong with your connections. And it is raised in two main situations, if you connect a node that depend on the group to some node inside the group itself and if the *group output* node has no *group input* as it can't exist on its own.
 
-If you removed the *Group Input* node without removing the *Group Output* node with it. An error will be raised because *Group Output* can not exist on it own. To fix this, you either remove it, or you add a new *Group Input* node, connect your outputs and then click **Use Input In Network* button which will scan the connected network for an *Input Group* node. Or you could click the plus button called *Add Input* to add a new *Group Input*.
+If you removed the *Group Input* node without removing the *Group Output* node with it. An error will be raised because *Group Output* can not exist on it own. To fix this, you either remove it, or you add a new *Group Input* node, connect your outputs and then click **Use Input In Network** button which will scan the connected network for an *Input Group* node. Or you could click the plus button called *Add Input* to add a new *Group Input*.
 
 .. image:: images/network_error.png
    :width: 200pt
