@@ -83,7 +83,7 @@ Troubleshooting
 ***************
 
 If your problem cannot be solved with the information, please
-`report <https://github.com/JacquesLucke/animation_nodes_manual/issues/new>`_ it.
+`report <https://github.com/JacquesLucke/animation_nodes_manual/issues/new>`_ it. Also feel free to contact me (Jacques Lucke) personally. I'd like to help everyone who wants to compile AN. The more people are able to do this, the better. 
 
 Most errors happen because Python cannot find a correct C compiler to compile the extension modules. Here are some very helpful links on the topic:
 
