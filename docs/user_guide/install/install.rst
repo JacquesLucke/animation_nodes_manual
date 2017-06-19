@@ -4,7 +4,7 @@ Installation
 How to Install?
 ---------------
 
-0. Deinstall any old version of Animation Nodes. Having it installed multiple times for the same version causes conflicts.
+0. Uninstall any old version of Animation Nodes. Having it installed multiple times for the same version causes conflicts.
 
 1. Downloaded a recent build from `graphicall.org <http://graphicall.org/blender/add-on?keywords=Animation%20Nodes>`_. The build have to match your operating system and python version in order to work. If no build suits you, then you might want to compile it yourself (see developers guide) or contact a developer.
 
@@ -20,7 +20,7 @@ You can now find the Animation-Nodes editor in the node editor.
     .. image:: animation_node_editor.png
 
 
-How to Deinstall?
+How to Uninstall?
 -----------------
 
 1. Disable the addon and save the user preferences.
