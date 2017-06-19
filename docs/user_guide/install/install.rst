@@ -6,7 +6,7 @@ How to Install?
 
 0. Deinstall any old version of Animation Nodes. Having it installed multiple times for the same version causes conflicts.
 
-1. Downloaded a recent build from `Graphics All <http://graphicall.org/blender/?keywords=Animation+Nodes>`_. The build have to match your operating system and python version in order to work. If no build suits you, then you might want to compile it yourself (see developers guide) or contact a developer.
+1. Downloaded a recent build from `graphicall.org <http://graphicall.org/blender/add-on?keywords=Animation%20Nodes>`_. The build have to match your operating system and python version in order to work. If no build suits you, then you might want to compile it yourself (see developers guide) or contact a developer.
 
 2. Open Blender (preferably the newest version)
 
