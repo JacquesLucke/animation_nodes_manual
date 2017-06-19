@@ -3,8 +3,7 @@ How to Install?
 ***************
 
 
-1. Download the zip file at the official repository https://github.com/JacquesLucke/animation_nodes
-    .. image:: zip.png
+1. Downloaded a recent build from `Graphics All <http://graphicall.org/blender/?keywords=Animation+Nodes>`_. The build have to match your operating system and python version in order to work. If no build suits you, then you might want to compile it yourself (See developers guid.).
 
 2. Open Blender (preferably the newest version)
 
@@ -16,7 +15,6 @@ How to Install?
 
 You can now find the Animation-Nodes editor in the node editor.
     .. image:: animation_node_editor.png
-
 
 Troubleshooting
 ***************
@@ -31,4 +29,4 @@ Possible solutions to installation problems:
       (e.g. from graphicall.org) you have to make sure that they contain numpy.
       If not you have to get another Blender build or install `numpy`_ manually.
 
-.. _numpy: http://www.numpy.org/      
+.. _numpy: http://www.numpy.org/
