@@ -2,6 +2,7 @@ Getting Started
 ===============
 
 .. toctree::
-   :maxdepth: 2
+   :titlesonly:
 
-   interface
+   Interface <interface>
+   Execution <execution>
