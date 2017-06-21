@@ -25,7 +25,7 @@ How to Uninstall?
 
 1. Disable the addon and save the user preferences.
 
-2. Restart Blender and remove Blender.
+2. Restart Blender and remove Animation Nodes.
 
 .. note::
     Animation Nodes must not be active in the session in which it will be removed. This is because some files cannot be removed once they are loaded. This usually is not a problem with other addons because they don't use Cython.
