@@ -778,6 +778,15 @@ This newly added node draw point an empty like objects in the 3D viewport. If ve
 
 .. image:: images_v2_0/3d_viewer.png
 
+Generic
+*******
+
+Converter
+=========
+
+Converter node now has a lock button to lock the data type and stop it from  converting data type automatically.
+
+.. image:: images_v2_0/converter.png
 
 SubProgrames
 ############
