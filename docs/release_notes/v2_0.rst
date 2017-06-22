@@ -216,14 +216,14 @@ Create Lists
 Get List Element
 ================
 
-Advanced Node Settings was moved to the node itself for easier and faster control. The node can now get multiple elements if given a list of integers that represent their indices. To do this, check Use Index List button.
+Advanced Node Settings was moved to the node itself for easier and faster control. The node can now get multiple elements if given a list of integers that represent their indices (Possibly polygon and edge indices because under the hood, they are integer lists as well.). To do this, check Use Index List button.
 
 .. image:: images_v2_0/get_list_element.gif
 
 Mask List
 =========
 
-This node was newly added and it selectively remove list elements based on a boolea list where if the boolean at the same index was False, the element is removed.
+This node was newly added and it selectively remove list elements based on a boolean list where if the boolean at the same index was False, the element is removed.
 
 .. image:: images_v2_0/mask_list.gif
 
@@ -245,7 +245,7 @@ Objects
 Object Transforms Output
 ========================
 
-Object Transforms Output has a new UI for enabling transformation channels. The node now support editing the delta transforms of object, delta transforms are transforms that are added on top of the current transforms, so, now you can define objects relative transforms without any ID keys.
+Object Transforms Output has a new UI for enabling transformation channels. The node now support editing the delta transforms of object, delta transforms are transforms that are added on top of the current transforms, so, now you can define objects relative transforms without any ID keys. Enabled delta transforms from the advanced node settings.
 The node is also vectroized, so you may edit delta transforms for multiple objects.
 
 .. image:: images_v2_0/transforms_output.gif
@@ -267,7 +267,7 @@ The node is now vectorized and can take a list of object. When an object list is
 Object Data Path Output
 =======================
 
-The now cache data paths for faster future execution. The cache can be cleared in an operator in the advanced node settings.
+The now cache data paths for faster future execution. The cache can be cleared using an operator in the advanced node settings.
 
 Armature Info
 =============
@@ -288,15 +288,15 @@ Object ID Key
 
 Object ID node didn't change, however, new ID keys were introduced.
 
-Text Float Integer
-------------------
+Text, Float and Integer IDs
+---------------------------
 
 An ID key can be created to hold a text, float or integer per object, think of it as a custom property of the object.
 
 .. image:: images_v2_0/id_name.gif
 
-Index
------
+Index IDs
+---------
 
 The index ID associate an integer to every object, that integer is usually its index in some list of objects. That list of objects can be sorted using different methods.
 
@@ -414,9 +414,7 @@ This node was newly added and it create a bmesh data type from a mesh data type.
 Mesh Data From Object
 =====================
 
-This node was newly added and it returns the mesh data of the input object.
-
-.. image:: images_v2_0/create_bmesh.gif
+This node was newly added and it returns the mesh data of the input object. See example above.
 
 Replicate Mesh Data
 ===================
@@ -444,7 +442,7 @@ Transform Polygons
 
 This node was newly added and it transforms input polygons based on an input transformation matrix.
 
-.. image:: images_v2_0/prepare_polygon_transformation.gif
+.. image:: images_v2_0/transform_polygons.gif
 
 Separate Polygons
 =================
@@ -518,7 +516,7 @@ Splines From Edges
 
 Two options to define the radius of spline points were added. The first options sets the radius per point, so it expects a float list of the same size as the vertices of the edges, the second option sets the radius per edge so it expects a float list with the same length as the edges indices list. It should be noted that the node is vectorized, so you might just enter a single float and it will be set as the radius of all points and edges and the option won't matter.
 
-.. image:: images_v2_0/find_close_points.gif
+.. image:: images_v2_0/splines_from_edges.gif
 
 Project On Spline
 =================
@@ -569,118 +567,288 @@ Particle Info
 
 Particle Info node was removed.
 
-Interpolations
-**************
+Animation
+*********
 
-The interpolation system has been upgraded to cython to allow much faster evaluation of interpolations. Beside these under-the-hood changes, some new node functionalities have been added as well.
+No changes to the animation category.
 
-TODO: IMAGES
+Interpolations From Curve Mapping >> Curve Interpolation
+========================================================
 
-    - New *Mirror Interpolation* node
-    - New *Chain* option in *Mix Interpolations* node
-    - New *Cache Interpolation* option in *Interpolation from Curve Mapping* node (should be used when the falloff is evaluated very often)
-    - The *Evaluate Interpolation* node has been vectorized.
+The Interpolation From Curve Mapping node was renamed to Curve Interpolation. The node now support caching of interpolation for tremendously faster future large evaluation. Below is a curve interpolation with and without cache option.
 
+.. image:: images_v2_0/curve_interpolation.png
+
+Mix Interpolation
+=================
+
+This newly added node mixes between two interpolation using one of two algorithms. **Overlay** which simply overlay both interpolation where zero means the first interpolation and 1 means the second. **Chain** which stack input interpolations beside each others, below is a visualization for what chain option does, the first interpolation is a linear one while the second interpolation is an exponential one, both interpolations are remapped based on End 1 and Start 2 inputs then they are stacked beside each other with some fading.
+
+.. image:: images_v2_0/mix_interpolation.png
+
+Mirror Interpolation
+====================
+
+This newly added node invert the interpolation and possibly combine it with the original if chain was checked (Resulting in a mirror).
+
+.. image:: images_v2_0/mirror_interpolation.gif
+
+Falloff
+*******
+
+This whole category was newly added and it provide a high level approach to controlling effects and animating them. Below is some of the nodes that is includes with it.
+
+Fade Falloff
+============
+
+This falloff can be used to fade between two values, in the example below, we fade between 0 and 1 scale of some object where the starting point is the inverse of the current frame.
+
+.. image:: images_v2_0/fade_falloff.gif
+
+Delay Falloff
+=============
+
+This falloff can be used to delay the effect of some objects than other based on time, in the below example, we make some objects appear earlier than others.
+
+.. image:: images_v2_0/point_distance_id.gif
+
+Wiggle Falloff
+==============
+
+This falloff can be used to control an effect based a noise function, in the example below, we move the vertices up with some factor we got from the noise function.
+
+.. image:: images_v2_0/wiggle_falloff.gif
+
+Random Falloff
+==============
+
+Much like the wiggle falloff, this can be used to control and effect based on a random factor except this factor is completely random and can't be animated, it is much faster than wiggle falloff so use this node if you are not going to animate.
+
+.. image:: images_v2_0/random_falloff.gif
+
+Index Mask Falloff
+==================
+
+This falloff choose between two factors based on some pattern, a possible pattern is the nth pattern like ABABAB or ABBABBABB or ABBBABBBABBB ... . A possible pattern is also a random pattern like ABAABAbABAbAA.
+
+.. image:: images_v2_0/index_mask_falloff.gif
+
+Object Controller Falloff
+=========================
+
+This falloff can be used to control an effect based on the distance some object (usually an empty) where the size of the object control the offset of that falloff. The distance can be a normal euclidean distance as the following example:
+
+.. image:: images_v2_0/object_controller_falloff1.gif
+
+Or a distance along the local axis of the object, like this example:
+
+.. image:: images_v2_0/object_controller_falloff2.gif
+
+Sound Falloff
+=============
+
+Sound falloff provide a much more efficient way to evaluate baked sound data. You can evaluate the sound data based on the object indices or based on another falloff ! So I may use a point distance falloff no evaluate the sound data resulting in this radial sound visualization:
+
+.. image:: images_v2_0/sound_falloff.gif
+
+Curve Falloff
+=============
+
+Curve falloff enables you to control and effect based on the shortest distance to some spline object.
+
+.. image:: images_v2_0/curve_falloff.gif
+
+Constant Falloff
+================
+
+Constant Falloff is the default falloff where it just set a constant factor for all effects' objects.
+
+Custom Falloff
+==============
+
+Custom falloff lets you create a falloff from a list of factors for total control.
+
+Point Distance Falloff
+======================
+
+Point distance falloff lets you control an effect based on the distance to some point. It is the same as the sphere option in the object controller falloff but inputs are exposed and not controlled by an object.
+
+.. image:: images_v2_0/point_distance_falloff.gif
+
+Directional Falloff
+===================
+
+Directional falloff lets you control an effect based on the distance along some vector from some point. It is the same as the direction option in the object controller falloff but inputs are exposed and not controlled by an object.
+
+.. image:: images_v2_0/directional_falloff.gif
+
+Interpolate Falloff
+===================
+
+This node lets you edit falloffs based on an interpolation.
+
+.. image:: images_v2_0/interpolate_falloff.gif
+
+Invert Falloff
+==============
+
+This node invert the factors of the input falloff.
+
+.. image:: images_v2_0/invert_falloff.gif
+
+Mix Falloff
+===========
+
+This node mixes between two falloffs, mixing can be done by taking the maximum or the minimum of the falloffs, it can also be the sume or multiple of both falloffs.
+
+.. image:: images_v2_0/mix_falloff.gif
+
+Evaluate Falloff
+================
+
+This node returns the factors of the input falloff evaluated at the inputs, in essence, a falloff just associates a float (factor) to every object either based on its transforms or index, this factor or float is then used to mix between effects. Here is an example of a falloff evaluate at the locations of the cubes:
+
+.. image:: images_v2_0/evaluate_falloff.gif
+
+Fcurves
+*******
+
+Fcurves have been left intact.
+
+Materials
+*********
+
+Materials have been left intact.
 
 Sounds
 ******
+
+Sound nodes have been redesigned visually and had some inputs renamed but functionally it is still the same.
 
 The *Single* and *Equalizer* sound types are called *Average* and *Spectrum* now. These names are used more often in other software as well.
 
 Also the output of the *Evaluate Sound* node is called *Volume/Volumes* now depending on which sound type is selected.
 
-There is a new *Sound Falloff* node that makes some sound effects much easier. It is still possible to use the old approach to do sound animations though.
+.. image:: images_v2_0/sound_bake.png
 
-TODO: LINK
+Sequences
+*********
 
+Sequences has been left intact.
 
-Splines
-*******
-
-The most notable change is that each spline point (poly and bezier) has a radius now. This allows for some very interesting effects.
-
-TODO: Join Evaluate and Sample Spline nodes
-
-The *Spline Info* node has been upgraded to output more information depending on which spline type is selected. These options include the left/right handles for every bezier spline point and the radius of every point.
-
-The *Trim Spline* falloff produces a much cleaner result for bezier splines now.
-
-TODO: IMAGE
-
-The spline input of the *Curve Object Output* node has been vectorized. This means that no *Create List* node is needed anymore if you only want to set one spline on the curve object.
-
-There is a new *Spline Falloff* node.
-
-TODO: LINK
-
-.. image:: images_v2_0/spline_nodes.png
-
-
-Find Close Points
-*****************
-
-The *Find Close Vertices* has been renamed to *Find Close Points*. Also the functionality of the node has been upgraded to make it easier to use.
-
-.. image:: images_v2_0/find_close_points_node.png
-
-TODO: LINK
-
-
-Data Input
-**********
-
-The *Data Input* nodes are all the nodes with names like *Integer Input*, *Float Input*, *Object Input*, ... (They all share the same base). Originally these nodes also had an input socket which confused many people. Therefor this socket is hidden now but it is possible to unhide it.
-
-TODO: IMAGE
-
-
-BVH/KD Tree
-***********
-
-Get List Element
-****************
-
-The *Get List Element* node can output a list now if multiple indices are provided as input. Together with the new implicit conversion from Edge/Polygon Indices to Integer List this node is ideal to get e.g. all the vertices of a specific polygon.
-
-Also the UI of the node has changed. Two options that were only visible in the advanced settings before are visible all the time now.
-
-.. image:: images_v2_0/get_list_element_example.png
-
-
-ID Keys
-*******
-
-The ID Key system allows you to store data per object (or more general, per ID object). There are two default ID Keys, one that can store the initial transformation of an object and one that can store an integer index. The index can be used for sorting the objects but other uses are possible as well.
-
-ID Keys already exist for a long time but more of the functionality is available to the user now. E.g. it is possible to create and remove your own ID Keys.
-
-To access this data in the node tree you need to use the *Object ID Key* node. This node is vectorized now, so you can get the values for many objects at the same time.
-
-TODO: IMAGE
-
-
-Polygons
+Geometry
 ********
 
-Matrices
-********
+Triangulate Polygons
+====================
 
-Offset Vectors
+Triangulate Polygons has been removed because it is nearly never used however it may be rewritten in a better form in the future.
+
+Intersect Polyline Plane
+========================
+
+Intersect Polyline Plane was removed because it is nearly never used.
+
+KD & BVH Trees
 **************
 
-Offset Matrices
-***************
+Ray Cast BVH Tree
+=================
 
-Text
-****
+There is now an option to start the ray at infinity.
 
-Math
-****
+.. image:: images_v2_0/ray_cast.gif
 
 Viewer
 ******
 
+Debug nodes are now called viewers.
+
+Viewer
+======
+
+Debug Drawer and debug nodes were combined into a single node called Viewer and it automatically determine if the data need to be drawn in a box or inline.
+
+.. image:: images_v2_0/viewer_node.png
+
+3D Viewer
+=========
+
+This newly added node draw point an empty like objects in the 3D viewport. If vector(s) were given, then points are drawn in their locations, if matrices were given, then empty like objects are drawn to show their orientation as well as their location.
+
+.. image:: images_v2_0/3d_viewer.png
+
+
+SubProgrames
+############
+
+Loops
+*****
+
+Generators are now vectorized which means they can append multiple values if given a list.
+
+.. image:: images_v2_0/loops.png
+
+Data Types
+##########
+
+Bmesh
+*****
+
+Bmesh socket color has changed to green not to be confused with falloffs.
+
+Vertex
+******
+
+Vertex Data type was removed.
+
+Polygon
+*******
+
+Polygon Data type was removed.
+
+Falloff
+*******
+
+Falloff data type was added.
+
+Data Inputs
+***********
+
+Input of data input nodes like input integer, float are now hidden because it confuses people. It can be unhidden just like any node if needed.
+
 Keyboard Shortcuts
-******************
+##################
 
 Animation Nodes currently uses the *W*, *E* and *U* key in the node editor. The *W* and *E* key have not changed since the last release but the *U* key now opens a popup that not only shows the advanced settings of a node but also it's sockets. This is useful as some nodes have hidden sockets or allow reordering/deletion of sockets.
+
+Header Bar
+##########
+
+Templates
+*********
+
+Templates were removed.
+
+Removed Node Tree
+*****************
+
+There is now a button to remove the current node tree.
+
+Developer Tools
+###############
+
+Measure Execution Time
+**********************
+
+Measure Execution Time tool now displays the minimum execution time instead of average.
+
+Performance Mode
+****************
+
+Performance Mode was removed.
+
+Documentation
+#############
+
+Documentation is now fully written, all nodes and guide are now available.
