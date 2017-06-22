@@ -822,6 +822,13 @@ Keyboard Shortcuts
 
 Animation Nodes currently uses the *W*, *E* and *U* key in the node editor. The *W* and *E* key have not changed since the last release but the *U* key now opens a popup that not only shows the advanced settings of a node but also it's sockets. This is useful as some nodes have hidden sockets or allow reordering/deletion of sockets.
 
+3D ViewPort
+###########
+
+An option to show vertices', edges' and polygons' indices is now available under the display panel in properties menu.
+
+.. image:: images_v2_0/viewport_indices.png
+
 Header Bar
 ##########
 
@@ -830,8 +837,8 @@ Templates
 
 Templates were removed.
 
-Removed Node Tree
-*****************
+Remove Node Tree
+****************
 
 There is now a button to remove the current node tree.
 
@@ -851,4 +858,4 @@ Performance Mode was removed.
 Documentation
 #############
 
-Documentation is now fully written, all nodes and guide are now available.
+Documentation is now fully written, all nodes and guides are now available.
