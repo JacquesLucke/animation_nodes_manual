@@ -775,7 +775,7 @@ Debug nodes are now called viewers.
 Viewer
 ======
 
-Debug, Debug List and Debug Drawer nodes were combined into a single node called Viewer. It automatically determine if the data need to be drawn in a box or inline, and returns information such as datatype and list length (depending on input datatype). The result can also be output to text block or console.
+Debug, Debug List and Debug Drawer nodes were combined into a single node called Viewer. It automatically determines whether data should be drawn inline (single element) or in a box (list), and returns information such as datatype and list length (depending on input datatypes). The result can also be output to text block or console.
 
 .. image:: images_v2_0/viewer_node.png
 .. image:: images_v2_0/viewer_output_settings.png
