@@ -839,6 +839,8 @@ Keyboard Shortcuts
 
 Animation Nodes currently uses the *W*, *E* and *U* key in the node editor. The *W* and *E* key have not changed since the last release but the *U* key now opens a popup that not only shows the advanced settings of a node but also it's sockets. This is useful as some nodes have hidden sockets or allow reordering/deletion of sockets.
 
+.. image:: images_v2_0/socket_settings.gif
+
 3D ViewPort
 ###########
 
