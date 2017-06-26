@@ -2,7 +2,7 @@
 Release Notes for Version 2.0
 *****************************
 
-Key Featuers:
+Key Features:
 #############
 
 Cython
@@ -367,7 +367,7 @@ Grid Mesh generator was redesigned and can now be defined either using grid dime
 Find Close Points
 =================
 
-Find Close Points node has been redesigned. There is now two modes, one that create n number of connections to n closest points where n is an input integer and another mode that create connections to any points in some input radius. The node also returns the distances to points as an output.
+Find Close Points (previously named Find Close Vertices) node has been redesigned. There are now two modes, one that create n number of connections to n closest points where n is an input integer; and another mode that create connections to any points in some input radius. The node also returns distances to points as an output.
 
 .. image:: images_v2_0/find_close_points.gif
 
@@ -433,7 +433,7 @@ This node was newly added and it returns transformation matrices that describe t
 Prepare Polygon Transformation
 ==============================
 
-This node was newly added an it separates the input polygons and return them in their unity position, that is, they are located at the center of the world and lie on the xy plane. It also return a list of transformation matrices that if used to transformed the output polygons, the result will be the polygons in their initial position and orientation. This node is useful when used with conjunction with transform polygons.
+This node was newly added. It separates the input polygons and return them in their unity position, that is, they are located at the center of the world and lie on the xy plane. It also return a list of transformation matrices that if used to transformed the output polygons, the result will be the polygons in their initial position and orientation. This node is useful when used with transform polygons.
 
 .. image:: images_v2_0/prepare_polygon_transformation.gif
 
@@ -450,6 +450,14 @@ Separate Polygons
 This node was newly added and it simply separate the input polygons, the result is exactly the same if you used the Prepare Polygon Transformation node and transformed the polygons based on the transformation matrices given.
 
 .. image:: images_v2_0/separate_polygons.gif
+
+
+Mesh Object Output
+==================
+
+Advanced settings have been changed and extended. Now, with the new **Ensure Animation Data** feature (enabled by default), it allows exporters (mainly Alembic) to export the mesh correctly.
+
+.. image:: images_v2_0/mesh_object_output_advanced_settings_comp.png
 
 Polygon Info
 ============
@@ -651,10 +659,10 @@ Sound falloff provide a much more efficient way to evaluate baked sound data. Yo
 
 .. image:: images_v2_0/sound_falloff.gif
 
-Curve Falloff
+Spline Falloff
 =============
 
-Curve falloff enables you to control and effect based on the shortest distance to some spline object.
+Spline falloff enables you to control and effect based on the shortest distance to some spline object.
 
 .. image:: images_v2_0/curve_falloff.gif
 
