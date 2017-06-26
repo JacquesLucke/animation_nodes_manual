@@ -6,7 +6,7 @@ Description
 
 This node remaps the floats of the input falloff to a new range. The node assume that the original range was ``[0,1]`` Which is usually the case.
 
-.. image:: images/remape_falloff_node.png
+.. image:: images/remap_falloff_node.png
    :width: 160pt
 
 Inputs
@@ -29,4 +29,4 @@ Advanced Node Settings
 Examples of Usage
 -----------------
 
-.. image:: gifs/remape_falloff_node_example.gif
+.. image:: gifs/remap_falloff_node_example.gif

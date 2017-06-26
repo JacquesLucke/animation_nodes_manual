@@ -696,6 +696,14 @@ This node lets you edit falloffs based on an interpolation.
 
 .. image:: images_v2_0/interpolate_falloff.gif
 
+Remap Falloff
+=============
+
+This node remaps the floats of the input falloff to a new range. The node assumes that the original range was ``[0,1]``, which is usually the case.
+
+.. image:: images_v2_0/remap_falloff_node_example.gif
+
+
 Invert Falloff
 ==============
 
