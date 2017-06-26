@@ -1,4 +1,4 @@
-Remape Falloff
+Remap Falloff
 ==============
 
 Description
