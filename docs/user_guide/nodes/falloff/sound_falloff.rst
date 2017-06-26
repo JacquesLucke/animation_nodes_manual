@@ -22,7 +22,7 @@ Average
 
 This option associates the intensity of sound at the current frame to the object at the index zero where objects at higher indices get associated with sound intensities at future frames.
 
-- **Offset** - The number of objects till value becomes of the next frame. This means that this value is at minimum 1. If it is higher than 1, then objects between each two consecutive frames get associated with a linear interpolation between the values at the bounding frames values. Look at the following illustration:
+- **Offset** - The number of objects till value becomes of the next frame. If the value is 1 then first object is associated with intensity at first frame, second object at the second frame. If the value is zero then all object will be associated with the intensity at the current frame. If it is higher than 1, then objects between each two consecutive frames get associated with a linear interpolation between the values at the bounding frames values. Look at the following illustration:
 
 .. image:: images/sound_falloff_node_example1.png
 

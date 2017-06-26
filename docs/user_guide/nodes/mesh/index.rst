@@ -8,6 +8,7 @@ This category include nodes that process and create mesh objects.
 
    Object Mesh Data <object_mesh_data>
    Get Bounding Box <get_bounding_box>
+   Vertex Group Input <vertex_group_input>
    Bmesh From Object <bmesh_from_object>
    Bmesh Mesh Data <bmesh_mesh_data>
    Transform Polygons <transform_polygons>
