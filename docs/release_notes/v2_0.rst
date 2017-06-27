@@ -81,15 +81,18 @@ The math node also have a new UI where a small menu called **Quick Settings** wi
 
 .. image:: images_v2_0/float_math.gif
 
+Float can now be automatically converted to Integer without an extra node.
+
 Vectors
 *******
 
 Random Vector
 =============
 
-Random Vector node can now generate a list of random vectors. This can be done by checking the **Create List** button beside the node seed. The node is now 400x faster than before.
+Random Vector node can now generate a list of random vectors. This can be done by checking the **Create List** button beside the node seed. The node is now 400x faster than before. A **Normalized Vector** feature was added as an advanced setting.
 
 .. image:: images_v2_0/random_vector.png
+
 
 Vector Wiggle
 =============
@@ -159,6 +162,8 @@ Change Matrix Pivot node was removed because it can be recreated easily with ord
 Texts
 *****
 
+The old term "String" has been renamed to "Text" in many places.
+
 Fill Text >> Repeat Text
 ========================
 
@@ -177,6 +182,16 @@ Reverse Text
 Reverse Text node was added that reverse the input text's character's order.
 
 .. image:: images_v2_0/reverse_text.gif
+
+Text Object Output
+==================
+
+Implemented Horizontal and Vertical Alignmnet.
+
+Separate Text Object
+====================
+
+Added an advanced setting to hide relationship lines.
 
 Booleans
 ********
@@ -838,6 +853,16 @@ Loops
 Generators are now vectorized which means they can append multiple values if given a list.
 
 .. image:: images_v2_0/loops.png
+
+Groups
+******
+
+For Group Input node, the socket is remnamed from *New Parameter* to *New Input*; for Group Output node, the socket is remnamed from *New Return* to *New Output*.
+
+Expression
+**********
+
+Added two new advanced settings: **Inline Expression**, **Fixed Data Types**.
 
 Data Types
 ##########
