@@ -676,19 +676,18 @@ Custom Falloff
 
 Custom falloff lets you create a falloff from a list of factors for total control.
 
-Point Distance Falloff
-======================
-
-Point distance falloff lets you control an effect based on the distance to some point. It is the same as the sphere option in the object controller falloff but inputs are exposed and not controlled by an object.
-
-.. image:: images_v2_0/point_distance_falloff.gif
-
 Directional Falloff
 ===================
 
 Directional falloff lets you control an effect based on the distance along some vector from some point. It is the same as the direction option in the object controller falloff but inputs are exposed and not controlled by an object.
 
 .. image:: images_v2_0/directional_falloff.gif
+
+Point Distance Falloff
+======================
+Point distance falloff lets you control an effect based on the distance to some point. It is the same as the sphere option in the object controller falloff but inputs are exposed and not controlled by an object.
+
+.. image:: images_v2_0/point_distance_falloff.gif
 
 Interpolate Falloff
 ===================
