@@ -137,6 +137,13 @@ This node was newly added and it instance and transforms input transfromation ma
 
 .. image:: images_v2_0/replicate_matrix.gif
 
+Transform Matrix
+================
+
+This node transforms a matrix (or matrix list) by another matrix input.
+
+.. image:: images_v2_0/translaform_matrix.gif
+
 Offset Matrices
 ===============
 
@@ -753,6 +760,17 @@ Sequences has been left intact.
 
 Geometry
 ********
+
+Point in Camera Frustrum
+========================
+
+This node returns four output: Image U, Image V, Z Depth and a Visible boolean. For **Image U and V**, it represents the point position in a UV coordinate based on the active camera view, while **Z Depth** is the depth of field value. Floats can be negative. When the point locates within the view of the active camera, **Visible** boolean returns *True*, otherwise *False*.
+
+.. image:: camera_frustrum_explain.png
+
+.. image:: point_in_camera_frustrum_example.gif
+
+Note: the Camera input must be a Camera object.
 
 Triangulate Polygons
 ====================
