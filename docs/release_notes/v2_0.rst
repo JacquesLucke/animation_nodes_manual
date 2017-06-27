@@ -137,6 +137,13 @@ This node was newly added and it instance and transforms input transfromation ma
 
 .. image:: images_v2_0/replicate_matrix.gif
 
+Transform Matrix
+================
+
+This node transforms a matrix (or matrix list) by another matrix input.
+
+.. image:: images_v2_0/translaform_matrix.gif
+
 Offset Matrices
 ===============
 
@@ -297,6 +304,10 @@ An ID key can be created to hold a text, float or integer per object, think of i
 
 Index IDs
 ---------
+
+Besides **Initial Transforms**, a new default ID Key called **Index** was added to ID Keys panel. A new **Copy** menu was added, which allows either copying initial transforms from active object to selected objects, or coyping/assigning back to the selected object(s). For **Index ID**, it also allows assigning as object pass index value.
+
+.. image:: images_v2_0/copy_id_key_menu.gif
 
 The index ID associate an integer to every object, that integer is usually its index in some list of objects. That list of objects can be sorted using different methods.
 
@@ -754,6 +765,17 @@ Sequences has been left intact.
 Geometry
 ********
 
+Point in Camera Frustrum
+========================
+
+This node returns four output: Image U, Image V, Z Depth and a Visible boolean. For **Image U and V**, it represents the point position in a UV coordinate based on the active camera view, while **Z Depth** is the depth of field value. Floats can be negative. When the point locates within the view of the active camera, **Visible** boolean returns *True*, otherwise *False*.
+
+.. image:: images_v2_0/camera_frustrum_explain.png
+
+.. image:: images_v2_0/point_in_camera_frustrum_example.gif
+
+Note: the Camera input must be a Camera object.
+
 Triangulate Polygons
 ====================
 
@@ -773,6 +795,8 @@ Ray Cast BVH Tree
 There is now an option to start the ray at infinity.
 
 .. image:: images_v2_0/ray_cast.gif
+
+BVH tree can now be construced directly from object.
 
 Viewer
 ******
