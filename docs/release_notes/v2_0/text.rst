@@ -3,8 +3,8 @@ Texts
 
 The old term "String" has been renamed to "Text" in many places.
 
-Fill Text >> Repeat Text
-========================
+Repeat Text
+===========
 
 Fill Text node was renamed repeat text for convention.
 

@@ -12,7 +12,7 @@ Random Vector node can now generate a list of random vectors. This can be done b
 Vector Wiggle
 =============
 
-Vector Wiggle node can now generate a list of vectors. Notice that the random vectors are different in seed and not in the evolution variable which means the vectors when plotted doesn't represent a perlin noise.
+Vector Wiggle node can now generate a list of vectors.
 
 .. image:: images/vector_wiggle.gif
 
