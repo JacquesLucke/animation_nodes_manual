@@ -4,25 +4,25 @@ Booleans
 Compare Node
 ============
 
-A new condition ``Is None`` which check if the input is a non data type. Can be used to avoid possible non data types errors. Most of the fundemntal data types will always return False because the input is always initiallized, however, a data type like generic can be empty so it may return True.
+There is a new condition (``Is None``) which checks if the input is a Python ``None`` object. Many types in AN are (by definition) never None. However certain types (like Object, Sequence, Generic, ...) are allowed to be None, so this mode only makes sense when used with one of those types.
 
 .. image:: images/compare_node.png
 
 Logic Operators
 ===============
 
-Two new operators were added : ``Not (A and B)`` which returns True if one of them is False and ``Not (A or B)`` which returns True if both of them is False.
+Two new operators were added: ``Not (A and B)``, ``Not (A or B)``.
 
 Boolean List Logic
 ==================
 
-Two new options were added to the boolean list logic node, including : ``Not All True`` which returns True if at least one boolean is False and ``Not All False`` which returns True if at least one boolean is True.
+Two new options were added to the boolean list logic node: ``Not All True``, ``Not All False``.
 
 .. image:: images/boolean_list_logic.png
 
 Number To Boolean
 =================
 
-This node was newly added to convert an number into a boolean, if number is zero, it will return False and otherwise True.
+This node converts a number into a boolean in a standard way. If the number is zero, it will return False and otherwise True.
 
 .. image:: images/number_to_boolean.png

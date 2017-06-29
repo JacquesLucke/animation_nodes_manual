@@ -43,7 +43,7 @@ It is also possible to change existing files in a way that they automatically lo
 Documentation
 #############
 
-Every node is documented in this manual now. We now start to improve the documentation of individual nodes step by step. Every help is welcome.
+Every node is documented in this manual now. We now start to improve the documentation of individual nodes step by step. Every help is welcome, mainly to make it more useful for artists.
 
 
 Changes in Detail
