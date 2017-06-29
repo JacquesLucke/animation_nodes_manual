@@ -18,7 +18,7 @@ You can now set the left and right handles of the spline points manually as well
 Replicate Spline
 ================
 
-This newly added node instance splines and transforms them based on the input transformation matrices.
+This newly added node instances splines and transforms them based on the input transformation matrices.
 
 .. image:: images/replicate_spline.gif
 
