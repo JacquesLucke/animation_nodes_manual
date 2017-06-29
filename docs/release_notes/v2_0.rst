@@ -145,7 +145,7 @@ Transform Matrix
 
 This node transforms a matrix (or matrix list) by another matrix input.
 
-.. image:: images_v2_0/translaform_matrix.gif
+.. image:: images_v2_0/transform_matrix.gif
 
 Offset Matrices
 ===============
@@ -557,6 +557,13 @@ Project On Spline
 
 A new output **Distance** was added and it is equal to the distance between the input point and the projected point. In other words, it is the shortest distanced between the input point and the closest point on the spline. Or in other words, it is the length of the line that is perpendicular to the tangent at the surface and starts at the input point and ends at the point of tangency.
 
+Trim Spline
+===========
+
+Trimming a bezier spline produces much cleaner results now. Also the node has been vectorized.
+
+.. image:: images_v2_0/trim_splines.gif
+
 Particle System
 ***************
 
@@ -686,7 +693,7 @@ Sound falloff provide a much more efficient way to evaluate baked sound data. Yo
 .. image:: images_v2_0/sound_falloff.gif
 
 Spline Falloff
-=============
+==============
 
 Spline falloff enables you to control and effect based on the shortest distance to some spline object.
 
