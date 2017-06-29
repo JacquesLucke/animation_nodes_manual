@@ -167,8 +167,6 @@ vector math or matrix or rotation functions.
 
 .. image:: images_v1_6/geom_menu.png
 
-More information on the individual nodes can be found here: :ref:`Geometry Nodes <mylab>`
-
 
 Text File Reader
 ****************

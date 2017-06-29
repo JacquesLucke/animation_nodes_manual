@@ -17,7 +17,7 @@ Falloff
    Directional Falloff <directional_falloff>
    Point Distance Falloff <point_distance_falloff>
    Interpolate Falloff <interpolate_falloff>
-   Remape Falloff <remape_falloff>
+   Remap Falloff <remap_falloff>
    Invert Falloff <invert_falloff>
    Mix Falloffs <mix_falloffs>
    Evaluate Falloff <evaluate_falloff>
