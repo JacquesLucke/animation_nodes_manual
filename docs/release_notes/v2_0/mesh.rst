@@ -6,7 +6,7 @@ This category is one of the heavily updated one, a lot of nodes were removed and
 Object Mesh Data
 ================
 
-Vertex and Polygon data outputs were removed as well as their data types, they are no longer available in AN 2.0. As an alternative, some new outputs were given including: Vertices Normals, Polygons Centers, Polygons Normals, Local Polygon Areas and Material Indices. The new outputs are pretty much what the polygon and vertex data included, so there no loss of flexibility here, in fact it is much more efficient.
+Vertex and Polygon data outputs were removed as well as their data types, they are no longer available in AN 2.0. As an alternative, some new outputs are available: Vertex Normals, Polygon Centers, Polygon Normals, Local Polygon Areas and Material Indices. The new outputs are pretty much what the polygon and vertex data included, so there no loss of flexibility here, in fact it is much more efficient.
 
 .. image:: images/mesh_data.gif
 
@@ -41,7 +41,7 @@ Grid Mesh generator was redesigned and can now be defined either using grid dime
 Find Close Points
 =================
 
-Find Close Points (previously named Find Close Vertices) node has been redesigned. There are now two modes, one that create n number of connections to n closest points where n is an input integer; and another mode that create connections to any points in some input radius. The node also returns distances to points as an output.
+Find Close Points (previously named Find Close Vertices) node has been redesigned. There are now two modes: Amount and Distance. The node also returns distances between points as an output.
 
 .. image:: images/find_close_points.gif
 
@@ -54,8 +54,6 @@ Edges To Tube
 =============
 
 This node was newly created as a replacement to the Edges To Planes node and it simply create tubes in places of edges.
-
-.. image:: images/grid_mesh.gif
 
 Create Edges
 ============
@@ -93,7 +91,7 @@ This node was newly added and it returns the mesh data of the input object. See 
 Replicate Mesh Data
 ===================
 
-This node was newly added and it instance the mesh data and transforms it based on the input transformation matrices, then it combines all mesh data into a single mesh data.
+This node was newly added and it instances the mesh data and transforms it based on the input transformation matrices (or vectors).
 
 .. image:: images/replicate_mesh_data.gif
 
@@ -114,7 +112,7 @@ This node was newly added. It separates the input polygons and return them in th
 Transform Polygons
 ==================
 
-This node was newly added and it transforms input polygons based on an input transformation matrix.
+This node was newly added and it transforms input polygons based on an input transformation matrix. Note that the individual polygons should be separated from each others for this operation to make sense.
 
 .. image:: images/transform_polygons.gif
 

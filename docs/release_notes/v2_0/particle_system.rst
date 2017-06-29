@@ -13,7 +13,7 @@ This newly added node combines the filter particles and particle list info node.
 Hair Data
 =========
 
-This newly added node returns the particle system hair as splines.
+This newly added node returns the particle system hair as a list of splines.
 
 .. image:: images/hair_data.gif
 

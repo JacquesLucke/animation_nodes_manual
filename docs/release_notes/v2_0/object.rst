@@ -4,8 +4,8 @@ Objects
 Object Transforms Output
 ========================
 
-Object Transforms Output has a new UI for enabling transformation channels. The node now support editing the delta transforms of object, delta transforms are transforms that are added on top of the current transforms, so, now you can define objects relative transforms without any ID keys. Enabled delta transforms from the advanced node settings.
-The node is also vectroized, so you may edit delta transforms for multiple objects.
+The Object Transforms Output node has a new UI for enabling transformation channels. The node now supports editing the delta transforms of object. Delta transforms are transforms that are added on top of the current transforms. So now you can define objects relative transforms without any ID keys. If you want to change the delta transforms you have to enable this option in the advanced settings.
+The node is also vectorized, so you may edit delta transforms for multiple objects.
 
 .. image:: images/transforms_output.gif
 
@@ -19,14 +19,14 @@ The node now has an operator to create an execution trigger for the property at 
 Object Attribute Output
 =======================
 
-The node is now vectorized and can take a list of object. When an object list is input, **Multiple Values** option appear, in essence, you have two options, to set the input value to all object or to provide a list of values to be set to objects element wise. The **Multiple Values** option if true will tell the node to expect a list of values to set to objects element wise.
+The node is now vectorized and can take a list of object. When the input is a list of object, thee **Multiple Values** option appears. Now you have two options. To set the input value to all object or to provide a list of values to be set to objects element wise.
 
 .. image:: images/attribute_output.gif
 
 Object Data Path Output
 =======================
 
-The now cache data paths for faster future execution. The cache can be cleared using an operator in the advanced node settings.
+Has a new cache to allow faster execution. The cache can be cleared from the advanced settings.
 
 Armature Info
 =============
