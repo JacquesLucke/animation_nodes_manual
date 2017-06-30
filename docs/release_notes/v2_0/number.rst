@@ -36,3 +36,10 @@ The math node also have a new UI feature: A small menu called **Quick Settings**
 .. image:: images/float_math.gif
 
 Float can now be automatically converted to Integer without an extra node.
+
+Constants
+=========
+
+There is a new Number Constants node which provides easy access to a few constants.
+
+.. image:: images/number_constants.png
