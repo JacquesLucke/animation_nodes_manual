@@ -48,6 +48,8 @@ There are two new advanced settings:
 - Fixed Data Type
     Forbid the node to change the output type automatically. This is automatically activated when the output type is selected manually.
 
+.. image:: images/expression_node.png
+
 Keyboard Shortcuts
 ==================
 
@@ -72,10 +74,14 @@ Remove Node Tree
 
 There is now a button to remove the current node tree.
 
+.. image:: images/remove_button.png
+
 Measure Execution Time
 ======================
 
 The Measure Execution Time tool now displays the minimum execution time instead of average.
+
+.. image:: images/measure_execution_times.png
 
 Performance Mode
 ================
