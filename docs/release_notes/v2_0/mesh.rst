@@ -10,13 +10,6 @@ Vertex and Polygon data outputs were removed as well as their data types, they a
 
 .. image:: images/mesh_data.gif
 
-Get Bounding Box
-================
-
-Get bounding box node now returns the mesh data of the bounding box as well as its center.
-
-.. image:: images/get_bounding_box.gif
-
 Vertex Group Input
 ==================
 
@@ -55,6 +48,8 @@ Edges To Tube
 
 This node was newly created as a replacement to the Edges To Planes node and it simply create tubes in places of edges.
 
+.. image:: images/edge_to_tube.gif
+
 Create Edges
 ============
 
@@ -68,6 +63,7 @@ Create Polygon Indices
 A new option was added to create indices of the pattern ``0,1,2,3, ... ,n`` where n+1 is an input integer. This is helpful if vertices are in the right order. The node also support the creation of multiple indices list with different number of indices by checking the **Use List** button next to the type menu.
 
 .. image:: images/polygon_indices.gif
+.. image:: images/create_polygon_indices.png
 
 Edge Info
 =========
@@ -130,6 +126,13 @@ Mesh Object Output
 Advanced settings have been changed and extended. Now, with the new **Ensure Animation Data** feature (enabled by default), it allows exporters (mainly Alembic) to export the mesh correctly.
 
 .. image:: images/mesh_object_output_advanced_settings_comp.png
+
+Get Bounding Box
+================
+
+Get bounding box node now returns the mesh data of the bounding box as well as its center.
+
+.. image:: images/get_bounding_box.gif
 
 Polygon Info
 ============

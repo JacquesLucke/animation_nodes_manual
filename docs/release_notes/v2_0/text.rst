@@ -25,9 +25,13 @@ Reverse Text node was added that reverse the input text's character's order.
 Text Object Output
 ==================
 
-Implemented Horizontal and Vertical Alignmnet.
+Implemented Horizontal and Vertical Alignment. Also it has been vectorized.
+
+.. image:: images/text_object_output.png
 
 Separate Text Object
 ====================
 
 Added an advanced setting to hide relationship lines.
+
+.. image:: images/separate_text_object.gif
