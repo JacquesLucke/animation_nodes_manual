@@ -20,6 +20,10 @@ Lists are an essential part of Animation Nodes. In previous versions the only wa
 
 .. image:: images/vectorization_example.gif
 
+Currently, vectorized nodes can be visually distinguished: When no links connected, all sockets, including input(s) and output(s), are temporarily displayed in a color with transparency of 0.8 (while for any ``list`` data type, the socket transparency is 0.5; and for any ``base`` data type, the color is solid). Transparency will be shifted to 0.5 when connecting with valid ``list`` data.
+
+.. image:: images/vectorized_node_socket_diff.png
+
 Not all nodes which could have this functionality have it yet. Fortunately, vectorizing a node does not break it, so some nodes can be vectorized after the first release of AN 2.0.
 
 Falloffs
