@@ -21,6 +21,8 @@ Transform Vector List
 
 Transform Vector List node was removed because now the **Transform Vector** node is vectorized and can operate on lists of vectors.
 
+.. image:: images/transform_vector_list.gif
+
 Offset Vector
 =============
 
