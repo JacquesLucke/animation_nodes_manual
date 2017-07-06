@@ -1,6 +1,9 @@
 Misc
 ****
 
+Sockets
+=======
+
 New socket type: **Falloff**.
 
 Removed socket types: **Vertex**, **Polygon**.
@@ -52,7 +55,7 @@ Animation Nodes currently uses the *W*, *E* and *U* key in the node editor. The 
 
 .. image:: images/socket_settings.gif
 
-3D ViewPort
+3D Viewport
 ===========
 
 An option to show the indices of vertices, edges and polygons indices is available under the display panel in properties menu now. Note that this option is designed to be used in object mode.
@@ -62,7 +65,7 @@ An option to show the indices of vertices, edges and polygons indices is availab
 Templates
 =========
 
-Templates were removed.
+Templates were removed. There will be a better template system in the future.
 
 Remove Node Tree
 ================
@@ -77,4 +80,4 @@ The Measure Execution Time tool now displays the minimum execution time instead 
 Performance Mode
 ================
 
-Performance Mode was removed.
+Performance Mode was removed. It was absolutely useless for users.
