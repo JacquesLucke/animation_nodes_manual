@@ -57,6 +57,8 @@ Animation Nodes currently uses the *W*, *E* and *U* key in the node editor. The 
 
 .. image:: images/socket_settings.gif
 
+Furthermore there is a new shortcut (*shift ctrl Q*) to disable Auto Execution for all AN trees. This is helpful when you accidently made a mistake and the execution time becomes very long.
+
 3D Viewport
 ===========
 
