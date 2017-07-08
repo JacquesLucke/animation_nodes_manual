@@ -23,3 +23,4 @@ Number category contains nodes that process and generates integers and floats.
     List Math <number_list_math>
     Parse Number <parse_number>
     Float To Integer <float_to_integer>
+    Float To Text <float_to_text>
