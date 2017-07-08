@@ -27,7 +27,7 @@ This new node selectively removes list elements based on a boolean list.
 Sort List
 =========
 
-Name, Post Distance and Direction options were removed because they can be achieve using other options.
+Name, Post Distance and Direction options were removed because they can be achieved using other options.
 
 Random List
 ===========

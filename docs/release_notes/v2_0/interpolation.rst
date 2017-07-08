@@ -13,6 +13,8 @@ Mix Interpolation
 
 This newly added node mixes between two interpolation using one of two algorithms. **Overlay** which simply overlay both interpolation where zero means the first interpolation and 1 means the second. **Chain** which stack input interpolations beside each others.
 
+.. image:: images/mix_interpolation.png
+
 Mirror Interpolation
 ====================
 

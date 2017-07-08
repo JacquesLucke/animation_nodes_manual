@@ -44,7 +44,7 @@ Expression
 There are two new advanced settings:
 
 - Inline Expression
-    Reduces function call overhead. The speedup is only notable when the expression is very small. When deactivated expressions like ``sin(x)`` can be used. To archieve the same thing when the setting is activated use ``math.sin(x)``.
+    Reduces function call overhead. The speedup is only notable when the expression is very small. When deactivated expressions like ``sin(x)`` can be used. To archive the same thing when the setting is activated use ``math.sin(x)``.
 - Fixed Data Type
     Forbid the node to change the output type automatically. This is automatically activated when the output type is selected manually.
 
@@ -57,12 +57,12 @@ Animation Nodes currently uses the *W*, *E* and *U* key in the node editor. The 
 
 .. image:: images/socket_settings.gif
 
-Furthermore there is a new shortcut (*shift ctrl Q*) to disable Auto Execution for all AN trees. This is helpful when you accidently made a mistake and the execution time becomes very long.
+Furthermore there is a new shortcut (*shift ctrl Q*) to disable Auto Execution for all AN trees. This is helpful when you accidentally made a mistake and the execution time becomes very long.
 
 3D Viewport
 ===========
 
-An option to show the indices of vertices, edges and polygons indices is available under the display panel in properties menu now. Note that this option is designed to be used in object mode.
+An option to show the indices of vertices, edges and polygons is available under the display panel in properties menu now. Note that this option is designed to be used in object mode.
 
 .. image:: images/viewport_indices.png
 

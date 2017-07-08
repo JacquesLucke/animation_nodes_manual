@@ -50,7 +50,7 @@ This falloff is a wrapper for multiple other falloffs to make them easier and fa
 Sound Falloff
 =============
 
-Sound falloff provide a much more efficient way to evaluate baked sound data. You can evaluate the sound data based on the object indices or based on another falloff. So you may use a point distance falloff no evaluate the sound data resulting in this radial sound visualization:
+Sound falloff provide a much more efficient way to evaluate baked sound data. You can evaluate the sound data based on the object indices or based on another falloff. So you may use a point distance falloff to evaluate the sound data resulting in this radial sound visualization:
 
 .. image:: images/sound_falloff.gif
 
