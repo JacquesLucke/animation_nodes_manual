@@ -11,7 +11,6 @@ This category include nodes that process and create lists.
     Append to List <append_to_list>
     Get List Element <get_list_element>
     Get Random List Element <get_random_list_element>
-    Random List <random_list>
     Search List Element <search_list_element>
     Set List Element <set_list_element>
     Remove List Element <remove_list_element>
@@ -24,6 +23,7 @@ This category include nodes that process and create lists.
     Mask List <mask_list>
     Fill List <fill_list>
     Repeat List <repeat_list>
+    Random List <random_list>
     List Boolean Operations <list_boolean_operations>
     Set Struct Elements <set_struct_elements>
     Get Struct Elements <get_struct_elements>

@@ -7,8 +7,6 @@ Matrix
     Compose Matrix <compose_matrix>
     Decompose Matrix <decompose_matrix>
     Matrix List <matrix_list>
-    Combine Matrices <combine_matrices>
-    Mix Matrices <mix_matrices>
     Translation Matrix <translation_matrix>
     Rotation Matrix <rotation_matrix>
     Scale Matrix <scale_matrix>
@@ -17,7 +15,9 @@ Matrix
     Replicate Matrix <replicate_matrix>
     Transform Matrix <transform_matrix>
     Invert Matrix <invert_matrix>
+    Mix Matrices <mix_matrices>
     Matrix Math <matrix_math>
+    Combine Matrices <combine_matrices>
     Offset Matrices <offset_matrices>
 
 Matrices are a way of representing locations, rotations and scales of objects, they can also represents translations, rotations and scaling transformations.
