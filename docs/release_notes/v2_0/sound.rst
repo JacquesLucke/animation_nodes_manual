@@ -9,11 +9,13 @@ Also the output of the *Evaluate Sound* node is called *Volume/Volumes* now depe
 
 .. image:: images/sound_bake.png
 
-Many common sound animations can be archieved using the new sound falloff.
+Many common sound animations can be achieved using the new sound falloff.
 
 .. image:: images/equalizer.gif
 
 .. image:: images/sound_falloff.gif
+
+.. image:: images/sound_falloff_2.gif
 
 .. note::
     Often it is useful to enable the **AV Sync** option in the timeline.

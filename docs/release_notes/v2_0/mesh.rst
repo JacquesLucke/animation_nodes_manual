@@ -91,6 +91,8 @@ This node was newly added and it instances the mesh data and transforms it based
 
 .. image:: images/replicate_mesh_data.gif
 
+.. image:: images/replicate_mesh_data_2.gif
+
 Extract Polygon Transforms
 ==========================
 

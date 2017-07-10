@@ -54,6 +54,10 @@ Sound falloff provide a much more efficient way to evaluate baked sound data. Yo
 
 .. image:: images/sound_falloff.gif
 
+Or you can do an index based evaluation of the sound to control the scale of some radially distributed objects resulting in:
+
+.. image:: images/sound_falloff_2.gif
+
 To create a normal equalizer animation, start with something like that:
 
 .. image:: images/equalizer.gif
