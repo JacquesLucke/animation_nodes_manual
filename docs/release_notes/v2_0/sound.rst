@@ -17,5 +17,11 @@ Many common sound animations can be achieved using the new sound falloff.
 
 .. image:: images/sound_falloff_2.gif
 
+.. image:: images/sound_spheres.gif
+
+Of course the older, more flexible approach, is still available.
+
+.. image:: images/equalizer_old.png
+
 .. note::
     Often it is useful to enable the **AV Sync** option in the timeline.
