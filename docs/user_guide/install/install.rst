@@ -6,18 +6,22 @@ How to Install?
 
 0. Uninstall any old version of Animation Nodes. Having it installed multiple times for the same version causes conflicts.
 
-1. Downloaded a recent build from `graphicall.org <http://graphicall.org/blender/add-on?keywords=Animation%20Nodes>`_. The build have to match your operating system and python version in order to work. If no build suits you, then you might want to compile it yourself (see developers guide) or contact a developer.
+1. Downloaded a recent build for your operating system. If no build suits you, then you might want to compile it yourself (see developers guide) or contact a developer.
 
 2. Open Blender (preferably the newest version)
 
 3. Go to the *User Preferences* in the *Addon* tab.
 
-4. Click *Install from File* and choose the zip file.
+4. Click *Install from File* and choose the file you downloaded.
 
-5. Activate the add-on and you are **done**!
+5. Activate the add-on and you are **done**.
 
 You can now find the Animation-Nodes editor in the node editor.
-    .. image:: animation_node_editor.png
+
+    .. image:: images/animation_node_editor.png
+
+.. important::
+    Checkout the troubleshooting section below if you have any installation problems.
 
 
 How to Uninstall?
@@ -33,13 +37,21 @@ How to Uninstall?
 Troubleshooting
 ---------------
 
-The addon sometimes depends on features that are only in newer versions of Blender. So the first thing should be to update your Blender version.
+When Animation Nodes fails to start it should show an **error message**. Please read it, often it already contains information on what you can do.
 
-Possible solutions to installation problems:
-    * Make sure you downloaded a build for your operating system.
-    * Ensure that there is no older version of Animation Nodes installed.
-    * If you use Windows, try to install `this <https://www.microsoft.com/en-US/download/details.aspx?id=48145>`_ first.
-    * AN depends on the module *numpy* that is distributed with official releases of Blender. If you build Blender yourself or use custom builds (e.g. from graphicall.org) you have to make sure that they contain numpy. If not you have to get another Blender build or install `numpy`_ manually.
-    * Enable ``Auto Run Python Scripts`` in the *User Preferences > File* tab.
+.. image:: images/error_message.png
 
-.. _numpy: http://www.numpy.org/
+The addon sometimes depends on features that are only in newer versions of Blender. So the first thing should be to **update** your `Blender <https://www.blender.org/download/>`_ version.
+
+Then make sure that you actually downloaded a build for your operating system (Linux, Windows, macOS and possibly others).
+
+If you use **Windows** try to install `this <https://www.microsoft.com/en-US/download/details.aspx?id=48145>`_ first.
+
+One problem on **Linux** systems is that the builds don't seem to work everywhere. We haven't found a real solution (a build that works everywhere) yet. Therefor we provide multiple Linux builds and you have to check which one works for you.
+
+Animation Nodes depends on `numpy <http://www.numpy.org/>`_. If you downloaded unofficial Blender versions it is possible that *numpy* is not included in those (the error message should tell you this). If this is the case you can either download another Blender build (preferably an `official <https://www.blender.org/download/>`_ one) or you have to install *numpy* manually yourself.
+
+If you still didn't manage to install Animation Nodes you have two options:
+
+    1. Open a `new issue <https://github.com/JacquesLucke/animation_nodes/issues/new>`_ on Github and ask for help. Please provide the relevant data about your computer (OS, Python version, Blender version, ...)
+    2. Compile Animation Nodes yourself. You can learn more about that in the developer guide.
