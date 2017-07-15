@@ -25,10 +25,6 @@ Download the Source Code
         The cloning target location used to be the addon folder of Blender. This is no longer the case. You can clone it anywhere you want.
 
 
-    If you are using this guide before the official AN 2.0 release you have to switch to the ``cython`` branch. You can do this either by running ``git checkout cython`` or by using the GUI you installed.
-
-
-
 Compile the Code
 ****************
 
@@ -83,7 +79,7 @@ Troubleshooting
 ***************
 
 If your problem cannot be solved with the information, please
-`report <https://github.com/JacquesLucke/animation_nodes_manual/issues/new>`_ it. Also feel free to contact me (Jacques Lucke) personally. I'd like to help everyone who wants to compile AN. The more people are able to do this, the better. 
+`report <https://github.com/JacquesLucke/animation_nodes_manual/issues/new>`_ it. Also feel free to contact me (Jacques Lucke) personally. I'd like to help everyone who wants to compile AN. The more people are able to do this, the better.
 
 Most errors happen because Python cannot find a correct C compiler to compile the extension modules. Here are some very helpful links on the topic:
 
