@@ -3,8 +3,7 @@ Rotation Matrix
 
 Description
 -----------
-This node generates a rotation transformation matrix based on an input euler or angle.
-The transformation matrix can then be multiplied to a matrix to perform the rotation.
+This node generates a rotation transformation matrix based on an input euler or an angle. The transformation matrix can then be multiplied to a matrix to perform the rotation.
 
 .. image:: images/rotation_matrix_node.png
    :width: 160pt

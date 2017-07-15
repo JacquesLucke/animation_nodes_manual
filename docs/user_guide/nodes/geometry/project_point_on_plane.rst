@@ -3,6 +3,7 @@ Project Point On plane
 
 Description
 -----------
+
 This node takes a point and a plane and returns information about the projection of this point on that plane.
 
 .. image:: images/project_point_on_plane_node.png

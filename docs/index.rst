@@ -6,8 +6,6 @@ Welcome to the official manual of **Animation-Nodes** (AN).
 
 AN is a node based visual scripting system designed for motion graphics in `Blender <http://www.blender.org/>`_.
 
-Using nodes grants you the ability to create complex and precise animations in a structured and centralized way.
-
 .. toctree::
    :maxdepth: 2
 

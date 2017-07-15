@@ -3,7 +3,8 @@ Curve Object Output
 
 Description
 -----------
-This node takes a list of splines and write them to a curve object.
+
+This node takes a list of splines and write them to a curve object. It is possible to insert a single spline because the node is vectorized.
 
 .. image:: images/curve_object_output_node.png
    :width: 160pt

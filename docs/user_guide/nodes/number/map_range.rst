@@ -3,20 +3,29 @@ Map Range
 
 Description
 -----------
+
 This node remaps a value from a defined interval to a new interval.
-Every value has a relative position in a specific interval, This node find a new value that match the relative position but in a new defined interval.
+
+Every value has a relative position in a specific interval, this node find a new value that match the relative position but in a new defined interval.
 
 .. image:: images/map_range_node.png
    :width: 160pt
 
+Options
+-------
+
+- **Clamp** - If enabled, values will be clamped to the interval ``[0,1]``.
+- **Interpolation** - If enabled, values will be evaluated at the input interpolation before being output. (Only available when clamp is enabled, as interpolations work on normalized intervals only)
+
 Inputs
 ------
 
-- **Value** - A float that should to be remaped.
+- **Value** - A float that should be remaped.
 - **Input Min** - The start of the original interval.
 - **Input Max** - The end of the original interval.
 - **Output Min** - The start of the new interval.
 - **Output Max** - The end of the new interval.
+- **Interpolation** - If interpolation is enabled, the output value will be evaluated based on this input interpolation.
 
 
 Outputs
@@ -28,20 +37,6 @@ Advanced Node Settings
 ----------------------
 
 - N/A
-
-Note
-----
-
-If the input value is outside the original interval, it will be remapped relative to the start and the end of the new interval.
-That's why the node has an option to **Clamp Input**.
-
-The node also supports non linear interpolation, It means the value will not be remapped uniformly across the whole interval, **Custom Interpolations** will enable you to remap the input value based on its relative position in the original interval.
-To be able to understand the **Custom Interpolation**, We reccomend you use the interval [0,1] for both the original and the new interval, then try using different interpolations and see how the output changes as you change the value.
-
-Warning
--------
-
-**Custom Interpolation** will not work unless **Clamp Input** is enabled, because interpolation operates on normalized scales.
 
 Examples of Usage
 -----------------

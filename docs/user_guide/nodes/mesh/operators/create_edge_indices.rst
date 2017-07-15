@@ -3,7 +3,8 @@ Create Edge Indices
 
 Description
 -----------
-This node create an edge indices which then can be used to create an edge indices list to create objects.
+
+This node creates an edge indices which then can be used to create an edge indices list to create meshes.
 
 .. image:: images/create_edge_indices_node.png
    :width: 160pt

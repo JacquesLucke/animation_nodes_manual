@@ -1,6 +1,8 @@
 Number
 ======
 
+Number category contains nodes that process and generates integers and floats.
+
 .. toctree::
    :titlesonly:
 
@@ -21,5 +23,4 @@ Number
     List Math <number_list_math>
     Parse Number <parse_number>
     Float To Integer <float_to_integer>
-
-.. image:: images/number_overview.png
+    Float To Text <float_to_text>

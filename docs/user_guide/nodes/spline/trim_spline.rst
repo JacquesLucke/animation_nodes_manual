@@ -3,6 +3,7 @@ Trim Spline
 
 Description
 -----------
+
 This node will trim (cut) the input spline to a specific normalized interval.
 
 .. image:: images/trim_spline_node.png
@@ -25,7 +26,7 @@ Outputs
 Advanced Node Settings
 ----------------------
 
-- **Resolution** - It is the quality of the resulted spline, in other words, it is the number of handles in the output spline.
+- **Resolution** - It is the quality of the resulted spline, in other words, it is the number of points in the output spline.
 
 Examples of Usage
 -----------------

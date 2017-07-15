@@ -3,6 +3,7 @@ Text Length
 
 Description
 -----------
+
 This node will return the number of characters in the input text.
 
 .. image:: images/text_length_node.png

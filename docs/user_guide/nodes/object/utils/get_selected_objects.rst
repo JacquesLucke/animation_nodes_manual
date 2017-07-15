@@ -3,6 +3,7 @@ Get Selected Objects
 
 Description
 -----------
+
 This node will return the Active object and a list of the selected objects.
 
 .. image:: images/get_selected_objects_node.png

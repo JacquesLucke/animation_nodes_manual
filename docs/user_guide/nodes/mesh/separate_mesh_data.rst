@@ -3,6 +3,7 @@ Separate Mesh Data
 
 Description
 -----------
+
 This node separates the input mesh data into it's components:
 
 - **Vertex Locations**.

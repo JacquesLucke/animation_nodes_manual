@@ -3,6 +3,7 @@ Object Matrix Output
 
 Description
 -----------
+
 This node sets the transformations of the input object to the input transformation matrix.
 
 .. image:: images/matrix_output_node.png
@@ -22,7 +23,11 @@ Outputs
 Advanced Node Settings
 ----------------------
 
-- **Type** - This option will let you choose the type of the transformation applied including: World, Local, Basis and Parent Inverse.
+- **Type** - This option lets you set the transfromation matrix as:
+    - **World** - World space transformation matrix.
+    - **Basis** - World space transformation matrix but without constraints and parenting.
+    - **Local** - Local space transformation matrix.
+    - **Parent Inverse** - Inverse of object’s parent matrix at time of parenting.
 
 Examples of Usage
 -----------------

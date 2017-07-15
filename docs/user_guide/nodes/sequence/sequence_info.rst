@@ -3,7 +3,8 @@ Sequence Info
 
 Description
 -----------
-This node returns some information about the input sequence(strip).
+
+This node returns some information about the input sequence.
 
 .. image:: images/sequence_info_node.png
    :width: 160pt

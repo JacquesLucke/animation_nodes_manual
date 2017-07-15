@@ -3,7 +3,8 @@ Append Point To Spline
 
 Description
 -----------
-This node adds a new point(handle) to the input spline.
+
+This node adds a new point to the input spline.
 
 .. image:: images/append_point_to_spline_node.png
    :width: 160pt
@@ -18,9 +19,10 @@ Inputs
 ------
 
 - **Spline** - A spline to add the point to.
-- **Point** - The position of the handle that will be added.
+- **Point** - The position of the point that will be added.
 - **Left Handle** - The position of the left handle of the bezier point. (Only in the **Bezier Point** option)
 - **Right Handle** - The position of the right handle of the bezier point. (Only in the **Bezier Point** option)
+- **Radius** - The radius of the point.
 
 Outputs
 -------

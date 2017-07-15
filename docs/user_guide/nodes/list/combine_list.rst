@@ -3,11 +3,8 @@ Combine List
 
 Description
 -----------
-This node is used to combine or join an arbitrary number of lists of a specific
-data type. A new list can be added with the *New Input* button. A new list can
-also be added by plugging it into the transparent socket.The type of the node
-changes automatically to whatever the data type you input. This means if you input an
-integer list, the list type will be integer.
+
+This node is used to combine or join an arbitrary number of lists of a specific data type. A new list can be added with the *New Input* button. A new list can also be added by plugging it into the transparent socket.
 
 .. image:: images/combine_list_node.png
    :width: 160pt
@@ -16,7 +13,7 @@ Inputs
 ------
 
 - **List** - A list of elements indexed starting from 0.
-- **List** - A list of elements indexed starting the last element of the previous list.
+- **List** - A list of elements indexed starting from last element of the previous list.
 - **List** - ...
 
 Outputs
@@ -24,7 +21,7 @@ Outputs
 - **list** - A list that contains all the input lists.
 
 Advanced Node Settings
------------------------
+----------------------
 
 - **Change type** - Changes the type of the list to another list type.
 

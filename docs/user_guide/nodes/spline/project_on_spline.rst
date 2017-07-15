@@ -3,8 +3,9 @@ Project On Spline
 
 Description
 -----------
+
 This node will project the input point to the input spline and return some information about the projection.
-The projection of a point on a spline is the closest point to the input point.
+The projection of a point on a spline is the closest point to the input point and the vector going from the point to its projection is perpendicular to the tangent at that point.
 
 .. image:: images/project_on_spline_node.png
    :width: 160pt
@@ -31,6 +32,7 @@ Outputs
 
 - **Position** - The position of the point---on the curve---that is closest to the input point.
 - **Tangent** - A vector that respresents the tangent line to the output position point.
+- **Distance** - The distance between the input point and the position point.
 - **Parameter** - The location of the output position point in the normalized distance of the spline. (Is not calculated if the Extended option is enabled)
 
 Advanced Node Settings

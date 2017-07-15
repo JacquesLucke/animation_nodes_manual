@@ -3,7 +3,9 @@ Object Data Path Output
 
 Description
 -----------
+
 This node behaves just like the **Object Attribute Output**, but it is more convenient to use with lists where for instance the location of the object has 3 values (X,Y,Z), this node will let you set the value for any of them independently.
+
 To get the data path of any property just right click on the property and select **Copy Data Path**.
 
 .. image:: images/object_data_path_output_node.png
@@ -25,7 +27,7 @@ Outputs
 Advanced Node Settings
 ----------------------
 
-- N/A
+- **Clear Cache** - The node automatically cache data paths for faster future executions, pressing this would clear that cache.
 
 Examples of Usage
 -----------------

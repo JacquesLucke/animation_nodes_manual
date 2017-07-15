@@ -3,7 +3,8 @@ Get Spline Length
 
 Description
 -----------
-This node will return the length of the input spline, it can be restricted to a defined interval.
+
+This node returns the length of the input spline, it can be restricted to a defined interval.
 
 .. image:: images/get_spline_length_node.png
    :width: 160pt

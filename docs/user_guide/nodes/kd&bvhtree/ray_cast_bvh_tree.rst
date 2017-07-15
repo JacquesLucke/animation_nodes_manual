@@ -3,10 +3,16 @@ Ray Cast BVH Tree
 
 Description
 -----------
+
 This node sends a ray through the scene and gather some information about its intersection with the mesh defined by the BVH tree.
 
 .. image:: images/ray_cast_bvh_tree_node.png
    :width: 160pt
+
+Options
+-------
+
+- **Start At Infinity** - If enabled, the ray will start from an infinitely far point along the line defined by the input Ray Direction and Ray Start (Which in this case doesn't represent the actual starting point but just the position of the ray). Max distance input will also be unusable if enabled.
 
 Inputs
 ------

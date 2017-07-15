@@ -3,11 +3,8 @@ Splines From Object
 
 Description
 -----------
+
 This node returns the spline(s) of the input curve.
-
-A spline is the data that form curves, a curve is composed of a single or multiple splines.
-
-The node has an option to return the splines in the world space or in local space coordinates.
 
 .. image:: images/splines_from_object_node.png
    :width: 160pt
@@ -16,6 +13,7 @@ Inputs
 ------
 
 - **Object** - A curve to return its splines.
+- **Use World Space** - If True, the splines will be in world space.
 
 Outputs
 -------

@@ -3,6 +3,7 @@ Vector Length
 
 Description
 -----------
+
 This node calculates the magnitude of the input vector.
 
 .. image:: images/vector_length_node.png

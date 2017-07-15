@@ -3,6 +3,7 @@ Viewport Color
 
 Description
 -----------
+
 This node lets you set the viewport color of the selected material. It works for both cycles and internal materials.
 
 .. image:: images/viewport_color_node.png

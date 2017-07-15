@@ -3,6 +3,7 @@ Get All Sequences
 
 Description
 -----------
+
 This node returns all the sequence strips in the sequence editor.
 
 .. image:: images/get_all_sequences_node.png
@@ -16,7 +17,7 @@ Inputs
 Outputs
 -------
 
-- **Sequences** - A list of all sequences(strips) in the sequence editor.
+- **Sequences** - A list of all sequences in the sequence editor.
 
 Advanced Node Settings
 ----------------------

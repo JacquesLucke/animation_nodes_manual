@@ -3,6 +3,7 @@ Construct BVH Tree
 
 Description
 -----------
+
 This node constructs a BVH Tree from the input mesh data.
 
 .. image:: images/construct_bvh_tree_node.png
@@ -23,7 +24,7 @@ Inputs
 
 - **Vector List** - A vector list that contain the locations of the vertices of the mesh.
 - **Polygon Indices** - A polygon indices list that contain the polygon indices of the mesh.
-- **Epsilon** - It is the intersection threshold, it tells the BVH tree how close can a point be to the mesh so that it can be considered an intersection. So a high epsilon value will consider a point that haven't reached the mesh surface yet an intersection.
+- **Epsilon** - It is the intersection threshold, it tells the BVH tree how close can a point be to the mesh so that it can be considered an intersection. So a high epsilon value will consider a point that haven't reached the mesh surface yet an intersection. It is not recommended to use a high epsilon value as it can be very slow.
 
 Outputs
 -------

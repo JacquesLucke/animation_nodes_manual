@@ -3,6 +3,7 @@ Intersect Line Sphere
 
 Description
 -----------
+
 This node returns the location of the point of intersection of the input line with the input sphere.
 
 .. image:: images/intersect_line_sphere_node.png

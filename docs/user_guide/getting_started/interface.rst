@@ -2,99 +2,91 @@
 Interface
 *********
 
-On this page I want to give a quick overview where you to find everything
-that has to do with this addon in Blender. Obviously most settings are
-located in the node editor but not all of them.
-
+Much of the interface is located in the node editor in blender while some of the interface exist in other regiones like the 3D viewport.
 
 Node Menu
 =========
 
-The menu to insert new nodes opens when pressing ``shift-A`` like in the
-compositing and material nodes. The menu is fairly large with many submenus.
-It is not ideal for a quick workflow but it helps when you forgot the name
-of a node.
+To add a new node, you can open the Node Menu by pressing ``Shift+A`` like other node systems. The menu contains a lot of submenus. The menu includes all nodes in AN except for passive nodes which are usually added automatically or by searching for them, such nodes are like the **Converter** and **Convert To Integer List** node.
 
-  .. image:: images/node_menu.PNG
-
+.. image:: images/node_menu.png
 
 Node Search
 ===========
 
-The search box (``ctrl-A``) enables you to quickly find and insert nodes by
-their name. Some nodes have multiple search tags to make it easier to find them.
-Also here are all installed nodes. Not only a subset like in the menu.
+The search box can be opened by pressing ``Ctrl-A``, it enables you to quickly find and insert nodes by their names. Some nodes have multiple search tags to make it easier to find them. Search box can find any node in AN even if they were passive from the node menu.
 
-  .. image:: images/node_search.PNG
-
+.. image:: images/search_menu.png
 
 Node Settings
 =============
 
+Nodes include multiple settings types, settings that regularly changes are drawn inside nodes directly for faster workflow, settings that doesn't change regularly are drawn in a custom panel in the properties menu to avoid clustering the UI.
+
 Inside the Node
 ^^^^^^^^^^^^^^^
 
-Directly in the node are all the sockets that can be linked with other nodes.
-Also sometimes there are additional properties you should care about.
+Settings that regularly changes are drawn inside nodes, for example:
 
-  .. image:: images/settings_inside_node.PNG
+.. image:: images/inside_node_settings.png
 
 Advanced Node Settings
 ^^^^^^^^^^^^^^^^^^^^^^
 
-Some nodes have settings which aren't very useful most of the time but can
-become very handy under certain circumstances. Putting all these properties
-directly in the node would clutter the UI a lot. A better solution is to have
-these properties in an extra panel in the right properties bar. The panel is called
-``Advanced Node Settings``. The settings inside are always for the currently
-active node. I suggest to put this panel at the top.
+Settings that doesn't change regularly are drawn in a custom panel called
+**Advanced Node Settings**. The settings inside are always for the currently
+active node.
 
-  .. image:: images/advanced_node_settings_panel.PNG
+.. image:: images/advanced_node_settings.png
 
-Generic Node Panel
-^^^^^^^^^^^^^^^^^^
+Node Panel
+^^^^^^^^^^
 
-There are a few properties that all animation nodes have in common. I extended
-the ``Node`` panel to give you access to these. I recommend to drag this panel
-directly under the Advanced Node Settings panel.
+Sockets (Inputs and Outputs) of every node can be hidden or unhidden through this panel by pressing the "eye" next to the desired socket. Some nodes like subprograms inputs allows reordering of sockets by using the **arrows**.
+You can also specify the name and lable of the node from this panel. Name has to be unique.
 
-  .. image:: images/generic_node_panel.PNG
-
-Some nodes allow you to remove and reorder individual sockets. Also hiding sockets
-you don't need can improve the look of your node tree. Some nodes hide sockets
-by default because you need them only in rare cases.
-
-If the active node allows some customization of the sockets you can also expose
-the operators to do so into the node. (To test this you can create an expression
-node, make some sockets and press the buttons below `Toogle Operation Visibility`)
-
-The identifier at the button may not be important for you. It is more for developers.
-
+  .. image:: images/node_panel.png
 
 Tree Settings
 =============
 
-Animation Node Tree Panel
-^^^^^^^^^^^^^^^^^^^^^^^^^
+The tool menu in the node editor in Animation Nodes contain settings and information regarding the nodetree itself and not individual nodes.
 
-This panel does not have many functions yet. If you don't use `Auto Execution`
-you can execute the currently active node tree. Executing a tree means to
-execute all `Main` networks. That includes everything except `Groups`, `Loops`.
-The time below shows the time it took to execute.
+.. image:: images/nodetree_menu.png
 
 Auto Execution Panel
 ^^^^^^^^^^^^^^^^^^^^
 
-Most of the time you do animations you want `Auto Execution` to be enabled.
-That automatically executes the same nodes the `Execute Node Tree` would execute.
-The execution is triggered by different events. See the tooltips for more information.
+Includes options related to auto execution of the node tree.
 
-  .. image:: images/tree_settings_panels.PNG
+Developer
+^^^^^^^^^
 
+Includes options related to inspecting, profilling and debugging node trees.
+
+Overview
+^^^^^^^^
+
+Includes some information about the node tree like the execution time. The statistics button draws a table that include information about the number and types of nodes in the node tree.
+
+Animation Nodes Tree
+^^^^^^^^^^^^^^^^^^^^
+
+This panel includes manual execution button and the scene that the node tree belongs too.
+
+- **Edite Node labels** - If enabled, a text box will appear in every node that lets you edit the label of the node. This is helpful if you want to organize you node tree after you finish building it.
 
 3D View
 =======
 
-Furthermore there are some things in the ``AN`` tab of the tool shelf in the 3D view.
-They enable you to work with the `ID Key` system that allows you to store default
-values like `Initial Transformations` on a per object basis.
+  .. image:: images/3dview_menu.png
+
+ID
+^^
+
+Includes some options related to some specific **ID Key** node.
+
+Data Input
+^^^^^^^^^^
+
+Displays the the data input nodes (like integer input) inside the panel if Show In Viewport is enabled. (See one of the data input nodes)

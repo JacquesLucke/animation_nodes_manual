@@ -3,6 +3,7 @@ Object Transforms Input
 
 Description
 -----------
+
 This node returns the current location, rotation, and scale of the input object.
 
 .. image:: images/object_transforms_input_node.png
@@ -24,12 +25,12 @@ Advanced Node Settings
 ----------------------
 
 - **Use Current Transformations** - If this option is disabled the the node will have an extra input **Frame** which define the frame at which the transformations is output.
-- **Frame** - The value can either be **Absolute** or **Offset**, Absolute will return the transformations at the choosen frame. Offset will return the transformations at the choosen frame relative to the current frame.
+- **Frame** - The value can either be **Absolute** or **Offset**, Absolute will return the transformations at the chosen frame. Offset will return the transformations at the chosen frame relative to the current frame.
 
 Notes
 -----
 
-- To be able to use the quaternion output the rotation mode of the object have to be set to quaternion. The same for Euler's rotation.
+- To be able to use the quaternion output the rotation mode of the object have to be set to quaternion. The same for other rotation models.
 
 Examples of Usage
 -----------------

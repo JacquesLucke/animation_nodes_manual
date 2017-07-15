@@ -24,11 +24,12 @@ Advanced Node Settings
 
 - **Change type** - Change the type of the quaternion list to another list type.
 - **Hide Inputs** - Hide all the inputs in the node.
-- **Remove Inputs** - Remove all the inputs.
+- **Remove Unlinked Inputs** - Removes all the inputs that are not connected to another node.
 
 Caution
 -------
-A warning pops up when you use the *Remove All* button in the node, while if you used the *Remove All* button in the *Advanced Node Settings* the inputs will be removed without a warning.
+
+A warning will pop up when you use the *Remove Unlinked Inputs* button in the node, while if you used the the *Remove Unlinked Inputs* button in the *Advanced Node Settings* the inputs will be removed without a warning.
 
 Examples of Usage
 -----------------

@@ -3,6 +3,7 @@ Point List Normal
 
 Description
 -----------
+
 This node takes multiple vectors which represent points of a polygon and return the normal of that polygon.
 
 At least 3 points are needed to compute the normal. If more than 3 points were input, the resulted normal will be the average of the normals of each 3 points.

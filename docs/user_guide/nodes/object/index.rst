@@ -1,6 +1,8 @@
 Object
 ======
 
+This category include nodes that access, read and write to blender objects.
+
 .. toctree::
    :titlesonly:
 
@@ -23,7 +25,6 @@ Object
    Copy Data <copy_object_data>
    Set Keyframes <set_keyframes>
    Object Group Operation <object_group_operation>
+   Armature Info <armature_info>
    Utils <utils/index>
    Instancer <object_instancer>
-
-.. image:: images/object_overview.png

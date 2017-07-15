@@ -3,9 +3,10 @@ Line
 
 Description
 -----------
+
 This node return the mesh data of a line based on an input starting point and an input ending point.
 
-.. image:: images/line_node.png
+.. image:: images/line_mesh_node.png
    :width: 160pt
 
 Inputs
@@ -30,4 +31,4 @@ Advanced Node Settings
 Examples of Usage
 -----------------
 
-.. image:: gifs/line_node_example.gif
+.. image:: gifs/line_mesh_node_example.gif

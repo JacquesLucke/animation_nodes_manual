@@ -3,6 +3,7 @@ Math
 
 Description
 -----------
+
 This node performs 26 math operations:
 
 - **Add** - Adds input A to input B.
@@ -32,7 +33,6 @@ This node performs 26 math operations:
 - **Copy Sign** - Returns input A with the sign of input B.
 - **Floor Division** - Returns the whole number of input A divided by input B.
 
-
 .. image:: images/math_node.png
    :width: 220pt
 
@@ -52,7 +52,7 @@ Outputs
 Advanced Node Settings
 ----------------------
 
-N/A
+- **Remove Quick Settings** - You may notice that when duplicating a math node, couple of buttons appear along with a green check mark. Those are called **Quick Settings**, clicking on one of the buttons change the type of the math node to the type of the button. The check mark is a way to tell AN that the current type is what you want and that you no longer need the menu. This button in the advanced node settings click the check mark for all math nodes in the node tree.
 
 Notes
 -----

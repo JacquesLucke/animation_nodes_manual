@@ -3,8 +3,8 @@ Switch
 
 Description
 -----------
-This node returns the first input if the condition was ``True`` and the second
-input if the condition was ``False``.
+
+This node returns the first input if the condition was ``True`` and the second input if the condition was ``False``.
 
 .. image:: images/switch_node.png
    :width: 160pt

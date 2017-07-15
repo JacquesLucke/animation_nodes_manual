@@ -3,6 +3,7 @@ Text Object Output
 
 Description
 -----------
+
 This node allows you to control text objects' properties.
 
 .. image:: images/text_object_output_node.png

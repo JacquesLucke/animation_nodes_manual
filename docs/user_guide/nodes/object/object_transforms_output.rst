@@ -3,6 +3,7 @@ Object Transforms Output
 
 Description
 -----------
+
 This node sets the location, rotation, and scale of the input object to the input transformations.
 
 To output a property, enable its representative check box.
@@ -26,9 +27,9 @@ Outputs
 Advanced Node Settings
 ----------------------
 
-- N/A
+- **Delta Transforms** - If enabled, the node will edit the delta transforms of the object instead of the transforms themselves. Delta transforms are transforms that are added to the original transforms of the object, they are very useful if you want to set the object's location relative to its original location.
 
 Examples of Usage
 -----------------
 
-.. image:: gifs/object_transforms_output_node_example.gif
+.. image:: gifs/object_instancer_node_example.gif

@@ -3,6 +3,7 @@ Get Spline Samples
 
 Description
 -----------
+
 This node will return `n` number of points along with their tangent vectors where `n` is the **Amount** input, Those points are points on the spline in the input interval that are distributed based on the evaluation option---Uniform or Resolution.
 
 .. image:: images/get_spline_samples_node.png

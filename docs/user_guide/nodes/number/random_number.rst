@@ -3,10 +3,16 @@ Random Number
 
 Description
 -----------
+
 This node generates a random float between a minimum and a maximum value.
 
 .. image:: images/random_number_node.png
    :width: 160pt
+
+Options
+-------
+
+- **Create List** - It is the button you see beside the *Node Seed*, if is enabled, the output will be a list of random floats.
 
 Inputs
 ------
@@ -14,6 +20,7 @@ Inputs
 - **Seed** - Seed for the random generator, Where different seed generate different random number.
 - **Min** - A float value that the generated number won't deceed.
 - **Max** - A float value that the generated number won't exceed.
+- **Count** - The number of random floats to generate. (Only available if *Create List* is enabled)
 
 Outputs
 -------
@@ -35,4 +42,4 @@ Animation Nodes automatically change the *Node Seed* when you duplicate or add a
 Examples of Usage
 -----------------
 
-.. image:: gifs/random_number.gif
+.. image:: gifs/random_number_node_example.gif

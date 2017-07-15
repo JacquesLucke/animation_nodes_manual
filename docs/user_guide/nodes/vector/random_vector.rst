@@ -3,16 +3,23 @@ Random Vector
 
 Description
 -----------
+
 This node generates a random vector with a defined magnitude.
 
 .. image:: images/random_vector_node.png
    :width: 160pt
+
+Options
+-------
+
+- **Create List** - It is the button you see beside the *Node Seed*, if is enabled, the output will be a list of random vectors.
 
 Inputs
 ------
 
 - **Seed** - Seed for the random generator, where different seed generates different random vector.
 - **Scale** - The magnitude of the generated vector.
+- **Count** - The number of random vectors to generate. (Only available if *Create List* is enabled)
 
 Outputs
 -------

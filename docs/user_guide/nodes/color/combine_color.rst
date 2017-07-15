@@ -3,7 +3,8 @@ Combine Color
 
 Description
 -----------
-This node composes a color data from individual channels.
+
+This node composes a color data from input individual channels.
 It supports RGB, HSV, HSL and YIQ color models. All are in linear color space.
 
 .. image:: images/combine_color_node.png

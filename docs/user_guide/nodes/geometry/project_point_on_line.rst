@@ -3,6 +3,7 @@ Project Point On Line
 
 Description
 -----------
+
 This node takes a point and a line and returns information about the projection of this point on that line.
 
 .. image:: images/project_point_on_line_node.png

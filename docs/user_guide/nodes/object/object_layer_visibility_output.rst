@@ -3,7 +3,8 @@ Object Layer Visibility Output
 
 Description
 -----------
-This node lets you move objects through blender's layers system.
+
+This node lets you move objects through blender's layers system. Notice that an object can exist in multiple layers at the same time.
 
 .. image:: images/object_layer_visibility_output_node.png
    :width: 160pt

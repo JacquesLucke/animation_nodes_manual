@@ -3,7 +3,8 @@ Round Number
 
 Description
 -----------
-This node round floats to a defined number of decimals.
+
+This node rounds floats to a defined number of decimals.
 
 .. image:: images/round_number_node.png
    :width: 160pt

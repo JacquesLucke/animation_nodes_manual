@@ -3,6 +3,7 @@ Get Struct Elements
 
 Description
 -----------
+
 This node is used to get a value from a struct.
 
 .. image:: images/get_struct_elements_node.png
@@ -11,10 +12,7 @@ This node is used to get a value from a struct.
 Demonstration
 -------------
 
-This node doesn't output all the values of the struct, you have to request what
-you want. Using the example we used in the set struct elements page.
-If we want to get the name of the person, we should add a string output and type
-"Name" which is the key that store the name of the person.
+This node doesn't output all the values of the struct, you have to request what you want. Using the example we used in the :ref:`set_struct` page. If we want to get the name of the person, we should add a string output and type "Name" which is the key that store the name of the person.
 
 Getting such value in animation nodes :
 
@@ -33,7 +31,7 @@ Based on what you add.
 Advanced Node Settings
 ----------------------
 
-- **Make Copies** - To do
+- **Make Copies** - Copy the element before outputting it. This makes sure the element is independent of the original element in the struct and so changing that element won't affect the output.
 
 Examples of Usage
 -----------------

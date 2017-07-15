@@ -3,6 +3,7 @@ Convert Plane Type
 
 Description
 -----------
+
 This node converts between the two representations of 3d planes---Point/Normal and Transformation Matrix.
 
 Not to be mistaken by the primitive plane, Planes here are mathematical objects that can be defined by a normal and a location or a transformation matrix since matrices can encode both the normal and the location of the plane.

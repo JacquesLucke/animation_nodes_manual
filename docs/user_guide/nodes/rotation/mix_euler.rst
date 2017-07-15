@@ -3,7 +3,8 @@ Mix Vectors
 
 Description
 -----------
-This node mixes between 2 eulers by a defined factor.
+
+This node mixes between 2 eulers based on a factor.
 
 .. image:: images/mix_euler_node.png
    :width: 160pt

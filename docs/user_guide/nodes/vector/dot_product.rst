@@ -3,6 +3,7 @@ Dot Product
 
 Description
 -----------
+
 This node calculates the dot product of the 2 input vectors.
 
 .. image:: images/dot_product_node.png

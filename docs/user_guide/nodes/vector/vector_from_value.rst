@@ -3,6 +3,7 @@ Vector From Value
 
 Description
 -----------
+
 This node composes a vector with a uniform value in all of its components.
 
 .. image:: images/vector_from_value_node.png

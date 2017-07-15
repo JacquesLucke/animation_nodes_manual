@@ -3,6 +3,7 @@ Evaluate Spline
 
 Description
 -----------
+
 This node will return the position and the tangent line of a point on the curve at some normalized distance from the starting point where this distance is defined by the input **Parameter**.
 
 .. image:: images/evaluate_spline_node.png
@@ -14,7 +15,7 @@ Inputs
 ------
 
 - **Spline** - A spline to evaluate.
-- **Parameter** - The position of the point to be evaluated in the normalized distance of the spline.
+- **Parameter** - The position of the point to be evaluated in the normalized distance of the spline. (0 is the start of the spline and 1 is the end of the spline)
 
 Outputs
 -------
@@ -25,7 +26,7 @@ Outputs
 Advanced Node Settings
 ----------------------
 
-- **Resolution** - It is the quality of the evaluated spline, in other words, it is the number of handles in the spline used in evaluation.
+- **Resolution** - It is the quality of the evaluated spline, in other words, it is the number of point in the spline used in evaluation.
 
 Examples of Usage
 -----------------

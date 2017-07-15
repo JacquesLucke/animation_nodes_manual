@@ -3,6 +3,7 @@ Intersect Line Line
 
 Description
 -----------
+
 This node takes 2 lines and returns the locations of 2 points (one on each of them) that are closest to each other.
 
 .. image:: images/intersect_line_line_node.png

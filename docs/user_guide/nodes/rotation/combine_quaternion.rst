@@ -3,6 +3,7 @@ Combine Quaternion
 
 Description
 -----------
+
 This node composes a quaternion from W,X,Y,Z components.
 
 .. image:: images/combine_quaternion_node.png

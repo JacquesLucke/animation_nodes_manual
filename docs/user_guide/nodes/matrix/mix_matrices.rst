@@ -3,7 +3,8 @@ Mix Matrices
 
 Description
 -----------
-This node mixes between 2 matrices by a defined factor.
+
+This node mixes between 2 matrices based on a factor.
 
 .. image:: images/mix_matrices_node.png
    :width: 160pt
@@ -11,9 +12,7 @@ This node mixes between 2 matrices by a defined factor.
 Inputs
 ------
 
-- **Factor**
-    A float that controls the amount of each matrix input to the output,
-    where 0 means the first matrix only and 1 means the second matrix only.
+- **Factor** - A float that controls the amount of each matrix input to the output, where 0 means the first matrix only and 1 means the second matrix only.
 
 
 Outputs

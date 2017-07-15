@@ -3,9 +3,8 @@ Bmesh From Object
 
 Description
 -----------
-This node returns a bmesh data type for the input object.
 
-A bmesh data type is created using blender's bmesh python module which support operations that can't be performed normally in bpy module and thus can't be applied on a normal mesh data type, some of these operations are implimented in AN like **Limited Dissolve** and **Remove Doubles**.
+This node returns a bmesh data type for the input object.
 
 It is not recommended to use this node if you are not going to use bmesh operations and just want to get mesh data, because it is a lot slower to create.(Object Mesh Data node can get the same data in about 33x the speed of the bmesh)
 
@@ -16,9 +15,9 @@ Inputs
 ------
 
 - **Object** - An object.
-- **Use World Space** - This option allows you to choose between local and global coordiate space for the output vectors (vertices location).
+- **Use World Space** - This option allows you to choose between local and global coordinates space for the output vectors (vertices location).
 - **Use Modifiers** - This option if enabled will return the data as modifiers were applied, that includes both the generative and defomative modifiers.
-- **Scene** - `To Do`
+- **Scene** - The scene the object exist in.
 
 Outputs
 -------

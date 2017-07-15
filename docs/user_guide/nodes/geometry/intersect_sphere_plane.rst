@@ -3,6 +3,7 @@ Intersect Sphere Plane
 
 Description
 -----------
+
 This node returns some information about the intersection of input sphere and input plane.
 
 .. image:: images/intersect_sphere_plane_node.png

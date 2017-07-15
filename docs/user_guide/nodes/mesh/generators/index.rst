@@ -6,3 +6,4 @@ Generators
 
    Line <line>
    Grid <grid>
+   Cylinder <cylinder>

@@ -14,9 +14,5 @@ Geometry
    Intersect Plane Plane <intersect_plane_plane>
    Intersect Sphere Plane <intersect_sphere_plane>
    Intersect Sphere Sphere <intersect_sphere_sphere>
-   Intersect Polyline Plane <intersect_polyline_plane>
-   Triangulate Polygons <triangulate_polygons>
    Triangulate BMesh <triangulate_bmesh>
    Barycentric Transform <barycentric_transfrom>
-
-.. image:: images/geometry_overview.png

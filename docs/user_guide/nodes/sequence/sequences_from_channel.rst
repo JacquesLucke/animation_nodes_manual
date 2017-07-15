@@ -3,7 +3,8 @@ Sequences From Channel
 
 Description
 -----------
-This node returns all the sequence strips in the input *Channel*.
+
+This node returns all the sequences in the input *Channel*.
 
 .. image:: images/sequences_from_channel_node.png
    :width: 160pt
@@ -17,7 +18,7 @@ Inputs
 Outputs
 -------
 
-- **Sequences** - A list of sequences(strips) which are in the input channel.
+- **Sequences** - A list of sequences which are in the input channel.
 
 Advanced Node Settings
 ----------------------

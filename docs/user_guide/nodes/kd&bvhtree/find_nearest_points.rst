@@ -3,6 +3,7 @@ Find Nearest Points
 
 Description
 -----------
+
 This node finds the nearest points in the input KD Tree to a given point.
 
 .. image:: images/find_nearest_points_node.png

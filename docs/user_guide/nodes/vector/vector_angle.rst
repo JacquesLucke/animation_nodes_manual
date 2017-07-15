@@ -3,8 +3,8 @@ Vector Angle
 
 Description
 -----------
-This node calculates the angle between 2 vectors.
-The main advantage of using this node over the Dot product operation is the ability to input a non normalized vector.
+
+This node calculates the angle between two vectors.
 
 .. image:: images/vector_angle_node.png
    :width: 160pt
@@ -18,7 +18,7 @@ Inputs
 Outputs
 -------
 
-- **Angle** - The Angle between the the 2 input vectors in radian.
+- **Angle** - The Angle between the the two input vectors in radian.
 - **Rotation Difference** - The difference between the quaternion forms of the 2 vectors in a form of a quaternion.
 
 Advanced Node Settings

@@ -3,7 +3,8 @@ Construct Interpolation
 
 Description
 -----------
-This node constructs a function. It has multiple function types like:
+
+This node constructs an interpolation. It construct multiple function types like:
 
 - **Linear**.
 - **Sinusoidal** - Sometimes known as the ease in-out function.
@@ -25,7 +26,7 @@ Inputs
 Outputs
 -------
 
-- **Interpolation** - A function.
+- **Interpolation** - An interpolation.
 
 Advanced Node Settings
 ----------------------
@@ -35,9 +36,9 @@ Advanced Node Settings
 Notes
 -----
 
-Ease in option need to be checked for some functions like the power and exponential functions to work.
+Ease in option need to be checked for some interpolations like the power and exponential interpolation to work.
 
 Examples of Usage
 -----------------
 
-.. image:: gifs/construct_interpolation_node_example.gif
+.. image:: gifs/mix_interpolation_node_example.gif

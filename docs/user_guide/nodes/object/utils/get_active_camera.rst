@@ -3,6 +3,7 @@ Get Active Camera
 
 Description
 -----------
+
 This node will return the active camera in the scene.
 
 .. image:: images/get_active_camera_node.png

@@ -3,6 +3,7 @@ Intersect Line Plane
 
 Description
 -----------
+
 This node returns the location of the point of intersection of the input line with the input plane.
 
 .. image:: images/intersect_line_plane_node.png
