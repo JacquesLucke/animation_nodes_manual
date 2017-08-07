@@ -46,7 +46,10 @@ External Links
     *English (Video Tutorials):* https://www.youtube.com/playlist?list=PLJSCK4DjIWhk-JIGOIJKLUB1bGXfDBgzZ
 
 **Omar Ahmad:**
-        *English (Text and Animation Tutorials):* https://squircleart.github.io/posts.html
+    *English (Text and Animation Tutorials):* https://squircleart.github.io/posts.html
 
 **BIG3:**
-        *English (Video Examples):* https://www.youtube.com/playlist?list=PLxhvHjvBEdqgvnNKQmdedLz9pwXEaPTYe
+    *English (Video Examples):* https://www.youtube.com/playlist?list=PLxhvHjvBEdqgvnNKQmdedLz9pwXEaPTYe
+        
+**Thinking Penguin:**
+    *English (Video Tutorials):* https://www.youtube.com/playlist?list=PLzx5ZMG3gsG9CFi-w_v76eDnzPCZau2MF
