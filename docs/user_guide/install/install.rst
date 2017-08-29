@@ -6,7 +6,7 @@ How to Install?
 
 0. Uninstall any old version of Animation Nodes. Having it installed multiple times for the same version causes conflicts.
 
-1. Downloaded a recent build for your operating system. If no build suits you, then you might want to compile it yourself (see developers guide) or contact a developer.
+1. Downloaded a recent build for your operating system from `here <https://github.com/JacquesLucke/animation_nodes/releases>`_. If no build suits you, then you might want to compile it yourself (see developers guide) or contact a developer.
 
 2. Open Blender (preferably the newest version)
 
