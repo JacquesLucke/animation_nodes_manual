@@ -30,3 +30,7 @@ Examples of Usage
 -----------------
 
 .. image:: gifs/integer_range_node_example.gif
+
+This node can be used whenever an integer arthmetic sequence is needed, for instance, creating a uniform integer step grid:
+
+.. image:: gifs/integer_range_node_example2.gif
