@@ -12,7 +12,7 @@ This node generates a random float between a minimum and a maximum value.
 Options
 -------
 
-- **Create List** - It is the button you see beside the *Node Seed*, if is enabled, the output will be a list of random floats.
+- **Create List** - It is the button you see beside the *Node Seed*, if enabled, the output will be a list of random floats.
 
 Inputs
 ------
@@ -43,3 +43,5 @@ Examples of Usage
 -----------------
 
 .. image:: gifs/random_number_node_example.gif
+.. image:: gifs/random_number_node_example2.gif
+.. image:: gifs/random_number_node_example3.gif
