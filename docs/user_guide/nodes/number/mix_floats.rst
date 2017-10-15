@@ -9,6 +9,11 @@ This node mixes between 2 floats based on a factor.
 .. image:: images/mix_floats_node.png
    :width: 160pt
 
+Options
+-------
+
+- **Clamp** - If enabled, a factor that is larger than one will be rendered one and a factor that is less than zero will be rendered zero.
+
 Inputs
 ------
 
@@ -28,7 +33,7 @@ Advanced Node Settings
 Note
 ----
 
-By how the *Mix floats* works, A factor that is larger than 1 won't be clamped but rather multiplied to the second float that's why the node has an option to *Clamp Factor*. So if *Clamp factor* is enabled, any factor that is larger than 1 will return the second float.
+By how the *Mix floats* works, a factor that is larger than 1 won't be clamped but rather multiplied to the second float that's why the node has an option to *Clamp Factor*.
 
 Examples of Usage
 -----------------
