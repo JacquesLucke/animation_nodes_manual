@@ -39,10 +39,7 @@ This node performs 26 math operations:
 Inputs
 ------
 
-- **A** - Input A.
-- **B** - Input B.
-
-(Inputs are dynamic, Means the node has either one or two inputs based on selected operation.)
+Inputs are dynamic, meaning the node has either one or two inputs based on selected operation.
 
 Outputs
 -------
@@ -52,11 +49,14 @@ Outputs
 Advanced Node Settings
 ----------------------
 
-- **Remove Quick Settings** - You may notice that when duplicating a math node, couple of buttons appear along with a green check mark. Those are called **Quick Settings**, clicking on one of the buttons change the type of the math node to the type of the button. The check mark is a way to tell AN that the current type is what you want and that you no longer need the menu. This button in the advanced node settings click the check mark for all math nodes in the node tree.
+- **Remove Quick Settings** - You may notice that when duplicating a math node, couple of buttons appear along with a green check mark. Those are called **Quick Settings**, clicking on one of the buttons change the type of the math node to the type of the button. The check mark is a way to tell AN that the current type is what you want and that you no longer need the menu. This button in the advanced node settings is equivalent to pressing the check mark for all math nodes in the node tree.
+
+.. image:: gifs/math_node_quick_settings.gif
+
 
 Notes
 -----
 
 - Division by 0 returns 0.0.
-- Logarithm with the base <=0 or =1 takes the natural logarithm.
 - Modulo by 0 returns 0.0.
+- Logarithm with the base <=0 or =1 takes the natural logarithm.
