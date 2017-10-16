@@ -27,7 +27,9 @@ Advanced Node Settings
 Caution
 -------
 
-The input text should only include numbers, otherwise the node will return a parsing error.
+The input text should only include numbers, otherwise the node will return a parsing error. White spaces around single numbers are rejected, for instance, ``(spaces)5(spaces)`` will be parsed but ``(spaces)5(spaces)4(spaces)`` will not be parsed because there are two numbers.
+
+
 
 Examples of Usage
 -----------------
