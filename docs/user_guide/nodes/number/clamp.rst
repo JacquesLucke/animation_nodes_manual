@@ -4,7 +4,7 @@ Clamp
 Description
 -----------
 
-This node is used to ensure a value is in a certain range. Any value outside of the defined range will be clamped / replaced by the maximum or minimum value.
+This node clamps a value to a certain range. Any value outside of the defined range will be clamped, that is, if it is larger than the maximum value it will be rendered the maximum value and if it is less than the minimum value it will be rendered the minimum value.
 
 .. image:: images/clamp_node.png
    :width: 160pt
@@ -30,3 +30,7 @@ Examples of Usage
 -----------------
 
 .. image:: gifs/clamp_node_example.gif
+
+Sine function ranges between ``-1`` and ``1``, if clamped to a smaller interval, it will result in this flat crest and troughs:
+
+.. image:: gifs/clamp_node_example2.gif
