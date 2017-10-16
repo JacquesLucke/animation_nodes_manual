@@ -26,9 +26,18 @@ The node has 3 algorithms to do the conversion:
 
 - **Floor** - It returns only the whole number.
 - **Ceiling** - It returns the next whole number.
-- **Round** - Standard round operation, Where *floor* is used if the fraction is less than 0.5 and *ceiling* is used if the fraction is larger than 0.5.
+- **Round** - Standard round operation, where *floor* is used if the fraction is less than or equal 0.5 and *ceiling* is used if the fraction is larger than 0.5.
 
-Examples of Usage
------------------
-
-.. image:: gifs/to_integer_node_example.gif
++--------+-------+---------+-------+
+| Float  | Floor | Ceiling | Round |
++========+=======+=========+=======+
+| 0.1    | 0     | 1       | 0     |
++--------+-------+---------+-------+
+| 0.6    | 0     | 1       | 1     |
++--------+-------+---------+-------+
+| 1.1    | 1     | 2       | 1     |
++--------+-------+---------+-------+
+| 1.6    | 1     | 2       | 2     |
++--------+-------+---------+-------+
+| 2.1    | 2     | 3       | 2     |
++--------+-------+---------+-------+
