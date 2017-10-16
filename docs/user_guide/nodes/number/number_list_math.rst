@@ -29,8 +29,3 @@ Advanced Node Settings
 ----------------------
 
 N/A
-
-Examples of Usage
------------------
-
-.. image:: gifs/number_list_math_node_example.gif
