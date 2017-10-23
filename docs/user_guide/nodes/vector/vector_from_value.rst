@@ -12,7 +12,7 @@ This node composes a vector with a uniform value in all of its components.
 Inputs
 ------
 
-- **Value** - A value that is the X,Y and Z component of the output vector.
+- **Value** - A value that is the X, Y and Z component of the output vector.
 
 Outputs
 -------
@@ -26,5 +26,7 @@ N/A
 
 Examples of Usage
 -----------------
+
+This node can usually be used when you want to control the scale of the objects uniformly, that is, the scale is the same for all axis.
 
 .. image:: gifs/vector_from_value_node_example.gif
