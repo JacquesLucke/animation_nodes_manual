@@ -12,6 +12,7 @@ This node generates a random float between a minimum and a maximum value.
 Options
 -------
 
+- **Node Seed** - Aside from the *Seed input*, this extra seed parameter enables you to get different random numbers if the *Seed input* in not free, that is, it is dependent on some property that you can't freely controle, for instance, when using multiple *Random Number* nodes in a loop while using the index as a seed, you can change the node seed to get different numbers for each node. Animation Nodes automatically changes the *Node Seed* when you duplicate or add a new *Random Number* node.
 - **Create List** - It is the button you see beside the *Node Seed*, if enabled, the output will be a list of random floats.
 
 Inputs
@@ -31,13 +32,6 @@ Advanced Node Settings
 ----------------------
 
 - N/A
-
-Note
-----
-
-The node has an **extra seed** (*Node Seed*) that can be used to differentiate between nodes with the same seed, e.g., When using multiple *Random Number* nodes in a loop while using the index as a seed, you can change the extra seed to get different results from the other nodes.
-
-Animation Nodes automatically change the *Node Seed* when you duplicate or add a new *Random Number* node.
 
 Examples of Usage
 -----------------
