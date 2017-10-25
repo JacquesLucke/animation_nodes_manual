@@ -6,22 +6,27 @@ Number Wiggle
 Description
 -----------
 
-This node is a 1D perlin noise generator, You can think of it as random numbers that are smoothly connected to each other.
+This node is a 1D noise generator, you can think of it as random numbers that are smoothly connected to each other.
 
-It is a function of variable **Evolution**, Which means every value of the variable **Evolution** has a corresponding value calculated based on the node options and this value is the output of the node.
+It is a function of variable **Evolution**, which means every value of the variable **Evolution** has a corresponding value calculated based on the node options and this value is the output of the node.
 
 .. image:: images/number_wiggle_node.png
    :width: 160pt
 
+Options
+-------
+
+- **Node Seed** - Aside from the *Seed input*, this extra seed parameter enables you to get different random numbers if the *Seed input* in not free, that is, it is dependent on some property that you can't freely controle, for instance, when using multiple *Random Number* nodes in a loop while using the index as a seed, you can change the node seed to get different numbers for each node. Animation Nodes automatically changes the *Node Seed* when you duplicate or add a new *Random Number* node.
+
 Inputs
 ------
 
-- **Seed** - Seed for the random generator, where different seed generate different noise.
-- **Evolution** - A float that is the variable of the function wiggle.
+- **Seed** - Seed for the random generator, where different seed generate different vectors.
+- **Evolution** - A float at which the noise is evaluated.
 - **Speed** - It is the frequency of the noise or the rate of change of the values.
-- **Amplitude** - It is the range of the output values in both positive and negative direction, Means if the *Amplitude* is equal to 1, the values will range between -1 and 1.
-- **Octaves** - It is the number of levels of details.
-- **Persistance** - It is the strength of the details added from *Octaves*
+- **Amplitude** - It is the maximum possible value for the absolute of the output number.
+- **Octaves** - It is the number of perlin noises that constructs the noise function, where the noise function is the superposition of `n` number of perlin noise with different frequencies where `n` is the Octaves input.
+- **Persistance** - The magnitude of the added higher frequency octaves, the magnitude of each octave is directly propertional to its frequency.
 
 .. image:: gifs/number_wiggle_node_speed.gif
 .. image:: gifs/number_wiggle_node_amplitude.gif
@@ -38,13 +43,6 @@ Advanced Node Settings
 ----------------------
 
 - N/A
-
-Note
-----
-
-The node has an **extra seed** (*Node Seed*) that can be used to differentiate between nodes with the same seed, e.g., When using multiple *Number Wiggle* nodes in a loop while using the index as a seed, you can change the extra seed to get different results from the other nodes.
-
-Animation Nodes automatically change the *Node Seed* when you duplicate or add a new *Number Wiggle* node.
 
 Examples of Usage
 -----------------

@@ -30,3 +30,5 @@ Examples of Usage
 This node can usually be used when you want to control the scale of the objects uniformly, that is, the scale is the same for all axis.
 
 .. image:: gifs/vector_from_value_node_example.gif
+
+.. image:: gifs/vector_from_value_node_example2.gif
