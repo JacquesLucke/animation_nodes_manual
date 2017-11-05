@@ -42,3 +42,5 @@ Examples of Usage
 .. image:: gifs/vector_wiggle_node_example.gif
 
 .. image:: gifs/vector_wiggle_node_example2.gif
+
+.. image:: gifs/vector_wiggle_node_example3.gif

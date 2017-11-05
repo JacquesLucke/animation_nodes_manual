@@ -32,3 +32,5 @@ Examples of Usage
 .. image:: gifs/combine_vector_node_example.gif
 
 .. image:: gifs/combine_vector_node_example2.gif
+
+.. image:: gifs/combine_vector_node_example3.gif

@@ -4,7 +4,7 @@ Mix floats
 Description
 -----------
 
-This node mixes between 2 floats based on a factor.
+This node linearly mixes between two floats based on a factor.
 
 .. image:: images/mix_floats_node.png
    :width: 160pt
