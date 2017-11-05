@@ -12,12 +12,14 @@ This node linearly mixes between two floats based on a factor.
 Options
 -------
 
-- **Clamp** - If enabled, a factor that is larger than one will be rendered one and a factor that is less than zero will be rendered zero.
+- **Clamp** - If enabled, a factor that is larger than one will be rendered one and a factor that is negative will be rendered zero. Subsequently, the output will be in the range of the input floats. If disabled, the result is computed based on the equation `A(1-F)+B*F` (Where `F` is the factor, `A` and `B` are the first and second floats) which accordinging may result in strange results for negative factors or factors that are larger than one.
 
 Inputs
 ------
 
 - **Factor** - A float that controls the amount of each float input to the output, Where 0 means the first float only and 1 means the second float only.
+- **A** - First float.
+- **B** - Second float.
 
 
 Outputs
@@ -29,11 +31,6 @@ Advanced Node Settings
 ----------------------
 
 - N/A
-
-Note
-----
-
-By how the *Mix floats* works, a factor that is larger than 1 won't be clamped but rather multiplied to the second float that's why the node has an option to *Clamp Factor*.
 
 Examples of Usage
 -----------------
