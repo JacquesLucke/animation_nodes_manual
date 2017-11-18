@@ -53,12 +53,14 @@ Advanced Node Settings
 Examples of Usage
 -----------------
 
-Notice how the angle output doesn't work for angles more than ``180°`` while the quaternion works because it is signed.
+If the Angle output is used to define the location of the object, it will start reverting after the angle ``180°`` while the Quaternion output will not.
 
 .. image:: gifs/vector_angle_node_example1.gif
 
 One of the advantages of using quaternions is that they can eaily be layered and combined:
 
 .. image:: gifs/vector_angle_node_example2.gif
+
+If the output rotation quaternion is applied to the first vector, the output will be the second vector:
 
 .. image:: gifs/vector_angle_node_example3.gif
