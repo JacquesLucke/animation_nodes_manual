@@ -4,7 +4,7 @@ Dot Product
 Description
 -----------
 
-This node calculates the dot product of the 2 input vectors.
+This node calculates the dot product of the two input vectors.
 
 .. image:: images/dot_product_node.png
    :width: 160pt
@@ -18,7 +18,7 @@ Inputs
 Outputs
 -------
 
-- **Dot Product** - The dot product of the 2 input vectors.
+- **Dot Product** - The dot product of the two input vectors.
 
 Advanced Node Settings
 ----------------------
@@ -28,4 +28,4 @@ Advanced Node Settings
 Examples of Usage
 -----------------
 
-.. image:: gifs/dot_product_node_example.gif
+.. todo:: Example needed.
