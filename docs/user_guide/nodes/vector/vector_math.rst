@@ -43,19 +43,19 @@ Advanced Node Settings
 Notes
 -----
 
-- The **Project** operation will project the vector on a hypothetical straight line that has the same location and slope of the input line if the input line was shorter than the projection.
+- The **Project** operation will project the vector A on the extension of vector B regardless of its length.
 
-Operations
-----------
+Examples of Usage
+-----------------
 
-.. image:: gifs/vector_math_node_add.gif
-.. image:: gifs/vector_math_node_subtract.gif
-.. image:: gifs/vector_math_node_multiply.gif
-.. image:: gifs/vector_math_node_divide.gif
-.. image:: gifs/vector_math_node_cross_product.gif
-.. image:: gifs/vector_math_node_project.gif
-.. image:: gifs/vector_math_node_reflect.gif
-.. image:: gifs/vector_math_node_normalize.gif
-.. image:: gifs/vector_math_node_scale.gif
-.. image:: gifs/vector_math_node_absolute.gif
-.. image:: gifs/vector_math_node_snap.gif
+If the location of a point is defined by some vector ``A``, and we add some vector ``B`` to it, ``A`` gets moved in the direction of vector ``B``. Moreover, if ``B`` was set to the length of some scalar ``m`` using normalize operation, the vector ``A`` will move in the direction of ``B`` ``m`` units. A common node tree uses ``A`` and ``B`` as the location and the normal of the vertices respectively to achieve the following effect:
+
+.. image:: gifs/vector_math_node_example1.gif
+
+Dividing the space by some vector spatially scales whatever function you have:
+
+.. image:: gifs/vector_math_node_example2.gif
+
+The reflection of a vector from the ``xy`` plane:
+
+.. image:: gifs/vector_math_node_example3.gif
