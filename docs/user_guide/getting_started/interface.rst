@@ -2,7 +2,7 @@
 Interface
 *********
 
-Much of the interface is located in the node editor in blender while some of the interface exist in other regiones like the 3D viewport.
+Much of the interface is located in the node editor in blender while some of the interface exist in other regions like the 3D viewport.
 
 Node Menu
 =========
