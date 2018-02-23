@@ -21,19 +21,19 @@ The search box can be opened by pressing ``Ctrl-A``, it enables you to quickly f
 Node Settings
 =============
 
-Nodes include multiple settings types, settings that regularly changes are drawn inside nodes directly for faster workflow, settings that doesn't change regularly are drawn in a custom panel in the properties menu to avoid clustering the UI.
+Nodes include multiple settings types, settings that regularly change are drawn inside nodes directly for faster workflow, settings that don't change regularly are drawn in a custom panel in the properties menu to avoid cluttering the UI.
 
 Inside the Node
 ^^^^^^^^^^^^^^^
 
-Settings that regularly changes are drawn inside nodes, for example:
+Settings that regularly change are drawn inside nodes, for example:
 
 .. image:: images/inside_node_settings.png
 
 Advanced Node Settings
 ^^^^^^^^^^^^^^^^^^^^^^
 
-Settings that doesn't change regularly are drawn in a custom panel called
+Settings that don't change regularly are drawn in a custom panel called
 **Advanced Node Settings**. The settings inside are always for the currently
 active node.
 
@@ -43,7 +43,7 @@ Node Panel
 ^^^^^^^^^^
 
 Sockets (Inputs and Outputs) of every node can be hidden or unhidden through this panel by pressing the "eye" next to the desired socket. Some nodes like subprograms inputs allows reordering of sockets by using the **arrows**.
-You can also specify the name and lable of the node from this panel. Name has to be unique.
+You can also specify the name and label of the node from this panel. Name has to be unique.
 
   .. image:: images/node_panel.png
 
@@ -62,7 +62,7 @@ Includes options related to auto execution of the node tree.
 Developer
 ^^^^^^^^^
 
-Includes options related to inspecting, profilling and debugging node trees.
+Includes options related to inspecting, profiling and debugging node trees.
 
 Overview
 ^^^^^^^^
@@ -72,9 +72,9 @@ Includes some information about the node tree like the execution time. The stati
 Animation Nodes Tree
 ^^^^^^^^^^^^^^^^^^^^
 
-This panel includes manual execution button and the scene that the node tree belongs too.
+This panel includes manual execution button and the scene that the node tree belongs to.
 
-- **Edite Node labels** - If enabled, a text box will appear in every node that lets you edit the label of the node. This is helpful if you want to organize you node tree after you finish building it.
+- **Edit Node Labels** - If enabled, a text box will appear in every node that lets you edit the label of the node. This is helpful if you want to organize you node tree after you finish building it.
 
 3D View
 =======
@@ -89,4 +89,4 @@ Includes some options related to some specific **ID Key** node.
 Data Input
 ^^^^^^^^^^
 
-Displays the the data input nodes (like integer input) inside the panel if Show In Viewport is enabled. (See one of the data input nodes)
+Displays the data input nodes (like integer input) inside the panel if Show In Viewport is enabled. (See one of the data input nodes.)
