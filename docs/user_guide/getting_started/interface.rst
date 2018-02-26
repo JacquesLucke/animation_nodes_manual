@@ -6,7 +6,10 @@ Much of the interface is located in the node editor while the rest of the interf
 
 .. image:: images/node_editor.png
 
-Animation Nodes have its own node editor type which you can select by clicking on the Dope Sheet icon in the tool bar. A new node tree can be added by clicking on the **New** button.
+Animation Nodes have its own node editor type which you can select by clicking on the Dope Sheet icon |dope-sheet-icon| in the tool bar. A new node tree can be added by clicking on the **New** button.
+
+.. |dope-sheet-icon| image:: images/dope_sheet_icon.svg
+                     :width: 30pt
 
 Node Menu
 =========
@@ -29,7 +32,7 @@ The search box can be opened by pressing ``Ctrl-A``, it enables you to quickly f
 Node Settings
 =============
 
-Nodes include multiple settings types, options that users use often are drawn inside nodes directly for faster workflow, options that users don't use often are drawn in a custom panel in the properties (N) menu to avoid clustering the UI.
+Nodes include multiple settings type, options that users use often are drawn inside nodes directly for faster workflow, options that users don't use often are drawn in a custom panel in the properties (N) menu to avoid clustering the UI.
 
 Inside the Node
 ^^^^^^^^^^^^^^^
@@ -52,7 +55,7 @@ Node Panel
 
 Sockets (Inputs and Outputs) of nodes can be hidden or unhidden through this panel by pressing the "eye" next to the desired socket. Some nodes like subprograms, allows reordering of sockets by using the **arrows**. You can also change the name and label of nodes in this panel, names has to be unique.
 
-  .. image:: images/node_panel.png
+.. image:: images/node_panel.png
 
 Tree Settings
 =============
@@ -91,9 +94,11 @@ This panel includes manual execution button and the scene that the node tree bel
 ID
 ^^
 
-Includes some options related to the **ID Key** node.
+Includes some options related to the :doc:`/user_guide/nodes/object/object_id_key` node.
 
 Data Input
 ^^^^^^^^^^
 
-Displays the the data input nodes inside the panel if **Show In Viewport** is enabled. (See one of the data input nodes)
+Displays the the data input nodes inside the panel if **Show In Viewport** is enabled.
+
+.. include:: /includes/nodes/show_in_viewport.rst

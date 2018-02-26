@@ -48,11 +48,11 @@ Some of this issues include:
 
 - Animation Nodes builds are specific to operating systems, for instance, windows builds will not operate on linux systems, so, make sure that you have downloaded an Animation Nodes build specific to your operating system (Linux, Windows, macOS). It should be noted that **Linux** builds does not seem to work on every linux distribution, an issue that we haven't been able to solve yet. Therefor, we provide multiple Linux `builds <http://graphicall.org/?keywords=Animation+Nodes>`_ that you can try.
 
-- **Windows** users may encounter errors due to missing runtimes, in that case, try installing `Visual C++ Redistributable Package <https://www.microsoft.com/en-US/download/details.aspx?id=48145>`_.
+- Windows users may encounter errors due to missing runtimes, in that case, try installing `Visual C++ Redistributable Package <https://www.microsoft.com/en-US/download/details.aspx?id=48145>`_.
 
 - Animation Nodes builds are specific to python versions, that is, they only operates on a system with python version identical to that it was compiled with. Builds are compiled with the same python version used in the latest official Blender version. If one wanted to use a different python version, one will have to compile Animation Nodes oneself (see :doc:`/dev_guide/index`).
 
-- Animation Nodes depends on `*numpy* <http://www.numpy.org/>`_, a python module that is included with official Blender builds. If you have downloaded an unofficial Blender version (for instance, from a package manager), it is possible that *numpy* will not be included in the build, and this should be clear from the error message. In that case, you can either download a Blender build that include *numpy* (preferably an `official <https://www.blender.org/download/>`_ one) or install *numpy* yourself through a package manager or manually.
+- Animation Nodes depends on `numpy <http://www.numpy.org/>`_, a python module that is included with official Blender builds. If you have downloaded an unofficial Blender version (for instance, from a package manager), it is possible that *numpy* will not be included in the build, and this should be clear from the error message. In that case, you can either download a Blender build that include *numpy* (preferably an `official <https://www.blender.org/download/>`_ one) or install *numpy* yourself through a package manager or manually.
 
 If you still haven't manage to install Animation Nodes, you have two options:
 
