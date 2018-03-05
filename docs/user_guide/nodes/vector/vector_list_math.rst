@@ -30,4 +30,4 @@ Advanced Node Settings
 Examples of Usage
 -----------------
 
-.. image:: gifs/vector_list_math_node_example.gif
+.. todo:: Example needed.
