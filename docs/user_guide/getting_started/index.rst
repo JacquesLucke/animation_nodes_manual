@@ -7,4 +7,3 @@ Getting Started
    Interface <interface>
    Execution <execution>
    Data <data>
-   Vectorization <vectorization>
