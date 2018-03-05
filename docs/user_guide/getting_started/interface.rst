@@ -8,8 +8,8 @@ Much of the interface is located in the node editor while the rest of the interf
 
 Animation Nodes have its own node editor type which you can select by clicking on the Dope Sheet icon |dope-sheet-icon| in the tool bar. A new node tree can be added by clicking on the **New** button.
 
-.. |dope-sheet-icon| image:: images/dope_sheet_icon.svg
-                     :width: 30pt
+.. |dope-sheet-icon| image:: images/dope_sheet_icon.png
+                     :width: 20pt
 
 Node Menu
 =========
