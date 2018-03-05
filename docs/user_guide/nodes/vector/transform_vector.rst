@@ -4,7 +4,7 @@ Transform Vector
 Description
 -----------
 
-This node transforms a point based on an input *Transformation Matrix*.
+This node transforms the input vector(s) based on an input Transformation Matrix.
 
 .. image:: images/transform_vector_node.png
    :width: 160pt
@@ -12,13 +12,13 @@ This node transforms a point based on an input *Transformation Matrix*.
 Inputs
 ------
 
-- **Vector** - The vector to transform.
+- **Vector(s)** - The vector(s) to transform.
 - **Matrix** - A transformation matrix.
 
 Outputs
 -------
 
-- **Vector** - The new coordinates of the point after transformation.
+- **Vector** - The vector after transformation.
 
 Advanced Node Settings
 ----------------------
