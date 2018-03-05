@@ -39,7 +39,7 @@ If enabled, the node tree will execute every time the current frame of the scene
 
 .. image:: gifs/frame_changed.gif
 
-Notice how the tree execute when ever the current frame changes.
+Notice how the tree executes whenever the current frame changes.
 
 Property Changed
 ----------------
@@ -48,7 +48,7 @@ If enabled, the node tree will execute every time a property changes, that is, a
 
 .. image:: gifs/property_changed.gif
 
-Notice how the tree execute when I change a value in the node tree.
+Notice how the tree executes when I change a value in the node tree.
 
 Minimum Time Difference
 -----------------------
@@ -84,7 +84,7 @@ The *Parse Number Node* can't parse the letter ``a``, it can only parse numbers,
 Fatal Errors
 ------------
 
-Fatal errors stop the execution of the whole node tree and have to be solved. Such errors occur when you try to do something with a node that the developers didn't put into consideration, it could also be a bug and should be reported in that case. An example for such error can be seen in the expression node:
+Fatal errors stop the execution of the whole node tree and have to be solved. Such errors occur when you try to do something with a node that the developers didn't consider, it could also be a bug and should be reported in that case. An example for such error can be seen in the expression node:
 
 .. image:: images/fatal_error.png
 

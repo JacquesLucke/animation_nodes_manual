@@ -72,7 +72,7 @@ Include options related to auto execution of the node tree.
 Developer
 ^^^^^^^^^
 
-Include options related to inspecting, profilling and debugging node trees.
+Include options related to inspecting, profiling and debugging node trees.
 
 Overview
 ^^^^^^^^
@@ -82,9 +82,9 @@ Include some information about the node tree like the execution time. The statis
 Animation Nodes Tree
 ^^^^^^^^^^^^^^^^^^^^
 
-This panel includes manual execution button and the scene that the node tree belongs too.
+This panel includes manual execution button and the scene that the node tree belongs to.
 
-- **Edite Node labels** - If enabled, a text box will appear in every node that lets you edit the label of the node. This is particularly helpful if you want to organize you node tree after you finished building it.
+- **Edit Node labels** - If enabled, a text box will appear in every node that lets you edit the label of the node. This is particularly helpful if you want to organize you node tree after you finished building it.
 
 3D View
 =======
