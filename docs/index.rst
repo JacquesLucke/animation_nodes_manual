@@ -25,33 +25,73 @@ Tutorials
 
 Below is a list of all known Animation Nodes tutorials creators. Do you create tutorials? Let us know !
 
-+------------------+----------------------------------------------------------------------------------------+--------------------------------------------+
-| Creator          | Contents                                                                               | Notes                                      |
-+==================+========================================================================================+============================================+
-| Jacques Lucke    | `Videos <https://www.youtube.com/channel/UC5ABAuGEvBMmau-1xJsNw6w>`__                  | The developer of Animation Nodes.          |
-+------------------+----------------------------------------------------------------------------------------+--------------------------------------------+
-|                  | `Videos <http://www.blenderdiplom.com/en/tutorials/animation-nodes.html>`__            |                                            |
-| Blender Diplom   +----------------------------------------------------------------------------------------+--------------------------------------------+
-|                  | `Videos (German) <http://www.blenderdiplom.com/de/tutorials/animation-nodes.html>`__   |                                            |
-+------------------+----------------------------------------------------------------------------------------+--------------------------------------------+
-|                  | `Articles <http://blendersushi.blogspot.de/search/label/anstudy>`__                    |                                            |
-| Jimmy Gunawan    +----------------------------------------------------------------------------------------+--------------------------------------------+
-|                  | `Videos <https://www.youtube.com/playlist?list=PLsbztkb4az9gVNKH1ai7Kxj37e7gZPD75>`__  | Live Noding.                               |
-+------------------+----------------------------------------------------------------------------------------+--------------------------------------------+
-| Local Guru       | `Blends <http://www.local-guru.net/blog/tag/animation%20nodes>`__                      | Only blend files and results are provided. |
-+------------------+----------------------------------------------------------------------------------------+--------------------------------------------+
-| LollypopMan      | `Videos <http://lollypopman.com/tag/animation-nodes/>`__                               |                                            |
-+------------------+----------------------------------------------------------------------------------------+--------------------------------------------+
-| ONELVXE Studio   | `Videos <https://www.youtube.com/playlist?list=PLV9xOovGG3hhavLVC3Zh-90R2rAESw24f>`__  |                                            |
-+------------------+----------------------------------------------------------------------------------------+--------------------------------------------+
-| Zach Hixson      | `Videos <https://www.youtube.com/playlist?list=PLJSCK4DjIWhk-JIGOIJKLUB1bGXfDBgzZ>`__  |                                            |
-+------------------+----------------------------------------------------------------------------------------+--------------------------------------------+
-| BIG3             | `Videos <https://www.youtube.com/playlist?list=PLxhvHjvBEdqgvnNKQmdedLz9pwXEaPTYe>`__  |                                            |
-+------------------+----------------------------------------------------------------------------------------+--------------------------------------------+
-| Thinking Penguin | `Videos <https://www.youtube.com/playlist?list=PLzx5ZMG3gsG9CFi-w_v76eDnzPCZau2MF>`__  |                                            |
-+------------------+----------------------------------------------------------------------------------------+--------------------------------------------+
-| Omar Ahmad       | `Articles <https://squircleart.github.io/posts.html>`__                                |                                            |
-+------------------+----------------------------------------------------------------------------------------+--------------------------------------------+
++------------------+-------------+---------------+
+| Creator          | Contents    | Notes         |
++==================+=============+===============+
+| Jacques Lucke    | |Jacques|_  | |JacquesN|    |
++------------------+-------------+---------------+
+|                  | |Diplom|_   |               |
+| Blender Diplom   +-------------+---------------+
+|                  | |DiplomG|_  |               |
++------------------+-------------+---------------+
+|                  | |JimmyA|_   |               |
+| Jimmy Gunawan    +-------------+---------------+
+|                  | |JimmyV|_   | Live Noding.  |
++------------------+-------------+---------------+
+| Local Guru       | |Local|_    | |LocalN|      |
++------------------+-------------+---------------+
+| LollypopMan      | |Lollypop|_ |               |
++------------------+-------------+---------------+
+| ONELVXE Studio   | |ONELVXE|_  |               |
++------------------+-------------+---------------+
+| Zach Hixson      | |Zach|_     |               |
++------------------+-------------+---------------+
+| BIG3             | |BIG3|_     |               |
++------------------+-------------+---------------+
+| Thinking Penguin | |Penguin|_  |               |
++------------------+-------------+---------------+
+| Omar Ahmad       | |Omar|_     |               |
++------------------+-------------+---------------+
+
+.. |Jacques| replace:: Videos
+.. _Jacques: https://www.youtube.com/channel/UC5ABAuGEvBMmau-1xJsNw6w
+.. |JacquesN| replace:: The developer of Animation Nodes.
+
+
+.. |Diplom| replace:: Videos
+.. _Diplom: http://www.blenderdiplom.com/en/tutorials/animation-nodes.html
+
+.. |DiplomG| replace:: Videos (German)
+.. _DiplomG: http://www.blenderdiplom.com/de/tutorials/animation-nodes.html
+
+.. |JimmyA| replace:: Articles
+.. _JimmyA: http://blendersushi.blogspot.de/search/label/anstudy
+
+.. |JimmyV| replace:: Videos
+.. _JimmyV: https://www.youtube.com/playlist?list=PLsbztkb4az9gVNKH1ai7Kxj37e7gZPD75
+.. |JimmyN| replace:: Live Noding.
+
+.. |Local| replace:: Blends
+.. _Local: http://www.local-guru.net/blog/tag/animation%20nodes
+.. |LocalN| replace:: Only blend files and results are provided.
+
+.. |Lollypop| replace:: Videos
+.. _Lollypop: http://lollypopman.com/tag/animation-nodes/
+
+.. |ONELVXE| replace:: Videos
+.. _ONELVXE: https://www.youtube.com/playlist?list=PLV9xOovGG3hhavLVC3Zh-90R2rAESw24f
+
+.. |Zach| replace:: Videos
+.. _Zach: https://www.youtube.com/playlist?list=PLJSCK4DjIWhk-JIGOIJKLUB1bGXfDBgzZ
+
+.. |BIG3| replace:: Videos
+.. _BIG3: https://www.youtube.com/playlist?list=PLxhvHjvBEdqgvnNKQmdedLz9pwXEaPTYe
+
+.. |Penguin| replace:: Videos
+.. _Penguin: https://www.youtube.com/playlist?list=PLzx5ZMG3gsG9CFi-w_v76eDnzPCZau2MF
+
+.. |Omar| replace:: Articles
+.. _Omar: https://squircleart.github.io/posts.html
 
 Support
 -------
