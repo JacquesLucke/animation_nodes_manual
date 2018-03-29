@@ -50,6 +50,8 @@ Below is a list of all known Animation Nodes tutorials creators. Do you create t
 +------------------+-------------+---------------+
 | Thinking Penguin | |Penguin|_  |               |
 +------------------+-------------+---------------+
+| Miesner Media    | |Miesner|_  |               |
++------------------+-------------+---------------+
 | Omar Ahmad       | |Omar|_     |               |
 +------------------+-------------+---------------+
 
@@ -89,6 +91,9 @@ Below is a list of all known Animation Nodes tutorials creators. Do you create t
 
 .. |Penguin| replace:: Videos
 .. _Penguin: https://www.youtube.com/playlist?list=PLzx5ZMG3gsG9CFi-w_v76eDnzPCZau2MF
+
+.. |Miesner| replace:: Videos
+.. _Miesner: https://www.youtube.com/playlist?list=PL5VSdbzNKyGx4GXtzDJeDte1LYHEA4vbg
 
 .. |Omar| replace:: Articles
 .. _Omar: https://squircleart.github.io/posts.html
