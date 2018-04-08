@@ -102,3 +102,78 @@ Data Input
 Displays the the data input nodes inside the panel if **Show In Viewport** is enabled.
 
 .. include:: /includes/nodes/show_in_viewport.rst
+
+Shortcuts
+=========
+
+U
+=
+
+Upon pressing **U** while selecting a node, a panel that include both the *Advanced Node Settings* and the *Socket Settings* of the selected node will appear. This is considered as a more robust way to edit the settings instead of promoting the **N** menu:
+
+.. image:: gifs/u_shortcut.gif
+
+W
+=
+
+Upon pressing **W** while selecting a node, a pi menu will appear that include up to three operators depending on the selected node, those operators include:
+
+Data Input
+^^^^^^^^^^
+
+This is only available if the node has  **Visible** inputs. It will create an *Input Node* for the selected node's input socket (or the only existing one):
+
+.. image:: gifs/w_shortcut_input.gif
+
+Viewer
+^^^^^^
+
+This is only available if the node has  **Visible** outputs. It will create a *Viewer Node* for the selected node's output socket (or the only existing one):
+
+.. image:: gifs/w_shortcut_viewer.gif
+
+Loop Through
+^^^^^^^^^^^^
+
+This is only available if the node has  **Visible** list outputs. It will create a *Loop Input Node* with an iterator of the same type as the selected node's output socket (or the only existing one), as well as create an *Invoke Node* pointing to the created loop connecting the selected node's output to the created iterator:
+
+.. image:: gifs/w_shortcut_loop.gif
+
+Create Invoke Node
+^^^^^^^^^^^^^^^^^^
+
+This is only available if the node has  is a *Loop Input Node*. It creates an *Invoke Node* pointing to the selected loop:
+
+.. image:: gifs/w_shortcut_invoke.gif
+
+E
+=
+
+Upon pressing **E** while selecting a node, a pi menu will appear that include three operators that allows selecting relatives of the selected node, those operators include:
+
+Selected Dependencies
+^^^^^^^^^^^^^^^^^^^^^
+
+This will select all the nodes that the selected node depends upon, that is, nodes connected to its inputs. Green in the illustration below.
+
+Selected Dependent Nodes
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+This will select all the nodes that uses the selected node, that is, dependent on it. Orange in the illustration below.
+
+Selected Network
+^^^^^^^^^^^^^^^^
+
+This will select all dependencies and dependent nodes as well of that of them of the selected node, that is, any node connected to the node. Blue in the illustration below.
+
+.. image:: images/e_shortcut.png
+
+Tab
+===
+
+**Tab** if pressed while selecting a *Loop Input Node*, will select all the *Invoke Nodes* pointing to it. And if pressed while selecting an *Invoke Node*, will select the *Loop Input Node* of the loop it is pointing to. This works across node trees, so if a loop is defined in another node tree, Animation Nodes will switch to that node tree, in that case, pressing **Tab** again will, in some scenarios, will switch back to the node tree you were originally at.
+
+Ctrl + Shift + Q
+================
+
+This will disable *Auto Execution*.
