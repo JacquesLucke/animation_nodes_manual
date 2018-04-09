@@ -35,7 +35,7 @@ Node Settings
 Nodes include multiple settings type, options that users use often are drawn inside nodes directly for faster workflow, options that users don't use often are drawn in a custom panel in the properties (N) menu to avoid clustering the UI.
 
 Inside the Node
-^^^^^^^^^^^^^^^
+---------------
 
 Options that users use often are drawn inside nodes, for example:
 
@@ -44,14 +44,14 @@ Options that users use often are drawn inside nodes, for example:
 Math operation and distribution patterns are node options.
 
 Advanced Node Settings
-^^^^^^^^^^^^^^^^^^^^^^
+----------------------
 
 Options that users don't use often are drawn in a custom panel called **Advanced Node Settings**.
 
 .. image:: images/advanced_node_settings.png
 
 Node Panel
-^^^^^^^^^^
+----------
 
 Sockets (Inputs and Outputs) of nodes can be hidden or unhidden through this panel by pressing the "eye" next to the desired socket. Some nodes like subprograms, allows reordering of sockets by using the **arrows**. You can also change the name and label of nodes in this panel, names has to be unique.
 
@@ -65,22 +65,22 @@ The tool menu in the node editor in Animation Nodes contain settings and informa
 .. image:: images/nodetree_menu.png
 
 Auto Execution Panel
-^^^^^^^^^^^^^^^^^^^^
+--------------------
 
 Include options related to auto execution of the node tree.
 
 Developer
-^^^^^^^^^
+---------
 
 Include options related to inspecting, profiling and debugging node trees.
 
 Overview
-^^^^^^^^
+--------
 
 Include some information about the node tree like the execution time. The statistics button draws a table that include information about the number and types of nodes in the node tree.
 
 Animation Nodes Tree
-^^^^^^^^^^^^^^^^^^^^
+--------------------
 
 This panel includes manual execution button and the scene that the node tree belongs to.
 
@@ -92,12 +92,12 @@ This panel includes manual execution button and the scene that the node tree bel
 .. image:: images/3dview_menu.png
 
 ID
-^^
+--
 
 Includes some options related to the :doc:`/user_guide/nodes/object/object_id_key` node.
 
 Data Input
-^^^^^^^^^^
+----------
 
 Displays the the data input nodes inside the panel if **Show In Viewport** is enabled.
 
@@ -107,14 +107,14 @@ Shortcuts
 =========
 
 U
-=
+-
 
 Upon pressing **U** while selecting a node, a panel that include both the *Advanced Node Settings* and the *Socket Settings* of the selected node will appear. This is considered as a more robust way to edit the settings instead of promoting the **N** menu:
 
 .. image:: gifs/u_shortcut.gif
 
 W
-=
+-
 
 Upon pressing **W** while selecting a node, a pi menu will appear that include up to three operators depending on the selected node, those operators include:
 
@@ -142,12 +142,12 @@ This is only available if the node has  **Visible** list outputs. It will create
 Create Invoke Node
 ^^^^^^^^^^^^^^^^^^
 
-This is only available if the node has  is a *Loop Input Node*. It creates an *Invoke Node* pointing to the selected loop:
+This is only available if the node is a *Loop Input Node*. It creates an *Invoke Node* pointing to the selected loop:
 
 .. image:: gifs/w_shortcut_invoke.gif
 
 E
-=
+-
 
 Upon pressing **E** while selecting a node, a pi menu will appear that include three operators that allows selecting relatives of the selected node, those operators include:
 
@@ -164,16 +164,16 @@ This will select all the nodes that uses the selected node, that is, dependent o
 Selected Network
 ^^^^^^^^^^^^^^^^
 
-This will select all dependencies and dependent nodes as well of that of them of the selected node, that is, any node connected to the node. Blue in the illustration below.
+This will select all dependencies and dependent nodes as well of that of them of the selected node, that is, any node connected to the selected node. Blue in the illustration below.
 
 .. image:: images/e_shortcut.png
 
 Tab
-===
+---
 
-**Tab** if pressed while selecting a *Loop Input Node*, will select all the *Invoke Nodes* pointing to it. And if pressed while selecting an *Invoke Node*, will select the *Loop Input Node* of the loop it is pointing to. This works across node trees, so if a loop is defined in another node tree, Animation Nodes will switch to that node tree, in that case, pressing **Tab** again will, in some scenarios, will switch back to the node tree you were originally at.
+**Tab** if pressed while selecting a *Loop Input Node*, will select all the *Invoke Nodes* pointing to it. And if pressed while selecting an *Invoke Node*, will select the *Loop Input Node* of the loop it is pointing to. This works across node trees, so if a loop is defined in another node tree, Animation Nodes will switch to that node tree, in that case, pressing **Tab** again will---in some scenarios---switch back to the node tree you were originally at.
 
 Ctrl + Shift + Q
-================
+----------------
 
 This will disable *Auto Execution*.
