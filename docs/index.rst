@@ -2,9 +2,9 @@
 Animation Nodes Manual
 **********************
 
-Welcome to the official manual of **Animation Nodes** (AN).
+Welcome to the official manual of **Animation Nodes**.
 
-AN is a node based visual scripting system designed for motion graphics in `Blender <http://www.blender.org/>`_.
+Animation Nodes is a node based visual scripting system designed for motion graphics in `Blender <http://www.blender.org/>`_.
 
 .. toctree::
    :maxdepth: 2
@@ -16,14 +16,14 @@ AN is a node based visual scripting system designed for motion graphics in `Blen
 External Links
 **************
 
-- `Github Issues <https://github.com/JacquesLucke/animation_nodes/issues>`_: A place where you can report bugs, suggest features, ask for help and have general discuss about Animation Nodes.
-- `Stack Exchange <https://blender.stackexchange.com/questions/ask?tags=animation-nodes>`_: A place where you can use the `animation-nodes` tag to ask question related to animation nodes and get support from the big community of Blender.SE.
-- `Blender Artists Thread <https://blenderartists.org/forum/showthread.php?350296-Addon-Animation-Nodes/>`_: A place where you can share your work, ask question and have general discuss about Animation Nodes.
+- `Github Issues <https://github.com/JacquesLucke/animation_nodes/issues>`_: A place where you can report bugs, suggest features, ask for help and have general discussion about Animation Nodes.
+- `Stack Exchange <https://blender.stackexchange.com/questions/ask?tags=animation-nodes>`_: A place where you can ask questions related to Animation Nodes using the `animation-nodes` tag and get support from the big community of Blender.SE.
+- `Blender Artists Thread <https://blenderartists.org/forum/showthread.php?350296-Addon-Animation-Nodes/>`_: A place where you can share your work, ask question and have general discussion about Animation Nodes.
 
 Tutorials
 *********
 
-Below is a list of all known Animation Nodes tutorials creators. Do you create tutorials? Let us know !
+Below is a list of all known Animation Nodes tutorials creators. Do you create tutorials? Let us know!
 
 +------------------+-------------+---------------+
 | Creator          | Contents    | Notes         |
