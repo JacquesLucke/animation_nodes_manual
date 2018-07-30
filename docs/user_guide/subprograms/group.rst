@@ -1,47 +1,47 @@
 Group
 =====
 
-Lets us assume that you have three objects and you want to reset their transformations, hide them and shade them smooth. One might make a node tree for that and copy it three times for each object. This would be extremely inefficient both for performance and usability.
+A group is the simplest type of subprograms, it takes some inputs and return some outputs or perform a certain task defined by the nodes encapsulated in it. A group is defined by a *Group Input* and a *Group Output* node, however, the latter can be skipped as in *example 1*. Unlike other subprograms, a group has to have at least one input.
 
-The solution is to use what is known as a **Group** or a **Function**, this group is a container that takes some inputs, do something with them and maybe output some data as well. Once the group is defined, it can be called using an **Invoke Subprogram** node and used multiple times in different areas of your node tree.
+Advanced Node Settings
+----------------------
+
+The inputs of a group can have default values. Default values can only be defined for basic data types like numbers, vectors and booleans. One can define the default values in the advanced node settings of the *Group Input* node.
 
 Example 1
 ---------
 
-Below is a node tree, that reset input object transformations, hide the object and shade it smooth. And we are going to make a group out of it and expose the options.
+One can make a group that positions the input object randomly and shade it smooth.
 
-.. image:: gifs/group_input_node.gif
+.. image:: images/group_example_1.png
 
-This group has inputs but no outputs, it is what you might call an **Operational Group** because it doesn't return anything, it only does.
+Notice that the group has two inputs *Object* and *Seed*, a new input can be added by creating a link from the transparent socket to the required node socket or by pressing the plus icon. This group has no outputs and is thus called an *Operational Group* because it returns nothing.
 
-Had I defined the group, I can call it using the **Invoke Subprogram** node by searching for the group name or by adding it from the subprograms menu in the toolbar or from the nodes menu. Notice that I didn't have to copy the whole node tree for each of the three objects, I just copied the group, which is not only more organized but also faster!
+Had one defined the group, one can call/invoke it using the *Invoke Subprogram* node.
 
-.. image:: images/invoke_group_node.png
+.. image:: images/invoke_example_1.png
 
-Advanced Node Settings
-^^^^^^^^^^^^^^^^^^^^^^
-
-The group input node lets you define the default values for each of the inputs, it only works for basic data types like numbers, vector and booleans. Those values will be set to the invoke node as soon as you add it.
+Groups saves one the trouble of not having to copy the whole node tree for each object resulting in a more efficient and organized node tree.
 
 Example 2
 ---------
 
-We will now make a group that takes some inputs, process them, then output some data. Our function will compute **Euler Characteristic** which is equal to ``V-F+E``.
+One can make a group that computes the dot product of two vector lists. The group takes two inputs *A* and *B* and returns an output *Dot Product*. A new output can be added by creating a link from the transparent socket to the required node socket or by pressing the plus icon. The *Group Output* node itself can be created by pressing the plus button *Output Node*.
 
-After I implement the node tree and add the *group input* node, I can click the **Output Node** button in the *group input* node to add a *group output* node which I then can add my outputs to.
+.. image:: images/group_example_2.png
 
-.. image:: gifs/group_output_node.gif
-
-By invoking the group and input the values for the Tetrahedron, Hexahedron and Octahedron, we see that Euler Characteristic is indeed ``2`` for each of them.
-
-.. image:: images/invoke_group_output_node.png
+The group can be similarly invoked as in *example 1*.
 
 Network Error
 -------------
 
-A network error is raised when there is something wrong with your connections. And it is raised in two main situations, if you connect a node that depend on the group to some node inside the group itself and if the *group output* node has no *group input* as it can't exist on its own.
+A network error is raised in three situations:
 
-If you removed the *Group Input* node without removing the *Group Output* node with it. An error will be raised because *Group Output* can not exist on it own. To fix this, you either remove it, or you add a new *Group Input* node, connect your outputs and then click **Use Input In Network** button which will scan the connected network for an *Input Group* node. Or you could click the plus button called *Add Input* to add a new *Group Input*.
+1. The group encapsulates an invoke node calling itself. Recursion is not supported.
+2. The *Group Input* node was removed but its *Group Output* node is still present. A group can't be solely defined by a *Group Output* node. The error can be fixed by either:
 
-.. image:: images/network_error.png
-   :width: 200pt
+   - Adding a new *Object Input* node, connecting it to the group nodes and pressing *Use Input In Network*.
+   - Adding a new *Object Input* node by pressing the plus button in the *Group Output* node.
+
+     .. image:: images/network_error.png
+3. *Object Instancer* node exist in its structure. The *Object Instancer* node is a *subprogram-forbidden* node, meaning it can't be used inside any subprogram.

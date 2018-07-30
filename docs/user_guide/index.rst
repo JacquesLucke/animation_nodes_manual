@@ -6,5 +6,5 @@ User Guide
 
    install/install
    getting_started/index
-   nodes/index
    subprograms/index
+   nodes/index

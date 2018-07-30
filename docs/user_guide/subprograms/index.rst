@@ -1,6 +1,8 @@
 Subprograms
 ===========
 
+A subprogram is a group of nodes encapsulated to form a function that takes some inputs and return some outputs or perform a certain task. Subprograms are modular in the sense that they are reusable, once a subprogram is defined, it can be called/invoked using the *Invoke node* as much as needed with possibly different inputs. By using subprograms, one avoid to repeat similar parts of the node tree resulting in a more efficient and organized node tree. A subprogram can be defined in three different ways using:
+
 .. toctree::
    :titlesonly:
 
@@ -8,8 +10,9 @@ Subprograms
    Loop <loop>
    Script <script>
 
-Node trees you create can be considered as programs but in a visual form. Those node trees may contain portions where node setups are similar or with slightly different parameters, copying the same node setup to multiple locations in the node tree would be extremely inefficient. Likewise, one may need to apply the same node setup to multiple objects, doing that manually would also be inefficient and tedious.
+Which can be called/invoked using:
 
-Animation Nodes provide us with Subprograms which are smaller node trees that can be created once and used all over the node tree as much as needed.
+.. toctree::
+   :titlesonly:
 
-Animation Nodes have three types of subprograms which can all be called using the **Invoke Subprogram** node after they are defined. Such subprograms should be independent of of the node tree itself, so you can't use a node that depend on the subprogram inside the subprogram. So it is recommended that you put all your subprograms in a portion of the node editor away from the node tree itself.
+   Invoke Node <invoke>
