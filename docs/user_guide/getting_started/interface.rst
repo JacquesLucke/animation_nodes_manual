@@ -2,7 +2,7 @@
 Interface
 *********
 
-Much of the interface is located in the node editor while the rest of the interface exist in other regions like the 3D viewport.
+Much of the interface is located in the node editor while the rest of the interface exists in other regions like the 3D viewport.
 
 .. image:: images/node_editor.png
 
@@ -14,7 +14,7 @@ Animation Nodes have its own node editor which you can select by clicking on the
 Node Menu
 =========
 
-To add a new node, you can open the Node Menu by pressing ``Shift+A`` just like other node systems. The menu contains a group of submenus each of which contains a list of node categorize by their type. The menu includes all nodes in Animation Nodes except for some *passive nodes*, passive nodes are nodes that can only be added through the **Search Menu** which is covered in the next section.
+To add a new node, you can open the Node Menu by pressing ``Shift+A`` just like other node systems. The menu contains a group of submenus each of which contains a list of node categorized by their type. The menu includes all the nodes in Animation Nodes except for some *passive nodes*. Passive nodes are nodes that can only be added through the **Search Menu** which is covered in the next section.
 
 .. image:: images/node_menu.png
 

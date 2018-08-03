@@ -1,7 +1,7 @@
 Color
 =====
 
-This category contains nodes that process and creates color data.
+This category contains nodes that processes and creates color data.
 
 .. toctree::
    :titlesonly:

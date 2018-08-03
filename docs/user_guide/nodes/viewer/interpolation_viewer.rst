@@ -4,7 +4,7 @@ Interpolation Viewer
 Description
 -----------
 
-This node plot the input interpolation on a ``[0,1]`` range in a floating dedicated viewer.
+This node plots the input interpolation on a ``[0,1]`` range in a floating dedicated viewer.
 
 .. image:: gifs/interpolation_viewer_node.gif
 

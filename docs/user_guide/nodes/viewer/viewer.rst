@@ -4,7 +4,7 @@ Viewer
 Description
 -----------
 
-This node view what ever is input to it. Simple data types like integers and floats and small text will be drawn on the node itself. If Animation Nodes feels like data is a bit large like lists and big texts, it will draw a dedicated floating viewer to view those data.
+This node displays whatever input is given to it. Simple data types like integers and floats and small text will be drawn on the node itself. If Animation Nodes feels like data is a bit large like lists and big texts, it will draw a dedicated floating viewer to view those data.
 
 Notice how integers, vectors and texts were displayed in the node, while lists where displayed in a dedicated floating viewer.
 

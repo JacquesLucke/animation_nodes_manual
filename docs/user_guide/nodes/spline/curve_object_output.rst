@@ -14,7 +14,7 @@ Inputs
 
 - **Splines** - A list of splines that form the curve.
 - **Bevel Depth** - The radius of curve.
-- **Bevel Resolution** - An integer that define the number of vertices of the curve. Notice that the original number of vertices of the curve is `4` and the integer defines the extra number of vertices to be added.
+- **Bevel Resolution** - An integer that defines the number of vertices of the curve. Notice that the original number of vertices of the curve is `4` and the integer defines the extra number of vertices to be added.
 - **Extrude** - Amount of extrusion applied to the curve.
 - **Bevel Start** - A factor that defines the start of beveling.
 - **Bevel End** - A factor that defines the end of beveling.
