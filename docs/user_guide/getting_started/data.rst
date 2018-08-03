@@ -13,7 +13,7 @@ The output of the *Combine Vector* and *Object Input* nodes are 3D Vector and Ob
 Implicit Conversion
 ===================
 
-Some data types can be *implicitly* converted to other data types, the conversion happens at the socket level. Thus, it is noted that some sockets accepts more than one data type. For instance, it is possible to connect Integers, Floats and Booleans together because all of which are numbers and can be implicitly converted to each other.
+Some data types can be *implicitly* converted to other data types, the conversion happens at the socket level. Thus, it is noted that some sockets accept more than one data type. For instance, it is possible to connect Integers, Floats and Booleans together because all of which are numbers and can be implicitly converted to each other.
 
 .. note::
     A boolean when converted to a number is ``1`` if ``True`` and ``0`` if ``False``. Moreover, a number when converted to boolean is ``True`` if it is non zero and ``False`` if zero. Floats are floored when converted into integers, so ``1.5`` becomes ``1`` and ``2.7`` becomes ``2``.
@@ -47,9 +47,9 @@ A vectorized node has vectorized sockets, such sockets change from list types to
 Data Copying
 ============
 
-Users of Animation nodes don't have to worry about data copying as Animation Nodes automatically copy data if needed, however, sometimes, control over whether data should be copied is given to the user, such control is only needed for advanced uses of subprograms and data editing nodes. The options to control data copying is provided in the *Advanced Node Settings* of the nodes that supports it.
+Users of Animation Nodes don't have to worry about data copying as Animation Nodes automatically copy data if needed, however, sometimes, control over whether data should be copied is given to the user, such control is only needed for advanced uses of subprograms and data editing nodes. The options to control data copying is provided in the *Advanced Node Settings* of the nodes that supports it.
 
-To have a better understanding of data copying and a possible situation where control over it might be needed, consider the following example (*The following example is rather advanced and require good knowledge of loops, you may skip it if you are just getting started*).
+To have a better understanding of data copying and a possible situation where control over it might be needed, consider the following example (*The following example is rather advanced and requires good knowledge of loops. You may skip it if you are just getting started*).
 
 A loop is constructed such that it appends a float to an initially empty float list parameter provided a condition is satisfied at each iteration. The conditional appending is achieved by conditionally reassigning the float list parameter to the list after appending. *Notice that using a conditional generator may not be an option because access to the generated list at each iteration might be needed.* Now, consider the situation where we only reassign if the index is larger than 2, if the number of iterations is 5, we should expect the float list to contain two floats, but upon viewing it, we see it actually contains five elements realizing that the conditional reassigning is rendered ineffective. Why is that?
 

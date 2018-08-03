@@ -14,7 +14,7 @@ Always
 
 **Always** option is enabled by default and it does what we stated before, that is, execute the nodetree as much as possible. This option should not be used unless absolutely needed. A possible uses for it is as follows:
 
-- A lot of variables that Animation Nodes uses in the scene are changing regularly and constantly, for instance, if the nodetree rely on the locations of tenths of objects that are constantly moving. Had they just been couple of object, then it would be better to use *triggers* (Triggers will be presented later on).
+- A lot of variables that Animation Nodes uses in the scene are changing regularly and constantly, for instance, if the nodetree relies on the locations of tenths of objects that are constantly moving. Had they just been couple of object, then it would be better to use *triggers* (Triggers will be presented later on).
 - When running a time based discretized simulations that need to be computed as fast as possible.
 
 .. image:: gifs/always.gif
@@ -84,7 +84,7 @@ The *Parse Number Node* can't parse the letter ``a``, it can only parse numbers,
 Fatal Errors
 ------------
 
-Fatal errors stops the execution of the whole nodetree and have to be solved. Such errors occur when you try to do something that the developer didn't consider. Sometimes fatal errors persists even if you resolve them, in that case, pressing the *Retry* button in the *Execution* panel should get everything back to normal. Other times, fatal errors will persists even if *Retry* is pressed, this is a known bug, the only way to get the nodetree back to normal is to relaod the file. Note that a fatal error could be a bug and should be reported. An example for such error can be seen in the expression node:
+Fatal errors stop the execution of the whole nodetree and have to be solved. Such errors occur when you try to do something that the developer didn't consider. Sometimes fatal errors persists even if you resolve them, in that case, pressing the *Retry* button in the *Execution* panel should get everything back to normal. Other times, fatal errors will persists even if *Retry* is pressed, this is a known bug, the only way to get the nodetree back to normal is to relaod the file. Note that a fatal error could be a bug and should be reported. An example for such error can be seen in the expression node:
 
 .. image:: images/fatal_error.png
 
