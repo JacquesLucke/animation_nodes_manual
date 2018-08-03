@@ -12,8 +12,8 @@ This node creates a linear poly spline for every input edge, that is, every edge
 Options
 -------
 
-- **Radius Per Vertex** - This options sets the radius per vertex, so the node expects a radius list with the same length as the the vertices list.
-- **Radius Per Edge** - This options sets the radius per edge, so the node expects a radius list with the same length as the the edge indices list.
+- **Radius Per Vertex** - This option sets the radius per vertex, so the node expects a radius list with the same length as the the vertices list.
+- **Radius Per Edge** - This option sets the radius per edge, so the node expects a radius list with the same length as the the edge indices list.
 
 Inputs
 ------

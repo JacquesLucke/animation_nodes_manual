@@ -4,7 +4,7 @@ Change Spline Type
 Description
 -----------
 
-This node change the type of the input spline to either bezier or poly spline.
+This node changes the type of the input spline to either bezier or poly spline.
 
 .. image:: images/change_spline_type_node.png
    :width: 160pt
