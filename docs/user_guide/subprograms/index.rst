@@ -16,3 +16,10 @@ Which can be called/invoked using:
    :titlesonly:
 
    Invoke Node <invoke>
+
+A minimal version of the script subprogram is provided using:
+
+.. toctree::
+   :titlesonly:
+
+   Expression Node <expression>
