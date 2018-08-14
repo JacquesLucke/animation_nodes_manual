@@ -3,11 +3,11 @@ Expression
 
 The expression node allows executing a single line of python code and return its value. The node can have multiple typed inputs which can be used as variables in the python expression. The inputs can't be defined in the node itself because the space is reserved to the variable name representing the input.
 
-.. image:: /images/expression_node.png
+.. image:: images/expression_node.png
 
 One of the simplest uses of this node is computing long mathematical equations. For instance, if one wants to compute the value of the polynomial ``5x^3+3x^2+1`` at some ``x`` one would have to add six nodes for multiplication, power and addition. Alternatively, one could just write that in an expression node as follows.
 
-.. image:: /images/expression_node_example_1.png
+.. image:: images/expression_node_example_1.png
 
 Advanced Node Settings
 ----------------------
