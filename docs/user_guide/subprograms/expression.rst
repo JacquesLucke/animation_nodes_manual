@@ -90,12 +90,12 @@ List comprehensions can have conditions, that is, a condition that has to be met
     [x for x in g if x > 0]
     # Returns [5, 8, 9]
 
-List comprehensions can have multiple ``for``. For instance, for ``a=[0, 1, 2, 3, 4]`` ``b=[1, 2, -1, 0, -2]``.
+``zip()`` function can be used when multiple iterables are needed. For instance, for ``a=[0, 1, 2, 3, 4]`` ``b=[1, 2, -1, 0, -2]``.
 
 .. code-block:: python
 
     # To sum a and b element wise.
-    [x + y for x in a for y in b]
+    [x + y for x, y in zip(a, b)]
     # Returns [1, 3, 1, 3, 2]
 
 Multiple ``for`` can be used to repeat lists as follows. Notice how order matters in this case. The latter ``for`` is always executed first.
@@ -105,8 +105,16 @@ Multiple ``for`` can be used to repeat lists as follows. Notice how order matter
     # l = [0, 1, 2, 3, 4]
     [x for x in l for _ in range(3)]
     # Returns [0, 0, 0, 1, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4]
+    # Equivalent to:
+    # for x in l:
+    #     for _ in range(3):
+    #         append x
     [x for _ in range(3) for x in l]
     # Returns [0, 1, 2, 3, 4, 0, 1, 2, 3, 4, 0, 1, 2, 3, 4]
+    # Equivalent to:
+    # for _ in range(3):
+    #     for x in l:
+    #         append x
 
 List comprehensions can be nested. For instance, if the values of pixels of a gray-scale image is represented by a list ``i = [0.5, 0.25, 0.1, ...]`` and one wants to generate an RGBA representation such that all red, green and blue channels have the gray-scale value and the alpha is always 1, then a list comprehension can be used as follows.
 
