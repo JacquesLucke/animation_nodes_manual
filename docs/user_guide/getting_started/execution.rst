@@ -58,14 +58,14 @@ This value defines the time between each two consecutive executions. So if the v
 Triggers
 --------
 
-A Trigger is basically a “watcher” that you instruct to watch for a change in some property you told it to watch. It, in turn, instructs Animation Nodes to execute the nodetree whenever the property it is watching changes. For instance, lets say I am using the location of an object in my nodetree and I want to execute the nodetree whenever the location changes, in that case, I simply add a trigger and instruct it to watch for the location of the object.
+A Trigger is basically a “watcher” that you instruct to watch for a change in some property you told it to watch. It, in turn, instructs Animation Nodes to execute the node tree whenever the property it is watching changes. For instance, lets say I am using the location of an object in my node tree and I want to execute the node tree whenever the location changes, in that case, I simply add a trigger and instruct it to watch for the location of the object.
 
 .. image:: gifs/triggers.gif
 
-There are two options:
+There are two options to define the property:
 
 - **Object Property** - An object is chosen and the property ID is defined relative to it. An example for such IDs are: ``location``, ``euler_rotation``, ``location.x`` ... .
-- **Scene Property** - The path of the property has to be fully defined, for instance, ``bpy.data.objects["Cube"].modifiers["Subsurf"].levels`` which watches for a change in the subsurface levels of the modifier ``Subsurf`` of the object ``Cube``.
+- **Scene Property** - A scene is chosen and the property ID is defined relative to it. If the scene ``Scene`` is chosen and the ID is ``world.horizon_color``, then the full path of the property is ``bpy.data.scenes["Scene"].world.horizon_color``.
 
 Errors
 ======
