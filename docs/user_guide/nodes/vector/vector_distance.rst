@@ -30,6 +30,6 @@ Examples of Usage
 
 .. image:: gifs/vector_distance_node_example1.gif
 
-The effect can be revesred by using ``x-d`` where ``x`` is an arbitrary positive number and ``d`` is the distance:
+The effect can be reversed by using ``x-d`` where ``x`` is an arbitrary positive number and ``d`` is the distance:
 
 .. image:: gifs/vector_distance_node_example2.gif
