@@ -4,7 +4,7 @@ Vector Math
 Description
 -----------
 
-This node performs 7 euler math operationa:
+This node performs 7 euler math operations:
 
 - **Add** - Add corresponding elements of the input eulers.
 - **Subtract** - Subtract corresponding elements of the input eulers.
