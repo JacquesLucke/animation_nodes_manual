@@ -1,115 +1,167 @@
+****
 Loop
-====
+****
 
-Loops are subprograms that runs specific number of times, it can be used to repeat an action multiple times or to automate some action.
+The loop subprogram allows iteration in Animation Nodes. Iteration is the act of executing a group of the nodes multiple times, each time is often called an *Iteration*. The *Number Of Iterations* (*Iterations* for short) is the number of times the loop will execute. Each iteration has an integer associated with it called an *Index*, this index is 0 for the first iteration, 1 for the second, 2 for the third and so on to the last iteration, which has an index n-1 where n is the number of iterations.
+
+.. image:: images/loop_input.png
+
+Parameters And Iterators
+========================
+
+A loop can have *Parameters*, values that are fed to the loop and are constant for all iterations unless explicitly changed. Values that change from an iteration to another are defined by what is known as an *Iterator*. An iterator is a list that feeds the loop its nth element at the nth iteration, so at the first iteration, the iterator feeds the loop its first element, at the second iteration, the iterator feeds the loop its second element, and so on. If no iterator is present, the number of iterations can be set manually using the *Iterations* input that will be present when the subprogram is invoked, if an iterator is present, the number of iterations is set automatically and will be equal to the length of the iterator, that is, the number of elements in the iterator. Multiple iterators can be used, in which case, the number of iterations becomes equal to the length of the smallest iterator. Iterators and Parameters can be added by the plus buttons *New Iterator* and *New Parameter* respectively.
+
+A loop is used to automate tasks or repeat them, for instance, if one wants to shade 10 objects smooth, one might add 10 *Shade Object Smooth* nodes and specify one object for each, but that would be tedious and inefficient, what if there were 100 objects? Will one add 100 nodes? Using a loop would be a wiser approach, one simply creates a list containing those objects and use that list as an iterator in a loop that contains a single *Shade Object Smooth* node where its input object is the output of the iterator. At the first iteration, the output of the iterator will be the first object, thus the first object gets shaded smooth, at the second iteration, the output of the iterator will be the second object, thus the second object gets shaded smooth, and so on. Often, when one wants to describe such loop, one says *"We loop over the objects and shade them smooth"*, the term *loop over something* means using that something as an iterator.
+
+Generators
+==========
+
+A generator is a list that is initially empty and allows one to add/append values(s) to it at each iteration. A generator has two inputs, the value(s) to be appended and a condition (Hidden by default) which is a boolean that is True if one wants the value(s) to be appended and False otherwise. For instance, if one have a list of integers and one wants to only keep the even integers, one would loop over the integers, check if they are even and append them if they are, this is done by using the output of the check as the condition. A new generator can be added by using the plus button *New Generator Output*. The name and type of the generator can be set from its advanced node settings.
+
+.. image:: images/loop_generator.png
+
+Advanced Node Settings
+======================
+
+- **Description** - A description for the function of the loop. This description only appears in the **Invoke Subprogram** node when choosing the required subprogram, however, it is a good practice to write a description for each subprogram so that other users can understand its function.
+
+.. image:: images/loop_advanced_node_settings.png
+
+Iterator Sockets
+----------------
+
+The *New Iterator* button can be used to add a new iterator, this is equivalent to the button in the node. If iterators are presents, an option *Use {Iterator} As Output* for each of them will be displayed, if enabled for an iterator, the iterator will be available as an output when the loop is invoked. The output will be the same list you input. This is useful to avoid unnecessary data copying by using the output instead of creating another branch from the source iterator which would enforce data copying. Moreover, this also ensures that the loop executes first as a consequence of the series connection. See examples below.
+
+Parameter Sockets
+-----------------
+
+The *New Parameter* button can be used to add a new parameter, this is equivalent to the button in the node. A list of parameters is displayed with their options. For each parameter, the following options are present:
+
+- **Input** - If enabled, the parameter will be available as an input when the loop is invoked, if disabled, it won't be available as an input and its value will be equal to its default value. Certain applications of loops use parameters as temporary placeholders or as outputs, thus sometimes, they are expected to have a certain initial values, so to make sure the user doesn't alter its expected value, the parameter can be hidden using this option. In this case, the parameter is called a dummy parameter. See examples below.
+- **Output** - If enabled, the parameter will be available as an output when the loop is invoked, if disabled, it won't be available as an output. The significance of this option will be apparent when we discuss reassignment operators. See examples below.
+- **Copy** - If enabled, the parameter at each iteration will be a different copy of its source, if disabled, Animation Nodes will handle the copying automatically, so even if it is disabled, parameters might be copied anyway if Animation Nodes decides to. This option is only available for structures that can be copied, so it won't be available for simple data types like integers and floats. This option is helpful in certain advanced cases, see examples below.
+- **Default** - The default value of the parameter, this option is only available for simple data types, so data types like BVH and KD Trees won't have this option.
+
+Reassignment Operators
+^^^^^^^^^^^^^^^^^^^^^^
+
+Parameters are constant for all iterations, however, one can change their value at a certain iteration using what is known as a reassignment operator, this operator can be added using the *Reassign* button. The operator has two inputs, the new value of the parameter and a condition, if this condition is True, the operator changes the parameter value to the new value, if the condition is False, the operator is rendered ineffective and the parameter retains its value. See examples below.
+
+.. image:: images/loop_reassign.png
+
+List Generators
+^^^^^^^^^^^^^^^
+
+A list of generators is displayed. The arrows can be used to change the order of generators as outputs. It should be noted that iterators—if used as outputs—will always be displayed first according to their input order. Moreover, parameters—if used as outputs—will be displayed at the end according to their input order.
+
+Break Condition
+^^^^^^^^^^^^^^^
+
+A break condition forces the loop to terminate at a certain iteration. The break condition has a single boolean input *Continue*, if it is True, the loop is continued as normal, if it is False, the loop is terminated and all iterations after the current one **including it** won't be executed. A break condition can be added by the *New Break Condition* button in the advanced node settings. See examples below.
+
+.. image:: images/loop_break.png
+
+Examples
+========
 
 Example 1
 ---------
 
-By default, there is a parameter called **Iterations** and it defines the number of times the subprogram will run, lets say we defined it to be 5, then the loop will run 5 times. Each run has a distinct variable called **index** that starts from zero and ends by `n-1` where `n` is the number of runs which is 5 in this case. This means that at the first run, *index* will be 0, at the second run, the index will be 1, at the third run, the index will be 2, and so on. There exist another variable **Iterations** that is constant for all runs and is equal to the numbers of runs or iterations, which is 5 in our example.
+In this example, an integer generator is used to append the index of each iteration. The number of iterations is defined manually using the *iterations* input since there are no iterators present.
 
 .. image:: images/loop_example1.png
 
-As you may see, we have a parameter called **Iterations** and two inputs called **Index** and **Iterations**, if I viewed both inputs using the *Loop Viewer* node (Which prints inputs of each run in a separate line), you will see that the index of the first run (first line) is 0 and its iteration is 5, the index of the second iteration is 1 and its iteration is 5, and so on.
+Notice that the first iteration has and index of 0 and the last iteration have an index n-1 where n is the number of iterations.
 
 Example 2
 ---------
 
-Loops enable us to append values computed inside the loop to some output list, the the output list will contain the value computed at the first iteration as the first element, the value computed at the second iterations as the second element and so on. Those outputs are called generators and can be added by clicking on the **New Generator Output** button and then choosing their type.
+In this example, a float generator is used to append the the index divided by n-1 where n is the number of iterations.
 
-.. image:: images/loop_example2a.png
+.. image:: images/loop_example2.png
 
-As you may see, we added a new integer generator output which appends the index each iteration. And the output is an integer list that contain the indices.
-
-.. image:: images/loop_example2b.png
-
-If I divided the index by the iterations minus one, the resulted list will include floats that ranges between zero and one. This is because indices ranges between zero and `n-1` where `n` is the number of iterations. Notice that we changed the output generator to float.
-
-.. image:: images/loop_example2c.png
-
-Loops can also append multiple elements at the same time when given a list.
+Notice that since the largest/last index is equal to n-1, then the output will be an arithmetic sequence that starts with zero and ends with 1.
 
 Example 3
 ---------
 
-The output generators has a hidden by default input called **Condition** which is a boolean. This input basically asks you "Should I append the input value?" if the boolean was True then it is appended normally, if it was False, then the value is not appended.
+In this example, a generator is used to append multiple values at each iteration. The values are defined by a list filled with the index.
 
 .. image:: images/loop_example3.png
-
-In the above example, we only append the value if the index is an even integer resulting in a list of even numbers. We notice that the output list length can be different that the input iterations.
 
 Example 4
 ---------
 
-Loops can loop over a list of values, that is, for each value in the input list of values, the loop will run, so it should be noted that the number of iterations is equal to the length of the list. A new input will appear which include the value in the list at the current index, so at the first iteration, the value will be the first value in the list, in the second iteration, the value will be the second value in the list, and so on. A new iterator can be added by clicking on the **New Iterator** button.
+In this example, a generator is used to append the index if it an even number. This is done by using the condition of the generator.
 
-.. image:: images/loop_example4a.png
+.. image:: images/loop_example4.png
 
-In the above example, we append the integer if and only if it's an even number. So if you compared the input list to the output list you will see that all odd numbers are not included.
-
-Multiple iterator lists are permitted and in this case, the number of iterations will be equal to the the length of the smallest list.
-
-.. image:: images/loop_example4b.png
-
-The above example multiply two lists, notice that the second list has an 5 elements while the first list has only 4 and subsequently the loop only runs 4 times and the output is a list of four elements.
+Notice that modulo two of some integer is zero if it is an even number. So, the condition is True only if the number is even.
 
 Example 5
 ---------
 
-Loops can have parameters which are constant for all iterations. A new parameter can be added by clicking on the **New Parameter** button.
+In this example, we loop over an integer list and use a generator to only append the even integers as in the foregoing example.
 
 .. image:: images/loop_example5.png
 
-The above example double all the elements of the input list.
-
-Advanced Node Settings
-----------------------
-
-Each Parameter and iterator have some options which can be edited in the **Advanced Node Settings** of the subprogram.
-
-.. image:: images/advanced_node_settings.png
-
-Description
-^^^^^^^^^^^
-
-A description for the function of the loop. This description only appears in the **Invoke Subprogram** node when choosing the required subprogram, however, it is a good practice to write a description for each subprogram so that other users can understand its function.
+Notice that since an iterator is present, the number of iterations is now defined by the length of the list, there is no iterations input.
 
 Example 6
 ---------
 
-Each iterator has an option **Use Iterator As Output** which if enabled will just add the input iterator as an output, this option may seem useless but it actually have a specific function which is to define the operation flow, look at the following example.
+In this example, we loop over two integer list and use a generator to append the product of both integers.
 
 .. image:: images/loop_example6.png
 
-Let us assume that we want to hide a group of objects then unhide them again for no good reason. One could make a loop that hide and unhide objects then invoke that loop twice, one for hiding and one for unhiding, and this is what we did in the left setup. However, it doesn't work, my objects are still hidden even though I unhide them using the upper loop, this happens because Animation Nodes doesn't know which loop to execute first so it just executed the hiding loop last and that's why our objects are hidden. So to ensure that a loop will execute before another and since they both take the object list as input. We expose the iterator as an output then use that output for the second loop, this is how it the right setup work.
+Notice that the second list have 5 elements while the first only have 4, thus the loop ignores the fifth element of the second list and only executes 4 times. Subsequently, the output list contains only 4 elements.
 
 Example 7
 ---------
 
-Each parameter has couple of options including:
+In this example, we loop over an integer list and use a generator to append the integer multiplied by some parameter.
 
-- **Input** - If enabled, the parameter will be visible as an input.
-- **Output** - if enabled, the parameter will be visible as an output.
-- **Copy** - If enabled, the parameter will be copied.
+.. image:: images/loop_example7.png
 
-To make sense of those options, we first need to understand the **Reassign** option. When adding a new reassign node for a parameter, you will have the ability to change that parameter as the loop run, lets look at the following example to understand this better.
-
-.. image:: images/loop_example7a.png
-
-The above example finds the maximum number in the input integer list. We first add a parameter and disable it as an input and enable it as an output, that way, it is not visible as an input but it is visible as an output. I add a reassign node for that parameter and make its condition visible. At each iteration, I check if the iterator value is larger than the value of the parameter and if it is, I assign the iterator value to the parameter, I also add another condition such that if the index is zero (if it is the first iteration) then I automatically reassign even if the iterator value is not larger than the parameter value.
-
-At the first iteration, the iterator was 16 and it gets assigned to the parameter because of the equal to zero condition, at the second iteration, the iterator was 36 which is larger than the current parameter value which is 16 (assigned from the last iteration), so I reassign the parameter to be 36, at the third iteration, the iterator is -25 which is not larger than the current value of the parameter 36 so we don't assign it. Since we enabled the output option for the parameter, it is available as an output for the subprogram carrying the last assigned value which was 36 which is the largest value.
+Notice that the value of the parameter is constant for all iterations.
 
 Example 8
 ---------
 
-The last feature of loops is the break condition which is a boolean. A break condition basically asks you every iteration "Should I proceed to the next iteration?", if it is True, the loops carry on executing the loop, it if was False, the loop exist after current iteration and doesn't carry on executing other iterations.
+In this illustrative example, we have two node trees that supposedly does the same thing, that is, hide the objects in a blender group and then show them. The only difference is, in the node tree on the right, we used the iterator as an output and used that output as the iterator of the second loop, while on the left node tree, we used the object list directly for both loops.
 
 .. image:: images/loop_example8.png
 
-The example above slice a list, in other words, it returns a list with that starts at a specific index and ends with another in the input list. This can be done using a generator condition where I append the value if it is larger than the start index and lower than the end index, but this would be inefficient, if my list contain 100 element and I only want the first 3 elements, the loop will have to run 100x. The solution is to use a break condition, to basically exist the loop when you are sure that no other elements are needed.
+Those two node trees are actually not the same, the left node tree shouldn't be used for two reasons:
 
-More Examples
-^^^^^^^^^^^^^
+1. There is no defined order for the loops to execute. Should Animation Nodes execute the upper or the lower loop first? There is no way to know, so Animation Nodes executes them in arbitrary order. This causes unexpected results because if the show loop was executed first, the object will end up hidden because the hide loop will execute second.
+2. Even though the object list is not edited, Animation Nodes copy it thinking you wanted two different copies.
 
-A lot of nodes documentation include loop examples, so make sure to browse some nodes for more example on loops.
+The eight node tree fixes both problems by:
+
+1. Defining an order for the loops to execute by making the second depend on the output of the first, thus instructing Animation Nodes to execute the dependencies first.
+2. The object list is not copied because it is used sequentially, that is, no branching occur.
+
+In conclusion, the right setup should be used at all times.
+
+Example 9
+---------
+
+In this example, we find the greatest integer in an integer list. This is done by adding an integer parameter whose value is the first integer, we then loop over the integers, if the integer at the current iteration is larger than the parameter, then we reassign the value of the parameter to be the integer at the current iteration, at the end of the loop, the value of the parameter will be the largest integer in the list. Then we output that parameter by enabling *Output* in its advanced node settings.
+
+.. image:: images/loop_example9.png
+
+Since we reassign whenever the integer is larger than the integer stored in the parameter, we end up with the largest integer, why? Take your time to think about it.
+
+Example 10
+----------
+
+In this example, we find the index of the first occurrence of a certain integer in an integer list. We start by adding a dummy integer parameter whose initial/default value is equal to negative one, we then loop over the integers, reassigning the parameter to the index of the iteration, we also check if the current integer is the target integer we are looking for and if yes, we break the loop. Finally, we output the dummy parameter. At the end of the loop, the parameter will have the required index minus one, so by adding one we get the index we are looking for.
+
+.. image:: images/loop_example10a.png
+
+At the time of the break happened, the current iteration index is the index we are looking for, but the breaking happen before the reassignment—or any other operation in the node—, so the current index never gets written to the parameter, but we know that the index that was going to get written is, in fact, the previous index plus one, that's why we added one at the end.
+
+Notice that we could have taken another approach by adding to an initially zero dummy parameter as follows, but that would be less efficient due to the extra plus instruction:
+
+.. image:: images/loop_example10b.png

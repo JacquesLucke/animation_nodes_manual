@@ -1,7 +1,7 @@
 Script
 ======
 
-The script node allows the execution of python scripts. Those scripts are to be written in a blender text block. The scripts written for the script node are slightly different from normal scripts in the following:
+The script subprogram allows the execution of python scripts. Those scripts are to be written in a blender text block. The scripts written for the script node are slightly different from normal scripts in the following:
 
 - Inputs added to the node will be initialized as variables. So if one adds an input named ``count`` to the node, one can use the variable ``count`` in the script like any other variable. See below.
 - Star imports are not allowed due to performance reasons. So something like ``from random import *`` will not work.
