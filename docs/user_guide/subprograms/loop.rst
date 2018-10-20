@@ -128,7 +128,7 @@ Notice that the value of the parameter is constant for all iterations.
 Example 8
 ---------
 
-In this illustrative example, we have two node trees that supposedly does the same thing, that is, hide the objects in a blender group and then show them. The only difference is, in the node tree on the right, we used the iterator as an output and used that output as the iterator of the second loop, while on the left node tree, we used the object list directly for both loops.
+In this illustrative example, we have two node trees that supposedly does the same thing, that is, hide the objects in a blender group and then show/unhide them. The only difference is, in the node tree on the right, we used the iterator as an output and used that output as the iterator of the second loop, while on the left node tree, we used the object list directly as the iterator for both loops.
 
 .. image:: images/loop_example8.png
 
@@ -137,7 +137,7 @@ Those two node trees are actually not the same, the left node tree shouldn't be 
 1. There is no defined order for the loops to execute. Should Animation Nodes execute the upper or the lower loop first? There is no way to know, so Animation Nodes executes them in arbitrary order. This causes unexpected results because if the show loop was executed first, the object will end up hidden because the hide loop will execute second.
 2. Even though the object list is not edited, Animation Nodes copy it thinking you wanted two different copies.
 
-The eight node tree fixes both problems by:
+The right node tree fixes both problems by:
 
 1. Defining an order for the loops to execute by making the second depend on the output of the first, thus instructing Animation Nodes to execute the dependencies first.
 2. The object list is not copied because it is used sequentially, that is, no branching occur.
@@ -147,21 +147,49 @@ In conclusion, the right setup should be used at all times.
 Example 9
 ---------
 
-In this example, we find the greatest integer in an integer list. This is done by adding an integer parameter whose value is the first integer, we then loop over the integers, if the integer at the current iteration is larger than the parameter, then we reassign the value of the parameter to be the integer at the current iteration, at the end of the loop, the value of the parameter will be the largest integer in the list. Then we output that parameter by enabling *Output* in its advanced node settings.
+In this illustrative example, we use a generator to append the value of an integer parameter.
 
-.. image:: images/loop_example9.png
+.. image:: images/loop_example9a.png
 
-Since we reassign whenever the integer is larger than the integer stored in the parameter, we end up with the largest integer, why? Take your time to think about it.
+Since parameters are constant for all iterations, the the output of the generator will be a list filled with the value of the parameter. However, it is possible to change the value of a parameter at a certain iteration by a reassignment operator. In the following example, we reassign/change the value of the parameter to some new value at the fourth iteration, that is, when the index is equal to 3:
+
+.. image:: images/loop_example9b.png
+
+Notice that the value appended at the fourth iteration is the old value, when you reassign a parameter, its value changes for all iterations after the current one, while the current iteration still has the old value.
 
 Example 10
 ----------
 
+In this example, we find the greatest integer in an integer list. This is done by adding an integer parameter whose value is the first integer, we then loop over the integers, if the integer at the current iteration is larger than the parameter, then we reassign the value of the parameter to be the integer at the current iteration, at the end of the loop, the value of the parameter will be the largest integer in the list. Then we output that parameter by enabling *Output* in its advanced node settings.
+
+.. image:: images/loop_example10.png
+
+Since we reassign whenever the integer is larger than the integer stored in the parameter, we end up with the largest integer, why? Take your time to think about it.
+
+Example 11
+----------
+
 In this example, we find the index of the first occurrence of a certain integer in an integer list. We start by adding a dummy integer parameter whose initial/default value is equal to negative one, we then loop over the integers, reassigning the parameter to the index of the iteration, we also check if the current integer is the target integer we are looking for and if yes, we break the loop. Finally, we output the dummy parameter. At the end of the loop, the parameter will have the required index minus one, so by adding one we get the index we are looking for.
 
-.. image:: images/loop_example10a.png
+.. image:: images/loop_example11a.png
 
 At the time of the break happened, the current iteration index is the index we are looking for, but the breaking happen before the reassignment—or any other operation in the node—, so the current index never gets written to the parameter, but we know that the index that was going to get written is, in fact, the previous index plus one, that's why we added one at the end.
 
 Notice that we could have taken another approach by adding to an initially zero dummy parameter as follows, but that would be less efficient due to the extra plus instruction:
 
-.. image:: images/loop_example10b.png
+.. image:: images/loop_example11b.png
+
+Example 12
+----------
+
+In this example, we compute the number of neighboring vertices of each vertex in a mesh. We first initialize an integer list filled with zeros where its length is the number of vertices, this is done by using the ``fromValue(value, length)`` method of the ``LongList`` data structure. We then loop over the edge indices list of the mesh with the zeros list as a parameter. For each index in the current edge indices (there are two), we get the element of the zeros list at the index and set its value to its value plus one using the *Set List Element* node, effectively incrementing its value by one. Finally, we reassign the value of the zeros list to the output of the *Set List Element* node and output it as a parameter.
+
+.. image:: images/loop_example12a.png
+
+What happens here? The number of neighboring vertices of a vertex is the number of edges connected to it, so to compute the number of neighboring vertices, one simply computes the number of edges connected to that vertex. To do so, we could count the number of times the vertex is mentioned in the edge indices list, and by that I mean the number of times its index appeared in the edge indices list. So we loop over the edges, and increment the number of times each vertex was mentioned by one, the number of times each vertex was mentioned is zero at the start of the loop, hence the list of zeros. Take your time to think about it.
+
+But what if we are only interested in one vertex? In this case, we can loop over the edges, if the index of the vertex we are interested in is equal to either of the two indices in the edge, we should increment an initially zero parameter by one and output that parameter. When the loop finishes, the parameter will represents the number of times the vertex appeared in the edge list.
+
+.. image:: images/loop_example12b.png
+
+The way we incremented the amount above is unusual, we added a boolean to an integer! This is called an implicit conversion, a boolean is converted to ``1`` if it is ``True`` and ``0`` if it is ``False``, so by adding the condition directly, we are effectively adding one if the index was found and zero(that is, not incrementing) if the index was not found.
