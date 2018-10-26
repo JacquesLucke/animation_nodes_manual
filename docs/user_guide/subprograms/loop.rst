@@ -11,7 +11,7 @@ Parameters And Iterators
 
 A loop can have *Parameters*, values that are fed to the loop and are constant for all iterations unless explicitly changed. Values that change from an iteration to another are defined by what is known as an *Iterator*. An iterator is a list that feeds the loop its nth element at the nth iteration, so at the first iteration, the iterator feeds the loop its first element, at the second iteration, the iterator feeds the loop its second element, and so on. If no iterator is present, the number of iterations can be set manually using the *Iterations* input that will be present when the subprogram is invoked, if an iterator is present, the number of iterations is set automatically and will be equal to the length of the iterator, that is, the number of elements in the iterator. Multiple iterators can be used, in which case, the number of iterations becomes equal to the length of the smallest iterator. Iterators and Parameters can be added by the plus buttons *New Iterator* and *New Parameter* respectively.
 
-A loop is used to automate tasks or repeat them, for instance, if one wants to shade 10 objects smooth, one might add 10 *Shade Object Smooth* nodes and specify one object for each, but that would be tedious and inefficient, what if there were 100 objects? Will one add 100 nodes? Using a loop would be a wiser approach, one simply creates a list containing those objects and use that list as an iterator in a loop that contains a single *Shade Object Smooth* node where its input object is the output of the iterator. At the first iteration, the output of the iterator will be the first object, thus the first object gets shaded smooth, at the second iteration, the output of the iterator will be the second object, thus the second object gets shaded smooth, and so on. Often, when one wants to describe such loop, one says *"We loop over the objects and shade them smooth"*, the term *loop over something* means using that something as an iterator.
+Loop are typically used to automate tasks or repeat them, for instance, if one wants to shade 10 objects smooth, one might add 10 *Shade Object Smooth* nodes and specify one object for each, but that would be tedious and inefficient, what if there were 100 objects? Will one add 100 nodes? Using a loop would be a wiser approach, one simply creates a list containing those objects and use that list as an iterator in a loop that contains a single *Shade Object Smooth* node where its input object is the output of the iterator. At the first iteration, the output of the iterator will be the first object, thus the first object gets shaded smooth, at the second iteration, the output of the iterator will be the second object, thus the second object gets shaded smooth, and so on. Often, when one wants to describe such loop, one says *"We loop over the objects and shade them smooth"*, the term *loop over something* means using that something as an iterator.
 
 Generators
 ==========
@@ -37,7 +37,7 @@ Parameter Sockets
 
 The *New Parameter* button can be used to add a new parameter, this is equivalent to the button in the node. A list of parameters is displayed with their options. For each parameter, the following options are present:
 
-- **Input** - If enabled, the parameter will be available as an input when the loop is invoked, if disabled, it won't be available as an input and its value will be equal to its default value. Certain applications of loops use parameters as temporary placeholders or as outputs, thus sometimes, they are expected to have a certain initial values, so to make sure the user doesn't alter its expected value, the parameter can be hidden using this option. In this case, the parameter is called a dummy parameter. See examples below.
+- **Input** - If enabled, the parameter will be available/exposed as an input when the loop is invoked, if disabled, it won't be available as an input and its value will be equal to its default value. Certain applications of loops use parameters as temporary placeholders or as outputs, thus sometimes, they are expected to have a certain initial values, so to make sure the user doesn't alter its expected value, the parameter can be hidden using this option. In this case, the parameter is called a dummy parameter. See examples below.
 - **Output** - If enabled, the parameter will be available as an output when the loop is invoked, if disabled, it won't be available as an output. The significance of this option will be apparent when we discuss reassignment operators. See examples below.
 - **Copy** - If enabled, the parameter at each iteration will be a different copy of its source, if disabled, Animation Nodes will handle the copying automatically, so even if it is disabled, parameters might be copied anyway if Animation Nodes decides to. This option is only available for structures that can be copied, so it won't be available for simple data types like integers and floats. This option is helpful in certain advanced cases, see examples below.
 - **Default** - The default value of the parameter, this option is only available for simple data types, so data types like BVH and KD Trees won't have this option.
@@ -57,9 +57,25 @@ A list of generators is displayed. The arrows can be used to change the order of
 Break Condition
 ^^^^^^^^^^^^^^^
 
-A break condition forces the loop to terminate at a certain iteration. The break condition has a single boolean input *Continue*, if it is True, the loop is continued as normal, if it is False, the loop is terminated and all iterations after the current one **including it** won't be executed. A break condition can be added by the *New Break Condition* button in the advanced node settings. See examples below.
+A break condition forces the loop to terminate at a certain iteration. The break condition has a single boolean input *Continue*, if it is True, the loop is continued as normal, if it is False, the loop is terminated and all iterations after the current one won't be executed. A break condition can be added by the *New Break Condition* button in the advanced node settings. See examples below.
 
 .. image:: images/loop_break.png
+
+Execution Mechanism
+===================
+
+Loops have a certain execution mechanism that can be described by a number of defined **ordered** steps, the execution mechanism for the nth iteration is as follows:
+
+1. The *Loop Input* node returns the index of the current iteration, the number of iterations, the parameters—if available, and the outputs of the iterators—if available. The values of the parameters are equal to their default value if they are not exposed as inputs. The outputs of the iterators are their nth elements. If an iterator has no nth element, the loop is terminated. Moreover, if the index of the current iteration is equal to the number of iterations, the loop is terminated.
+2. The body of the loop, that is, all nodes—excluding generators, reassignment operators and break conditions—are executed based on the values provided by the *Loop Input* node.
+3. For each break condition:
+    - If its *continue* input is ``False``, the loop is terminated.
+4. For each generator:
+    - If its *condition* input is ``True``, the value is appended to the list it points to.
+5. For every reassignment operator:
+    - If its *condition* input is ``True``, the value of the parameter it points to is changed to the input value.
+
+The fact that *Break Conditions* execute before *Generators* and *Reassignment Operators* is of essence, because if the loop broke at a certain iteration, the value that would have been appended at that iteration by the generator will not be appended, and the parameter that would have been reassigned at that iteration will not be reassigned. **However**, note that the body of the loop executes before the *Break Conditions*, subsequently, any action performed by the body at that iteration will take place. For instance, if a loop is used to position some objects—using the *Object Transforms Output* node—and return their positions—using a generator—, if that loop broke at the fifth iteration, the fifth object will be positioned, however, its location will not be appended.
 
 Examples
 ========
