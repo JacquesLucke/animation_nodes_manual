@@ -41,3 +41,5 @@ Everything that can be done using falloffs can also be done without them, but us
     1. Much better **Performance**.
     2. **Less nodes** are required to achieve desired effects.
     3. They provide a more "declarative" approach to express animations which in return makes falloffs much more **artist friendly**.
+
+Falloffs can be usend with offset nodes **Offset Vector** and **Offset Matrix**. It's also possible to use the **Evaluate falloff** node and use the evalueted value.

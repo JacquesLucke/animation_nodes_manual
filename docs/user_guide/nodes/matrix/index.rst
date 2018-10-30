@@ -18,7 +18,7 @@ Matrix
     Mix Matrices <mix_matrices>
     Matrix Math <matrix_math>
     Combine Matrices <combine_matrices>
-    Offset Matrices <offset_matrices>
+    Offset Matrix <offset_matrix>
 
 Matrices are a way of representing locations, rotations and scales of objects, they can also represents translations, rotations and scaling transformations.
 
