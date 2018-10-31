@@ -24,4 +24,4 @@ If you want to contribute:
 
 #### Links
 * https://read-the-docs.readthedocs.org/en/latest/getting_started.html
-* The documentation is written in ReStructuredText: https://de.wikipedia.org/wiki/ReStructuredText
+* The documentation is written in ReStructuredText: https://en.wikipedia.org/wiki/ReStructuredText
