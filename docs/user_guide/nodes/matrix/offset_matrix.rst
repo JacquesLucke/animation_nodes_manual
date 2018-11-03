@@ -1,12 +1,12 @@
-Offset Matrices
-===============
+Offset Matrix
+=============
 
 Description
 -----------
 
 This node offset a matrix based on an input offset translation, rotation and scale with an input falloff as a factor.
 
-.. image:: images/offset_matrices_node.png
+.. image:: images/offset_matrix_node.png
    :width: 200pt
 
 Options
