@@ -37,6 +37,6 @@ The normal of a triangle formed from three points is computed using the *Point L
 
 .. image:: gifs/point_list_normal_node_example.gif
 
-The polygon normals output of the *Mesh Object Input* node is identical in magnitude to the normals computed using the *Point List Normal* node.
+The polygon normals output of the *Mesh Object Input* node is identical to the normals computed using the *Point List Normal* node.
 
 .. image:: images/point_list_normal_node_example.png
