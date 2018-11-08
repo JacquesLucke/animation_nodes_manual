@@ -4,7 +4,7 @@ Intersect Line Line
 Description
 -----------
 
-This node takes 2 lines and returns the locations of 2 points (one on each of them) that are closest to each other.
+This node takes two lines and returns the locations of two points (one on each of them) that are closest to each other. If the lines intersect, that is, they are not skew, then the two points will be equal to the point of intersection.
 
 .. image:: images/intersect_line_line_node.png
    :width: 160pt
@@ -36,3 +36,8 @@ Advanced Node Settings
 ----------------------
 
 - N/A
+
+Examples of Usage
+-----------------
+
+.. image:: gifs/intersect_line_line_node_example.gif
