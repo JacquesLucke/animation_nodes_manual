@@ -8,8 +8,6 @@ Number category contains nodes that process and generates integers and floats.
 
     Integer <integer>
     Float <float>
-    Integer List <integer_list>
-    Float List <float_list>
     Integer Range <integer_range>
     Float Range <float_range>
     Random Number <random_number>

@@ -7,7 +7,6 @@ This category include nodes that access, read and write to blender objects.
    :titlesonly:
 
    Object Input <object_input>
-   Object List <object_list>
    Objects From Group <objects_from_group>
    Transforms Input <object_transforms_input>
    Transforms Output <object_transforms_output>

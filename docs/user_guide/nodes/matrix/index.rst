@@ -6,7 +6,6 @@ Matrix
 
     Compose Matrix <compose_matrix>
     Decompose Matrix <decompose_matrix>
-    Matrix List <matrix_list>
     Translation Matrix <translation_matrix>
     Rotation Matrix <rotation_matrix>
     Scale Matrix <scale_matrix>

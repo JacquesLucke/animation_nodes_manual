@@ -7,7 +7,6 @@ Text category include nodes that process and generate texts.
    :titlesonly:
 
     Text <text_input>
-    Text List <text_list>
     Random Text <random_text>
     Characters <characters>
     Timecode Generator <timecode_generator>

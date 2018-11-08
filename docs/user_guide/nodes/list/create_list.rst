@@ -4,7 +4,7 @@ Create List
 Description
 -----------
 
-This node is used to create an arbitrary list of a specific data type. A new element can be added with the *New Input* button. A new element can also be added by plugging it into the transparent socket.
+This node is used to create an arbitrary list of a specific data type. A new element can be added with the *New Input* button. A new element can also be added by plugging it into the transparent socket. If the list type is *Object* and no inputs are present, an operator *From Selection* will be available that adds the currently selected objects as inputs. See examples.
 
 .. image:: images/create_list_node.png
    :width: 160pt
@@ -36,3 +36,5 @@ Examples of Usage
 -----------------
 
 .. image:: gifs/create_list_node_example.gif
+
+.. image:: gifs/create_object_list_node_example.gif

@@ -9,7 +9,6 @@ Vector category include nodes that process and generate vectors.
     Separate <separate_vector>
     Combine <combine_vector>
     From Value <vector_from_value>
-    List <vector_list>
     Random Vector <random_vector>
     Wiggle <vector_wiggle>
     Mix Vectors <mix_vectors>
