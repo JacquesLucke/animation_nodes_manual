@@ -4,7 +4,7 @@ Intersect Plane Plane
 Description
 -----------
 
-This node returns some information about the intersection of input planes.
+This node returns the intersection line of two input planes. A plane intersect another plane in a straight line. There are multiple representations of this straight line, one of which is the vector form, which represent it using a point and a unit vector defining its direction, this is the form that the node uses. This point could have been in any location along the intersection line, but the node tries to minimize the distance to the origin as much as possible, so it chooses the point along the line that is closest to the origin point.
 
 .. image:: images/intersect_plane_plane_node.png
    :width: 160pt
@@ -16,12 +16,6 @@ Illustration
 
 Orange point is the intersection point and blue vector is the direction vector.
 
-Demonstration
--------------
-
-If you are familiar with the basics of solid geometry, you would know that a plane intersect another plane in a straight line and not in a point.
-There is multiple ways to represent a straight line, the node uses the way of representing it using a point and a unit vector to define its direction. This point could have been in any location along the line, but the node tries to minimize the distance to the origin as much as possible, so it chooses the point along the line that is closest to the origin point.
-
 Inputs
 ------
 
@@ -29,8 +23,6 @@ Inputs
 - **Plane 1 Normal** - A unit vector that represent the normal of the  first required plane.
 - **Plane 2 Point** - A point on the second required plane.
 - **Plane 2 Normal** - A unit vector that represent the normal of the second required plane.
-
-
 
 Outputs
 -------
@@ -44,3 +36,8 @@ Advanced Node Settings
 ----------------------
 
 - N/A
+
+Examples of Usage
+-----------------
+
+.. image:: gifs/intersect_plane_plane_node_example.gif
