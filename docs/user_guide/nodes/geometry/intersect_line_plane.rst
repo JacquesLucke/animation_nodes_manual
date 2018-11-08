@@ -30,9 +30,14 @@ Outputs
 -------
 
 - **Intersection** - The location of the point of intersection of the input line and input plane.
-- **Is Valid** - A boolean which is True if an intersection was found and False otherwise.
+- **Is Valid** - A boolean which is True if an intersection was found and False otherwise. The intersection will not be found only when the line is perpendicular on the normal of the plane.
 
 Advanced Node Settings
 ----------------------
 
 - N/A
+
+Examples of Usage
+-----------------
+
+.. image:: gifs/intersect_line_plane_node_example.gif
