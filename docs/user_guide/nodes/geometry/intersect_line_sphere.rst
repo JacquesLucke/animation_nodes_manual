@@ -4,7 +4,11 @@ Intersect Line Sphere
 Description
 -----------
 
-This node returns the location of the point of intersection of the input line with the input sphere.
+This node returns the locations of the points of intersections of the input line with the input sphere. The line can intersect the sphere in:
+
+- Two points, one time entering the sphere and another exiting it.
+- One time, in which case, the line touches the sphere externally and is tangent to it at the point of intersection.
+- No points.
 
 .. image:: images/intersect_line_sphere_node.png
    :width: 160pt
@@ -29,13 +33,11 @@ Inputs
 - **Sphere Center** - The location of the center of the required sphere.
 - **Sphere Radius** - The radius length of the required sphere.
 
-
-
 Outputs
 -------
 
-- **Intersection 1** - The location of the first point of intersection of the input line and input plane. (It is possible that a line intersect a sphere two times, one at the front and one at the back)
-- **Intersection 1** - The location of the second point of intersection of the input line and input plane. (It is possible that a line intersect a sphere two times, one at the front and one at the back)
+- **Intersection 1** - The location of the first point of intersection of the input line and input plane.
+- **Intersection 1** - The location of the second point of intersection of the input line and input plane.
 - **Is Valid 1** - A boolean which is True if the first intersection was found and False otherwise.
 - **Is Valid 2** - A boolean which is True if the second intersection was found and False otherwise.
 
@@ -45,3 +47,8 @@ Advanced Node Settings
 ----------------------
 
 - N/A
+
+Examples of Usage
+-----------------
+
+.. image:: gifs/intersect_line_sphere_node_example.gif
