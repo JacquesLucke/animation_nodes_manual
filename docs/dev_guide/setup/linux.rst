@@ -5,7 +5,7 @@ Setup Environment on Linux
 Ubuntu 18.04 (based operating systems)
 ======================================
 
-1. Compile the git repository
+1. Clone the git repository
 
 ``git clone https://github.com/JacquesLucke/animation_nodes_manual``
 
