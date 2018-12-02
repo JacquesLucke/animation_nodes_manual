@@ -86,3 +86,10 @@ The converter node can convert structurally similar types to each others. For in
 .. image:: images/converter_node_example_2.png
 
 Some nodes are capable of performing conversion on their own, an example would be the *Expression* node where it can convert its output to the socket type it is connected to if *Correct Type* option is enabled. The type can be changed manually similar to the *Convert* node by enabling the *Fixed Data Type* option and changing the type by pressing on the gear button.
+
+Scenes
+======
+
+Certain data and properties in Blender are stored per scene and are consequently accessed by Animation Nodes relative to the scene that it belongs to. Animation Nodes defines a *Global Scene* that is used by default as the scene of the nodes that access scene data. This global  scene can be changed in the *Animation Node Tree* panel. For instance, the *Frame Info* node takes a scene as an input because frame info is a per-scene property, by default, the global scene is used because the *Use Global Scene* option is enabled for the scene input. To use another scene, disable the *Use Global Scene* option and choose the required scene.
+
+.. image:: images/use_global_scene_option.png
