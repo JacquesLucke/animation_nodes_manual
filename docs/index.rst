@@ -98,10 +98,3 @@ Below is a list of all known Animation Nodes tutorials creators. Do you create t
 .. |Omar| replace:: Articles
 .. _Omar: https://squircleart.github.io/posts.html
 
-Support
--------
-
-If you like Animation Nodes and want to support its development, you can donate through:
-
-- One time donation via Paypal: https://www.paypal.me/jacqueslucke
-- Small recurring donation via Patreon (preferred): https://www.patreon.com/jacqueslucke
