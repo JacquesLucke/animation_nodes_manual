@@ -52,13 +52,12 @@ Below is a list of all known Animation Nodes tutorials creators. Do you create t
 +------------------+-------------+---------------+
 | Miesner Media    | |Miesner|_  |               |
 +------------------+-------------+---------------+
-| Omar Ahmad       | |Omar|_     |               |
+| Chris Prenninger | |Chris|_    |               |
 +------------------+-------------+---------------+
 
 .. |Jacques| replace:: Videos
 .. _Jacques: https://www.youtube.com/channel/UC5ABAuGEvBMmau-1xJsNw6w
 .. |JacquesN| replace:: The developer of Animation Nodes.
-
 
 .. |Diplom| replace:: Videos
 .. _Diplom: http://www.blenderdiplom.com/en/tutorials/animation-nodes.html
@@ -95,6 +94,6 @@ Below is a list of all known Animation Nodes tutorials creators. Do you create t
 .. |Miesner| replace:: Videos
 .. _Miesner: https://www.youtube.com/playlist?list=PL5VSdbzNKyGx4GXtzDJeDte1LYHEA4vbg
 
-.. |Omar| replace:: Articles
-.. _Omar: https://squircleart.github.io/posts.html
+.. |Chris| replace:: Videos
+.. _Chris: https://www.youtube.com/playlist?list=PLpJWHl1fB7BFX5bxrGofVS5BEj7kOBI95
 
