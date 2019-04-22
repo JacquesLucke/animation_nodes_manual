@@ -1,4 +1,4 @@
-Vector Wiggle
+Euler Wiggle
 =============
 
 Description
