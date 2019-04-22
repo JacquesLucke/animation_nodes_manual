@@ -29,9 +29,9 @@ Inputs
 Outputs
 -------
 
-- **Point In Plane** - A vector that correspond to the location of a point in the plane. (Only in the Point/Normal To Matrix option)
-- **Plane Normal** - A unit vector that correspond to the normal of the plane. (Only in the Point/Normal To Matrix option)
-- **Matrix** - A transformation matrix that represent the plane. (Only in the Matrix To Point/Normal option)
+- **Point In Plane** - A vector that correspond to the location of a point in the plane. (Only in the Matrix To Point/Normal option)
+- **Plane Normal** - A unit vector that correspond to the normal of the plane. (Only in the Matrix To Point/Normal option)
+- **Matrix** - A transformation matrix that represent the plane. (Only in the Point/Normal To Matrix option)
 
 Advanced Node Settings
 ----------------------
