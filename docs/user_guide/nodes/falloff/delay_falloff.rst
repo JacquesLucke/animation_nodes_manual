@@ -21,7 +21,7 @@ Inputs
 
 - **Time** - The current time.
 - **Delay** - Time span between the animation start of two successive objects.
-- **Duration** - Time it takes for an object to each its maximum value (1).
+- **Duration** - Time it takes for an object to reach its maximum value (1).
 - **Interpolation** - The output is evaluated at this input interpolation or the velocity function of the animation.
 - **Offsets** - When given, it specifies how much each object is offset in time.
 
