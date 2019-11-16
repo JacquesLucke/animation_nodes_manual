@@ -48,7 +48,7 @@ Some of this issues include:
 
 - Animation Nodes builds are specific to operating systems, for instance, windows builds will not operate on linux systems, so, make sure that you have downloaded a build specific to your operating system (Linux, Windows, macOS). It should be noted that **Linux** builds does not seem to work on every linux distribution, an issue that we haven't been able to solve yet. Therefor, we provide multiple Linux `builds <http://graphicall.org/?keywords=Animation+Nodes>`_ that you can try.
 
-- Windows users may encounter errors due to missing runtimes, in that case, try installing `Visual C++ Redistributable Package <https://www.microsoft.com/en-US/download/details.aspx?id=48145>`_.
+- Windows users may encounter errors due to missing runtimes or DLL load failures, in that case, try installing `vc_redist.x64 <https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads#section-2>`_.
 
 - Animation Nodes builds are specific to python versions, that is, they only operates on a system with python version identical to that it was compiled with. Builds are compiled with the same python version used in the latest official Blender version. If one wanted to use a different python version, one will have to compile Animation Nodes oneself (see :doc:`/dev_guide/index`).
 
