@@ -4,7 +4,7 @@ Object Attribute Output
 Description
 -----------
 
-This node sets the chosen property to the input value. Custom properties can also be edited using this node by typing `["Property Name"]` in the expressions field, if there was no such csutom property, it will be created.
+This node sets the chosen property to the input value. Custom properties can also be edited using this node by typing `["Property Name"]` in the expressions field, if there was no such custom property, it will be created.
 
 To get the data path of any object property in blender, just right click on the property and select **Copy Data Path**.
 
