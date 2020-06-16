@@ -1,6 +1,7 @@
 Release Notes for Version 1.5
 =============================
 
+
 Custom Frequency Ranges
 ***********************
 
