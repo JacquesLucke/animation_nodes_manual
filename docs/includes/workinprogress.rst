@@ -1,1 +1,0 @@
-.. note:: Sorry, this content is not yet available.

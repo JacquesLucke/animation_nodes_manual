@@ -1,0 +1,13 @@
+baseURL: 'https://docs.animation-nodes.com'
+languageCode: en-us
+title: Animation Nodes Documentation
+
+theme: hugo-theme-learn
+params:
+  description : The official documentation of Animation Nodes.
+  disableNextPrev : true
+  disableInlineCopyToClipBoard : true
+  disableBreadcrumb : true
+
+outputs:
+  home : [HTML, RSS, JSON]

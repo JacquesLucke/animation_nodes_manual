@@ -1,0 +1,12 @@
+{{ with .Get 0}}
+{{ $id := replace . "." "_" }}
+<p>
+  <a href="#" data-featherlight="#{{ $id }}">
+    <video autoplay loop muted playsinline id="{{ $id }}" style="max-width: 100%; text-align: center;">
+      <source src="{{ . }}" type="video/mp4">
+    </video>
+    <!-- Dummy image to avoid highlighting the video. -->
+    <img style="display: none;">
+  </a>
+</p>
+{{ end }}
