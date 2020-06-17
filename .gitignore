@@ -1,6 +1,1 @@
-/build
-_build
-.idea
-*.iml
-.doctrees/
-.vscode
+/public
