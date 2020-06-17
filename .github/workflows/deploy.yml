@@ -23,8 +23,8 @@ jobs:
       uses: kevinpainchaud/simple-ftp-deploy-action@v1.0.1
       with:
         ftp_host: ftp://alfa3040.alfahosting-server.de
-        ftp-username: ${{ secrets.FTP_USERNAME }}
-        ftp-password: ${{ secrets.FTP_PASSWORD }}
+        ftp_username: ${{ secrets.FTP_USERNAME }}
+        ftp_password: ${{ secrets.FTP_PASSWORD }}
         local_source_dir: public/
         dist_target_dir: docs/
         delete: "true"
