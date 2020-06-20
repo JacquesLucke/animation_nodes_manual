@@ -19,15 +19,15 @@ following:
     they needn't be imported when writing the scripts. Those modules
     include:
     
-    >   - `bpy`.
-    >   - `sys`.
-    >   - `itertools`.
-    >   - `animation_nodes`, or `AN` for short.
-    >   - `algorithms`, which is short for `AN.algorithms`.
-    >   - Mathutils structures: `Vector`, `Matrix`, `Quaternion`,
-    >     `Euler`.
-    >   - All data structures in `AN.data_structures`: `Vector3DList`,
-    >     `Matrix4x4List`, `MeshData`, ...
+    - `bpy`.
+    - `sys`.
+    - `itertools`.
+    - `animation_nodes`, or `AN` for short.
+    - `algorithms`, which is short for `AN.algorithms`.
+    - Mathutils structures: `Vector`, `Matrix`, `Quaternion`,
+      `Euler`.
+    - All data structures in `AN.data_structures`: `Vector3DList`,
+      `Matrix4x4List`, `MeshData`, ...
 
 New inputs can be added by using the *New Input* button. The name of the
 input will be the name of the variable that is initialized with its
