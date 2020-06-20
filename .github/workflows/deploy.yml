@@ -9,6 +9,8 @@ jobs:
     name: Deploy
     runs-on: ubuntu-latest
     steps:
+    - name: Cancel Active Deployments
+      uses: technote-space/auto-cancel-redundant-job@v1
     - name: Checkout
       uses: actions/checkout@v2
       with:
@@ -20,7 +22,7 @@ jobs:
     - name: Build
       run: hugo
     - name: Deploy
-      uses: kevinpainchaud/simple-ftp-deploy-action@v1.0.1
+      uses: kevinpainchaud/simple-ftp-deploy-action@v1
       with:
         ftp_host: ftp://alfa3040.alfahosting-server.de
         ftp_username: ${{ secrets.FTP_USERNAME }}
