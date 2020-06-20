@@ -16,20 +16,20 @@ for some reason, this node can be used to convert them into radians.
 
 ## Options
 
-  - **Degree To Radian** - Converts input degree angle to radian.
-  - **Radian To Degree** - Converts input radian angle to degree.
+- **Degree To Radian** - Converts input degree angle to radian.
+- **Radian To Degree** - Converts input radian angle to degree.
 
 ## Inputs
 
-  - **Degree/Radian** - The angle to convert.
+- **Degree/Radian** - The angle to convert.
 
 ## Outputs
 
-  - **Degree/Radian** - The converted angle.
+- **Degree/Radian** - The converted angle.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

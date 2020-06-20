@@ -14,15 +14,15 @@ identitie matrix.
 
 ## Inputs
 
-  - **Matrix** - A transformation matrix to invert.
+- **Matrix** - A transformation matrix to invert.
 
 ## Outputs
 
-  - **Inverted Matrix** - The inverted matrix.
+- **Inverted Matrix** - The inverted matrix.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

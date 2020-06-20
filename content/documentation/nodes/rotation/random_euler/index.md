@@ -11,17 +11,17 @@ This node generates a random euler with a defined range.
 
 ## Inputs
 
-  - **Seed** - Seed for the random generator, where different seed
+- **Seed** - Seed for the random generator, where different seed
     generates different random euler.
-  - **Scale** - The range in positive and negative directions in radian.
+- **Scale** - The range in positive and negative directions in radian.
 
 ## Outputs
 
-  - **Euler** - A random euler.
+- **Euler** - A random euler.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Note
 

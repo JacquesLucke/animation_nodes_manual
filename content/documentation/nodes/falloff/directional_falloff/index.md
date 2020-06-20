@@ -17,27 +17,27 @@ away, their floats starts to fade till it becomes zero at some point.
 
 ## Options
 
-  - **Left** - Objects that are on the negative side of the direction
+- **Left** - Objects that are on the negative side of the direction
     vector will be zeroes. Object that are on the positive side will
     start increasing as the distance increase till they reach one.
-  - **Right** - Objects that are on the negative side of the direction
+- **Right** - Objects that are on the negative side of the direction
     vector will be ones. Object that are on the positive side will start
     decreasing as the distance increase till they reach zero.
 
 ## Inputs
 
-  - **Position** - The position of the point.
-  - **Direction** - The direction vector.
-  - **Falloff Width** - A float that is multiplied by the floats, can be
+- **Position** - The position of the point.
+- **Direction** - The direction vector.
+- **Falloff Width** - A float that is multiplied by the floats, can be
     though of as the slope of decreasing or increasing.
 
 ## Outputs
 
-  - **Falloff** - The actual falloff object.
+- **Falloff** - The actual falloff object.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

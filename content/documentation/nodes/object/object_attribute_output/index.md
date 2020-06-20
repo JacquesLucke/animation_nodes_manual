@@ -17,7 +17,7 @@ on the property and select **Copy Data Path**.
 
 ## Options
 
-  - **Multiple Values** - If Object list was used as an input, this
+- **Multiple Values** - If Object list was used as an input, this
     option will be available. If disabled, the input value will be set
     to the property for all objects. If enabled, the input value will
     expect a list of values where each element correspond to the value
@@ -26,16 +26,16 @@ on the property and select **Copy Data Path**.
 
 ## Inputs
 
-  - **Object** - An object.
-  - **Value** - The value of the property.
+- **Object** - An object.
+- **Value** - The value of the property.
 
 ## Outputs
 
-  - **Object** - The input object.
+- **Object** - The input object.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

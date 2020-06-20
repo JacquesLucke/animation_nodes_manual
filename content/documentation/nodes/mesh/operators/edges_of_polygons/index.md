@@ -13,15 +13,15 @@ same edges of the polygon as well.
 
 ## Inputs
 
-  - **Polygons** - An input polygons.
+- **Polygons** - An input polygons.
 
 ## Outputs
 
-  - **Edges** - The edges indices of the input polygons.
+- **Edges** - The edges indices of the input polygons.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

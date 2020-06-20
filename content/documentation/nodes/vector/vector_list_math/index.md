@@ -7,22 +7,22 @@ weight : 1
 
 This node performs 2 Vector math operations:
 
-  - **Add** - Add all the vectors in the input list.
-  - **Average** - Average the vectors in the input list.
+- **Add** - Add all the vectors in the input list.
+- **Average** - Average the vectors in the input list.
 
 ![image](vector_list_math_node.png)
 
 ## Inputs
 
-  - **Vector List** - The vector list to operate on.
+- **Vector List** - The vector list to operate on.
 
 ## Outputs
 
-  - **Result** - The result of vector math operations.
+- **Result** - The result of vector math operations.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

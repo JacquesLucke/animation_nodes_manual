@@ -11,7 +11,7 @@ This node linearly mixes between two floats based on a factor.
 
 ## Options
 
-  - **Clamp** - If enabled, a factor that is larger than one will be
+- **Clamp** - If enabled, a factor that is larger than one will be
     rendered one and a factor that is negative will be rendered zero.
     Subsequently, the output will be in the range of the input floats.
     If disabled, the result is computed based on the equation
@@ -24,19 +24,19 @@ This node linearly mixes between two floats based on a factor.
 
 ## Inputs
 
-  - **Factor** - A float that controls the amount of each float input to
+- **Factor** - A float that controls the amount of each float input to
     the output, Where 0 means the first float only and 1 means the
     second float only.
-  - **A** - First float.
-  - **B** - Second float.
+- **A** - First float.
+- **B** - Second float.
 
 ## Outputs
 
-  - **Result** - The result of mixing the two floats by the factor.
+- **Result** - The result of mixing the two floats by the factor.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

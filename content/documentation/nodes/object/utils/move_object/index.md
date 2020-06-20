@@ -12,17 +12,17 @@ execution.
 
 ## Inputs
 
-  - **Object** - An object to move.
-  - **Displacement** - The displacement vector by which the object move
+- **Object** - An object to move.
+- **Displacement** - The displacement vector by which the object move
     each execution.
 
 ## Outputs
 
-  - **Object** - The input object.
+- **Object** - The input object.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

@@ -13,7 +13,7 @@ linear color space.
 
 ## Inputs
 
-  - **Color** - The input color data to decompose.
+- **Color** - The input color data to decompose.
 
 ## Outputs
 
@@ -21,7 +21,7 @@ Based on the chosen color model.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

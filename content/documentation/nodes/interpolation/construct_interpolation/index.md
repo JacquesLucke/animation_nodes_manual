@@ -8,28 +8,28 @@ weight : 1
 This node constructs an interpolation. It construct multiple function
 types like:
 
-  - **Linear**.
-  - **Sinusoidal** - Sometimes known as the ease in-out function.
-  - **Power**.
-  - **Exponential**
-  - **Circular**.
-  - **Back**.
-  - **Bounce**.
-  - **Elastic**.
+- **Linear**.
+- **Sinusoidal** - Sometimes known as the ease in-out function.
+- **Power**.
+- **Exponential**
+- **Circular**.
+- **Back**.
+- **Bounce**.
+- **Elastic**.
 
 ![image](construct_interpolation_node.png)
 
 ## Inputs
 
-  - Based on the selected function.
+- Based on the selected function.
 
 ## Outputs
 
-  - **Interpolation** - An interpolation.
+- **Interpolation** - An interpolation.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Notes
 

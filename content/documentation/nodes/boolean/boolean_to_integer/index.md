@@ -20,15 +20,15 @@ converter that convert booleans into binaries.
 
 ## Inputs
 
-  - **Boolean** - An input boolean.
+- **Boolean** - An input boolean.
 
 ## Outputs
 
-  - **Number** - The binary.
+- **Number** - The binary.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

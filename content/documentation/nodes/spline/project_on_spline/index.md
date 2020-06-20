@@ -15,7 +15,7 @@ point.
 
 ## Options
 
-  - **Extended** - This option of enabled will virtually extend the
+- **Extended** - This option of enabled will virtually extend the
     spline from its terminals and project points on that virtual line as
     well.The vitual line is just the tangent line to both terminals.
 
@@ -30,24 +30,24 @@ one of the terminals of the spline.
 
 ## Inputs
 
-  - **Spline** - A spline.
-  - **Location** - The location of the point to be projected.
+- **Spline** - A spline.
+- **Location** - The location of the point to be projected.
 
 ## Outputs
 
-  - **Position** - The position of the point---on the curve---that is
+- **Position** - The position of the point---on the curve---that is
     closest to the input point.
-  - **Tangent** - A vector that respresents the tangent line to the
+- **Tangent** - A vector that respresents the tangent line to the
     output position point.
-  - **Distance** - The distance between the input point and the position
+- **Distance** - The distance between the input point and the position
     point.
-  - **Parameter** - The location of the output position point in the
+- **Parameter** - The location of the output position point in the
     normalized distance of the spline. (Is not calculated if the
     Extended option is enabled)
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

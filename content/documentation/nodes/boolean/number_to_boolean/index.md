@@ -12,16 +12,16 @@ otherwise.
 
 ## Inputs
 
-  - **Number** - A number.
+- **Number** - A number.
 
 ## Outputs
 
-  - **Boolean** - A boolean which is False if the input number is zero
+- **Boolean** - A boolean which is False if the input number is zero
     and True if otherwise.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

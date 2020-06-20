@@ -18,15 +18,15 @@ because Name key is a text and then type
 
 ## Inputs
 
-  - **Struct List** - A list of structs.
+- **Struct List** - A list of structs.
 
 ## Outputs
 
-  - **Data** - A list of values based on the type you choosed.
+- **Data** - A list of values based on the type you choosed.
 
 ## Advanced Node Settings
 
-  - NA
+- NA
 
 ## Examples of Usage
 

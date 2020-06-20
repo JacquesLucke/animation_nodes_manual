@@ -12,5 +12,5 @@ transformation matrices that define those points position.
 
 ## Options
 
-  - **Size** - The size of the points.
-  - **Color** - The color of the points.
+- **Size** - The size of the points.
+- **Color** - The color of the points.

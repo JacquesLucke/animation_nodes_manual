@@ -11,17 +11,17 @@ This node set the shading of the input object to smooth or flat.
 
 ## Inputs
 
-  - **Object** - An Object.
-  - **Smooth** - A boolean which if True will shade the object smooth
+- **Object** - An Object.
+- **Smooth** - A boolean which if True will shade the object smooth
     and if False will shade the object flat.
 
 ## Outputs
 
-  - **Object** - The input object.
+- **Object** - The input object.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Note
 

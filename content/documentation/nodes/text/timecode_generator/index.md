@@ -13,17 +13,17 @@ colon.
 
 ## Inputs
 
-  - **Frame** - The current frame.
-  - **Frame Rate** - The number of frames per seconds (FPS) of the
+- **Frame** - The current frame.
+- **Frame Rate** - The number of frames per seconds (FPS) of the
     scene.
 
 ## Outputs
 
-  - **Timecode** - The output string.
+- **Timecode** - The output string.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

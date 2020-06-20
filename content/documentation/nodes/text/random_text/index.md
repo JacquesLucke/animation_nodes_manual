@@ -11,18 +11,18 @@ This node generates a random string based on an input characters.
 
 ## Inputs
 
-  - **Seed** - Seed for the random generator, Where different seed
+- **Seed** - Seed for the random generator, Where different seed
     generate different random strings.
-  - **Length** - The number of characters in the output string.
-  - **Characters** - A string that contain all the possible characters.
+- **Length** - The number of characters in the output string.
+- **Characters** - A string that contain all the possible characters.
 
 ## Outputs
 
-  - **Text** - A random string based on the input characters.
+- **Text** - A random string based on the input characters.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Note
 

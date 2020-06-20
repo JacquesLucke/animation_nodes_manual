@@ -11,15 +11,15 @@ This node reads a blender text data block.
 
 ## Inputs
 
-  - **Text Block** - A text block to read.
+- **Text Block** - A text block to read.
 
 ## Outputs
 
-  - **Text** - The output text.
+- **Text** - The output text.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

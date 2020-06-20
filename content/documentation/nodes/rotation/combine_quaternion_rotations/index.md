@@ -13,15 +13,15 @@ as a quaternion.
 
 ## Inputs
 
-  - **Quaternion List** - A list that contain the rotation quaternions.
+- **Quaternion List** - A list that contain the rotation quaternions.
 
 ## Outputs
 
-  - **Quaternion** - The rotated quaternion.
+- **Quaternion** - The rotated quaternion.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Note
 

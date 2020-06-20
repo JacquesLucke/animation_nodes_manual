@@ -13,7 +13,7 @@ object, that distance can be 3D or 1D.
 
 ## Options
 
-  - **Sphere** - This option associates to every object a float that is
+- **Sphere** - This option associates to every object a float that is
     equal to inverse the distance from it to some controller object.
     This float is always in `[0,1]` range, So some distances will be
     clamped to `1` or `0`. We conclude that objects that are closer to
@@ -62,7 +62,7 @@ values before clamping. Notice how outline exceed one and deceed zero:
 
 {{< video point_distance_falloff_node_illustration.mp4 >}}
 
-  - **Directional** - This option associates to every object a float
+- **Directional** - This option associates to every object a float
     that is equal to inverse the distance from it to some controller
     object along a single axis. The chosen axis will be the local axis
     of the controller object, so rotating the object changes the
@@ -80,26 +80,26 @@ Use the same reasoning as the sphere option to understand this better.
 
 ## Inputs
 
-  - **Controller** - An object to use as the controller. You probably
+- **Controller** - An object to use as the controller. You probably
     want to use empties because actual objects won't make a difference,
     all the node needs is their location, rotation and scale.
-  - **Offset** - This float will be added to the floats of all object
+- **Offset** - This float will be added to the floats of all object
     resulting in an offset just as if you scaled the controller. (Only
     in **Sphere** option)
-  - **Falloff Width** - This float defines the distance between the ones
+- **Falloff Width** - This float defines the distance between the ones
     and zeros, so a higher value will result in smoother result with
     lower slope. (Only in **Sphere** option)
-  - **Interpolation** - Floats will be evaluated at this interpolation.
-  - **Invert** - If true, the floats will be inverted, so zeroes will be
+- **Interpolation** - Floats will be evaluated at this interpolation.
+- **Invert** - If true, the floats will be inverted, so zeroes will be
     ones and ones will be zeroes.
 
 ## Outputs
 
-  - **Falloff** - The actual falloff object.
+- **Falloff** - The actual falloff object.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

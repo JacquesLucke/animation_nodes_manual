@@ -15,7 +15,7 @@ the object or based on another falloff. See options for more info.
 
 ## Options And Inputs
 
-  - **Sound** - The input sound. The menu only displays the sounds of
+- **Sound** - The input sound. The menu only displays the sounds of
     the same type as the **Sound Type**.
 
 ### Sound Type
@@ -26,7 +26,7 @@ This option associates the intensity of sound at the current frame to
 the object at the index zero where objects at higher indices get
 associated with sound intensities at future frames.
 
-  - **Offset** - The number of objects till value becomes of the next
+- **Offset** - The number of objects till value becomes of the next
     frame. If the value is 1 then first object is associated with
     intensity at first frame, second object at the second frame. If the
     value is zero then all object will be associated with the intensity
@@ -57,7 +57,7 @@ frequencies.
 
 #### Index Frequency
 
-  - **Index Frequency** - The falloff is evaluated based on the indices
+- **Index Frequency** - The falloff is evaluated based on the indices
     of the objects.
 
 ![image](sound_falloff_node_example2.png)
@@ -66,7 +66,7 @@ The object at index zero got associated with the intensity of the first
 frequency while object at index 1 got associated with the intensity of
 the second frequency.
 
-  - **length** - It is the distance between the lowest and highest
+- **length** - It is the distance between the lowest and highest
     frequency.
 
 ![image](sound_falloff_node_example3.png)
@@ -75,27 +75,27 @@ Notice that by reducing the length to half, the difference between the
 low and high frequency got reduced to half and the highest frequency is
 now at index 5 and not 9 as before.
 
-  - **Offset** - This integer is added to the indices of the objects
+- **Offset** - This integer is added to the indices of the objects
     resulting in an offset of their frequencies.
 
 {{< video sound_falloff_node_example4.mp4 >}}
 
-  - **Index Frequency Extension Type** - This defines what happens to
+- **Index Frequency Extension Type** - This defines what happens to
     objects with indices that are out of the range. A length that is
     lower than the amount of indices would result in indices that are
     out of the range.
     
-      - **Loop** - This will repeat the frequencies.
+    - **Loop** - This will repeat the frequencies.
     
     ![image](sound_falloff_node_example3.png)
     
-      - **Mirror** - This will repeat the frequencies in a ping pong
+    - **Mirror** - This will repeat the frequencies in a ping pong
         style, so the end of the first range will match the end of the
         second range resulting in a mirror like effect.
     
     ![image](sound_falloff_node_example5.png)
     
-      - **Extended** - This will associate the intensity of the lowest
+    - **Extended** - This will associate the intensity of the lowest
         frequency to all the indices that are less than the start of the
         range and the intensity of the highest frequency to all the
         indices that are more than the end of the range. Notice how 0-4
@@ -106,7 +106,7 @@ now at index 5 and not 9 as before.
 
 #### Falloff Frequency
 
-  - **Falloff** - The falloff at which the sound falloff is evaluated.
+- **Falloff** - The falloff at which the sound falloff is evaluated.
     
     ![image](sound_falloff_node_example8.png)
 
@@ -114,21 +114,21 @@ In the above example a simple distance field is generated from the point
 distance falloff, when we input it to the sound falloff, it gets
 evaluated based on its values.
 
-  - **Interpolation** - Output intensities are evaluated at this
+- **Interpolation** - Output intensities are evaluated at this
     interpolation.
 
 ## Outputs
 
-  - **Falloff** - The actual falloff object.
+- **Falloff** - The actual falloff object.
 
 ## Advanced Node Settings
 
 ### Fade To Zero
 
-  - **Low Frequencies** - A frequency will be added at first which has a
+- **Low Frequencies** - A frequency will be added at first which has a
     zero intensity. This make sure the first object always gets
     associated with a zero float.
-  - **High Frequencies** - A frequency will be added at end which has a
+- **High Frequencies** - A frequency will be added at end which has a
     zero intensity. This make sure the last object always gets
     associated with a zero float.
 

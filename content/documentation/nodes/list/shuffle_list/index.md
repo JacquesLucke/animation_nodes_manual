@@ -12,18 +12,18 @@ order.
 
 ## Inputs
 
-  - **List** - An input list.
-  - **Seed** - A seed for the random generator, where different seeds
+- **List** - An input list.
+- **Seed** - A seed for the random generator, where different seeds
     output elements in different orders.
 
 ## Outputs
 
-  - **Shuffled List** - The list after random redistribution of the
+- **Shuffled List** - The list after random redistribution of the
     elements.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

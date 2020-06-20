@@ -13,28 +13,28 @@ are the vertices of the edge.
 
 ## Options
 
-  - **Radius Per Vertex** - This option sets the radius per vertex, so
+- **Radius Per Vertex** - This option sets the radius per vertex, so
     the node expects a radius list with the same length as the the
     vertices list.
-  - **Radius Per Edge** - This option sets the radius per edge, so the
+- **Radius Per Edge** - This option sets the radius per edge, so the
     node expects a radius list with the same length as the the edge
     indices list.
 
 ## Inputs
 
-  - **Vertices** - A vector list that represent the position of the
+- **Vertices** - A vector list that represent the position of the
     vertices of the edges.
-  - **Edge Indices** - An Edge Indices list.
-  - **Radius(radii)** - The radius of the splines or a list of radii of
+- **Edge Indices** - An Edge Indices list.
+- **Radius(radii)** - The radius of the splines or a list of radii of
     the splines based on the selected option.
 
 ## Outputs
 
-  - **Splines** - The output splines.
+- **Splines** - The output splines.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

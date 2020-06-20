@@ -16,17 +16,17 @@ in all of its components. It is just like a `Number Wiggle
 The inputs are just like `Number Wiggle <../number/number_wiggle>` node
 except for the Amplitude.
 
-  - **Amplitude** - A quaternion that controls the the amplitude of each
+- **Amplitude** - A quaternion that controls the the amplitude of each
     component's perlin noise.
 
 ## Outputs
 
-  - **Quaternion** - The output quaternion of the noise functions at the
+- **Quaternion** - The output quaternion of the noise functions at the
     variable **Evolution**.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Note
 

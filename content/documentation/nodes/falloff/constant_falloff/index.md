@@ -12,15 +12,15 @@ object.
 
 ## Inputs
 
-  - **Strength** - A float to associate to every object.
+- **Strength** - A float to associate to every object.
 
 ## Outputs
 
-  - **Falloff** - The actual falloff object.
+- **Falloff** - The actual falloff object.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

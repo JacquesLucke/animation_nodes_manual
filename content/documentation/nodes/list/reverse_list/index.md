@@ -12,15 +12,15 @@ This node flips the order of the elements of the list. The list
 
 ## Inputs
 
-  - **List** - An input list.
+- **List** - An input list.
 
 ## Outputs
 
-  - **Reversed List** - The flipped list.
+- **Reversed List** - The flipped list.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

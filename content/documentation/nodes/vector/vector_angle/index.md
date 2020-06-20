@@ -15,13 +15,13 @@ This node takes two vectors and computes two things:
 
 ## Inputs
 
-  - **Vector A** - The first vector.
-  - **Vector B** - The second vector.
+- **Vector A** - The first vector.
+- **Vector B** - The second vector.
 
 ## Outputs
 
-  - **Angle** - The shortest angle between the two vectors in radian.
-  - **Rotation Difference** - A quaternion that represents the directed
+- **Angle** - The shortest angle between the two vectors in radian.
+- **Rotation Difference** - A quaternion that represents the directed
     angle between the two vectors.
 
 ## Demonstration
@@ -68,7 +68,7 @@ rotation and the direction of the rotation.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

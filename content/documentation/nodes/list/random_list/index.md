@@ -13,19 +13,19 @@ can create a list of any length because its allows duplicates.
 
 ## Inputs
 
-  - **Seed** - Seed for the random generator, where different seed
+- **Seed** - Seed for the random generator, where different seed
     return different random elements.
-  - **Length** - The length of the output list.
-  - **Source** - The input source list.
+- **Length** - The length of the output list.
+- **Source** - The input source list.
 
 ## Outputs
 
-  - **List** - A list of length **Length** which contains random
+- **List** - A list of length **Length** which contains random
     elements from the input source list.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Note
 

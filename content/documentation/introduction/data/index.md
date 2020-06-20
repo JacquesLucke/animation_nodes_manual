@@ -96,12 +96,12 @@ not. To understand the difference, we shall look at two nodes, the *Add*
 node and the *Remove List Element* node, which process immutable and
 mutable data types respectively.
 
-  - The *Add* node takes an input number, read its value, add that value
+- The *Add* node takes an input number, read its value, add that value
     to another value, and return the result of addition. The value of
     the input was not altered/mutated in anyway, the node only read its
     value, and the output is a new different value containing the result
     of addition.
-  - The *Remove List Element* node takes an input list, removes an
+- The *Remove List Element* node takes an input list, removes an
     element from it, and return the list. The output list is the same
     list that was input, only it was mutated/altered by removing an
     element from it.

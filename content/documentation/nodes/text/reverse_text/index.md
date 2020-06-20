@@ -11,15 +11,15 @@ This node reverse the order of characters in the text.
 
 ## Inputs
 
-  - **Text** - A text to reverse.
+- **Text** - A text to reverse.
 
 ## Outputs
 
-  - **Text** - The output string.
+- **Text** - The output string.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

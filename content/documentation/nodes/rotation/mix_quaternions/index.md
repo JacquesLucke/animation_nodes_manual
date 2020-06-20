@@ -11,18 +11,18 @@ This node mixes between 2 quaternions based on a factor.
 
 ## Inputs
 
-  - **Factor** - A float that controls the amount of each quaternion
+- **Factor** - A float that controls the amount of each quaternion
     input to the output, where 0 means the first quaternion only and 1
     means the second quaternion only.
 
 ## Outputs
 
-  - **Result** - The resultant quaternion of mixing the two quaternions
+- **Result** - The resultant quaternion of mixing the two quaternions
     by the input factor.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Note
 

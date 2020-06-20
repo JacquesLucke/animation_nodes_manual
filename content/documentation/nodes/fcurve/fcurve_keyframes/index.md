@@ -21,18 +21,18 @@ the x locations of our frames.
 
 ## Inputs
 
-  - **FCurve** - An input fcurve.
+- **FCurve** - An input fcurve.
 
 ## Outputs
 
-  - **Keyframes Frames** - A float list that contain the locations of
+- **Keyframes Frames** - A float list that contain the locations of
     the frames that composed the input fcurve.
-  - **Keyframes Values** - A float list that contain the values of the
+- **Keyframes Values** - A float list that contain the values of the
     frames that composed the input fcurve.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

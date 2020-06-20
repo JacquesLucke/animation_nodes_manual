@@ -12,16 +12,16 @@ outputs can then be used in the **Shape Key Output** node.
 
 ## Inputs
 
-  - **Object** - An object.
+- **Object** - An object.
 
 ## Outputs
 
-  - **Shape Keys** - A list of all shape keys in the input object.
-  - **Reference Key** - The basis shape key.
+- **Shape Keys** - A list of all shape keys in the input object.
+- **Reference Key** - The basis shape key.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

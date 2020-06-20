@@ -13,18 +13,18 @@ A new list can also be added by plugging it into the transparent socket.
 
 ## Inputs
 
-  - **List** - A list of elements indexed starting from 0.
-  - **List** - A list of elements indexed starting from last element of
+- **List** - A list of elements indexed starting from 0.
+- **List** - A list of elements indexed starting from last element of
     the previous list.
-  - **List** - ...
+- **List** - ...
 
 ## Outputs
 
-  - **list** - A list that contains all the input lists.
+- **list** - A list that contains all the input lists.
 
 ## Advanced Node Settings
 
-  - **Change type** - Changes the type of the list to another list type.
+- **Change type** - Changes the type of the list to another list type.
 
 ## Examples of Usage
 

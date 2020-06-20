@@ -12,20 +12,20 @@ spline.
 
 ## Options
 
-  - **Poly** - Will change the spline into a poly spline.
-  - **Bezier** - Will change the spline into a bezier spline.
+- **Poly** - Will change the spline into a poly spline.
+- **Bezier** - Will change the spline into a bezier spline.
 
 ## Inputs
 
-  - **Spline** - A spline(s) to convert.
+- **Spline** - A spline(s) to convert.
 
 ## Outputs
 
-  - **Splines** - The converted splines.
+- **Splines** - The converted splines.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

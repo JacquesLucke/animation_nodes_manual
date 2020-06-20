@@ -14,18 +14,18 @@ choosing its type.
 
 ## Inputs
 
-  - **Enable** - Make sure to disable this whenever you are not
+- **Enable** - Make sure to disable this whenever you are not
     recording and just playing the animation.
-  - **Set Keyframes** - The node will not insert any keyframes if this
+- **Set Keyframes** - The node will not insert any keyframes if this
     option is disabled.
-  - **Remove Unwanted**- If enabled will delete unwanted frames during
+- **Remove Unwanted**- If enabled will delete unwanted frames during
     the animation.
-  - **Object** - An input object to set frames to.
+- **Object** - An input object to set frames to.
 
 ## Outputs
 
-  - N/A
+- N/A
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A

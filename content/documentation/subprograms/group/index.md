@@ -59,10 +59,10 @@ A network error is raised in three situations:
 2.  The *Group Input* node was removed but its *Group Output* node is
     still present. A group can't be solely defined by a *Group Output*
     node. The error can be fixed by either:
-      - Adding a new *Object Input* node, connecting it to the group
+    - Adding a new *Object Input* node, connecting it to the group
         nodes and pressing *Use Input In Network*.
     
-      - Adding a new *Object Input* node by pressing the plus button in
+    - Adding a new *Object Input* node by pressing the plus button in
         the *Group Output* node.
         
         ![image](network_error.png)

@@ -18,7 +18,7 @@ Inputs are the same as `number-wiggle` node.
 
 ## Outputs
 
-  - **Falloff** - The actual falloff object.
+- **Falloff** - The actual falloff object.
 
 ## Examples of Usage
 

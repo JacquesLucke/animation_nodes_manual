@@ -12,5 +12,5 @@ dedicated viewer.
 
 ## Advanced Node Settings
 
-  - **Resolution** - The number of points used to plot the
+- **Resolution** - The number of points used to plot the
     interpolation.

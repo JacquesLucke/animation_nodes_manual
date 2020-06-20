@@ -16,19 +16,19 @@ norml can be computed.
 
 ## Inputs
 
-  - **Point List** - A vector list that contain the locations of the
+- **Point List** - A vector list that contain the locations of the
     polygon's points.
 
 ## Outputs
 
-  - **Normal** - A unit vector representing the normal of the polygon. A
+- **Normal** - A unit vector representing the normal of the polygon. A
     zero vector if points weren't valid, that is, collinear.
-  - **Is Valid** - A boolean which is True if the points are not
+- **Is Valid** - A boolean which is True if the points are not
     collinear and False otherwise.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Notes
 

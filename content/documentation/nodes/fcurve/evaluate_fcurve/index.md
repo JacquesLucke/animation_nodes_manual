@@ -15,24 +15,24 @@ frame.
 
 ## Option
 
-  - **Offset** - The input frame is relative to the current frame. So an
+- **Offset** - The input frame is relative to the current frame. So an
     input frame of 5 with the current frame at 5, the actual evaluation
     will be at frame 10.
-  - **Absolute** - The input frame is the frame at which evaluation will
+- **Absolute** - The input frame is the frame at which evaluation will
     happen.
 
 ## Inputs
 
-  - **FCurve** - An fcurve to evaluate.
-  - **Frame** - The frame at which the fcurve is evaluated.
+- **FCurve** - An fcurve to evaluate.
+- **Frame** - The frame at which the fcurve is evaluated.
 
 ## Outputs
 
-  - **Value** - The value of fcurve at the input frame.
+- **Value** - The value of fcurve at the input frame.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

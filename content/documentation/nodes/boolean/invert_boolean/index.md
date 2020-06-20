@@ -12,15 +12,15 @@ it becomes `True` and if it was `True` it will be `False`.
 
 ## Inputs
 
-  - **Input** - The input boolean.
+- **Input** - The input boolean.
 
 ## Outputs
 
-  - **Output** - The inverted boolean.
+- **Output** - The inverted boolean.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

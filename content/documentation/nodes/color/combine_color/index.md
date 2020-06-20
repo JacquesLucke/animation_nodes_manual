@@ -17,11 +17,11 @@ Based on the choosen color model.
 
 ## Outputs
 
-  - **Color** - The output color data.
+- **Color** - The output color data.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

@@ -11,12 +11,12 @@ This node will return the active camera in the scene.
 
 ## Inputs
 
-  - N/A
+- N/A
 
 ## Outputs
 
-  - **Active Camera** - The active camera.
+- **Active Camera** - The active camera.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A

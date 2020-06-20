@@ -11,16 +11,16 @@ This node writes a string to a blender text block.
 
 ## Inputs
 
-  - **Text Block** - A text block to write to.
-  - **Text** - A string to write.
+- **Text Block** - A text block to write to.
+- **Text** - A string to write.
 
 ## Outputs
 
-  - **Text Block** - The input text block.
+- **Text Block** - The input text block.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

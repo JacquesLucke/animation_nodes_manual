@@ -13,19 +13,19 @@ matrix to perform the rotation.
 
 ## Inputs
 
-  - **Angle** - The amount of rotation in radian.
+- **Angle** - The amount of rotation in radian.
 
 Note that the input may be an **euler** if the rotation matrix is
 generated for all axis.
 
 ## Outputs
 
-  - **Matrix** - A transformation matrix that contains the rotation
+- **Matrix** - A transformation matrix that contains the rotation
     information.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

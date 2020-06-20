@@ -15,21 +15,21 @@ option---Uniform or Resolution.
 
 ## Inputs
 
-  - **Spline** - A spline to evaluate.
-  - **Amount** - The amount of point to return.
-  - **Start** - The starting point of the interval.
-  - **End** - The ending point of the interval.
+- **Spline** - A spline to evaluate.
+- **Amount** - The amount of point to return.
+- **Start** - The starting point of the interval.
+- **End** - The ending point of the interval.
 
 ## Outputs
 
-  - **Positions** - A vector list that contains the evaluated points
+- **Positions** - A vector list that contains the evaluated points
     positions.
-  - **Tangent** - A vector list that contains vectors that are aligned
+- **Tangent** - A vector list that contains vectors that are aligned
     with the tangent line to the evaluated points.
 
 ## Advanced Node Settings
 
-  - **Resolution** - It is the quality of the evaluated spline, in other
+- **Resolution** - It is the quality of the evaluated spline, in other
     words, it is the number of handles in the spline used in evaluation.
 
 ## Examples of Usage

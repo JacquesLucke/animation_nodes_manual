@@ -13,18 +13,18 @@ the input points).
 
 ## Inputs
 
-  - Editing the curve works just like blender's interpolation curve.
-  - **Cache Interpolation** - If True, Interpolation will be cached
+- Editing the curve works just like blender's interpolation curve.
+- **Cache Interpolation** - If True, Interpolation will be cached
     allowing much faster evaluation.
 
 ## Outputs
 
-  - **Interpolation** - An interpolation that represent a spline
+- **Interpolation** - An interpolation that represent a spline
     interpolation of the input points.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

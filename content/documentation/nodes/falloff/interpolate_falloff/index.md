@@ -12,16 +12,16 @@ interpolation.
 
 ## Inputs
 
-  - **Falloff** - A falloff
-  - **Interpolation** - An interpolation to evaluate the falloff at.
+- **Falloff** - A falloff
+- **Interpolation** - An interpolation to evaluate the falloff at.
 
 ## Outputs
 
-  - **Falloff** - The actual falloff object.
+- **Falloff** - The actual falloff object.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

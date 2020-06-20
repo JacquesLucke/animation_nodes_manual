@@ -12,22 +12,22 @@ places of the input edges.
 
 ## Inputs
 
-  - **Points** - The locations of the vertices of the edges.
-  - **Edge Indices List** - The edge indices list of the edges.
-  - **Radius** - Radius of the cylinders.
-  - **Resolution** - The number of vertices per loop that forms the
+- **Points** - The locations of the vertices of the edges.
+- **Edge Indices List** - The edge indices list of the edges.
+- **Radius** - Radius of the cylinders.
+- **Resolution** - The number of vertices per loop that forms the
     cylinder.
-  - **Caps** - If true, cylinders' starts and ends will be closed using
+- **Caps** - If true, cylinders' starts and ends will be closed using
     an Ngon.
 
 ## Outputs
 
-  - **Vertices** - The vertices locations of the cylinders.
-  - **Polygon Indices** - The polygon indices of the cylinders.
+- **Vertices** - The vertices locations of the cylinders.
+- **Polygon Indices** - The polygon indices of the cylinders.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

@@ -12,16 +12,16 @@ edge indices list to create meshes.
 
 ## Inputs
 
-  - **Index 1** - The index of the first vertex.
-  - **Index 2** - The index of the second vertex.
+- **Index 1** - The index of the first vertex.
+- **Index 2** - The index of the second vertex.
 
 ## Outputs
 
-  - **Edge Indices** - The resulted edge indices.
+- **Edge Indices** - The resulted edge indices.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

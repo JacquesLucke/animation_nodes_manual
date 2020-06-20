@@ -15,16 +15,16 @@ using this node.
 
 ## Options
 
-  - **Invert Normals** - If enabled, computed normals will be inverted.
+- **Invert Normals** - If enabled, computed normals will be inverted.
 
 ## Inputs
 
-  - **Bmesh** - An Input Bmesh.
+- **Bmesh** - An Input Bmesh.
 
 ## Outputs
 
-  - **Bmesh** - The resulted Bmesh.
+- **Bmesh** - The resulted Bmesh.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A

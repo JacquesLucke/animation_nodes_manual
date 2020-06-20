@@ -16,17 +16,17 @@ This node resets the time every n number of frames where n is the input
 
 ## Inputs
 
-  - **Time** - An input time.
-  - **Rate** - A value at which the time will reset and start counting
+- **Time** - An input time.
+- **Rate** - A value at which the time will reset and start counting
     again.
 
 ## Outputs
 
-  - **Time** - The repeated time.
+- **Time** - The repeated time.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

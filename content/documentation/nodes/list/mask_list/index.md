@@ -15,16 +15,16 @@ be included in the output list.
 
 ## Inputs
 
-  - **List** - An input list.
-  - **Mask** - A boolean list.
+- **List** - An input list.
+- **Mask** - A boolean list.
 
 ## Outputs
 
-  - **List** - The output list.
+- **List** - The output list.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

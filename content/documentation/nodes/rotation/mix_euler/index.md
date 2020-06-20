@@ -11,18 +11,18 @@ This node mixes between 2 eulers based on a factor.
 
 ## Inputs
 
-  - **Factor** - A float that controls the amount of each euler input to
+- **Factor** - A float that controls the amount of each euler input to
     the output, Where 0 means the first euler only and 1 means the
     second euler only.
 
 ## Outputs
 
-  - **Result** - The result euler of mixing the two eulers by the input
+- **Result** - The result euler of mixing the two eulers by the input
     factor.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Note
 

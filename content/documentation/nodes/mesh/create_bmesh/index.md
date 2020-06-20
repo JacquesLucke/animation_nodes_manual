@@ -11,15 +11,15 @@ This node converts a mesh data into a Bmesh.
 
 ## Inputs
 
-  - **Mesh Data** - Mesh data to convert.
+- **Mesh Data** - Mesh data to convert.
 
 ## Outputs
 
-  - **Bmesh** - The resulted Bmesh.
+- **Bmesh** - The resulted Bmesh.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

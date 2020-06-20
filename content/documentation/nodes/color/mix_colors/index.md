@@ -11,17 +11,17 @@ This node mixes between 2 colors based on a factor.
 
 ## Inputs
 
-  - **Factor** - A float that controls the amount of each color input to
+- **Factor** - A float that controls the amount of each color input to
     the output. 0 means the first color only and 1 means the second
     color only.
 
 ## Outputs
 
-  - **Result** - The result of mixing the two colors by the factor.
+- **Result** - The result of mixing the two colors by the factor.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Note
 

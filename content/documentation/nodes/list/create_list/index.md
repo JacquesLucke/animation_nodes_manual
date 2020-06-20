@@ -16,19 +16,19 @@ See examples.
 
 ## Inputs
 
-  - **Element** - A element at the index 0.
-  - **Element** - A element at the index 1.
-  - **Element** - ...
+- **Element** - A element at the index 0.
+- **Element** - A element at the index 1.
+- **Element** - ...
 
 ## Outputs
 
-  - **list** - A list that contain all the input data.
+- **list** - A list that contain all the input data.
 
 ## Advanced Node Settings
 
-  - **Change type** - Changes the type of the list to another list type.
-  - **Hide Inputs** - Hides all the inputs in the node.
-  - **Remove Unlinked Inputs** - Removes all the inputs that are not
+- **Change type** - Changes the type of the list to another list type.
+- **Hide Inputs** - Hides all the inputs in the node.
+- **Remove Unlinked Inputs** - Removes all the inputs that are not
     connected to another node.
 
 ## Caution

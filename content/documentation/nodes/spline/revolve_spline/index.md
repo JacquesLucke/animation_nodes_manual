@@ -12,12 +12,12 @@ spline around the axis spline.
 
 ## Options
 
-  - **Project** - This option will sample some points from the profile
+- **Project** - This option will sample some points from the profile
     spline, project them on the axis spline and then revolve each point
     around its projection.This method output a nicer result especially
     if the axis and profile splines are different in length but it is
     much slower due to the projection process.
-  - **Same Parameter** - This option will sample some point from both
+- **Same Parameter** - This option will sample some point from both
     the profile and the axis splines and revolve each point around its
     corresponding point. This method have difficulties especially if the
     axis and the profile splines are different in length since
@@ -31,23 +31,23 @@ spline around the axis spline.
 
 ## Inputs
 
-  - **Axis** - A spline that is used as the source of pivots for the
+- **Axis** - A spline that is used as the source of pivots for the
     revolving.
-  - **Profile** - A spline in which spline samples are originated for
+- **Profile** - A spline in which spline samples are originated for
     revolving.
-  - **Spline Samples** - The number of points sampled for revolving.
-  - **Surface Splines** - The number of points sampled during revolving.
+- **Spline Samples** - The number of points sampled for revolving.
+- **Surface Splines** - The number of points sampled during revolving.
 
 ## Outputs
 
-  - **Vertices** - A vector list that contains the vertices locations of
+- **Vertices** - A vector list that contains the vertices locations of
     the output mesh.
-  - **Polygons** - A polygon indices list that carries the polygons
+- **Polygons** - A polygon indices list that carries the polygons
     information of the output mesh.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

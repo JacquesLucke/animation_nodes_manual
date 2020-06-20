@@ -64,7 +64,7 @@ and type of the generator can be set from its advanced node settings.
 
 ## Advanced Node Settings
 
-  - **Description** - A description for the function of the loop. This
+- **Description** - A description for the function of the loop. This
     description only appears in the **Invoke Subprogram** node when
     choosing the required subprogram, however, it is a good practice to
     write a description for each subprogram so that other users can
@@ -91,7 +91,7 @@ equivalent to the button in the node. A list of parameters is displayed
 with their options. For each parameter, the following options are
 present:
 
-  - **Input** - If enabled, the parameter will be available/exposed as
+- **Input** - If enabled, the parameter will be available/exposed as
     an input when the loop is invoked, if disabled, it won't be
     available as an input and its value will be equal to its default
     value. Certain applications of loops use parameters as temporary
@@ -100,11 +100,11 @@ present:
     alter its expected value, the parameter can be hidden using this
     option. In this case, the parameter is called a dummy parameter. See
     examples below.
-  - **Output** - If enabled, the parameter will be available as an
+- **Output** - If enabled, the parameter will be available as an
     output when the loop is invoked, if disabled, it won't be available
     as an output. The significance of this option will be apparent when
     we discuss reassignment operators. See examples below.
-  - **Copy** - If enabled, the parameter at each iteration will be a
+- **Copy** - If enabled, the parameter at each iteration will be a
     different copy of its source, if disabled, Animation Nodes will
     handle the copying automatically, so even if it is disabled,
     parameters might be copied anyway if Animation Nodes decides to.
@@ -112,7 +112,7 @@ present:
     it won't be available for simple data types like integers and
     floats. This option is helpful in certain advanced cases, see
     examples below.
-  - **Default** - The default value of the parameter, this option is
+- **Default** - The default value of the parameter, this option is
     only available for simple data types, so data types like BVH and KD
     Trees won't have this option.
 
@@ -166,18 +166,18 @@ iteration is as follows:
     reassignment operators and break conditions—are executed based on
     the values provided by the *Loop Input* node.
 
-3.    - For each break condition:
+3.  - For each break condition:
         
-          - If its *continue* input is `False`, the loop is terminated.
+        - If its *continue* input is `False`, the loop is terminated.
 
-4.    - For each generator:
+4.  - For each generator:
         
-          - If its *condition* input is `True`, the value is appended to
+        - If its *condition* input is `True`, the value is appended to
             the list it points to.
 
-5.    - For every reassignment operator:
+5.  - For every reassignment operator:
         
-          - If its *condition* input is `True`, the value of the
+        - If its *condition* input is `True`, the value of the
             parameter it points to is changed to the input value.
 
 The fact that *Break Conditions* execute before *Generators* and

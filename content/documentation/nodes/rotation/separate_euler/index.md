@@ -12,20 +12,20 @@ degrees.
 
 ## Inputs
 
-  - **Euler** - An euler to decompose.
+- **Euler** - An euler to decompose.
 
 ## Outputs
 
-  - **X** - The X component of the input euler in radian.
-  - **Y** - The Y component of the input euler in radian.
-  - **Z** - The Z component of the input euler in radian.
+- **X** - The X component of the input euler in radian.
+- **Y** - The Y component of the input euler in radian.
+- **Z** - The Z component of the input euler in radian.
 
 **Note:** You can convert the outputs to degrees by checking **Use
 Degree**.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

@@ -13,19 +13,19 @@ direction of the first edge of each polygon.
 
 ## Inputs
 
-  - **Vertices Locations** - A vector list that represent the the
+- **Vertices Locations** - A vector list that represent the the
     locations of the vertices of the polygons.
-  - **Polygon Indices** - The polygon indices of the polygons.
+- **Polygon Indices** - The polygon indices of the polygons.
 
 ## Outputs
 
-  - **Transforms** - A matrix list that include transformation matrices
+- **Transforms** - A matrix list that include transformation matrices
     that describe the location and orientation of the polygons.
-  - **Inverse Transforms** - The inverse matrix of the transforms.
+- **Inverse Transforms** - The inverse matrix of the transforms.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

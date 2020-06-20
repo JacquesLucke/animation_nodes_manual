@@ -21,25 +21,25 @@ that in an expression node as follows.
 
 ## Advanced Node Settings
 
-  - **Modules** - Importing python modules is done by writing their
+- **Modules** - Importing python modules is done by writing their
     names with comma as a separator. For instance, if one wants to use
     `numpy` and `math` modules, one would write `numpy, math`.
-  - **Debug Mode** - If enabled, any errors will be caught and displayed
+- **Debug Mode** - If enabled, any errors will be caught and displayed
     in the node. If disabled, any error in the expression will cause a
     fatal error stopping the execution of the node tree. It should be
     noted that enabling debug mode slows down execution.
-  - **Correct Type** - If enabled, the node will attempt to convert the
+- **Correct Type** - If enabled, the node will attempt to convert the
     output to the required output type. If disabled, if the type output
     is different from the output type, the node will cause a fatal error
     stopping the execution of the node tree.
-  - **Inline Expression** - By default, modules are star imported and
+- **Inline Expression** - By default, modules are star imported and
     their attributes can be used directly. If this option is enabled,
     modules are normally imported and their attributes have to be
     preceded by the module name. For instance, in order to use the
     `argpartition` function from numpy one would write
     `numpy.argpartition` instead of `argpartition`. Enabling this option
     improves performance by avoiding start importing.
-  - **Fixed Data Type** - If disabled, the node will automatically
+- **Fixed Data Type** - If disabled, the node will automatically
     change the type of the output socket based on what it gets connected
     to. If enabled, the type is fixed and doesn't automatically change,
     in which case, the type can be defined using the gear button in the

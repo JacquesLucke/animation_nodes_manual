@@ -12,19 +12,19 @@ advanced node settings)
 
 ## Inputs
 
-  - **Float** - A float to convert to integer.
+- **Float** - A float to convert to integer.
 
 ## Outputs
 
-  - **Integer** - Output as integer.
+- **Integer** - Output as integer.
 
 ## Advanced Node Settings
 
 The node has 3 algorithms to do the conversion:
 
-  - **Floor** - It returns only the whole number.
-  - **Ceiling** - It returns the next whole number.
-  - **Round** - Standard round operation, where *floor* is used if the
+- **Floor** - It returns only the whole number.
+- **Ceiling** - It returns the next whole number.
+- **Round** - Standard round operation, where *floor* is used if the
     fraction is less than or equal 0.5 and *ceiling* is used if the
     fraction is larger than 0.5.
 

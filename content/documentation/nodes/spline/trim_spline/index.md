@@ -12,17 +12,17 @@ interval.
 
 ## Inputs
 
-  - **Spline** - A spline to trim.
-  - **Start** - The start of the interval.
-  - **End** - The end of the interval.
+- **Spline** - A spline to trim.
+- **Start** - The start of the interval.
+- **End** - The end of the interval.
 
 ## Outputs
 
-  - **Spline** - The trimed spline.
+- **Spline** - The trimed spline.
 
 ## Advanced Node Settings
 
-  - **Resolution** - It is the quality of the resulted spline, in other
+- **Resolution** - It is the quality of the resulted spline, in other
     words, it is the number of points in the output spline.
 
 ## Examples of Usage

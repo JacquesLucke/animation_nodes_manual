@@ -19,17 +19,17 @@ Note that this only work for bezier splines and not poly splines.
 
 ## Inputs
 
-  - **Spline** - A spline.
-  - **Smoothness** - A float that defines the amount of smoothness. (the
+- **Spline** - A spline.
+- **Smoothness** - A float that defines the amount of smoothness. (the
     length of the handles of the bezier spline)
 
 ## Outputs
 
-  - **Spline** - The smoothed spline.
+- **Spline** - The smoothed spline.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

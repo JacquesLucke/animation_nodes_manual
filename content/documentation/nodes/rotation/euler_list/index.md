@@ -13,20 +13,20 @@ plugging it into the transparent socket.
 
 ## Inputs
 
-  - **Euler** - An Euler at the index 0.
-  - **Euler** - An Euler at the index 1.
-  - **Euler** - ...
+- **Euler** - An Euler at the index 0.
+- **Euler** - An Euler at the index 1.
+- **Euler** - ...
 
 ## Outputs
 
-  - **Euler list** - A list that contain all the input eulers.
+- **Euler list** - A list that contain all the input eulers.
 
 ## Advanced Node Settings
 
-  - **Change type** - Change the type of the euler list to another list
+- **Change type** - Change the type of the euler list to another list
     type.
-  - **Hide Inputs** - Hide all the inputs in the node.
-  - **Remove Unlinked Inputs** - Removes all the inputs that are not
+- **Hide Inputs** - Hide all the inputs in the node.
+- **Remove Unlinked Inputs** - Removes all the inputs that are not
     connected to another node.
 
 ## Caution

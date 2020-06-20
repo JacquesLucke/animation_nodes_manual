@@ -11,17 +11,17 @@ This node generates a random quaternion.
 
 ## Inputs
 
-  - **Seed** - Seed for the random generator, where different seed
+- **Seed** - Seed for the random generator, where different seed
     generates different random quaternion.
-  - **Scale** - Scale of the quaternion elements.
+- **Scale** - Scale of the quaternion elements.
 
 ## Outputs
 
-  - **Quaternion** - A random quaternion.
+- **Quaternion** - A random quaternion.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Note
 

@@ -11,18 +11,18 @@ This node mixes between 2 matrices based on a factor.
 
 ## Inputs
 
-  - **Factor** - A float that controls the amount of each matrix input
+- **Factor** - A float that controls the amount of each matrix input
     to the output, where 0 means the first matrix only and 1 means the
     second matrix only.
 
 ## Outputs
 
-  - **Result** - The resultant matrix of mixing the two matrices by the
+- **Result** - The resultant matrix of mixing the two matrices by the
     input factor.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Note
 

@@ -12,15 +12,15 @@ data type.
 
 ## Inputs
 
-  - **Text** - The string that should be converted into float.
+- **Text** - The string that should be converted into float.
 
 ## Outputs
 
-  - **Number** - The float that was extracted from the input text.
+- **Number** - The float that was extracted from the input text.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Caution
 

@@ -13,15 +13,15 @@ spline.
 
 ## Inputs
 
-  - **Splines** - A list of splines to connect.
+- **Splines** - A list of splines to connect.
 
 ## Outputs
 
-  - **Spline** - The connected spline.
+- **Spline** - The connected spline.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

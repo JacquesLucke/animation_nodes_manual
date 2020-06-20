@@ -32,23 +32,23 @@ Axis** is set to X.
 
 ## Inputs
 
-  - **Direction** - The vector that defines the direction, can be
+- **Direction** - The vector that defines the direction, can be
     normalized or not.
-  - **Guide** - The vector that define the rotation around the
+- **Guide** - The vector that define the rotation around the
     **Direction Vector**.
 
 ## Outputs
 
-  - **Euler Rotation** - The resultant rotation in the form of Euler
+- **Euler Rotation** - The resultant rotation in the form of Euler
     Rotation.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Warning
 
-  - The **Track Axis** can never be the **Guide Axis** because The
+- The **Track Axis** can never be the **Guide Axis** because The
     **Track Axis** is already locked to the **Direction Vector**.
 
 ## Examples of Usage

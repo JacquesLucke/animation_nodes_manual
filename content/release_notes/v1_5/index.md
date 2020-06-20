@@ -172,10 +172,10 @@ and *Remove List Element* nodes.
 
 The *Remove List Element* node has three modes:
 
-  - Remove only the first occurrence of an element (limited to certain
+- Remove only the first occurrence of an element (limited to certain
     types)
-  - Remove all occurrences of an element (limited to certain types)
-  - Remove the element at a specific index (works with all list types)
+- Remove all occurrences of an element (limited to certain types)
+- Remove the element at a specific index (works with all list types)
 
 ![image](list_operations.png)
 

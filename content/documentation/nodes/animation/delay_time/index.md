@@ -17,17 +17,17 @@ input frame will result in zero for the first 20 frame.
 
 ## Inputs
 
-  - **Time** - An input time.
-  - **Delay** - A value to subtract from the time or the frame at which
+- **Time** - An input time.
+- **Delay** - A value to subtract from the time or the frame at which
     the animation will start.
 
 ## Outputs
 
-  - **Time** - The delayed time.
+- **Time** - The delayed time.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

@@ -11,15 +11,15 @@ This node outputs color data chosen from the color picker.
 
 ## Inputs
 
-  - **Alpha** - The value of the alpha channel of the color.
+- **Alpha** - The value of the alpha channel of the color.
 
 ## Outputs
 
-  - **Color** - The output color data.
+- **Color** - The output color data.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

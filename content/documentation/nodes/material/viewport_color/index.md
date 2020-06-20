@@ -12,15 +12,15 @@ works for both cycles and internal materials.
 
 ## Inputs
 
-  - **Color** - The viewport color.
+- **Color** - The viewport color.
 
 ## Outputs
 
-  - N/A
+- N/A
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

@@ -12,15 +12,15 @@ together in order.
 
 ## Inputs
 
-  - **Matrices** - A list of matrices.
+- **Matrices** - A list of matrices.
 
 ## Outputs
 
-  - **Result** - The combined transformation matrix.
+- **Result** - The combined transformation matrix.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

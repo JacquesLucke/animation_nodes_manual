@@ -12,16 +12,16 @@ matrix.
 
 ## Inputs
 
-  - **Spline** - A spline to transform.
-  - **Transformation** - A transformation matrix.
+- **Spline** - A spline to transform.
+- **Transformation** - A transformation matrix.
 
 ## Outputs
 
-  - **Spline** - The transformed spline.
+- **Spline** - The transformed spline.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

@@ -29,22 +29,22 @@ its vertices, see the below illustration if you didn't get it.
 
 ## Inputs
 
-  - **Location** - The location of the point that lies on the source
+- **Location** - The location of the point that lies on the source
     triangle.
-  - **Source Triangle Points** - The location of the vertices of the
+- **Source Triangle Points** - The location of the vertices of the
     triangle used to compute the coefficients of the convex combination
     from.
-  - **Target Triangle Points** - The location of the vertices of the
+- **Target Triangle Points** - The location of the vertices of the
     triangle to apply the convex combination to.
 
 ## Outputs
 
-  - **Morphed Location** - The location of the point resulted from the
+- **Morphed Location** - The location of the point resulted from the
     convex combination.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

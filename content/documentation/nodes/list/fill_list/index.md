@@ -24,24 +24,24 @@ the node is called Fill.
 
 ## Options
 
-  - **Right** - If chosen, the elements will be added at the end of the
+- **Right** - If chosen, the elements will be added at the end of the
     list.
-  - **Left** - If chosen, the elements will be added at the start of the
+- **Left** - If chosen, the elements will be added at the start of the
     list.
 
 ## Inputs
 
-  - **List** - An input list.
-  - **Length** - The length of the output list.
-  - **Element** - The element used in filling the empty spaces.
+- **List** - An input list.
+- **Length** - The length of the output list.
+- **Element** - The element used in filling the empty spaces.
 
 ## Outputs
 
-  - **List** - The filled list.
+- **List** - The filled list.
 
 ## Advanced Node Settings
 
-  - **Make Element Copies** - If enabled, the **Element** input will be
+- **Make Element Copies** - If enabled, the **Element** input will be
     copied before inserting, this makes sure the elements are
     independent of the original element used. This option don't work for
     non objects, so it won't be available if the input list was of float

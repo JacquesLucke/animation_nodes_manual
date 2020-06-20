@@ -13,12 +13,12 @@ it.
 
 ## Inputs
 
-  - **Object** - An object.
+- **Object** - An object.
 
 ## Outputs
 
-  - **Object** - The input object.
+- **Object** - The input object.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A

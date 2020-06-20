@@ -13,17 +13,17 @@ case.
 
 ## Inputs
 
-  - **Falloff** - A falloff.
-  - **New min** - The new minimum value.
-  - **New max** - The new maximum value.
+- **Falloff** - A falloff.
+- **New min** - The new minimum value.
+- **New max** - The new maximum value.
 
 ## Outputs
 
-  - **Falloff** - The actual falloff object.
+- **Falloff** - The actual falloff object.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

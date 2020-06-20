@@ -11,7 +11,7 @@ This node linearly mixes between two vectors based on a factor.
 
 ## Options
 
-  - **Clamp** - If enabled, a factor that is larger than one will be
+- **Clamp** - If enabled, a factor that is larger than one will be
     rendered one and a factor that is negative will be rendered zero.
     Subsequently, the output's elements will be in the range of the
     input vectors' elements. If disabled, the result is computed based
@@ -24,20 +24,20 @@ This node linearly mixes between two vectors based on a factor.
 
 ## Inputs
 
-  - **Factor** - A float that controls the amount of each vector input
+- **Factor** - A float that controls the amount of each vector input
     to the output, where 0 means the first vector only and 1 means the
     second vector only.
 
 ## Outputs
 
-  - **Result** - The result vector of mixing the two vectors by the
+- **Result** - The result vector of mixing the two vectors by the
     input factor.
-  - **A** - First vector.
-  - **B** - Second vector.
+- **A** - First vector.
+- **B** - Second vector.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

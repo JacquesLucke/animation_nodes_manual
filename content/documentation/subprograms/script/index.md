@@ -8,25 +8,25 @@ scripts are to be written in a blender text block. The scripts written
 for the script node are slightly different from normal scripts in the
 following:
 
-  - Inputs added to the node will be initialized as variables. So if one
+- Inputs added to the node will be initialized as variables. So if one
     adds an input named `count` to the node, one can use the variable
     `count` in the script like any other variable. See below.
 
-  - Star imports are not allowed due to performance reasons. So
+- Star imports are not allowed due to performance reasons. So
     something like `from random import *` will not work.
 
-  - Some python modules and structures are automatically imported so
+- Some python modules and structures are automatically imported so
     they needn't be imported when writing the scripts. Those modules
     include:
     
-    - `bpy`.
-    - `sys`.
-    - `itertools`.
-    - `animation_nodes`, or `AN` for short.
-    - `algorithms`, which is short for `AN.algorithms`.
-    - Mathutils structures: `Vector`, `Matrix`, `Quaternion`,
+  - `bpy`.
+  - `sys`.
+  - `itertools`.
+  - `animation_nodes`, or `AN` for short.
+  - `algorithms`, which is short for `AN.algorithms`.
+  - Mathutils structures: `Vector`, `Matrix`, `Quaternion`,
       `Euler`.
-    - All data structures in `AN.data_structures`: `Vector3DList`,
+  - All data structures in `AN.data_structures`: `Vector3DList`,
       `Matrix4x4List`, `MeshData`, ...
 
 New inputs can be added by using the *New Input* button. The name of the
@@ -52,23 +52,23 @@ not recommended.
 
 ## Advanced Node Settings
 
-  - **Description** - A description for the function of the script. This
+- **Description** - A description for the function of the script. This
     description only appears in the **Invoke Subprogram** node when
     choosing the required subprogram, however, it is a good practice to
     write a description for each subprogram so that other users can
     understand its function.
-  - **Interactive Mode** - If enabled, Animation Nodes will
+- **Interactive Mode** - If enabled, Animation Nodes will
     automatically import changes you make in the text editor. If
     disabled, a button will appear *Import Changes* that enables you to
     import changes manually when needed.
-  - **Debug Mode** - If enabled, errors in the script will be drawn on
+- **Debug Mode** - If enabled, errors in the script will be drawn on
     the node. If disabled, errors becomes fatal and will stop node tree
     executions until it is resolved.
-  - **Initialize Missing Outputs** - If enabled and outputs are not
+- **Initialize Missing Outputs** - If enabled and outputs are not
     initialized, that is, no variables with the same name exists in the
     script, the outputs will get initialized with their default values,
     avoiding non initialization errors.
-  - **Correct Output Types** - If enabled, Animation Nodes will try to
+- **Correct Output Types** - If enabled, Animation Nodes will try to
     correct the type of outputs and return default value if it couldn't.
     For instance, if the an output is of integer type and it was
     initialized with a float, it will be converted to an integer by

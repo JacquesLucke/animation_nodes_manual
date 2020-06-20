@@ -11,15 +11,15 @@ This node returns the number of elements in the input list.
 
 ## Inputs
 
-  - **List** - An input list.
+- **List** - An input list.
 
 ## Outputs
 
-  - **Length** - The number of elements in the list.
+- **Length** - The number of elements in the list.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

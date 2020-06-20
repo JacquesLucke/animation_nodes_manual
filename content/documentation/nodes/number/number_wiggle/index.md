@@ -16,7 +16,7 @@ the node options and this value is the output of the node.
 
 ## Options
 
-  - **Node Seed** - Aside from the *Seed input*, this extra seed
+- **Node Seed** - Aside from the *Seed input*, this extra seed
     parameter enables you to get different random numbers if the *Seed
     input* in not free, that is, it is dependent on some property that
     you can't freely controle, for instance, when using multiple *Random
@@ -27,19 +27,19 @@ the node options and this value is the output of the node.
 
 ## Inputs
 
-  - **Seed** - Seed for the random generator, where different seed
+- **Seed** - Seed for the random generator, where different seed
     generate different vectors.
-  - **Evolution** - A float at which the noise is evaluated.
-  - **Speed** - It is the frequency of the noise or the rate of change
+- **Evolution** - A float at which the noise is evaluated.
+- **Speed** - It is the frequency of the noise or the rate of change
     of the values.
-  - **Amplitude** - It is the maximum possible value for the absolute of
+- **Amplitude** - It is the maximum possible value for the absolute of
     the output number.
-  - **Octaves** - It is the number of perlin noises that constructs the
+- **Octaves** - It is the number of perlin noises that constructs the
     noise function, where the noise function is the superposition of
     <span class="title-ref">n</span> number of perlin noise with
     different frequencies where <span class="title-ref">n</span> is the
     Octaves input.
-  - **Persistance** - The magnitude of the added higher frequency
+- **Persistance** - The magnitude of the added higher frequency
     octaves, the magnitude of each octave is directly propertional to
     its frequency.
 
@@ -53,12 +53,12 @@ the node options and this value is the output of the node.
 
 ## Outputs
 
-  - **Number** - The output of the noise function at the variable
+- **Number** - The output of the noise function at the variable
     **Evolution**.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

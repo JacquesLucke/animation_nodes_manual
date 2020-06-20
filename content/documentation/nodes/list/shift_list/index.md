@@ -16,16 +16,16 @@ the third and the last becomes the first.
 
 ## Inputs
 
-  - **List** - An input list.
-  - **Amount** - The amount of shifting.
+- **List** - An input list.
+- **Amount** - The amount of shifting.
 
 ## Outputs
 
-  - **Shifted List** - The shifted list.
+- **Shifted List** - The shifted list.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

@@ -12,18 +12,18 @@ input spline making it cyclic or not.
 
 ## Inputs
 
-  - **Spline** - A spline.
-  - **Cyclic** - A boolean which if true will connect the first and the
+- **Spline** - A spline.
+- **Cyclic** - A boolean which if true will connect the first and the
     last handle of the input spline together, if fasle will disconnect
     them.
 
 ## Outputs
 
-  - **Spline** - The output spline.
+- **Spline** - The output spline.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

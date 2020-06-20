@@ -13,12 +13,12 @@ values.
 
 ## Inputs
 
-  - **FCurve** - A FCurve.
+- **FCurve** - A FCurve.
 
 ## Outputs
 
-  - **Interpolation** - A function that represents the input FCurve.
+- **Interpolation** - A function that represents the input FCurve.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A

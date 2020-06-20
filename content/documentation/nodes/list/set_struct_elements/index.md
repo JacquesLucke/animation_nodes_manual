@@ -32,13 +32,13 @@ Creating such dictionaries in animation nodes :
 
 ## Inputs
 
-  - **Struct** - The node can also be used to add keys to an existing
+- **Struct** - The node can also be used to add keys to an existing
     struct and this input is where the original struct is input.
 
 ## Outputs
 
-  - **Struct** - The input struct.
+- **Struct** - The input struct.
 
 ## Advanced Node Settings
 
-  - NA
+- NA

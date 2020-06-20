@@ -16,16 +16,16 @@ of another axis.
 
 ## Inputs
 
-  - **Angle X,Y,Z** - Shear amount in X,Y,Z axis.
+- **Angle X,Y,Z** - Shear amount in X,Y,Z axis.
 
 ## Outputs
 
-  - **Matrix** - A transformation matrix that contains the shearing
+- **Matrix** - A transformation matrix that contains the shearing
     information.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

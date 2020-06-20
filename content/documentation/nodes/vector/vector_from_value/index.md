@@ -12,12 +12,12 @@ components.
 
 ## Inputs
 
-  - **Value** - A value that is the X, Y and Z component of the output
+- **Value** - A value that is the X, Y and Z component of the output
     vector.
 
 ## Outputs
 
-  - **Vector** - A vector composed of the input value in all of it's
+- **Vector** - A vector composed of the input value in all of it's
     components.
 
 ## Advanced Node Settings

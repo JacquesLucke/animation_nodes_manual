@@ -12,12 +12,12 @@ with the active (selected) one.
 
 ## Inputs
 
-  - **Object** - An object.
+- **Object** - An object.
 
 ## Outputs
 
-  - **Active** - The active particle system in the input object.
-  - **Particle Systems** - A list of particle systems in the object.
+- **Active** - The active particle system in the input object.
+- **Particle Systems** - A list of particle systems in the object.
 
 ## Advanced Node Settings
 

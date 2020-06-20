@@ -12,19 +12,19 @@ point and an input ending point.
 
 ## Inputs
 
-  - **Start** - A vector that define the starting point of the line.
-  - **End** - A vector that define the ending point of the line.
-  - **Steps** - An integer that define the number of vertices that form
+- **Start** - A vector that define the starting point of the line.
+- **End** - A vector that define the ending point of the line.
+- **Steps** - An integer that define the number of vertices that form
     the line.
 
 ## Outputs
 
-  - **Vertices** - The vertices locations of the line.
-  - **Edge Indices** - The edge indices of the line.
+- **Vertices** - The vertices locations of the line.
+- **Edge Indices** - The edge indices of the line.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

@@ -16,17 +16,17 @@ not to get the length.
 
 ## Inputs
 
-  - **Spline** - A spline.
-  - **Start** - The start of the interval.
-  - **End** - The end of the interval.
+- **Spline** - A spline.
+- **Start** - The start of the interval.
+- **End** - The end of the interval.
 
 ## Outputs
 
-  - **Length** - The length of the spline in the defined interval.
+- **Length** - The length of the spline in the defined interval.
 
 ## Advanced Node Settings
 
-  - **Resolution** - It is the quality of the spline used to do the
+- **Resolution** - It is the quality of the spline used to do the
     calculation, in other words, it is the number of handles in the
     spline which is used in sampling the interval.
 

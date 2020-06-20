@@ -12,20 +12,20 @@ that an object can exist in multiple layers at the same time.
 
 ## Inputs
 
-  - **Object** - An object.
-  - **Layer 1** - A boolean if True, the object will be included in the
+- **Object** - An object.
+- **Layer 1** - A boolean if True, the object will be included in the
     layer 1.
-  - **Layer 2** - A boolean if True, the object will be included in the
+- **Layer 2** - A boolean if True, the object will be included in the
     layer 2.
-  - **Layer 3** - ...
+- **Layer 3** - ...
 
 ## Outputs
 
-  - **Object** - The input object.
+- **Object** - The input object.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

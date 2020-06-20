@@ -12,16 +12,16 @@ objects.
 
 ## Inputs
 
-  - N/A
+- N/A
 
 ## Outputs
 
-  - **Selected Objects** - A list of the selected objects.
-  - **Active Object** - The active object.
+- **Selected Objects** - A list of the selected objects.
+- **Active Object** - The active object.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

@@ -16,15 +16,15 @@ will be contained in the node to edit.
 
 ## Inputs
 
-  - **Data** - Dynamic, based on the selected inputs and nodes.
+- **Data** - Dynamic, based on the selected inputs and nodes.
 
 ## Outputs
 
-  - N/A
+- N/A
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

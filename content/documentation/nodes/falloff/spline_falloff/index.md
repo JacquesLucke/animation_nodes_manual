@@ -16,19 +16,19 @@ their floats starts to fade till it becomes zero at some point.
 
 ## Inputs
 
-  - **Distance** - This float is added to the float of every object
+- **Distance** - This float is added to the float of every object
     which result in an offset for the distance.
-  - **Width** - The distance between the ones and the zeroes, can be
+- **Width** - The distance between the ones and the zeroes, can be
     though of as the slop as well.
-  - **Interpolation** - Floats are evaluated at this interpolation.
+- **Interpolation** - Floats are evaluated at this interpolation.
 
 ## Outputs
 
-  - **Falloff** - The actual falloff object.
+- **Falloff** - The actual falloff object.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

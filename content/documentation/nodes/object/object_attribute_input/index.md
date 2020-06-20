@@ -15,15 +15,15 @@ on the property and click **Copy Data Path**.
 
 ## Inputs
 
-  - **Object** - An object.
+- **Object** - An object.
 
 ## Outputs
 
-  - **Value** - The output value.
+- **Value** - The output value.
 
 ## Advanced Node Settings
 
-  - **Create Execution Trigger** - Create an execution trigger for the
+- **Create Execution Trigger** - Create an execution trigger for the
     selected property.
 
 ## Examples of Usage

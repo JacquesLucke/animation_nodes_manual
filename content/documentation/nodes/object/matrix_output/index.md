@@ -12,23 +12,23 @@ transformation matrix.
 
 ## Inputs
 
-  - **Object** - An object.
-  - **Matrix** - An input transformation matrix.
+- **Object** - An object.
+- **Matrix** - An input transformation matrix.
 
 ## Outputs
 
-  - **Object** - The input object.
+- **Object** - The input object.
 
 ## Advanced Node Settings
 
-  -   - **Type** - This option lets you set the transfromation matrix
+- - **Type** - This option lets you set the transfromation matrix
         as:
         
-          - **World** - World space transformation matrix.
-          - **Basis** - World space transformation matrix but without
+        - **World** - World space transformation matrix.
+        - **Basis** - World space transformation matrix but without
             constraints and parenting.
-          - **Local** - Local space transformation matrix.
-          - **Parent Inverse** - Inverse of object’s parent matrix at
+        - **Local** - Local space transformation matrix.
+        - **Parent Inverse** - Inverse of object’s parent matrix at
             time of parenting.
 
 ## Examples of Usage

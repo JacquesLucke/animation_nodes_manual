@@ -16,23 +16,23 @@ different reasons using the Object ID key node.
 
 ## Inputs
 
-  - **Object** - An input object.
+- **Object** - An input object.
 
 ## Outputs
 
 The outputs are based on the type of the ID key, however, if the ID key
 was an initial transformations ID key, the outputs will be as follow:
 
-  - **Exist** - A boolean which is False if a key doesn't exist and True
+- **Exist** - A boolean which is False if a key doesn't exist and True
     if it does.
-  - **Location** - A vector which contain the location in the key.
-  - **Rotation** - An euler which contain the rotation in the key.
-  - **Scale** - A vector which contain the scale in the key.
-  - **Matrix** - A transformation Matrix stored in the key
+- **Location** - A vector which contain the location in the key.
+- **Rotation** - An euler which contain the rotation in the key.
+- **Scale** - A vector which contain the scale in the key.
+- **Matrix** - A transformation Matrix stored in the key
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

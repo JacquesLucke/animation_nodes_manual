@@ -23,7 +23,7 @@ Getting such value in animation nodes :
 
 ## Inputs
 
-  - **Struct** - The input struct.
+- **Struct** - The input struct.
 
 ## Outputs
 
@@ -31,7 +31,7 @@ Based on what you add.
 
 ## Advanced Node Settings
 
-  - **Make Copies** - Copy the element before outputting it. This makes
+- **Make Copies** - Copy the element before outputting it. This makes
     sure the element is independent of the original element in the
     struct and so changing that element won't affect the output.
 

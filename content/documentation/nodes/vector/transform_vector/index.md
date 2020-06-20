@@ -12,16 +12,16 @@ Transformation Matrix.
 
 ## Inputs
 
-  - **Vector(s)** - The vector(s) to transform.
-  - **Matrix** - A transformation matrix.
+- **Vector(s)** - The vector(s) to transform.
+- **Matrix** - A transformation matrix.
 
 ## Outputs
 
-  - **Vector** - The vector after transformation.
+- **Vector** - The vector after transformation.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

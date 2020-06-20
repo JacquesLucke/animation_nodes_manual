@@ -39,25 +39,25 @@ affected the offset.
 
 Options are only different on how the start and end index are defined.
 
-  - **Start / End** - User define start and end indices directly.
-  - **Start / Amount** - User define start index and the amount of
+- **Start / End** - User define start and end indices directly.
+- **Start / Amount** - User define start index and the amount of
     indices in the interval.
-  - **End / Amount** - Use define the end index and the amount of
+- **End / Amount** - Use define the end index and the amount of
     indices in the interval.
 
 ## Inputs
 
-  - **Start value** - The value the fading start with.
-  - **End Value** - The value the fading end with.
-  - **Interpolation** - An interpolation that output is evaluated at.
+- **Start value** - The value the fading start with.
+- **End Value** - The value the fading end with.
+- **Interpolation** - An interpolation that output is evaluated at.
 
 ## Outputs
 
-  - **Falloff** - The actual falloff object.
+- **Falloff** - The actual falloff object.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

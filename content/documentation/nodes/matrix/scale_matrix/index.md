@@ -13,17 +13,17 @@ perform the scaling.
 
 ## Inputs
 
-  - **Scale** - A vector that stores the amount of scaling in the output
+- **Scale** - A vector that stores the amount of scaling in the output
     transformation matrix.
 
 ## Outputs
 
-  - **Matrix** - A transformation matrix that contains the scale
+- **Matrix** - A transformation matrix that contains the scale
     information.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

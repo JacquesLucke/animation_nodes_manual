@@ -17,34 +17,34 @@ the location of the plane.
 
 ## Options
 
-  - **Point/Normal To Matrix** - This option will encode the input
+- **Point/Normal To Matrix** - This option will encode the input
     location and the input normal of the plane into a transformation
     matrix.
-  - **Matrix To Point/Normal** - This option will decode the input
+- **Matrix To Point/Normal** - This option will decode the input
     transformation matrix and return the location and the normal of the
     plane represented by that transformation matrix.
 
 ## Inputs
 
-  - **Point In Plane** - A vector that correspond to the location of a
+- **Point In Plane** - A vector that correspond to the location of a
     point in the plane. (Only in the Point/Normal To Matrix option)
-  - **Plane Normal** - A unit vector that correspond to the normal of
+- **Plane Normal** - A unit vector that correspond to the normal of
     the plane. (Only in the Point/Normal To Matrix option)
-  - **Matrix** - A transformation matrix that represent the plane. (Only
+- **Matrix** - A transformation matrix that represent the plane. (Only
     in the Matrix To Point/Normal option)
 
 ## Outputs
 
-  - **Point In Plane** - A vector that correspond to the location of a
+- **Point In Plane** - A vector that correspond to the location of a
     point in the plane. (Only in the Matrix To Point/Normal option)
-  - **Plane Normal** - A unit vector that correspond to the normal of
+- **Plane Normal** - A unit vector that correspond to the normal of
     the plane. (Only in the Matrix To Point/Normal option)
-  - **Matrix** - A transformation matrix that represent the plane. (Only
+- **Matrix** - A transformation matrix that represent the plane. (Only
     in the Point/Normal To Matrix option)
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

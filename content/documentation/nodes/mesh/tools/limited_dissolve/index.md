@@ -16,20 +16,20 @@ angle less than an input threshold.
 
 ## Inputs
 
-  - **Bmesh** - An Input Bmesh.
-  - **Angle Limit** - The threshold for dissolving the edges. (If the
+- **Bmesh** - An Input Bmesh.
+- **Angle Limit** - The threshold for dissolving the edges. (If the
     angle between 2 faces is lower than this angle, the edge between
     them will be dissolved.)
-  - **Dissolve Boundries** - This option if enabled will dissolve
+- **Dissolve Boundries** - This option if enabled will dissolve
     vertices inbetween faces boundries.
 
 ## Outputs
 
-  - **Bmesh** - The resulted Bmesh.
+- **Bmesh** - The resulted Bmesh.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

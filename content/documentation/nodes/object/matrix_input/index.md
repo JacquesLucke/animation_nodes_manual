@@ -14,20 +14,20 @@ simulations.
 
 ## Inputs
 
-  - **Object** - An object.
+- **Object** - An object.
 
 ## Outputs
 
-  - **World** - World space transformation matrix.
-  - **Basis** - World space transformation matrix but without
+- **World** - World space transformation matrix.
+- **Basis** - World space transformation matrix but without
     constraints and parenting.
-  - **Local** - Local space transformation matrix.
-  - **Parent Inverse** - Inverse of object’s parent matrix at time of
+- **Local** - Local space transformation matrix.
+- **Parent Inverse** - Inverse of object’s parent matrix at time of
     parenting.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

@@ -21,16 +21,16 @@ to the selected axis which is Z in this case.
 
 ## Inputs
 
-  - **Rotation** - The rotation that defines the direction.
-  - **Length** - The magnitude of the resultant vector.
+- **Rotation** - The rotation that defines the direction.
+- **Length** - The magnitude of the resultant vector.
 
 ## Outputs
 
-  - **Direction** - The resultant vector.
+- **Direction** - The resultant vector.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

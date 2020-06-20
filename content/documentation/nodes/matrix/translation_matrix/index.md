@@ -13,17 +13,17 @@ matrix to perform the translation.
 
 ## Inputs
 
-  - **Translation** - A vector that stores the amount of translation in
+- **Translation** - A vector that stores the amount of translation in
     the output transformation matrix.
 
 ## Outputs
 
-  - **Matrix** - A transformation matrix that contains the translation
+- **Matrix** - A transformation matrix that contains the translation
     information.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

@@ -47,13 +47,13 @@ Output*.
 
 There are two new advanced settings:
 
-  -   - Inline Expression  
+- - Inline Expression  
         Reduces function call overhead. The speedup is only notable when
         the expression is very small. When deactivated expressions like
         `sin(x)` can be used. To archive the same thing when the setting
         is activated use `math.sin(x)`.
 
-  -   - Fixed Data Type  
+- - Fixed Data Type  
         Forbid the node to change the output type automatically. This is
         automatically activated when the output type is selected
         manually.

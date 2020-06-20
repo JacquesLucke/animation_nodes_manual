@@ -12,16 +12,16 @@ matrix.
 
 ## Inputs
 
-  - **Matrix** - A matrix to transform.
-  - **Transformation** - A transformation matrix.
+- **Matrix** - A matrix to transform.
+- **Transformation** - A transformation matrix.
 
 ## Outputs
 
-  - **Matrix** - The transformed matrix.
+- **Matrix** - The transformed matrix.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

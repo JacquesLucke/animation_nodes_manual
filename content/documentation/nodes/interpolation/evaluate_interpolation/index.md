@@ -11,25 +11,25 @@ This node evaluates the input Interpolation at the input position.
 
 ## Inputs
 
-  - **Position** - The value at which the interpolation is evaluated
+- **Position** - The value at which the interpolation is evaluated
     at.(<span class="title-ref">x</span> in
     <span class="title-ref">F(x)</span> where
     <span class="title-ref">F</span> is the input interpolation.)
-  - **Interpolation** - An interpolation to
+- **Interpolation** - An interpolation to
     evaluate.(<span class="title-ref">F</span> in
     <span class="title-ref">F(x)</span> where
     <span class="title-ref">x</span> is the input position)
 
 ## Outputs
 
-  - **Value** - The output of the interpolation at the value
+- **Value** - The output of the interpolation at the value
     *Position*.(<span class="title-ref">F(x)</span> where
     <span class="title-ref">F</span> is the input interpolation and
     <span class="title-ref">x</span> is the input position)
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

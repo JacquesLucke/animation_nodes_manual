@@ -19,16 +19,16 @@ matters.
 
 ## Inputs
 
-  - **A** - A transformation matrix.
-  - **B** - A transformation matrix.
+- **A** - A transformation matrix.
+- **B** - A transformation matrix.
 
 ## Outputs
 
-  - **Result** - The combined transformation matrix.
+- **Result** - The combined transformation matrix.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

@@ -17,19 +17,19 @@ and select **Copy Data Path**.
 
 ## Inputs
 
-  - **Object** - An object.
-  - **Path** - The data path of the property.
-  - **Array Index** - The index of the property to edit. Where the first
+- **Object** - An object.
+- **Path** - The data path of the property.
+- **Array Index** - The index of the property to edit. Where the first
     element indexed as zero and the third as 2.
-  - **Value** - The value of the property to edit.
+- **Value** - The value of the property to edit.
 
 ## Outputs
 
-  - **Object** - The input object.
+- **Object** - The input object.
 
 ## Advanced Node Settings
 
-  - **Clear Cache** - The node automatically cache data paths for faster
+- **Clear Cache** - The node automatically cache data paths for faster
     future executions, pressing this would clear that cache.
 
 ## Examples of Usage

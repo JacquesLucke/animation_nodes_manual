@@ -97,7 +97,7 @@ number and types of nodes in the node tree.
 This panel includes manual execution button and the scene that the node
 tree belongs to.
 
-  - **Edit Node labels** - If enabled, a text box will appear in every
+- **Edit Node labels** - If enabled, a text box will appear in every
     node that lets you edit the label of the node. This is particularly
     helpful if you want to organize you node tree after you finished
     building it.

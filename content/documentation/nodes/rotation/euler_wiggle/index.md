@@ -16,17 +16,17 @@ all of its components. It is just like a `Number Wiggle
 The inputs are just like `Number Wiggle <../number/number_wiggle>` node
 except for the Amplitude.
 
-  - **Amplitude** - An euler that controls the the amplitude of each
+- **Amplitude** - An euler that controls the the amplitude of each
     component's perlin noise.
 
 ## Outputs
 
-  - **Euler** - The output euler of the noise functions at the variable
+- **Euler** - The output euler of the noise functions at the variable
     **Evolution**.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Note
 

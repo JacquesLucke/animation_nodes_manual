@@ -30,12 +30,12 @@ before, that is, execute the nodetree as much as possible. This option
 should not be used unless absolutely needed. A possible uses for it is
 as follows:
 
-  - A lot of variables that Animation Nodes uses in the scene are
+- A lot of variables that Animation Nodes uses in the scene are
     changing regularly and constantly, for instance, if the nodetree
     relies on the locations of tenths of objects that are constantly
     moving. Had they just been couple of object, then it would be better
     to use *triggers* (Triggers will be presented later on).
-  - When running a time based discretized simulations that need to be
+- When running a time based discretized simulations that need to be
     computed as fast as possible.
 
 {{< video always.mp4 >}}
@@ -105,10 +105,10 @@ to watch for the location of the object.
 
 There are two options to define the property:
 
-  - **Object Property** - An object is chosen and the property ID is
+- **Object Property** - An object is chosen and the property ID is
     defined relative to it. An example for such IDs are: `location`,
     `euler_rotation`, `location.x` ... .
-  - **Scene Property** - A scene is chosen and the property ID is
+- **Scene Property** - A scene is chosen and the property ID is
     defined relative to it. If the scene `Scene` is chosen and the ID is
     `world.horizon_color`, then the full path of the property is
     `bpy.data.scenes["Scene"].world.horizon_color`.

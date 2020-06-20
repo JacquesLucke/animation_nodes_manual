@@ -96,8 +96,8 @@ not very "artist friendly"
 
 Basic usage examples:
 
-  - transform (rotation) of object goes around Empty
-  - Rotation around axis, where X and Z are defined by points
+- transform (rotation) of object goes around Empty
+- Rotation around axis, where X and Z are defined by points
 
 ![image](change_pivot_matrix_example_parent.png)
 
@@ -131,10 +131,10 @@ node should be set to *World*.
 Structs are a new socket type. It can store multiple values in one
 socket. Having such a type has multiple benefits:
 
-  - It's easier to manage many records.
-  - Can replace Generic Lists in some cases (generic lists are bad
+- It's easier to manage many records.
+- Can replace Generic Lists in some cases (generic lists are bad
     because they don't which data type they contain)
-  - Allows us to have a new set of nodes in the future. E.g. for
+- Allows us to have a new set of nodes in the future. E.g. for
     automatically reading and parsing .csv files.
 
 ![image](structs.png)
@@ -347,5 +347,5 @@ these settings and they took too much space.
 I'm not 100% if this is a full list but you'll definitly have to replace
 these nodes when updating older files to this release:
 
-  - Splines from Object
-  - Object Matrix Output
+- Splines from Object
+- Object Matrix Output

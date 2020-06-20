@@ -12,15 +12,15 @@ output will be `1-x` clamped to the `[0,1]` range of course.
 
 ## Inputs
 
-  - **Falloff** - A falloff.
+- **Falloff** - A falloff.
 
 ## Outputs
 
-  - **Falloff** - The actual falloff object.
+- **Falloff** - The actual falloff object.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

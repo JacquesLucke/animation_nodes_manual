@@ -16,26 +16,26 @@ speed of the bmesh)
 
 ## Inputs
 
-  - **Object** - An object.
-  - **Use World Space** - This option allows you to choose between local
+- **Object** - An object.
+- **Use World Space** - This option allows you to choose between local
     and global coordinates space for the output vectors (vertices
     location).
-  - **Use Modifiers** - This option if enabled will return the data as
+- **Use Modifiers** - This option if enabled will return the data as
     modifiers were applied, that includes both the generative and
     defomative modifiers.
-  - **Scene** - The scene the object exist in.
+- **Scene** - The scene the object exist in.
 
 ## Outputs
 
-  - **Bmesh** - A bmesh data type.
+- **Bmesh** - A bmesh data type.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Notes
 
-  - Using Bmesh doesn't mean that the info will be updated on the fly
+- Using Bmesh doesn't mean that the info will be updated on the fly
     when you are in edit mode editing, you will have to change to object
     mode to update the edits you applied.
 

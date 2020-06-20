@@ -12,16 +12,16 @@ object group.
 
 ## Inputs
 
-  - **Object Group** - An object group.
+- **Object Group** - An object group.
 
 ## Outputs
 
-  - **Objects** - A list that contains all the objects in the input
+- **Objects** - A list that contains all the objects in the input
     object group.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

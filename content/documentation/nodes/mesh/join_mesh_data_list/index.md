@@ -11,15 +11,15 @@ This node combines multiple mesh data into a single mesh data.
 
 ## Inputs
 
-  - **Mesh Data List** - A list of mesh data to join.
+- **Mesh Data List** - A list of mesh data to join.
 
 ## Outputs
 
-  - **Mesh Data** - The joined mesh data.
+- **Mesh Data** - The joined mesh data.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

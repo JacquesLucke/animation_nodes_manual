@@ -11,15 +11,15 @@ This node returns a list of all FCurves in the input object.
 
 ## Inputs
 
-  - **Object** - An object to return its fcurves.
+- **Object** - An object to return its fcurves.
 
 ## Outputs
 
-  - **FCurves** - A list of all fcurves in the input object.
+- **FCurves** - A list of all fcurves in the input object.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

@@ -12,31 +12,31 @@ bake node.
 
 ## Options
 
-  -   - **Type**:
+- - **Type**:
         
-          - **Average** - Returns a float that represent the intensity
+        - **Average** - Returns a float that represent the intensity
             of the sound---Those that are baked using the Bake button
             and not the Bake Equalizer Data.
-          - **Spectrum** - Returns a list of floats that represent the
+        - **Spectrum** - Returns a list of floats that represent the
             intensity of the frequencies---Those that were baked using
             the Bake Spectrum button.
 
 ## Inputs
 
-  - **Sound** - An input sound to evaluate.
-  - **Frame** - The frame at which the sound is evaluated. (Only
+- **Sound** - An input sound to evaluate.
+- **Frame** - The frame at which the sound is evaluated. (Only
     available when **Use Current Frame** is disabled.)
 
 ## Outputs
 
-  - **Volume** - The intensity of the sound at the current frame. (Only
+- **Volume** - The intensity of the sound at the current frame. (Only
     available in **Average** option)
-  - **Volumes** - A float list that contain the intensities of the
+- **Volumes** - A float list that contain the intensities of the
     *Spectrum Data*. (Only available in **Spectrum** option)
 
 ## Advanced Node Settings
 
-  - **Use Current Frame** - If enabled, the sound will be evaluated at
+- **Use Current Frame** - If enabled, the sound will be evaluated at
     the current frame, if not, the sound will be evaluate at the input
     frame.
 

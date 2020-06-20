@@ -17,13 +17,13 @@ lists where displayed in a dedicated floating viewer.
 
 ## Advanced Node Settings
 
-  - **Font Size** - The size of the drawn text on the dedicated floating
+- **Font Size** - The size of the drawn text on the dedicated floating
     drawer.
-  - **Max Rows** - Maximum amount of rows to draw for the dedicated
+- **Max Rows** - Maximum amount of rows to draw for the dedicated
     floating viewer.
-  - **List Start** - The amount of list elements to display from the
+- **List Start** - The amount of list elements to display from the
     start.
-  - **List End** - The amount of list elements to display from the end.
-  - **Console** - If enabled, the data will be printed on the terminal.
-  - **Text Block** - If enabled, the data will be written on a blender
+- **List End** - The amount of list elements to display from the end.
+- **Console** - If enabled, the data will be printed on the terminal.
+- **Text Block** - If enabled, the data will be written on a blender
     data block.

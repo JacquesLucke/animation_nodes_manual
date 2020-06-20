@@ -14,19 +14,19 @@ minimum value it will be rendered the minimum value.
 
 ## Inputs
 
-  - **Value** - The input value for clamping.
-  - **Min** - If the input value is less than this value, the output
+- **Value** - The input value for clamping.
+- **Min** - If the input value is less than this value, the output
     will be this value.
-  - **Max** - If the input value is more than this value, the output
+- **Max** - If the input value is more than this value, the output
     will be this value.
 
 ## Outputs
 
-  - **Value** - The clamped value.
+- **Value** - The clamped value.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

@@ -25,27 +25,27 @@ vector.
 
 ## Inputs
 
-  - **Plane 1 Point** - A point on the first required plane.
-  - **Plane 1 Normal** - A unit vector that represent the normal of the
+- **Plane 1 Point** - A point on the first required plane.
+- **Plane 1 Normal** - A unit vector that represent the normal of the
     first required plane.
-  - **Plane 2 Point** - A point on the second required plane.
-  - **Plane 2 Normal** - A unit vector that represent the normal of the
+- **Plane 2 Point** - A point on the second required plane.
+- **Plane 2 Normal** - A unit vector that represent the normal of the
     second required plane.
 
 ## Outputs
 
-  - **Intersection Point** - The location of the closest point to the
+- **Intersection Point** - The location of the closest point to the
     world center that is on the line of intersection of the planes.
-  - **Direction Vector** - A unit vector that describe the direction of
+- **Direction Vector** - A unit vector that describe the direction of
     the line of intersection of the two planes.
-  - **Angle** - The angle between input planes in radians.
-  - **Is Valid** - A boolean which is True if an intersection was found
+- **Angle** - The angle between input planes in radians.
+- **Is Valid** - A boolean which is True if an intersection was found
     and False otherwise. If it is False, that means that the planes are
     parallel or identical.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

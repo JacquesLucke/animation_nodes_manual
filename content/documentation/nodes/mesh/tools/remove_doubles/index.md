@@ -16,18 +16,18 @@ threshold is defined by an input.
 
 ## Inputs
 
-  - **Bmesh** - An Input Bmesh.
-  - **Distance** - The threshold for merging the vertices. (If the
+- **Bmesh** - An Input Bmesh.
+- **Distance** - The threshold for merging the vertices. (If the
     distance between 2 points is lower than this number, they will be
     joined)
 
 ## Outputs
 
-  - **Bmesh** - The resulted Bmesh.
+- **Bmesh** - The resulted Bmesh.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

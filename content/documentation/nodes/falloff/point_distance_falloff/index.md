@@ -53,19 +53,19 @@ values before clamping. Notice how outline exceed one and deceed zero:
 
 ## Inputs
 
-  - **Origin** - The position of the point.
-  - **Offset** - This float is added to the floats of every object. It
+- **Origin** - The position of the point.
+- **Offset** - This float is added to the floats of every object. It
     acts as an offset for the distances.
-  - **Falloff Width** - A float that is multiplied by the floats, can be
+- **Falloff Width** - A float that is multiplied by the floats, can be
     though of as the slope of decreasing.
 
 ## Outputs
 
-  - **Falloff** - The actual falloff object.
+- **Falloff** - The actual falloff object.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

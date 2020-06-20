@@ -11,15 +11,15 @@ This node returns all the sequence strips in the sequence editor.
 
 ## Inputs
 
-  - **Scene** - A scene.
+- **Scene** - A scene.
 
 ## Outputs
 
-  - **Sequences** - A list of all sequences in the sequence editor.
+- **Sequences** - A list of all sequences in the sequence editor.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

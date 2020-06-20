@@ -13,28 +13,28 @@ sound by its location in the sequencer channels.
 
 ## Options
 
-  -   - **Sound Type**:
+- - **Sound Type**:
         
-          - **Average** - Returns the sound which was baked using the
+        - **Average** - Returns the sound which was baked using the
             **Bake Average** button.
-          - **Spectrum** - Returns the sound which was baked using the
+        - **Spectrum** - Returns the sound which was baked using the
             **Bake Spectrum** button.
 
 ## Inputs
 
-  - **Sequences** - The sequences at which the sound strips exist, you
+- **Sequences** - The sequences at which the sound strips exist, you
     can get sequences list by using the *Sequences From Channel* node.
-  - **Bake Index** - The index of the baked data. Multiple sound data
+- **Bake Index** - The index of the baked data. Multiple sound data
     can be baked using the *Sound Bake* node and this index let you
     choose which one to get.
 
 ## Outputs
 
-  - **Sound** - The sound data of the sound strip.
+- **Sound** - The sound data of the sound strip.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 

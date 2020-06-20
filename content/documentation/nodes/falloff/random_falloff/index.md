@@ -12,19 +12,19 @@ for every object.
 
 ## Inputs
 
-  - **Seed** - Change this to get a different set of random numbers.
-  - **Min** - Lower bound for the random numbers, can't be less than
+- **Seed** - Change this to get a different set of random numbers.
+- **Min** - Lower bound for the random numbers, can't be less than
     zero.
-  - **Max** - Upper bound for the random numbers, can't be larger than
+- **Max** - Upper bound for the random numbers, can't be larger than
     one.
 
 ## Outputs
 
-  - **Falloff** - The actual falloff object.
+- **Falloff** - The actual falloff object.
 
 ## Advanced Node Settings
 
-  - N/A
+- N/A
 
 ## Examples of Usage
 
