@@ -2,7 +2,7 @@ name: Deploy
 on:
   push:
     branches:
-    - hugo
+    - master
 
 jobs:
   deploy:
@@ -29,4 +29,3 @@ jobs:
         ftp_password: ${{ secrets.FTP_PASSWORD }}
         local_source_dir: public/
         dist_target_dir: docs/
-        delete: "true"
