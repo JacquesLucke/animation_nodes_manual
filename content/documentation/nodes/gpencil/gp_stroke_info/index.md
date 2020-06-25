@@ -1,6 +1,6 @@
 ---
 title : GP Stroke Info
-weight : 4
+weight : 40
 ---
 
 ## Description
@@ -25,7 +25,3 @@ This node returns some information about the gp stroke like its points, strength
 - **End Cap Mode** - The end-shape of the input gp stroke, e.g., FLAT, ROUND.
 - **Material Index** - This is the 'Color Index' pass of the input gp stroke.
 - **Display Mode** - This is the display mode of the input gp stroke, e.g., 3DSPACE, SCREEN, etc.
-
-## Advanced Node Settings
-
-- N/A

@@ -1,6 +1,6 @@
 ---
 title : GP Object Input
-weight : 1
+weight : 10
 ---
 
 ## Description
@@ -24,5 +24,5 @@ object in the 3d viewport.
 ## Advanced Node Settings
 
 - **Import Type** -
-  - _Single_ - This mode outputs a gp layer by its name of the input gp object.
-  - _All_ - This mode outputs all gp layers of the input gp object.
+  - *Single* - This mode outputs a gp layer by its name of the input gp object.
+  - *All* - This mode outputs all gp layers of the input gp object.
