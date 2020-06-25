@@ -1,0 +1,28 @@
+---
+title : GP Object Input
+weight : 1
+---
+
+## Description
+
+This node outputs gp layer(s) of the input object.
+
+Clicking the eye dropper icon will set the input gp object to the active
+object in the 3d viewport.
+
+## Inputs
+
+- **Object** - An object.
+- **Use World Space** - This option lets you choose between local and
+    global coordinate space for the outputs.
+- **Layer Name** - This option lets you get gp layer by its name.
+
+## Outputs
+
+- **Layer(s)** - A gp layer object or A gp later list that includes all the gp layers of the input gp object.
+
+## Advanced Node Settings
+
+- **Import Type** -
+  - _Single_ - This mode outputs a gp layer by its name of the input gp object.
+  - _All_ - This mode outputs all gp layers of the input gp object.
