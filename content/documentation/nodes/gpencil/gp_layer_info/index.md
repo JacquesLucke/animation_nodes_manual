@@ -24,7 +24,7 @@ This node returns some information about the gp layer like its frame(s), name, a
 
 - **Frame(s)** - A gp frame or A gp frame list that includes all the gp frames of the input gp layer.
 - **Name** - The name of the input gp layer.
-- **Blend Mode** - The blend mode of the input gp layer, e.g., REGULAR, ADD, SUBTRACT, etc.
+- **Blend Mode** - The blend mode of the input gp layer, *e.g., REGULAR, ADD, SUBTRACT, etc*.
 - **Opacity** - The opacity of the input gp layer.
 - **Use Lights** - Enable the use of lights on gp strokes and fill materials.
 - **Tint Color** - The tint color of the input gp layer that tints the stroke colors.

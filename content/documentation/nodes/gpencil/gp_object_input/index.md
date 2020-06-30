@@ -12,7 +12,7 @@ object in the 3d viewport.
 
 ## Inputs
 
-- **Object** - An object.
+- **Object** - A gp object.
 - **Use World Space** - This option lets you choose between local and
     global coordinate space for the outputs.
 - **Layer Name** - This option lets you get gp layer by its name.
