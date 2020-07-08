@@ -1,6 +1,6 @@
 ---
 title : Vertex Group Input
-weight : 1
+weight : 10
 ---
 
 ## Description
