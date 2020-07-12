@@ -1,6 +1,6 @@
 ---
-title : Find Close Vertices
-weight : 1
+title : Find Close Points
+weight : 10
 ---
 
 ## Description
@@ -8,8 +8,6 @@ weight : 1
 This node takes a vector list (Usually represent the location of some
 points) and return edge indices list that represent some connection
 between those input points.
-
-![image](find_close_points_node.png)
 
 ## Options
 
@@ -32,11 +30,3 @@ between those input points.
 - **Edges** - An edge indices list that represent the connections.
 - **Distances** - A float list that contains the lengths of the edges
     defined by the output edge indices and the input point locations.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video find_close_points_node_example.mp4 >}}

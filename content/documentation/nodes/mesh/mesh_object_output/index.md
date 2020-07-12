@@ -1,37 +1,35 @@
 ---
-title : Object Output
-weight : 1
+title : Mesh Object Output
+weight : 240
 ---
 
 ## Description
 
 This node edits the input object's data based on a new input data.
 
-![image](mesh_object_output_node.png)
-
 ## Options
 
-- **Mesh Data** - This option lets you write a mesh data to the input
-    object. Since the mesh data block carries only the vertices
-    locations, edge, indices, and polygons indices info, those will be
-    the only data in the output object. (A bmesh data carries more
-    information than the mesh data block like vertices normals.)
+- **Mesh** - This option lets you write a mesh to the input
+    object. Since the mesh carries only the vertices
+    locations, edge, indices, polygons indices info, uv maps and vertex colors,
+    those will be the only data in the output object. (A bmesh data carries more
+    information than the mesh like vertices normals.)
 - **Bmesh** - This option lets you write a bmesh data to the input
-    object. A bmesh data carry much more information than the mesh data,
+    object. A bmesh data carry much more information than the mesh,
     such extra information like *Vertex Normals*, *Vertex group weights*
     and *Material indices*.
 - **Vertices** - This option will only edit the vertices locations,
     that is, the input object should already have some data and you are
     just editing the vertices locations of this data. This option is
-    much faster than the **Mesh Data** option assuming all you do is
+    much faster than the **Mesh** option assuming all you do is
     edit the vertices.
 
 ## Inputs
 
 - **Object** - An object to edit. The plus button let you add a new
     object and write to it.
-- **Mesh Data** - Mesh data to write to the input object. (Only for
-    the Mesh Data option)
+- **Mesh** - Mesh to write to the input object. (Only for
+    the Mesh option)
 - **Bmesh** - Bmesh to write to the input object. (Only for the Bmesh
     option)
 - **Vertices** - Vector list that represents the new locations for the
@@ -46,17 +44,15 @@ This node edits the input object's data based on a new input data.
 
 ## Advanced Node Settings
 
+- **Ensure Animation Data** - Make sure that the mesh has animation data so that
+    it will be exported as animation by exporters (mainly Alembic).
 - **Make Mesh Exportable** - If enabled, the mesh will be edited in
     order to be exported correctly. Use when exporting using Alembic.
 - **Validate Mesh** - If enabled, animation nodes will check if the
-    mesh data is valid and if not, it will try to correct it as much as
+    mesh is valid and if not, it will try to correct it as much as
     possible. This option should always be enabled to avoid blender
-    crashes. However, if you are absolutely sure that your mesh data is
+    crashes. However, if you are absolutely sure that your mesh is
     valid, you should disable it because it slows down execution.
 - **Print Validation Info** - If enabled and **Validate Mesh** is
     enabled, animation nodes will print the procedures taken to fix the
-    input mesh data.
-
-## Examples of Usage
-
-{{< video object_mesh_data_node_example.mp4 >}}
+    input mesh.
