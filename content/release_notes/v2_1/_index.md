@@ -5,6 +5,13 @@ weight : 4
 
 ## Key Features
 
+### Sound
+
+The sound system was rewritten to be real-time and flexible. Baking is no
+longer needed.
+
+{{< video sound_falloff.mp4 >}}
+
 ### Actions
 
 Actions is a completely new system with a completely new work-flow of doing

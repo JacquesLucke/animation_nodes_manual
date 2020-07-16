@@ -17,6 +17,13 @@ A new mode for distributing matrices on a spiral was added.
 
 ![Distribute Matrices](distribute_matrices_spiral.png)
 
+A new option for centring grid along some or all of the axis was added.
+
+{{< video distribute_matrices_center.mp4 >}}
+
+Finally, the node now returns vector versions of the matrices representing
+their locations.
+
 ## Axis Rotation Matrix
 
 The *Axis Rotation Matrix* node was added. The node compose a rotation matrix
