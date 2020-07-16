@@ -23,6 +23,14 @@ can so in an accumulative manner.
 
 {{< video tilt_spline.mp4 >}}
 
+## Splines From Edges
+
+A new *Spline Per Branch* option was added. It minimizes discontinuity by
+forming splines from *branches* instead of edges. A comparison between the old
+approach and the new option is shown in the following example.
+
+![Spline Per Branch](spline_per_branch.png)
+
 ## Evaluate Spline
 
 A new *Evaluate Range* option was added.

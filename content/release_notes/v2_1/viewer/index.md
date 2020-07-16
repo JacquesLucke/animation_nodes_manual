@@ -2,6 +2,13 @@
 title : Viewer
 ---
 
+## 3D Viewer
+
+Matrices are now displayed as colored positive axis. Additionally, the
+saturation of the colors decrease as the index of the matrix increase.
+
+![3D Viewer](3d_viewer.png)
+
 ## Viewer
 
 The view node now shown angles in degrees as opposed to radians.
