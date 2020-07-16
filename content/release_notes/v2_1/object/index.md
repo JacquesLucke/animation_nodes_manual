@@ -4,7 +4,8 @@ title : Object
 
 ## Object Transforms Input
 
-Evaluating transforms at certain frames is no longer possible.
+Evaluating transforms at certain frames is no longer possible. The new action
+system can be used for that.
 
 ## Shape Keys From Object
 
