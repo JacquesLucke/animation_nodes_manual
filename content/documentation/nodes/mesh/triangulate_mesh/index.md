@@ -9,7 +9,7 @@ This node triangulates the mesh with *Fan Span* and *Ear Clip* methods.
 
 ## Options
 
-- *Use Advanced Method* - This option allows to use *Ear Clip* method for triangultion.
+- *Use Advanced Method* - This option allows to use *Ear Clip* method for triangulation.
 The *Ear Clip* gives better triangulation of concave polygons.
 
 ## Inputs

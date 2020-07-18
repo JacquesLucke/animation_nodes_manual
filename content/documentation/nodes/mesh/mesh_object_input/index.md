@@ -6,7 +6,7 @@ weight : 10
 ## Description
 
 This node returns some information about the input object like its
-vertices locations and polygon edge indicies.
+vertices locations and polygon edge indices.
 
 The data is from blender's object data block, which means, when the
 object is edited in edit mode, **AN** won't update the output data

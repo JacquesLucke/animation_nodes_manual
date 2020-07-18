@@ -5,7 +5,7 @@ weight : 90
 
 ## Description
 
-This node sets the stroke attributes e.g., Line Width, Hardness, Cyclic, etc for a gp stroke(s). This node can also generate a list of gp stroke by inputting a list of any attribute.
+This node sets the stroke's attributes e.g., Line Width, Hardness, Cyclic, etc for a gp stroke(s). This node can also generate a list of gp stroke by inputting a list of any attribute.
 
 ## Inputs
 

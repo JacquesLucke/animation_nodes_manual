@@ -10,7 +10,7 @@ This node sets the weight(s) of the vertices in vertex groups.
 ## Options
 
 - **All** - The Weight(s) input will be a float list that contain all the
-    weights for the choosen vertex group.
+    weights for the chosen vertex group.
 - **Index** - The Weight(s) input will be a single float that contain the
     weight for the vertex at the input index.
 

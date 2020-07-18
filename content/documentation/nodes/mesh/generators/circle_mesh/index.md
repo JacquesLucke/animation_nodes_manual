@@ -5,7 +5,7 @@ weight : 30
 
 ## Description
 
-This node return the mesh(s) of a cicle or disc based.
+This node return the mesh(s) of a circle or disc based.
 
 ## Options
 

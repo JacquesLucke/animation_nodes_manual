@@ -5,8 +5,8 @@ weight : 20
 
 ## Description
 
-This node returns some information about the input mesh like its
-vertices locations and polygon edge indicies.
+This node returns information about the input mesh like its
+vertices locations and polygon edge indices.
 
 ## Inputs
 

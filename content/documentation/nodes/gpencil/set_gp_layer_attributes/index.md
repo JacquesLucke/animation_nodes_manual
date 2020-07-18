@@ -5,7 +5,7 @@ weight : 50
 
 ## Description
 
-This node sets the layer attributes e.g., Name, Blend Mode, Opacity, etc for a gp layer(s). This node can also generate a list of gp layer by inputting a list of any attribute.
+This node sets the layer's attributes e.g., Name, Blend Mode, Opacity, etc for a gp layer(s). This node can also generate a list of gp layer by inputting a list of any attribute.
 
 ## Inputs
 

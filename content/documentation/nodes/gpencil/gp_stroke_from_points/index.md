@@ -11,7 +11,7 @@ This node generates a gp stroke.
 
 - **Points** - A vector list of location of points of the output gp stroke.
 - **Strengths** - A float list of strength of points of the output gp stroke.
-- **Pressures** - A float list of pressurre of points of the output gp stroke.
+- **Pressures** - A float list of pressure of points of the output gp stroke.
 - **UV-Rotations** - A float list of uv-rotation of points of the output gp stroke.
 - **Vertex Colors** - A color list of vertex color of points of the output gp stroke.
 - **Line Width** - The line width of the output gp stroke.

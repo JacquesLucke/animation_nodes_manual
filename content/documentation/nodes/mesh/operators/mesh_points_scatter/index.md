@@ -12,7 +12,7 @@ This node scatters random points on a mesh surface based on weight.
 - **Node Seed** - Side from the *Seed input*, this extra seed
     parameter enables you to get different random vectors if the *Seed
     input* in not free, that is, it is dependent on some property that
-    you can't freely controle, for instance, when using multiple *Random
+    you can't freely control, for instance, when using multiple *Random
     Vector* nodes in a loop while using the index as a seed, you can
     change the node seed to get different vectors for each node.
     Animation Nodes automatically changes the *Node Seed* when you

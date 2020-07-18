@@ -13,7 +13,7 @@ This node generates a gp layer from a gp frame or a gp frame list.
 - **Name** - The name of the output gp layer.
 - **Blend Mode** - The blend mode of the output gp layer, *e.g., REGULAR, ADD, SUBTRACT, etc*.
 - **Opacity** - The opacity of the output gp layer.
-- **Use Lights** - Enable the use of lights on gp strokes and fill materials.
+- **Use Lights** - It enable the use of lights on gp strokes and fill materials.
 - **Tint Color** - The tint color of the output gp layer that tints the stroke colors.
 - **Tint Factor** - Factor of tinting colors.
 - **Stroke Thickness** - This changes the thickness of strokes in pixels.

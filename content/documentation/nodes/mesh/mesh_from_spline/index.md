@@ -5,7 +5,7 @@ weight : 50
 
 ## Description
 
-This node generates a mesh from a spline or spline list.
+This node generates a mesh from a spline.
 
 ## Options
 
@@ -13,7 +13,7 @@ This node generates a mesh from a spline or spline list.
 
 ## Inputs
 
-- **Spline** - A spline or a spline list.
+- **Spline** - A spline.
 - **Size** - A float value that controls the radius of the output mesh.
 - **Spline Resolution** - A integer value that controls the resolution for sampling the input spline.
 - **Bevel Resolution** - A integer value that controls the bevel resolution of the output mesh.

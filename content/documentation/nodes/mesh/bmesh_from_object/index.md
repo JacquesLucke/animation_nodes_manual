@@ -20,7 +20,7 @@ speed of the bmesh)
     location).
 - **Use Modifiers** - This option if enabled will return the data as
     modifiers were applied, that includes both the generative and
-    defomative modifiers.
+    deformative modifiers.
 - **Scene** - The scene the object exist in.
 
 ## Outputs

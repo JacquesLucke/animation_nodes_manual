@@ -35,7 +35,7 @@ This node offset *location, rotation* and *scale* the polygons of a mesh.
 ## Advanced Node Settings
 
 - **Local Pivots** - Determines the pivot and rotation axis for each polygon.
-    - *Default* - Use center as pivot and gues some tangent and bitangent.
+    - *Default* - Use center as pivot and guess some tangent and bitangent.
     - *Custom Points* - Provide custom pivots for every polygon. Tangent and bitangent are guessed.
     - *Custom Matrices* - Provide a transformation matrix for each polygon that represent it. The rotation part of the matrices has to be orthogonal.
 
