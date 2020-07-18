@@ -2,6 +2,14 @@
 title : Number
 ---
 
+## Float Range
+
+A new *Include End Point* option was added. If enabled, the range will be
+inclusive, that is, it will include the end point. Otherwise, the range will be
+exclusive.
+
+![Float Range](float_range.png)
+
 ## Sort
 
 This node was added. It sorts a list of numbers and return the sorting indices.
