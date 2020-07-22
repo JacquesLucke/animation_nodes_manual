@@ -31,3 +31,8 @@ system can be used for that.
 ## Shape Keys From Object
 
 The reference key is no longer included in the output keys list.
+
+## Object Color Output
+
+A new *Object Color Output* node added. This allows to set viewport color of the object which can also
+utilise for object material.

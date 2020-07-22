@@ -41,3 +41,23 @@ A new *Evaluate Range* option was added.
 
 This node was removed. Replaced by the *Evaluate Range* option of the *Evaluate
 Spline* node.
+
+## Tilt Spline
+
+The *Tilt Spline* node vectorized, now it allows to set tilt of multiple splines.
+
+## Change Spline Direction
+
+A new *Change Spline Direction* node added that allows to switch the direction of a spline or a spline list.
+
+## Spline From GP Stroke
+
+A new *Spline From GP Stroke* node added. This allows to convert gp stroke(s) into spline(s). So with this
+node one can convert a gp object into a curve object.
+
+## Offset Spline
+
+A new *Offset Spline* node added. This node allows to offset location, radius and tilt of a spline with the
+falloff.
+
+{{< video offset_spline.mp4 >}}
