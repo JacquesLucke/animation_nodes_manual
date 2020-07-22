@@ -1,6 +1,6 @@
 ---
 title : Operators
-weight : 1
+weight : 140
 chapter : true
 ---
 

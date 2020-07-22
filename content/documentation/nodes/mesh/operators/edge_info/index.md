@@ -1,13 +1,11 @@
 ---
 title : Edge Info
-weight : 1
+weight : 80
 ---
 
 ## Description
 
 This node return some info about the input edge(s).
-
-![image](edge_info_node.png)
 
 ## Inputs
 
@@ -18,11 +16,3 @@ This node return some info about the input edge(s).
 
 - **Length** - The length(s) of the input edge(s).
 - **Center** - The center(s) of the input edge(s).
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video edge_info_node_example.mp4 >}}

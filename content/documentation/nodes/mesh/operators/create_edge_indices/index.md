@@ -1,14 +1,12 @@
 ---
 title : Create Edge Indices
-weight : 1
+weight : 50
 ---
 
 ## Description
 
 This node creates an edge indices which then can be used to create an
 edge indices list to create meshes.
-
-![image](create_edge_indices_node.png)
 
 ## Inputs
 
@@ -18,11 +16,3 @@ edge indices list to create meshes.
 ## Outputs
 
 - **Edge Indices** - The resulted edge indices.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video create_edge_indices_node_example.mp4 >}}

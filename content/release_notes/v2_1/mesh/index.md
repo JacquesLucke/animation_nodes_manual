@@ -8,7 +8,7 @@ A new *Unity Triangle* node was added. The node returns a mesh composed of a
 single triangle whose area is 1, whose center is 0, and whose orientation is
 such that if an object was instanced on it, the instance orientation will be 0.
 
-This node is extremely useful if one wans to instance many meshes with specific
+This node is extremely useful if one want to instance many meshes with specific
 transformations. Using the *Object Instancer* node would be very inefficient.
 A more efficient approach would be to transform many unity triangles based on
 the target transformations and then use Blender's face instating to instance
@@ -101,3 +101,60 @@ This node was removed. Replaced by the *Mesh Object Input* node.
 ## Replicate Mesh
 
 This node was removed. Replaced by the *Transform Mesh* node.
+
+## Set Vertex Weight
+
+A new *Set Vertex Weight* node was added. This node allows to set weight for each vertex of an object.
+
+{{< video set_vertex_weight.mp4 >}}
+
+## Triangulate Mesh
+
+A new *Triangulate Mesh* node was added. This node allows to triangulate a mesh with *Fan Span* or
+*Ear Clip* method.
+
+## Get Linked Vertices
+
+A new *Get Linked Vertices* node was added. This node gives information about the vertices (and edges)
+that are linked to a vertex.
+
+![Get Linked Vertices](get_linked_vertices.png)
+
+## Mesh Points Scatter
+
+A new *Mesh Points Scatter* node was added. This node allows to scatter random points on a mesh based
+on the weight. This node is really helpful for scattering objects on mesh surface e.g., trees on a terrain.
+
+{{< video mesh_points_scatter.mp4 >}}
+
+## Line Mesh
+
+This node now has two modes *Start-End* and *Points* to generate line mesh.
+
+## Vertex Color
+
+New nodes added to get or set vertex colors with different modes. There are three nodes for that *Get Vertex Color Layer*, *Insert Vertex Color Layer*, and *Set Vertex Color*.
+
+{{< video vertex_color.mp4 >}}
+
+## Bevel Weight
+
+The *Set Bevel Vertex Weight* and *Set Bevel Edge Weight* nodes added to set bevel weight for vertices
+and edges of an object.
+
+{{< video set_bevel_weight.mp4 >}}
+
+## Set Edge Crease
+
+A new *Set Edge Crease* node added. This allows to set crease of edges which can be utilized with modifiers.
+
+## UV Map
+
+New nodes added to get or set uv-maps. There are three nodes for that *Get UV Map Layer*, *Insert UV Map Layer*, and *Set UV Map*.
+
+![UV Map Nodes](uv_map.png)
+
+## Set Polygon Material Index
+
+A new *Set Polygon Material Index* node added. This node allows to set material index for each polygon.
+So one can assign different materials to different regions of an object.

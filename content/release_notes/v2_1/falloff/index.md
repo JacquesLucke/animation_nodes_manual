@@ -16,3 +16,9 @@ different types of noises. The following example illustrates the use of noise
 falloff.
 
 {{< video noise_falloff.mp4 >}}
+
+## Spline Falloff
+
+New options added in *Spline Falloff* node that allows to use spline's radius for *Distance* and *Width* of falloff.
+
+{{< video spline_falloff.mp4 >}}

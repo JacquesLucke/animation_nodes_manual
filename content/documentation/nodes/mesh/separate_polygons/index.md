@@ -1,13 +1,11 @@
 ---
 title : Separate Polygons
-weight : 1
+weight : 80
 ---
 
 ## Description
 
 This node separate input polygons.
-
-![image](separate_polygons_node.png)
 
 ## Inputs
 
@@ -21,11 +19,3 @@ This node separate input polygons.
     of the separated polygons.
 - **Polygon Indices** - A polygon indices list that define the
     separated polygons.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video separate_polygons_node_example.mp4 >}}

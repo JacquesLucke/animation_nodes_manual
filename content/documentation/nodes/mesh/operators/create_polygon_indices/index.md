@@ -1,6 +1,6 @@
 ---
 title : Create Polygon Indices
-weight : 1
+weight : 60
 ---
 
 ## Description
@@ -8,18 +8,16 @@ weight : 1
 This node creates a polygon indices which then can be used to create a
 polygon indices list to create meshes.
 
-![image](create_polygon_indices_node.png)
-
 ## Options
 
-- - **Vertex Amount** - This option generates a polygon indices of a
+- **Vertex Amount** - This option generates a polygon indices of a
         specific number of vertices with the sequence `0,1,2,...`.
-        
-        - **Use list** - It is the option you see beside the menu, if
-            enabled, the node will expect a list of vertices amounts and
-            the output will be a polygon indices list that include
-            polygon indices of corresponding vertices amounts with the
-            sequence `0,1,2,...`.
+
+    - **Use list** - It is the option you see beside the menu, if
+        enabled, the node will expect a list of vertices amounts and
+        the output will be a polygon indices list that include
+        polygon indices of corresponding vertices amounts with the
+        sequence `0,1,2,...`.
 
 - **Indices** - This options convert an integer list to a polygon
     indices list.
@@ -35,11 +33,3 @@ polygon indices list to create meshes.
 ## Outputs
 
 - **Polygon Indices** - The resulted polygon indices.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video create_polygon_indices_node_example.mp4 >}}
