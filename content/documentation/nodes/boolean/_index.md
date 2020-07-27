@@ -6,4 +6,14 @@ chapter : true
 
 # Boolean
 
-This is the reference for boolean nodes in Animation Nodes.
+### Data Types
+
+- **Boolean** - A boolean.
+
+### Sockets
+
+- **Boolean Socket** - It can intake or output the boolean(s).
+
+### Nodes
+
+{{% children %}}

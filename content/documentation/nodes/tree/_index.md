@@ -1,9 +1,21 @@
 ---
 title : KD And BVH Trees
-weight : 21
+weight : 22
 chapter : true
 ---
 
 # KD And BVH Trees
 
-This is the reference for KD and BVH tree nodes in Animation Nodes.
+### Data Types
+
+- **KD Tree** - A data structure that represents a KD Tree object.
+- **BVH Tree** - A data structure that represents a BVH Tree object.
+
+### Sockets
+
+- **KD Tree Socket** - It can intake or output the KD Tree object(s).
+- **BVH Tree Socket** - It can intake or output the BVH Tree object(s).
+
+### Nodes
+
+{{% children %}}

@@ -6,4 +6,14 @@ chapter : true
 
 # Particles
 
-This is the reference for particles nodes in Animation Nodes.
+### Data Types
+
+- **Particle System** - A data structure that represents a particle system of object.
+
+### Sockets
+
+- **Particle System Socket** - It can intake or output the particle system(s) of object.
+
+### Nodes
+
+{{% children %}}

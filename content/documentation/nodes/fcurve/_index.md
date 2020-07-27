@@ -1,9 +1,19 @@
 ---
 title : FCurve
-weight : 16
+weight : 17
 chapter : true
 ---
 
 # FCurve
 
-This is the reference for fcurve nodes in Animation Nodes.
+### Data Types
+
+- **FCurve** - A data structure that represents a fcurve of object.
+
+### Sockets
+
+- **FCurve Socket** - It can intake or output the fcurve(s) of object.
+
+### Nodes
+
+{{% children %}}
