@@ -6,4 +6,5 @@ chapter : true
 
 # Animation
 
-This is the reference for animation nodes in Animation Nodes.
+### Nodes
+{{% children %}}

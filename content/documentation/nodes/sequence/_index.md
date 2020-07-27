@@ -1,9 +1,18 @@
 ---
 title : Sequence
-weight : 19
+weight : 20
 chapter : true
 ---
 
 # Sequence
 
-This is the reference for sequence nodes in Animation Nodes.
+### Data Types
+
+- **Sequence** - A data structure that represents a strip of the sequencer.
+
+### Sockets
+
+- **Sequence Socket** - It can intake or output the sequence(s).
+
+### Nodes
+{{% children %}}

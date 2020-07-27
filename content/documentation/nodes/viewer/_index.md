@@ -1,10 +1,10 @@
 ---
 title : Viewer
-weight : 22
+weight : 23
 chapter : true
 ---
 
 # Viewer
 
-This is the reference for viewer nodes in Animation Nodes.
-
+### Nodes
+{{% children %}}

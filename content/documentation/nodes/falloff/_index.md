@@ -6,4 +6,14 @@ chapter : true
 
 # Falloff
 
-This is the reference for falloff nodes in Animation Nodes.
+### Data Types
+
+- **Falloff** - A data structure that represents a falloff. It stores a falloff function
+    that associates a float to every object *(vector, matrices, etc).*
+
+### Sockets
+
+- **Falloff Socket** - It can intake or output the falloff(s).
+
+### Nodes
+{{% children %}}
