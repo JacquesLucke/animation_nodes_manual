@@ -8,7 +8,7 @@ chapter : true
 
 ### Data Types
 
-- **Object** - It is an object that is available in the *Add* menu of the 3D viewport.
+- **Object** - Blender object.
 - **Shape Key** - A data structure that represents a shape key of the object.
 
 ### Sockets
@@ -18,4 +18,5 @@ shape keys.
 - **Shape Key Socket** - It can intake or output the shape key(s).
 
 ### Nodes
-{{% children %}}
+
+{{% children depth="3" %}}

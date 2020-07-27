@@ -29,4 +29,5 @@ chapter : true
     has *node link conversion* for polygon indices list to edge indices list.
 
 ### Nodes
-{{% children %}}
+
+{{% children depth="3" %}}

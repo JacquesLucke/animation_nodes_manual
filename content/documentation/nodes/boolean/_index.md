@@ -15,4 +15,5 @@ chapter : true
 - **Boolean Socket** - It can intake or output the boolean(s).
 
 ### Nodes
+
 {{% children %}}

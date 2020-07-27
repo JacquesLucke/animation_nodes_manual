@@ -8,7 +8,8 @@ chapter : true
 
 ### Data Types
 
-- **Matrix** - A matrix. It stores location, rotation and scale.
+- **Matrix** - A transformation matrix. It can represent a transformation or the transforms of an
+    object, that is, its location, rotation, and scale.
 
 ### Sockets
 
@@ -16,4 +17,5 @@ chapter : true
     for matrix to matrices and vectors.
 
 ### Nodes
+
 {{% children %}}
