@@ -28,6 +28,15 @@ by the action with a linear offset.
 
 {{< video delay_action.mp4 >}}
 
+### Decompose Text
+
+The *Decompose Text* node provides a completely new workflow for dealing with
+text in Animation Nodes. The node takes a text and decomposes it into
+characters, words, or lines. Then it returns the decomposed characters, words,
+or lines with their transformations in order to position them in space.
+
+{{< video decompose_text.mp4 >}}
+
 ### Vector Noise
 
 Animation Nodes now support the evaluation of many types of vector noises,

@@ -34,5 +34,10 @@ The reference key is no longer included in the output keys list.
 
 ## Object Color Output
 
-A new *Object Color Output* node added. This allows to set viewport color of the object which can also
-utilise for object material.
+A new *Object Color Output* node added. This node allows to set the viewport
+color of the object which can also be utilize for object material.
+
+## Copy Object Data
+
+A new *Deep Copy* option was added to the *Copy Object Data* node. If enabled,
+the object data data-block will be copied before being set.
