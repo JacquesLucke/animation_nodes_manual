@@ -42,6 +42,13 @@ Mesh Data* node.
 
 Mesh generators now return meshes instead of the individual components.
 
+## Line Mesh
+
+A new *Points* mode was added in the *Line Mesh* node. It creates a line
+connecting the inputs points.
+
+![Line Mesh](line_mesh.png)
+
 ## Circle Mesh
 
 A new *Circle Mesh* node was added. The node generates a mesh or a list of

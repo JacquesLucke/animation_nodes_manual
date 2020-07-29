@@ -2,7 +2,7 @@
 title : Falloff
 ---
 
-### Sound Falloff
+## Sound Falloff
 
 The sound falloff node was rewritten to be real-time and flexible. Baking is no
 longer needed.
