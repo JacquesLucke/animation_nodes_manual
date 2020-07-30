@@ -22,3 +22,8 @@ falloff.
 New options added in *Spline Falloff* node that allows to use spline's radius for *Distance* and *Width* of falloff.
 
 {{< video spline_falloff.mp4 >}}
+
+
+## Remap Falloff
+
+The *Remap Falloff* node now allows remapping to custom ranges.

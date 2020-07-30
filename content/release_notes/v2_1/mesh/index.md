@@ -165,3 +165,13 @@ New nodes added to get or set uv-maps. There are three nodes for that *Get UV Ma
 
 A new *Set Polygon Material Index* node added. This node allows to set material index for each polygon.
 So one can assign different materials to different regions of an object.
+
+## Mesh Object Output
+
+A new *Calculate Loose Edges* option was added in the advanced node settings.
+The option ensures loose edges are marked for correct view-port drawing.
+
+## Bmesh Invert Normals
+
+A new *Bmesh Invert Normals* node was added. It inverts the normals of the
+input Bmesh.

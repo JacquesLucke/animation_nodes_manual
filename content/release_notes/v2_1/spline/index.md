@@ -61,3 +61,7 @@ A new *Offset Spline* node added. This node allows to offset location, radius an
 falloff.
 
 {{< video offset_spline.mp4 >}}
+
+## Trim Spline
+
+The node now returns an empty spline if the start and end are equal.

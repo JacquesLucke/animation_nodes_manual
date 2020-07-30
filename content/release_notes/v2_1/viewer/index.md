@@ -9,6 +9,8 @@ saturation of the colors decrease as the index of the matrix increase.
 
 ![3D Viewer](3d_viewer.png)
 
+The node now allows viewing 2D vectors.
+
 ## Viewer
 
 The view node now shown angles in degrees as opposed to radians.

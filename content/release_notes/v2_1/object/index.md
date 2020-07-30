@@ -41,3 +41,8 @@ color of the object which can also be utilize for object material.
 
 A new *Deep Copy* option was added to the *Copy Object Data* node. If enabled,
 the object data data-block will be copied before being set.
+
+## Object Instancer
+
+The *Object Instancer* node now remove instanced objects even if they have
+users. Additionally, a new option to create Grease Pencil objects was added.
