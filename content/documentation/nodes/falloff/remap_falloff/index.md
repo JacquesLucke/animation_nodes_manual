@@ -1,30 +1,19 @@
 ---
 title : Remap Falloff
-weight : 1
 ---
 
 ## Description
 
-This node remaps the floats of the input falloff to a new range. The
-node assume that the original range was `[0,1]` Which is usually the
-case.
-
-![image](remap_falloff_node.png)
+This node remaps the output values of the input falloff to a new range.
 
 ## Inputs
 
 - **Falloff** - A falloff.
-- **New min** - The new minimum value.
-- **New max** - The new maximum value.
+- **Input Min** - The original minimum value.
+- **Input Max** - The original maximum value.
+- **Output Min** - The target minimum value.
+- **Output Max** - The target maximum value.
 
 ## Outputs
 
-- **Falloff** - The actual falloff object.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video remap_falloff_node_example.mp4 >}}
+- **Falloff** - The output falloff.
