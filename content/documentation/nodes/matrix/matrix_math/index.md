@@ -1,6 +1,5 @@
 ---
 title : Matrix Math
-weight : 1
 ---
 
 ## Description
@@ -15,8 +14,6 @@ translation.
 Keep in mind that matrix multiplication is non commutative. So order
 matters.
 
-![image](matrix_math_node.png)
-
 ## Inputs
 
 - **A** - A transformation matrix.
@@ -25,11 +22,3 @@ matters.
 ## Outputs
 
 - **Result** - The combined transformation matrix.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video matrix_math_node_example.mp4 >}}

@@ -1,27 +1,27 @@
 ---
 title : Offset Matrix
-weight : 1
 ---
 
 ## Description
 
-This node offset a matrix based on an input offset translation, rotation
-and scale with an input falloff as a factor.
+This node offset a matrix based on one of two source:
 
-![image](offset_matrix_node.png)
+- An input offset translation, rotation, and scale with an input falloff as a
+  factor.
+- A bounded action representing a transformation.
 
-## Options
+## Loc/Rot/Scale
 
-- **Loc/Rot/Scale** - Enables location, rotation, scales offset.
-- **Start/End** - Start will offset the matrices based on the offset
-    parameters with the falloff as a factor. End will offset the
-    matrices based on the offset parameters with the inverse falloff as
-    a factor, in other words, all matrices will be transformed based on
-    the offset parameters and then matrices will be transformed back to
-    their initial position based on the offset parameter with the
-    falloff as a factor.
+In this offset source, the matrices are offset based on the input location,
+rotation, and scale using the input falloff as a factor.
 
-## Inputs
+### Options
+
+- **Location** - Enables location-based offset.
+- **Rotation** - Enables rotation-based offset.
+- **Scale** - Enables scale-based offset.
+
+### Inputs
 
 - **Matrices** - The matrices to offset.
 - **Falloff** - A falloff to use as a factor.
@@ -29,11 +29,46 @@ and scale with an input falloff as a factor.
 - **Rotation** - The offset rotation euler.
 - **Scale** - The offset scale vector.
 
+## Action
+
+In this offset source, the matrices are offset based on a bounded
+transformation action. The action can be evaluated at a fixed frame or at
+variable frames defined by a falloff. You can think of the offset action when
+evaluated as the transformation of an animated empty.
+
+### Fixed
+
+In this mode of operation, the action is evaluated at a certain frame and the
+matrices will be offset based on the transforms of the action at this frame.
+
+#### Inputs
+
+- **Matrices** - The matrices to offset.
+- **Action** - A bounded transformation action.
+- **Frame** - The frame to evaluate the action at.
+
+### Falloff
+
+In this mode of operation, the action is evaluated at the normalized frame
+computed by evaluating the input falloff at the input matrices. By normalized
+frame we mean relative to the bounds of the action, that is, a falloff value of
+zero will evaluate the action at its very start and a falloff value of 1 will
+evaluate the action at its very end. Then the input matrices will be offset
+based on the transforms of the action after evaluation.
+
+#### Inputs
+
+- **Matrices** - The matrices to offset.
+- **Action** - A bounded transformation action.
+- **Falloff** - The normalized frame falloff.
+
 ## Outputs
 
-- **Vector** - The new matrices after offset.
+- **Matrices** - The new matrices after offset.
 
 ## Advanced Node Settings
+
+- **Use Matrix List** - If disabled, the node will offset a single matrix.
 
 ### Translation
 
@@ -67,7 +102,3 @@ and scale with an input falloff as a factor.
     their position.
 - **Translation Only** - This option scale matrices in global space.
     Use this option if you want only location to change.
-
-## Examples of Usage
-
-{{< video offset_matrices_node_example.mp4 >}}

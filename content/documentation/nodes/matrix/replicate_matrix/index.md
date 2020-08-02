@@ -1,6 +1,5 @@
 ---
 title : Replicate Matrix
-weight : 1
 ---
 
 ## Description
@@ -9,8 +8,6 @@ This node copy the input matrix multiple times then transforms each new
 copy based on a corresponding transformation matrix or a translation
 vector. The transformations are input as a list of matrices or vectors
 where its length is the number of copies.
-
-![image](replicate_matrix_node.png)
 
 ## Options
 
@@ -36,11 +33,3 @@ translations.
 ## Outputs
 
 - **Matrices** - New matrices.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video replicate_matrix_node_example.mp4 >}}
