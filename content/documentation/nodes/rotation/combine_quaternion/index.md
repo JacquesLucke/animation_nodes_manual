@@ -1,13 +1,10 @@
 ---
 title : Combine Quaternion
-weight : 1
 ---
 
 ## Description
 
-This node composes a quaternion from W,X,Y,Z components.
-
-![image](combine_quaternion_node.png)
+This node composes a quaternion from W, X, Y, Z components.
 
 ## Inputs
 
@@ -20,10 +17,6 @@ This node composes a quaternion from W,X,Y,Z components.
 
 - **Quaternion** - A quaternion composed of inputs W,X,Y,Z.
 
-## Advanced Node Settings
+## Notes
 
-N/A
-
-## Examples of Usage
-
-{{< video combine_quaternion_node_example.mp4 >}}
+- The output quaternion is normalized.

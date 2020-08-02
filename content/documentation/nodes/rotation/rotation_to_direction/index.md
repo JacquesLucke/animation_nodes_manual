@@ -1,13 +1,10 @@
 ---
 title : Rotation To Direction
-weight : 1
 ---
 
 ## Description
 
 This node converts input rotation to a corresponding vector.
-
-![image](rotation_to_direction_node.png)
 
 ## Demonstration
 
@@ -27,11 +24,3 @@ to the selected axis which is Z in this case.
 ## Outputs
 
 - **Direction** - The resultant vector.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video rotation_to_direction_node_example.mp4 >}}

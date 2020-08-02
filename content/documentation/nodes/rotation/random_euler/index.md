@@ -1,13 +1,10 @@
 ---
 title : Random Euler
-weight : 1
 ---
 
 ## Description
 
 This node generates a random euler with a defined range.
-
-![image](random_euler_node.png)
 
 ## Inputs
 
@@ -19,10 +16,6 @@ This node generates a random euler with a defined range.
 
 - **Euler** - A random euler.
 
-## Advanced Node Settings
-
-- N/A
-
 ## Note
 
 The node has an **extra seed** (*Node Seed*) that can be used to
@@ -33,7 +26,3 @@ nodes.
 
 Animation Nodes automatically changes the *Node Seed* when you duplicate
 or add a new *Random euler* node.
-
-## Examples of Usage
-
-{{< video random_euler_node_example.mp4 >}}

@@ -1,13 +1,15 @@
 ---
 title : Combine Euler
-weight : 1
 ---
 
 ## Description
 
-This node composes an euler from X,Y,Z components.
+This node composes an euler from X, Y, Z components.
 
-![image](combine_euler_node.png)
+## Options
+
+- **Use Degrees** - If enabled, the inputs will be treated as degrees as
+  opposed to radians.
 
 ## Inputs
 
@@ -15,16 +17,6 @@ This node composes an euler from X,Y,Z components.
 - **Y** - The Y component of the euler in radian.
 - **Z** - The Z component of the euler in radian.
 
-**Note:** You can input degrees by checking **Use Degree**.
-
 ## Outputs
 
 - **Euler** - The composed euler.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video combine_euler_node_example.mp4 >}}

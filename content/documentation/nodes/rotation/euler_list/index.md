@@ -1,6 +1,5 @@
 ---
 title : Vector List
-weight : 1
 ---
 
 ## Description
@@ -8,8 +7,6 @@ weight : 1
 This node is used to create an arbitrary list of eulers. A new euler can
 be added with the *New Input* button. A new euler can also be added by
 plugging it into the transparent socket.
-
-![image](euler_list_node.png)
 
 ## Inputs
 
@@ -35,7 +32,3 @@ A warning will pop up when you use the *Remove Unlinked Inputs* button
 in the node, while if you used the the *Remove Unlinked Inputs* button
 in the *Advanced Node Settings* the inputs will be removed without a
 warning.
-
-## Examples of Usage
-
-{{< video euler_list_node_example.mp4 >}}

@@ -1,13 +1,10 @@
 ---
 title : Mix Quaternions
-weight : 1
 ---
 
 ## Description
 
-This node mixes between 2 quaternions based on a factor.
-
-![image](mix_quaternions_node.png)
+This node mixes between two quaternions based on a factor.
 
 ## Inputs
 
@@ -20,17 +17,9 @@ This node mixes between 2 quaternions based on a factor.
 - **Result** - The resultant quaternion of mixing the two quaternions
     by the input factor.
 
-## Advanced Node Settings
-
-- N/A
-
 ## Note
 
 The way *Mix Quaternions* works, a factor that is larger than 1 won't be
 clamped but rather multiplied to the second quaternion. That's why the
 node has an option to *Clamp Factor*. So if *Clamp factor* is enabled,
 Any factor that is larger than 1 will return the second quaternion.
-
-## Examples of Usage
-
-{{< video mix_quaternions_node_example.mp4 >}}

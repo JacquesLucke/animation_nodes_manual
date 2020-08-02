@@ -1,13 +1,10 @@
 ---
 title : Random Quaternion
-weight : 1
 ---
 
 ## Description
 
 This node generates a random quaternion.
-
-![image](random_quaternion_node.png)
 
 ## Inputs
 
@@ -19,10 +16,6 @@ This node generates a random quaternion.
 
 - **Quaternion** - A random quaternion.
 
-## Advanced Node Settings
-
-- N/A
-
 ## Note
 
 The node has an **extra seed** (*Node Seed*) that can be used to
@@ -33,7 +26,3 @@ other nodes.
 
 Animation Nodes automatically changes the *Node Seed* when you duplicate
 or add a new *quaternion vector* node.
-
-## Examples of Usage
-
-{{< video random_quaternion_node_example.mp4 >}}
