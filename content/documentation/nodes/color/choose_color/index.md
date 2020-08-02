@@ -1,13 +1,10 @@
 ---
 title : Choose Color
-weight : 1
 ---
 
 ## Description
 
-This node outputs color data chosen from the color picker.
-
-![image](choose_color_node.png)
+This node outputs the color chosen from the color picker.
 
 ## Inputs
 
@@ -15,12 +12,4 @@ This node outputs color data chosen from the color picker.
 
 ## Outputs
 
-- **Color** - The output color data.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video choose_color_node_example.mp4 >}}
+- **Color** - The output color.
