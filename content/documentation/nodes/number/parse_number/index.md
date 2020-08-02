@@ -1,14 +1,10 @@
 ---
 title : Parse Number
-weight : 1
 ---
 
 ## Description
 
-This node is used to convert a text that include numbers into a float
-data type.
-
-![image](parse_number_node.png)
+This node is used to convert a text that include numbers into a float.
 
 ## Inputs
 
@@ -24,12 +20,7 @@ data type.
 
 ## Caution
 
-The input text should only include numbers, otherwise the node will
-return a parsing error. White spaces around single numbers are rejected,
-for instance, `(spaces)5(spaces)` will be parsed but
-`(spaces)5(spaces)4(spaces)` will not be parsed because there are two
-numbers.
-
-## Examples of Usage
-
-{{< video parse_number_node_example.mp4 >}}
+The input text should only include numbers, otherwise the node will return a
+parsing error. White spaces around single numbers are rejected, for instance,
+`(spaces)5(spaces)` will be parsed but `(spaces)5(spaces)4(spaces)` will not be
+parsed because there are two numbers.

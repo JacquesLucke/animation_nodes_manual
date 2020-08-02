@@ -1,14 +1,11 @@
 ---
 title : Random Number
-weight : 1
 ---
 
 ## Description
 
 This node generates a random float between a minimum and a maximum
 value.
-
-![image](random_number_node.png)
 
 ## Options
 
@@ -34,17 +31,4 @@ value.
 
 ## Outputs
 
-- **Number** - A random float between the minimum and the maximum
-    value.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video random_number_node_example.mp4 >}}
-
-{{< video random_number_node_example2.mp4 >}}
-
-{{< video random_number_node_example3.mp4 >}}
+- **Number** - A random float between the minimum and the maximum value.

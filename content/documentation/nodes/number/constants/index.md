@@ -1,6 +1,5 @@
 ---
 title : Constants
-weight : 1
 ---
 
 ## Description
@@ -9,8 +8,6 @@ This node returns some mathematical constants like:
 
 - **Pi** and some of its multiples.
 - **Euler's Constant** and some of its multiples.
-
-![image](constants_node.png)
 
 ## Options
 
@@ -21,7 +18,3 @@ This node returns some mathematical constants like:
 ## Outputs
 
 - **Result** - The constant.
-
-## Advanced Node Settings
-
-N/A

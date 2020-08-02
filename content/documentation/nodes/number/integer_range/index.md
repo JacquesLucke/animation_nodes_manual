@@ -1,14 +1,11 @@
 ---
 title : Integer Range
-weight : 1
 ---
 
 ## Description
 
 This node is used to generate an integer list that represents an integer
 arithmetic sequence.
-
-![image](integer_range_node.png)
 
 ## Inputs
 
@@ -22,16 +19,3 @@ arithmetic sequence.
 
 - **Integer list** - An integer list that contains the generated
     integers.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video integer_range_node_example.mp4 >}}
-
-This node can be used whenever an integer arthmetic sequence is needed,
-for instance, creating a uniform integer step grid:
-
-{{< video integer_range_node_example2.mp4 >}}

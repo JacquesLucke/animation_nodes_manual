@@ -1,13 +1,10 @@
 ---
 title : Float To Text
-weight : 1
 ---
 
 ## Description
 
 This node forms a text out of a number.
-
-![image](float_to_text_node.png)
 
 ## Inputs
 
@@ -24,11 +21,3 @@ This node forms a text out of a number.
 ## Outputs
 
 - **Text** - The output text.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video float_to_text_node_example.mp4 >}}
