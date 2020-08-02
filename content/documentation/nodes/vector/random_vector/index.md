@@ -1,13 +1,10 @@
 ---
 title : Random Vector
-weight : 1
 ---
 
 ## Description
 
 This node generates a random vector or a list of random vectors.
-
-![image](random_vector_node.png)
 
 ## Options
 
@@ -45,24 +42,3 @@ This node generates a random vector or a list of random vectors.
 - **Normalized Vector** - If enabled, the random vectors will be
     uniformly distributed on the surface of a sphere. See second example
     below and **Scale** Input above.
-
-## Examples of Usage
-
-**Normalized Vector** disabled:
-
-{{< video random_vector_node_example.mp4 >}}
-
-**Normalized Vector** enabled:
-
-{{< video random_vector_node_example2.mp4 >}}
-
-Connecting close random vectors together:
-
-{{< video random_vector_node_example3.mp4 >}}
-
-The follwoing is what is know as a random walk, at each iteration, you
-move in a random direction by adding a random vector to your initial
-location, and then update your initial direction to that new position
-using the reassign function in loops:
-
-{{< video random_vector_node_example4.mp4 >}}

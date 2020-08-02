@@ -1,16 +1,13 @@
 ---
 title : Vector List math
-weight : 1
 ---
 
 ## Description
 
-This node performs 2 Vector math operations:
+This node performs the following vector math operations.
 
 - **Add** - Add all the vectors in the input list.
 - **Average** - Average the vectors in the input list.
-
-![image](vector_list_math_node.png)
 
 ## Inputs
 
@@ -19,15 +16,3 @@ This node performs 2 Vector math operations:
 ## Outputs
 
 - **Result** - The result of vector math operations.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-<div class="todo">
-
-Example needed.
-
-</div>

@@ -1,6 +1,5 @@
 ---
 title : Vector Angle
-weight : 1
 ---
 
 ## Description
@@ -10,8 +9,6 @@ This node takes two vectors and computes two things:
 1.  The shortest angle between the two vectors in radian.
 2.  The directed angle between the two vectors in a form of rotation
     quaternion.
-
-![image](vector_angle_node.png)
 
 ## Inputs
 
@@ -65,25 +62,3 @@ because the rotation direction changes from anticlockwise to
 clockwise---or the converse. So we see that the Rotation Difference
 output gives full information about the angles, including the axis of
 rotation and the direction of the rotation.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-If the Angle output is used to define the location of the object, it
-will start reverting after the angle `180°` while the Quaternion output
-will not.
-
-{{< video vector_angle_node_example1.mp4 >}}
-
-One of the advantages of using quaternions is that they can eaily be
-layered and combined:
-
-{{< video vector_angle_node_example2.mp4 >}}
-
-If the output rotation quaternion is applied to the first vector, the
-output will be the second vector:
-
-{{< video vector_angle_node_example3.mp4 >}}
