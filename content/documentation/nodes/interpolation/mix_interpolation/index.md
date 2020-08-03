@@ -1,13 +1,10 @@
 ---
 title : Mix Interpolation
-weight : 1
 ---
 
 ## Description
 
 This node mixes between two interpolations by a defined factor.
-
-![image](mix_interpolation_node.png)
 
 ## Options
 
@@ -47,11 +44,3 @@ This node mixes between two interpolations by a defined factor.
 ## Outputs
 
 - **Interpolation** - The result of mixing the two interpolations.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video mix_interpolation_node_example.mp4 >}}

@@ -1,6 +1,5 @@
 ---
 title : Curve Interpolation
-weight : 1
 ---
 
 ## Description
@@ -8,8 +7,6 @@ weight : 1
 This node takes some points and returns an interpolation that represents
 a spline interpolation of the input points (A function that satisfy all
 the input points).
-
-![image](curve_interpolation_node.png)
 
 ## Inputs
 
@@ -21,11 +18,3 @@ the input points).
 
 - **Interpolation** - An interpolation that represent a spline
     interpolation of the input points.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video curve_interpolation_node_example.mp4 >}}
