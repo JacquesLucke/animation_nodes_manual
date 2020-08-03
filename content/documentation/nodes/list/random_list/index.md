@@ -1,6 +1,5 @@
 ---
 title : Random List
-weight : 1
 ---
 
 ## Description
@@ -8,8 +7,6 @@ weight : 1
 This node creates a list of defined length filled with random elements
 from an input list. Unlike the *Get Random Element List* node, this node
 can create a list of any length because its allows duplicates.
-
-![image](random_list_node.png)
 
 ## Inputs
 
@@ -23,10 +20,6 @@ can create a list of any length because its allows duplicates.
 - **List** - A list of length **Length** which contains random
     elements from the input source list.
 
-## Advanced Node Settings
-
-- N/A
-
 ## Note
 
 The node has an **extra seed** (*Node Seed*) that can be used to
@@ -37,7 +30,3 @@ nodes.
 
 Animation Nodes automatically changes the *Node Seed* when you duplicate
 or add a new *Random List* node.
-
-## Examples of Usage
-
-{{< video random_list_node_example.mp4 >}}

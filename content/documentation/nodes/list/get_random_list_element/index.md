@@ -1,14 +1,11 @@
 ---
 title : Get Random List Element
-weight : 1
 ---
 
 ## Description
 
 This node returns single or multiple elements from the input list
 randomly.
-
-![image](get_random_list_element_node.png)
 
 ## Options
 
@@ -30,10 +27,6 @@ randomly.
 
 - **List** - A list that contains random elements from the input list.
 
-## Advanced Node Settings
-
-- N/A
-
 ## Note
 
 The node has an **extra seed** (*Node Seed*) that can be used to
@@ -44,7 +37,3 @@ the other nodes.
 
 Animation Nodes automatically changes the *Node Seed* when you duplicate
 or add a new *Get Random List Element* node.
-
-## Examples of Usage
-
-{{< video get_random_list_element_node_example.mp4 >}}

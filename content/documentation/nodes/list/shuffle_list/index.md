@@ -1,14 +1,11 @@
 ---
 title : Shuffle List
-weight : 1
 ---
 
 ## Description
 
 This node redistributes the elements of the list in a random different
 order.
-
-![image](shuffle_list_node.png)
 
 ## Inputs
 
@@ -20,11 +17,3 @@ order.
 
 - **Shuffled List** - The list after random redistribution of the
     elements.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video shuffle_list_node_example.mp4 >}}

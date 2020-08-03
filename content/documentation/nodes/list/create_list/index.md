@@ -1,6 +1,5 @@
 ---
 title : Create List
-weight : 1
 ---
 
 ## Description
@@ -11,8 +10,6 @@ also be added by plugging it into the transparent socket. If the list
 type is *Object* and no inputs are present, an operator *From Selection*
 will be available that adds the currently selected objects as inputs.
 See examples.
-
-![image](create_list_node.png)
 
 ## Inputs
 
@@ -37,9 +34,3 @@ A warning will pop up when you use the *Remove Unlinked Inputs* button
 in the node, while if you used the the *Remove Unlinked Inputs* button
 in the *Advanced Node Settings* the inputs will be removed without a
 warning.
-
-## Examples of Usage
-
-{{< video create_list_node_example.mp4 >}}
-
-{{< video create_object_list_node_example.mp4 >}}

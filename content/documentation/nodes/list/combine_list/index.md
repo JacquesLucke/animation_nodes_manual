@@ -1,6 +1,5 @@
 ---
 title : Combine List
-weight : 1
 ---
 
 ## Description
@@ -8,8 +7,6 @@ weight : 1
 This node is used to combine or join an arbitrary number of lists of a
 specific data type. A new list can be added with the *New Input* button.
 A new list can also be added by plugging it into the transparent socket.
-
-![image](combine_list_node.png)
 
 ## Inputs
 
@@ -25,7 +22,3 @@ A new list can also be added by plugging it into the transparent socket.
 ## Advanced Node Settings
 
 - **Change type** - Changes the type of the list to another list type.
-
-## Examples of Usage
-
-{{< video combine_list_node_example.mp4 >}}

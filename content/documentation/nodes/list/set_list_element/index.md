@@ -1,14 +1,11 @@
 ---
 title : Set List Element
-weight : 1
 ---
 
 ## Description
 
 This node replaces the value of the element at the input index by the
 input value.
-
-![image](set_list_element_node.png)
 
 ## Inputs
 
@@ -30,7 +27,3 @@ input value.
     equal the length of the list.
 - **Allow Negative Indicies** - If enabled, -1 changes the last
     element, -2 changes the second last index, ...
-
-## Examples of Usage
-
-{{< video set_list_element_node_example.mp4 >}}
