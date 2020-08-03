@@ -12,6 +12,7 @@ sections.
 ## Inputs
 
 - **Sound** - The input sound.
+- **Frame** - The input frame to analyse the sound at.
 - **Attack** - The *Attack Time*, a value that defines how fast the sound
   intensity increases. A low value means the sound intensity will rapidly
   increase, while a high value means the sound intensity will slowly and
