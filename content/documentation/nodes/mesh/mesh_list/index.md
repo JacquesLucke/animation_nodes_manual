@@ -29,7 +29,6 @@ be added by plugging it into the transparent socket.
 
 ## Caution
 
-A warning will pop up when you use the *Remove Unlinked Inputs* button
-in the node, while if you used the the *Remove Unlinked Inputs* button
-in the *Advanced Node Settings* the inputs will be removed without a
-warning.
+A warning will pop up when you use the *Remove Unlinked Inputs* button in the
+node, while if you used the *Remove Unlinked Inputs* button in the *Advanced
+Node Settings* the inputs will be removed without a warning.

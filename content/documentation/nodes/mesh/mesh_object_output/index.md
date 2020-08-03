@@ -46,8 +46,6 @@ This node edits the input object's data based on a new input data.
 
 - **Ensure Animation Data** - Make sure that the mesh has animation data so that
     it will be exported as animation by exporters (mainly Alembic).
-- **Make Mesh Exportable** - If enabled, the mesh will be edited in
-    order to be exported correctly. Use when exporting using Alembic.
 - **Validate Mesh** - If enabled, animation nodes will check if the
     mesh is valid and if not, it will try to correct it as much as
     possible. This option should always be enabled to avoid blender
@@ -56,3 +54,5 @@ This node edits the input object's data based on a new input data.
 - **Print Validation Info** - If enabled and **Validate Mesh** is
     enabled, animation nodes will print the procedures taken to fix the
     input mesh.
+- **Calculate Loose Edges** - If enabled, the node will compute the loose edge
+  status of edges. This useful for drawing the mesh in the view-port.
