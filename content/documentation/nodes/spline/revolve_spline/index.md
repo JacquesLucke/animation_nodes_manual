@@ -1,14 +1,11 @@
 ---
 title : Revolve Splines
-weight : 1
 ---
 
 ## Description
 
 This node creates a mesh from the input splines by revolving the profile
 spline around the axis spline.
-
-![image](revolve_spline_node.png)
 
 ## Options
 
@@ -44,11 +41,3 @@ spline around the axis spline.
     the output mesh.
 - **Polygons** - A polygon indices list that carries the polygons
     information of the output mesh.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video revolve_spline_node_example.mp4 >}}

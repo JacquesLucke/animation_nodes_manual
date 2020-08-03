@@ -1,6 +1,5 @@
 ---
 title : Offset Spline
-weight : 1
 ---
 
 ## Description

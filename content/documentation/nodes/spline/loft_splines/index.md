@@ -1,14 +1,11 @@
 ---
 title : Loft Splines
-weight : 1
 ---
 
 ## Description
 
 This node generates a mesh by sampling some points on the input splines
 and bridge (connect) them in order.
-
-![image](loft_splines_node.png)
 
 ## Options
 
@@ -19,7 +16,7 @@ and bridge (connect) them in order.
     the segments of the bridge between the splines and thus having a
     flat connection between the splines.
 
-If the **Surface Samples** is set to 2 or the **Smoothness** is set to
+If the *Surface Samples* is set to 2 or the *Smoothness* is set to
 zero, the bezier interpolation will work just as a linear interpolation.
 
 ## Illustration
@@ -56,7 +53,3 @@ zero, the bezier interpolation will work just as a linear interpolation.
     segments (see Evaluate Spline Node for more info)
 - **Resolution** - The number of handles used to create the spline
     used to perform the evaluation when using the Uniform Distribution.
-
-## Examples of Usage
-
-{{< video loft_splines_node_example.mp4 >}}

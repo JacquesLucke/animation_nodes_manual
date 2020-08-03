@@ -1,24 +1,28 @@
 ---
 title : Spline From edges
-weight : 1
 ---
 
 ## Description
 
-This node creates a linear poly spline for every input edge, that is,
-every edge will represent a linear poly spline that have 2 point which
-are the vertices of the edge.
-
-![image](splines_from_edges_node.png)
+This node create splines from the edges of a mesh.
 
 ## Options
 
-- **Radius Per Vertex** - This option sets the radius per vertex, so
-    the node expects a radius list with the same length as the the
-    vertices list.
-- **Radius Per Edge** - This option sets the radius per edge, so the
-    node expects a radius list with the same length as the the edge
-    indices list.
+### Spline Per Edge
+
+This method creates a linear poly spline for every input edge, that is, every
+edge will represent a linear poly spline that have 2 point which are the
+vertices of the edge.
+
+- **Radius Per Vertex** - This option sets the radius per vertex, so the node
+  expects a radius list with the same length as the vertices list.
+- **Radius Per Edge** - This option sets the radius per edge, so the node
+  expects a radius list with the same length as the edge indices list.
+
+### Spline Per Branch
+
+This method tries to minimizes discontinuity by forming splines from branches
+instead of edges.
 
 ## Inputs
 
@@ -31,11 +35,3 @@ are the vertices of the edge.
 ## Outputs
 
 - **Splines** - The output splines.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video splines_from_edges_node_example.mp4 >}}

@@ -1,14 +1,11 @@
 ---
 title : Spline Info
-weight : 1
 ---
 
 ## Description
 
 This node returns some information about the input spline as the
 location of its points and handles.
-
-![image](spline_info_node.png)
 
 ## Options
 
@@ -31,14 +28,8 @@ location of its points and handles.
     right handles of the input spline.
 - **Radii** - A float list that contains the radii of the points of
     the input spline.
+- **Tilts** - A float list that contains the tilts of the points of
+    the input spline.
 - **Cyclic** - A boolean that is true if the spline is closed, that
     is, every handle is connected to two other handles.
 - **Point Amount** - The amount of points in the input spline.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video spline_info_node_example.mp4 >}}

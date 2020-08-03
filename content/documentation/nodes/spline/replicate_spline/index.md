@@ -1,6 +1,5 @@
 ---
 title : Replicate Spline
-weight : 1
 ---
 
 ## Description
@@ -9,8 +8,6 @@ This node copy the input spline multiple times then transforms each new
 copy based on a corresponding transformation matrix or a translation
 vector. The transformations are input as a list of matrices or vectors
 where its length is the number of copies.
-
-![image](replicate_spline_node.png)
 
 ## Options
 
@@ -36,11 +33,3 @@ translations.
 ## Outputs
 
 - **Splines** - A spline list that contains the copies of the spline.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video replicate_spline_node_example.mp4 >}}

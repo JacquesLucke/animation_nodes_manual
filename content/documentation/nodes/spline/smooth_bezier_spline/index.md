@@ -1,6 +1,5 @@
 ---
 title : Smooth Bezier Spline
-weight : 1
 ---
 
 ## Description
@@ -9,13 +8,11 @@ This node will edit the handles of the input spline so that the spline
 get smoothed.
 
 In fact, the node just set the length of the handles to the
-**smoothness** value and align them to the tangent line to the curve at
+*smoothness* value and align them to the tangent line to the curve at
 their location. So if the smoothness value is set to zero, the bezier
 will act as a poly spline since it has no handles.
 
 Note that this only work for bezier splines and not poly splines.
-
-![image](smooth_bezier_spline_node.png)
 
 ## Inputs
 
@@ -26,11 +23,3 @@ Note that this only work for bezier splines and not poly splines.
 ## Outputs
 
 - **Spline** - The smoothed spline.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video smooth_bezier_spline_node_example.mp4 >}}

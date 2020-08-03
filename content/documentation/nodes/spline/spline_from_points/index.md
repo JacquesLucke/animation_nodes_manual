@@ -1,14 +1,11 @@
 ---
 title : Spline From Points
-weight : 1
 ---
 
 ## Description
 
 This node creates a new spline from input vectors, each vector will
 represent the position of a handle in the output spline.
-
-![image](spline_from_points_node.png)
 
 ## Options
 
@@ -34,11 +31,3 @@ represent the position of a handle in the output spline.
 ## Outputs
 
 - **Spline** - The output spline.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video spline_from_points_node_example.mp4 >}}

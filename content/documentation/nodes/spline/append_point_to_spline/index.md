@@ -1,13 +1,10 @@
 ---
 title : Append Point To Spline
-weight : 1
 ---
 
 ## Description
 
 This node adds a new point to the input spline.
-
-![image](append_point_to_spline_node.png)
 
 ## Options
 
@@ -29,11 +26,3 @@ This node adds a new point to the input spline.
 ## Outputs
 
 - **Spline** - The output spline.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video append_point_to_spline_node_example.mp4 >}}

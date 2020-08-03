@@ -1,13 +1,10 @@
 ---
 title : Set Spline Radius
-weight : 1
 ---
 
 ## Description
 
 This node set the radius of individual spline points.
-
-![image](set_spline_radius_node.png)
 
 ## Inputs
 
@@ -19,11 +16,3 @@ This node set the radius of individual spline points.
 ## Outputs
 
 - **Spline** - The output splines.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video set_spline_radius_node_example.mp4 >}}

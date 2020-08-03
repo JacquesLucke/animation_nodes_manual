@@ -1,6 +1,5 @@
 ---
 title : Get Spline Length
-weight : 1
 ---
 
 ## Description
@@ -8,11 +7,15 @@ weight : 1
 This node returns the length of the input spline, it can be restricted
 to a defined interval.
 
-![image](get_spline_length_node.png)
+## Options
 
-In this node, those options only matter when an interval is defined
-since the interpolation method is only used to define the interval and
-not to get the length.
+- **Parameter Type** - The method of evaluation. Can be *Uniform* or
+  *Resolution*. A uniform type would result in equally spaced evaluated points
+  for equally spaced parameters. On the other hand, a resolution type would
+  evaluated points depending on the density of the spline, so they may not be
+  equally spaced. In this node, those options only matter when an interval is
+  defined since the interpolation method is only used to define the interval
+  and not to get the length.
 
 ## Inputs
 
@@ -29,7 +32,3 @@ not to get the length.
 - **Resolution** - It is the quality of the spline used to do the
     calculation, in other words, it is the number of handles in the
     spline which is used in sampling the interval.
-
-## Examples of Usage
-
-{{< video get_spline_length_node_example.mp4 >}}

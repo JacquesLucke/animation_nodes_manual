@@ -1,14 +1,11 @@
 ---
 title : Trim Spline
-weight : 1
 ---
 
 ## Description
 
 This node will trim (cut) the input spline to a specific normalized
-interval.
-
-![image](trim_spline_node.png)
+interval. If the start and end are equal, an empty spline will be returned.
 
 ## Inputs
 
@@ -18,13 +15,9 @@ interval.
 
 ## Outputs
 
-- **Spline** - The trimed spline.
+- **Spline** - The trimmed spline.
 
 ## Advanced Node Settings
 
-- **Resolution** - It is the quality of the resulted spline, in other
-    words, it is the number of points in the output spline.
-
-## Examples of Usage
-
-{{< video trim_spline_node_example.mp4 >}}
+- **Resolution** - It is the quality of the resulted spline, in other words, it
+  is the number of points in the output spline.
