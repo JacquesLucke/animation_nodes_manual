@@ -1,14 +1,11 @@
 ---
 title : Boolean List Logic
-weight : 1
 ---
 
 ## Description
 
 This node returns `True` if all of the values are `True` or `False` if
 all the values are `False` and the inverse of the operations.
-
-![image](boolean_list_logic_node.png)
 
 ## Demonstration
 
@@ -26,11 +23,3 @@ all the values are `False` and the inverse of the operations.
 ## Outputs
 
 - **Result** - The result of the operation.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video boolean_list_logic_node_example.mp4 >}}
