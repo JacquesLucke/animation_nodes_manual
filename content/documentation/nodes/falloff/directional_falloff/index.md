@@ -1,6 +1,5 @@
 ---
 title : Directional Falloff
-weight : 1
 ---
 
 ## Description
@@ -12,8 +11,6 @@ some distances will be clamped to `1` or `0`. We conclude that objects
 that are closer to the input point along the defined directional vector
 will have a large float that doesn't exceed `1` and as objects gets
 away, their floats starts to fade till it becomes zero at some point.
-
-![image](directional_falloff_node.png)
 
 ## Options
 
@@ -34,11 +31,3 @@ away, their floats starts to fade till it becomes zero at some point.
 ## Outputs
 
 - **Falloff** - The actual falloff object.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video directional_falloff_node_example.mp4 >}}

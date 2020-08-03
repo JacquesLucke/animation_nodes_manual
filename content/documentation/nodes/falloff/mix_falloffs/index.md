@@ -1,14 +1,11 @@
 ---
 title : Mix Falloffs
-weight : 1
 ---
 
 ## Description
 
 This node takes two or multiple falloffs and mix them together using one
 of the available algorithms.
-
-![image](mix_falloffs_node.png)
 
 ## Options
 
@@ -25,16 +22,8 @@ of the available algorithms.
 
 - **A** - A falloff.
 - **B** - A falloff.
-- **Falloffs**- The falloffs. If **Use Falloffs List** is enabled.
+- **Falloffs**- The falloffs. If *Use Falloffs List* is enabled.
 
 ## Outputs
 
 - **Falloff** - The actual falloff object.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video mix_falloffs_node_example.mp4 >}}

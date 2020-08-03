@@ -1,14 +1,11 @@
 ---
 title : Random Falloff
-weight : 1
 ---
 
 ## Description
 
 This node creates an index based falloff that associates a random float
 for every object.
-
-![image](random_falloff_node.png)
 
 ## Inputs
 
@@ -21,11 +18,3 @@ for every object.
 ## Outputs
 
 - **Falloff** - The actual falloff object.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video random_falloff_node_example.mp4 >}}

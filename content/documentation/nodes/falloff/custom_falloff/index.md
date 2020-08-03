@@ -1,6 +1,5 @@
 ---
 title : Custom Falloff
-weight : 1
 ---
 
 ## Description
@@ -8,8 +7,6 @@ weight : 1
 This node creates an index based falloff that associates the first
 element from the float list to the first object, second element to the
 second object and so on.
-
-![image](custom_falloff_node.png)
 
 ## Inputs
 
@@ -22,11 +19,3 @@ second object and so on.
 ## Outputs
 
 - **Falloff** - The actual falloff object.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video custom_falloff_node_example.mp4 >}}

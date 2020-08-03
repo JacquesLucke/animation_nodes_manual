@@ -1,6 +1,5 @@
 ---
 title : Point Distance Falloff
-weight : 1
 ---
 
 ## Description
@@ -11,8 +10,6 @@ is always in `[0,1]` range, So some distances will be clamped to `1` or
 `0`. We conclude that objects that are closer to the input point will
 have a large float that doesn't exceed `1` and as objects gets away,
 their floats starts to fade till it becomes zero at some point.
-
-![image](point_distance_falloff_node.png)
 
 ## Illustration
 
@@ -62,11 +59,3 @@ values before clamping. Notice how outline exceed one and deceed zero:
 ## Outputs
 
 - **Falloff** - The actual falloff object.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video point_distance_falloff_node_example.mp4 >}}

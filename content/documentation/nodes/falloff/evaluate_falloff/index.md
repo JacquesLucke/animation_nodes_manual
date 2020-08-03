@@ -1,14 +1,11 @@
 ---
 title : Evaluate Falloff
-weight : 1
 ---
 
 ## Description
 
 This node evaluate the input falloff at the input
 index/vector/transformation matrix.
-
-![image](evaluate_falloff_node.png)
 
 ## Options
 
@@ -35,11 +32,3 @@ index/vector/transformation matrix.
 ## Outputs
 
 - **Strength** - The float at the input index/location/matrix.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video evaluate_falloff_node_example.mp4 >}}

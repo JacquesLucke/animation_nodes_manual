@@ -1,6 +1,5 @@
 ---
 title : Object Controller Falloff
-weight : 1
 ---
 
 ## Description
@@ -8,8 +7,6 @@ weight : 1
 This node creates a vector based falloff that associates to every object
 a float that is equal to inverse the distance from it to some controller
 object, that distance can be 3D or 1D.
-
-![image](object_controller_falloff_node.png)
 
 ## Options
 
@@ -96,11 +93,3 @@ Use the same reasoning as the sphere option to understand this better.
 ## Outputs
 
 - **Falloff** - The actual falloff object.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video object_controller_falloff_node_example.mp4 >}}

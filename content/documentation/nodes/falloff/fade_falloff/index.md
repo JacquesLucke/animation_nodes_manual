@@ -1,6 +1,5 @@
 ---
 title : Fade Falloff
-weight : 1
 ---
 
 ## Description
@@ -8,11 +7,9 @@ weight : 1
 This node creates an index based falloff that associates input **Start
 Value** to all objects with index less than some input index and the
 input **End Value** to all objects with index more than some input
-index, while the objects at indicies in between are associated with
+index, while the objects at indices in between are associated with
 values in between the **Start Value** and **End Value** evaluated at the
 input interpolation.
-
-![image](fade_falloff_node.png)
 
 ## Illustration
 
@@ -54,11 +51,3 @@ Options are only different on how the start and end index are defined.
 ## Outputs
 
 - **Falloff** - The actual falloff object.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video fade_falloff_node_example.mp4 >}}

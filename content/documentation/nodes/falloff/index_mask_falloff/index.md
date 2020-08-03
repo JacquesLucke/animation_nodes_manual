@@ -1,6 +1,5 @@
 ---
 title : Index Mask Falloff
-weight : 1
 ---
 
 ## Description
@@ -8,8 +7,6 @@ weight : 1
 This node creates an index based falloff that associates one of two
 input floats to every object. The node supports random assignment of
 floats as well as every Nth object assignment.
-
-![image](index_mask_falloff_node.png)
 
 ## Options
 
@@ -43,11 +40,3 @@ floats as well as every Nth object assignment.
 ## Outputs
 
 - **Falloff** - The actual falloff object.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video index_mask_falloff_node_example.mp4 >}}
