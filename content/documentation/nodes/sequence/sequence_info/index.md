@@ -1,13 +1,10 @@
 ---
 title : Sequence Info
-weight : 1
 ---
 
 ## Description
 
 This node returns some information about the input sequence.
-
-![image](sequence_info_node.png)
 
 ## Inputs
 
@@ -48,11 +45,3 @@ This node returns some information about the input sequence.
     is enabled.
 - **Use Default Fade** - A boolean which is True if *Use Linear
     Modifiers* is enabled.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video sequence_info_node_example.mp4 >}}
