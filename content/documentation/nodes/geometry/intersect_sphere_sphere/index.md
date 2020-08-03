@@ -1,15 +1,12 @@
 ---
 title : Intersect Sphere Sphere
-weight : 1
 ---
 
 ## Description
 
 This node returns the intersection circle of the two input spheres. A
 sphere intersects another sphere in a circle, the node returns the
-radius, normal and center of the the intersection circle.
-
-![image](intersect_sphere_sphere_node.png)
+radius, normal and center of the intersection circle.
 
 ## Illustration
 
@@ -32,16 +29,8 @@ Orange point is the center of the blue intersected circle.
 
 - **Circle Center** - The location of the center of the intersected
     circle.
-- **Circle Radius** - The radius length of the intersected circle. if
+- **Circle Radius** - The radius length of the intersected circle. If
     this values is zero and *Is Valid* is True, that means that the
     spheres are touching at the *Circle Center*.
 - **Is Valid** - A boolean which is True if an intersection was found,
     and False otherwise.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video intersect_sphere_sphere_node_example.mp4 >}}

@@ -1,6 +1,5 @@
 ---
 title : Intersect Line Sphere
-weight : 1
 ---
 
 ## Description
@@ -12,8 +11,6 @@ input line with the input sphere. The line can intersect the sphere in:
 - One time, in which case, the line touches the sphere externally and
     is tangent to it at the point of intersection.
 - No points.
-
-![image](intersect_line_sphere_node.png)
 
 ## Illustration
 
@@ -50,11 +47,3 @@ with the input sphere.
 
 If one of the **Is Valid** is True and the other is False, then this
 line is tangent to the sphere at the point of intersection.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video intersect_line_sphere_node_example.mp4 >}}

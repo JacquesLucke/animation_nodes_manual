@@ -1,6 +1,5 @@
 ---
 title : Project Point On plane
-weight : 1
 ---
 
 ## Description
@@ -8,8 +7,6 @@ weight : 1
 This node takes a point and a plane and returns projection of this point
 on that plane. The projection of a point on a plane is the closest point
 to the input point on the input plane.
-
-![image](project_point_on_plane_node.png)
 
 ## Illustration
 
@@ -32,11 +29,3 @@ to the input point on the input plane.
     projected point and the input point. Although distances can't have a
     negative sign, this output could have a negative sign if the point
     lie below the plane while positive if above.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video project_point_on_plane_node_example.mp4 >}}

@@ -1,6 +1,5 @@
 ---
 title : Project Point On Line
-weight : 1
 ---
 
 ## Description
@@ -8,8 +7,6 @@ weight : 1
 This node takes a point and a line and returns the projection of this
 point on that line. The projection of a point on a line is the closest
 point to the input point on the input line.
-
-![image](project_point_on_line_node.png)
 
 ## Illustration
 
@@ -34,11 +31,3 @@ point to the input point on the input line.
 - **Distance** - It is the shortest distance between the input point
     and the input line, which is also the distance between the projected
     point and the input point.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video project_point_on_line_node_example.mp4 >}}

@@ -1,6 +1,5 @@
 ---
 title : Intersect Sphere Plane
-weight : 1
 ---
 
 ## Description
@@ -8,8 +7,6 @@ weight : 1
 This node returns the intersection circle of input sphere and plane. A
 plane intersects a sphere in a circle, the node returns the radius and
 location of this circle.
-
-![image](intersect_sphere_plane_node.png)
 
 ## Illustration
 
@@ -35,12 +32,3 @@ Orange point is the center of the blue intersected circle.
     plane is tangent to the sphere at the *Circle Center*.
 - **Is Valid** - A boolean which is True if an intersection was found,
     and False otherwise.
-
-## Advanced Node Settings
-
-## Examples of Usage
-
-Notice that the normal of the intersection circle is the normal of the
-input plane.
-
-{{< video intersect_sphere_plane_node_example.mp4 >}}

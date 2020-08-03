@@ -1,14 +1,11 @@
 ---
 title : Intersect Line Plane
-weight : 1
 ---
 
 ## Description
 
 This node returns the location of the point of intersection of the input
 line with the input plane.
-
-![image](intersect_line_plane_node.png)
 
 ## Illustration
 
@@ -32,11 +29,3 @@ with the input plane.
 - **Is Valid** - A boolean which is True if an intersection was found
     and False otherwise. The intersection will not be found only when
     the line is perpendicular on the normal of the plane.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video intersect_line_plane_node_example.mp4 >}}

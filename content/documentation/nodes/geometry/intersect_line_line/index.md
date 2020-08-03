@@ -1,6 +1,5 @@
 ---
 title : Intersect Line Line
-weight : 1
 ---
 
 ## Description
@@ -9,8 +8,6 @@ This node takes two lines and returns the locations of two points (one
 on each of them) that are closest to each other. If the lines intersect,
 that is, they are not skew, then the two points will be equal to the
 point of intersection.
-
-![image](intersect_line_line_node.png)
 
 ## Illustration
 
@@ -36,11 +33,3 @@ points. Orange points are the closest points on the lines.
 - **Is Valid** - A boolean which is True if a closest pair was found
     and False if not. Closest pair won't be found only if both lines
     were parallel.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video intersect_line_line_node_example.mp4 >}}
