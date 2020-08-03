@@ -1,14 +1,11 @@
 ---
 title : Split Text
-weight : 1
 ---
 
 ## Description
 
 This node splits input string into multiple strings based on the chosen
 algorithm.
-
-![image](split_text_node.png)
 
 ## Options
 
@@ -39,11 +36,3 @@ algorithm.
 
 - **Text list** - A list of strings that contains string parts.
 - **Length** - The number of strings in the list.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video split_text_node_example.mp4 >}}

@@ -1,13 +1,10 @@
 ---
 title : Text File Reader
-weight : 1
 ---
 
 ## Description
 
 This node reads a file from your disk.
-
-![image](text_file_reader_node.png)
 
 ## Inputs
 
@@ -19,11 +16,3 @@ This node reads a file from your disk.
 ## Outputs
 
 - **Text** - The output text.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video text_file_reader_node_example.mp4 >}}

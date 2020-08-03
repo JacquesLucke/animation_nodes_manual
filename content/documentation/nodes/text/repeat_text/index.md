@@ -1,14 +1,11 @@
 ---
 title : Repeat Text
-weight : 1
 ---
 
 ## Description
 
 This node is used to repeat an input text and add it before or after
 another input text.
-
-![image](repeat_text_node.png)
 
 ## Options
 
@@ -25,11 +22,3 @@ another input text.
 ## Outputs
 
 - **Text** - The output string.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video repeat_text_node_example.mp4 >}}

@@ -1,13 +1,10 @@
 ---
 title : Join Text
-weight : 1
 ---
 
 ## Description
 
 This node joins a list of strings in a single string.
-
-![image](join_texts_node.png)
 
 ## Inputs
 
@@ -18,11 +15,3 @@ This node joins a list of strings in a single string.
 ## Outputs
 
 - **Text** - The output string.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video join_texts_node_example.mp4 >}}

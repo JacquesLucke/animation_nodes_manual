@@ -1,6 +1,5 @@
 ---
 title : Characters
-weight : 1
 ---
 
 ## Description
@@ -15,12 +14,6 @@ specific category including:
 - **Line Break**
 - **All**
 
-![image](characters_node.png)
-
-## Inputs
-
-- N/A
-
 ## Outputs
 
 - **Lower Case** - All lower case characters.
@@ -29,11 +22,3 @@ specific category including:
 - **Special** - All special characters like (:,?").
 - **Line Break** - Include a new line.
 - **All** - All of the previous category.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video characters_node_example.mp4 >}}

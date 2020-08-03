@@ -1,13 +1,10 @@
 ---
 title : Random String
-weight : 1
 ---
 
 ## Description
 
 This node generates a random string based on an input characters.
-
-![image](random_text_node.png)
 
 ## Inputs
 
@@ -20,10 +17,6 @@ This node generates a random string based on an input characters.
 
 - **Text** - A random string based on the input characters.
 
-## Advanced Node Settings
-
-- N/A
-
 ## Note
 
 The node has an **extra seed** (*Node Seed*) that can be used to
@@ -34,7 +27,3 @@ other nodes.
 
 Animation Nodes automatically changes the *Node Seed* when you duplicate
 or add a new *Random String* node.
-
-## Examples of Usage
-
-{{< video random_text_node_example.mp4 >}}

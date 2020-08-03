@@ -1,14 +1,11 @@
 ---
 title : Separate Text Object
-weight : 1
 ---
 
 ## Description
 
 This node takes a text object and separates its characters into
 individual objects.
-
-![image](separate_text_object_node.png)
 
 ## Options
 
@@ -30,7 +27,3 @@ individual objects.
 
 - **Parent To Main Container** - Parent the objects to Animation
     Nodes' container.
-
-## Examples of Usage
-
-{{< video separate_text_object_node_example.mp4 >}}

@@ -1,14 +1,11 @@
 ---
 title : Character Properties Output
-weight : 1
 ---
 
 ## Description
 
 This node controls the property of the input text object in a specific
 character interval.
-
-![image](character_properties_output_node.png)
 
 ## Inputs
 
@@ -29,7 +26,3 @@ character interval.
 
 - **Allow negative index** - This option will allow you to invert the
     interval by entering negative values for the start and end indicies.
-
-## Examples of Usage
-
-{{< video character_properties_output_node_example.mp4 >}}

@@ -1,13 +1,10 @@
 ---
 title : Text Object Output
-weight : 1
 ---
 
 ## Description
 
 This node allows you to control text objects' properties.
-
-![image](text_object_output_node.png)
 
 ## Inputs
 
@@ -32,11 +29,3 @@ This node allows you to control text objects' properties.
 ## Outputs
 
 - **Object** - The input text object.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video text_object_output_node_example.mp4 >}}
