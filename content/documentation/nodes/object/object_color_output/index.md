@@ -1,6 +1,5 @@
 ---
 title : Object Color Output
-weight : 1
 ---
 
 ## Description

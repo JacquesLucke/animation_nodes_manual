@@ -1,13 +1,10 @@
 ---
 title : Object Visibility Output
-weight : 1
 ---
 
 ## Description
 
 This node let you set the visibility of multiple object's properties.
-
-![image](object_visibility_output_node.png)
 
 ## Inputs
 
@@ -24,11 +21,3 @@ This node let you set the visibility of multiple object's properties.
 ## Outputs
 
 - **Object** - The input object.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video object_visibility_output_node_example.mp4 >}}

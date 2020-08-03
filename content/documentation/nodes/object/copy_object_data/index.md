@@ -1,13 +1,14 @@
 ---
 title : Copy Object Data
-weight : 1
 ---
 
 ## Description
 
-This node copies the data of one object to another. (They become linked)
+This node copies the data of one object to another.
 
-![image](copy_object_data_node.png)
+## Options
+
+- **Deep Copy** - If enabled, the object data data-block will be copied.
 
 ## Inputs
 
@@ -17,11 +18,3 @@ This node copies the data of one object to another. (They become linked)
 ## Outputs
 
 - **To** - The copied to object.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video copy_object_data_node_example.mp4 >}}

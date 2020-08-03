@@ -1,13 +1,10 @@
 ---
 title : Shape key Output
-weight : 1
 ---
 
 ## Description
 
 This node edits the values of shape keys.
-
-![image](shape_key_output_node.png)
 
 ## Inputs
 
@@ -21,11 +18,3 @@ This node edits the values of shape keys.
 ## Outputs
 
 - **Shape Key** - The input shape key.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video shape_key_output_node_example.mp4 >}}
