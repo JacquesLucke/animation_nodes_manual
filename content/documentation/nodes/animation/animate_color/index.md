@@ -1,14 +1,11 @@
 ---
 title : Animate Color
-weight : 1
 ---
 
 ## Description
 
 This node mixes between two colors where the factor for mixing is the
 time mapped to an input interval *Duration*.
-
-![image](animate_color_node.png)
 
 ## Inputs
 
@@ -28,11 +25,3 @@ time mapped to an input interval *Duration*.
     (Isn't affected by the input interpolation).
 - **Result** - The value of the animation evaluated at the input time
     or the result of mixing.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video animate_color_node_example.mp4 >}}

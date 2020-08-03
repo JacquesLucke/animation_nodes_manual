@@ -1,6 +1,5 @@
 ---
 title : Delay Time
-weight : 1
 ---
 
 ## Description
@@ -13,8 +12,6 @@ output in a custom animation node tree. That is because negative values
 are clamped to zero in the animation process so subtracting 20 from the
 input frame will result in zero for the first 20 frame.
 
-![image](delay_time_node.png)
-
 ## Inputs
 
 - **Time** - An input time.
@@ -24,11 +21,3 @@ input frame will result in zero for the first 20 frame.
 ## Outputs
 
 - **Time** - The delayed time.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video animate_vector_node_example.mp4 >}}

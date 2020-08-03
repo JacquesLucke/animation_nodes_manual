@@ -1,14 +1,11 @@
 ---
 title : Repeat Time
-weight : 1
 ---
 
 ## Description
 
 This node resets the time every n number of frames where n is the input
 *Rate*. Technically it is the input *Time* modulo the input *Rate*.
-
-![image](repeat_time_node.png)
 
 ## Options
 
@@ -23,11 +20,3 @@ This node resets the time every n number of frames where n is the input
 ## Outputs
 
 - **Time** - The repeated time.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video animate_euler_node_example.mp4 >}}

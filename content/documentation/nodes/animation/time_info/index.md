@@ -1,13 +1,10 @@
 ---
 title : Time Info
-weight : 1
 ---
 
 ## Description
 
 This node returns some information about scene playback.
-
-![image](time_info_node.png)
 
 ## Inputs
 
@@ -20,11 +17,3 @@ This node returns some information about scene playback.
 - **Start Frame** - First frame of the scene playback range.
 - **End Frame** - Last frame of the scene playback range.
 - **Frame Rate** - The frame rate of the playback.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video time_info_node_example.mp4 >}}
