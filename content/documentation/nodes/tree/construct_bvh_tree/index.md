@@ -1,13 +1,10 @@
 ---
 title : Construct BVH Tree
-weight : 1
 ---
 
 ## Description
 
 This node constructs a BVH Tree from the input mesh data.
-
-![image](construct_bvh_tree_node.png)
 
 ## Demonstration
 
@@ -37,11 +34,3 @@ operations.
 ## Outputs
 
 - **BVHTree** - The output BVHTree.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video construct_bvh_tree_node_example.mp4 >}}

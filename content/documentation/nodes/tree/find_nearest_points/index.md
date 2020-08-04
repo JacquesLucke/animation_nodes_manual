@@ -1,14 +1,11 @@
 ---
 title : Find Nearest Points
-weight : 1
 ---
 
 ## Description
 
 This node finds the nearest points in the input KD Tree to a given
 point.
-
-![image](find_nearest_points_node.png)
 
 ## Inputs
 
@@ -25,11 +22,3 @@ point.
     input point.
 - **Index** - The indices of the nearest points to the input point in
     the list used to construct the KD tree.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video find_nearest_points_node_example.mp4 >}}

@@ -1,14 +1,11 @@
 ---
 title : Find Nearest Surface Point
-weight : 1
 ---
 
 ## Description
 
 This node find the nearest point on the surface of the mesh defined by
 the BVH tree to the input point.
-
-![image](find_nearest_surface_point_node.png)
 
 ## Inputs
 
@@ -33,16 +30,8 @@ the BVH tree to the input point.
 - **Hit** - A boolean which is True if a nearest point was found and
     False otherwise.
 
-## Advanced Node Settings
-
-- N/A
-
 ## Notes
 
 - The only situation where a point can't be found is when the distance
     between the input vector and its nearest surface point is larger
     than the input max distance.
-
-## Examples of Usage
-
-{{< video find_nearest_surface_point_node_example.mp4 >}}

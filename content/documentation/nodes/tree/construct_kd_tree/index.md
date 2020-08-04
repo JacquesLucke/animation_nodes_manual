@@ -1,13 +1,10 @@
 ---
 title : Construct KD Tree
-weight : 1
 ---
 
 ## Description
 
 This node constructs a KD Tree from the input vector list.
-
-![image](construct_kd_tree_node.png)
 
 ## Demonstration
 
@@ -29,11 +26,3 @@ O(n)` in the worst case.
 ## Outputs
 
 - **KDTree** - The output KDTree.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video construct_kd_tree_node_example.mp4 >}}

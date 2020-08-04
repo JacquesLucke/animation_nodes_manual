@@ -1,14 +1,11 @@
 ---
 title : Find Points In Radius
-weight : 1
 ---
 
 ## Description
 
 This node finds the points that lie inside a sphere with a given center
 and radius in the input KD Tree.
-
-![image](find_points_in_radius_node.png)
 
 ## Inputs
 
@@ -25,11 +22,3 @@ and radius in the input KD Tree.
     input point.
 - **Index** - The indices of the nearest points to the input point in
     the list used to construct the KD tree.
-
-## Advanced Node Settings
-
-- N/A
-
-## Examples of Usage
-
-{{< video find_points_in_radius_node_example.mp4 >}}

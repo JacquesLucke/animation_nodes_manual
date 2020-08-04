@@ -1,14 +1,11 @@
 ---
 title : Ray Cast BVH Tree
-weight : 1
 ---
 
 ## Description
 
 This node sends a ray through the scene and gather some information
 about its intersection with the mesh defined by the BVH tree.
-
-![image](ray_cast_bvh_tree_node.png)
 
 ## Options
 
@@ -47,10 +44,6 @@ about its intersection with the mesh defined by the BVH tree.
 - **Hit** - A boolean which is True if there was an intersection and
     False otherwise.
 
-## Advanced Node Settings
-
-- N/A
-
 ## Notes
 
 - Adjusting minimum and maximum distances won't affect the speed of
@@ -58,7 +51,3 @@ about its intersection with the mesh defined by the BVH tree.
 - If you want to define the ray by 2 points one of them is the
     starting point, linear algebra tells you to subtract your second
     point from your starting point then plug it as the ray direction.
-
-## Examples of Usage
-
-{{< video construct_bvh_tree_node_example.mp4 >}}
