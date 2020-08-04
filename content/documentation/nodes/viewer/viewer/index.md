@@ -1,6 +1,5 @@
 ---
 title : Viewer
-weight : 1
 ---
 
 ## Description
@@ -12,8 +11,6 @@ it will draw a dedicated floating viewer to view those data.
 
 Notice how integers, vectors and texts were displayed in the node, while
 lists where displayed in a dedicated floating viewer.
-
-![image](viewer_node.png)
 
 ## Advanced Node Settings
 
