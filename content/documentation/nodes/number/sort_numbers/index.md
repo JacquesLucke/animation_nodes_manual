@@ -1,5 +1,5 @@
 ---
-Title : Sort Number
+Title : Sort Numbers
 ---
 
 ## Description

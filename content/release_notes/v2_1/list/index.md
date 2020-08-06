@@ -4,4 +4,4 @@ title : List
 
 ## Sort List
 
-This node was removed. Replaced by the *Sort* node.
+This node was removed. Replaced by the *Sort Numbers* node.
