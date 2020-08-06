@@ -68,7 +68,15 @@ following example.
 
 {{< video virtual_lists_circle.mp4 >}}
 
+### Grease Pencil
+
+Newly added grease pencil nodes provide a workflow for grease pencil in the
+Animation Nodes. These nodes allow the user to get any properties *(Points,
+Strokes, Frames, Layers, Masks)* of grease pencil object, and create the grease
+pencil object with the Animation Nodes.
+
+{{< video grease_pencil.mp4 >}}
+
 ### Changes in Detail
 
 {{% children %}}
-
