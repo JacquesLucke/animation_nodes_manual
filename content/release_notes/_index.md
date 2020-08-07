@@ -6,4 +6,4 @@ chapter : true
 
 # Release Notes
 
-This is the release notes.
+{{% children %}}
