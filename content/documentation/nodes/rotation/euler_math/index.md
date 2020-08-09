@@ -1,5 +1,5 @@
 ---
-title : Vector Math
+title : Euler Math
 ---
 
 ## Description
