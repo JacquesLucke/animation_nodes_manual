@@ -15,7 +15,7 @@ is initially the input axiom symbol list. The rules are applied by replacing
 the symbols on the left hand side by the symbols on the right hand side. The
 symbols on the left hand side, called the *Variables*, can be any of `A`, `B`,
 `X`, `Y`, or `Z` in addition to the command symbols described below. The left
-and right hand sides are separated by an equal sign. Spaces are ignored For
+and right hand sides are separated by an equal sign. Spaces are ignored. For
 instance, the following are some rules that can be used.
 
 ```
