@@ -19,8 +19,19 @@ the editors menu.
 
 {{% notice note %}}
 
-Checkout the [troubleshooting guide](https://github.com/JacquesLucke/animation_nodes/issues/1240)
-if you have any installation problems.
+Checkout the [troubleshooting
+guide](https://github.com/JacquesLucke/animation_nodes/issues/1240) if you have
+any installation problems.
+
+{{% /notice %}}
+
+
+{{% notice warning %}}
+
+On Windows, Animation Nodes might cause Blender to take a very long time to
+load, this is due to Windows Defender scanning Animation Nodes' libraries.
+Possible solutions are discussed in the following
+[thread](https://github.com/JacquesLucke/animation_nodes/issues/1531).
 
 {{% /notice %}}
 
