@@ -1,6 +1,6 @@
 ---
 title : Release Notes
-weight : 3
+weight : 20
 chapter : true
 ---
 
