@@ -20,7 +20,7 @@ jobs:
       with:
         hugo-version: latest
     - name: Build
-      run: hugo
+      run: hugo --minify
     - name: Deploy
       uses: kevinpainchaud/simple-ftp-deploy-action@v1
       with:
