@@ -5,8 +5,9 @@ weight : 10
 
 ## Add-on
 
-Create a directory with the prefix `an_` in the name, that is,
-`an_<your_extension_name>` with the following base structure:
+Create a directory with your add-on's name prefixed by `an_`, that is,
+`an_<your_extension_name>`. The directory should follow the following base
+structure:
 
 ```txt
 an_<your_extension_name>/
@@ -22,16 +23,21 @@ an_<your_extension_name>/
 
 {{% notice warning %}}
 
-Do not use `animation_nodes` in your extension names.
+Do not use `animation_nodes` in your extension name.
 
 {{% / notice %}}
 
 We will explain what needs to be added in those files in a moment. The
-`auto_load.py` file can be downloaded from [here][auto_load] without any
-changes. This file will help us automatically register and load classes, so it
-is not mandatory, but it is recommended. For auto loading to work, each of the
-directories that have files that define a Blender class needs to have an empty
-`__init__.py` file, which are the files you see in the sub-directories above.
+`auto_load.py` file can be copied from the Animation Nodes [source][an_source]
+without any changes. This file will help us automatically register and load
+classes, so it is not mandatory, but it is recommended. For auto loading to
+work, each of the directories that have files that define a Blender class needs
+to have an empty `__init__.py` file, which are the files you see in the
+sub-directories above.
+
+This structure works for simple extensions. More complex extensions that
+utilize Cython should follow a more complex structure. This structure is
+described later in the Cython [section](#cython).
 
 ## Initialization
 
@@ -64,7 +70,7 @@ Created by <YOUR NAME>
 bl_info = {
     "name": "Animation Nodes Test Extension",
     "author": "<YOUR NAME>",
-    "version": (1, 0),
+    "version": (1, 0, 0),
     "blender": (2, 90, 0),
     "location": "Animation Nodes",
     "description": "A Test Extension For Animation Nodes.",
@@ -96,9 +102,9 @@ def unregister():
 
 Add your nodes inside the `nodes` directory or any of its sub-directories. The
 directory and its sub-directories should each have an empty `__init__.py` file
-as we mentioned before. Check the [Node Development]({{< ref "node_development"
->}}) guide for information on how to create nodes or check the Animation Nodes
-source for examples on how to write nodes.
+as we mentioned before. Check the [Node Development][node_dev] guide for
+information on how to create nodes or check the Animation Nodes source for
+examples on how to write nodes.
 
 ## UI
 
@@ -109,7 +115,7 @@ function to any of the Animation Nodes menus or the Add menu directly. For
 instance, the following file defines a new menu and draws a node insert
 operator in it. Then, a draw function is defined that draws this menu, which is
 then appended to the `NODE_MT_add` menu, which is the node add menu. The menu
-will be positioned at the end of the menu.
+will be positioned at the end of the menu you appended to.
 
 ```python
 import bpy
@@ -146,10 +152,47 @@ menus and more examples on how to define more complex menus, check the
 
 ## Cython
 
-You may use any of the public Cython functions defined by Animation Nodes.
-However, this guide doesn't cover writing your own Cython code, and we don't
-officially release any headers to aid the development of Cython nodes at the
-moment.
+If you would like to write your own Cython code and define your own Cython
+structures, you can use the setup script from Animation Nodes, in which case,
+your project should follow the following base structure:
 
-[auto_load]: https://raw.githubusercontent.com/JacquesLucke/animation_nodes/master/animation_nodes/auto_load.py
+```txt
+an_<your_extension_name>/
+├── setup.py
+├── _export_c_setup.py
+├── conf.default.json
+├── an_<your_extension_name>/
+│   ├── ...
+├── _setuputils/
+│   ├── ...
+```
+
+The inner `an_<your_extension_name>` directory is the one illustrated above.
+The `_setuputils` directory, `setup.py`, `_export_c_setup.py`, and
+`conf.default.json` should be copied from the Animation Nodes
+[source][an_source]. The only change you need to make is to change the
+`addonName` variable to `an_<your_extension_name>` in both the `setup.py` and
+the `_export_c_setup.py` files. The last thing that need to be done is to setup
+the headers.
+
+#### Header Files
+
+In order to build your extension, Cython needs to look at the header files of
+Animation Nodes. So first download the latest `animation_nodes_headers.zip`
+archive from the [release page][latest_release_page], extract it, and configure
+the build system to find it by adding the path of the extracted directory to
+the array entry named `Cython Include Paths` in the `conf.json` file. Notice
+that this file is generated after the first time you build, but you can add it
+yourself to the root directory before that. An example `conf.json` is shown:
+
+```json
+{
+    "Copy Target" : "/path/to/your/blender/addon/directory",
+    "Cython Include Paths" : ["/path/to/the/extracted/directory/animation_nodes_headers/"]
+}
+```
+
+[an_source]: https://github.com/JacquesLucke/animation_nodes
+[node_dev]: {{< ref "node_development">}}
 [node_menu]: https://github.com/JacquesLucke/animation_nodes/blob/master/animation_nodes/ui/node_menu.py
+[latest_release_page]: https://github.com/JacquesLucke/animation_nodes/releases/tag/master-cd-build
