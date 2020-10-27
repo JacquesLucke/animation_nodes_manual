@@ -106,6 +106,37 @@ as we mentioned before. Check the [Node Development][node_dev] guide for
 information on how to create nodes or check the Animation Nodes source for
 examples on how to write nodes.
 
+### Notes
+
+#### Absolute Imports
+
+In the Animation Nodes source, Animation Nodes objects are imported relatively.
+This will not work for extensions. You have to import objects absolutely from
+the `animation_nodes` module. So if you see an import statement like this in
+the Animation Nodes source:
+
+```python
+from .. perlin_noise cimport perlinNoise1D
+```
+
+It should be translated into:
+
+```python
+from animation_nodes.algorithms.perlin_noise cimport perlinNoise1D
+```
+
+#### Extension Module In Execution Code
+
+You can use the `animation_nodes` module—which is also aliased to `AN`—in the
+execution code of the node. That's because it is imported by default. In order
+to use your extension module, you have to tell Animation Nodes to import it by
+overriding the `getUsedModules` method. So the code should be:
+
+```python
+    def getUsedModules(self):
+            return ["an_<your_extension_name>"]
+```
+
 ## UI
 
 In order to add your nodes to a menu. In a `node_menu.py` file in the `ui`
