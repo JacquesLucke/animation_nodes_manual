@@ -220,6 +220,14 @@ type can be changed manually similar to the *Convert* node by enabling
 the *Fixed Data Type* option and changing the type by pressing on the
 gear button.
 
+{{% notice note %}}
+
+Generic lists will not be automatically copied by Animation Nodes when using
+nodes that make modifications to the list. If you plan on using a Generic list
+output in multiple places, make sure that you manually copy lists as needed.
+
+{{% /notice %}}
+
 ## Scenes
 
 Certain data and properties in Blender are stored per scene and are
