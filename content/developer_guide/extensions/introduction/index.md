@@ -16,6 +16,9 @@ an_<your_extension_name>/
 ├── ui/
 │   ├── __init__.py
 │   ├── node_menu.py
+├── sockets/
+│   ├── __init__.py
+│   ├── ...
 ├── nodes/
 │   ├── __init__.py
 │   ├── ...
@@ -29,11 +32,11 @@ Do not use `animation_nodes` in your extension name.
 
 We will explain what needs to be added in those files in a moment. The
 `auto_load.py` file can be copied from the Animation Nodes [source][an_source]
-without any changes. This file will help us automatically register and load
-classes, so it is not mandatory, but it is recommended. For auto loading to
-work, each of the directories that have files that define a Blender class needs
-to have an empty `__init__.py` file, which are the files you see in the
-sub-directories above.
+without any changes, the file is inside the `animation_nodes` directory. This
+file will help us automatically register and load classes, so it is not
+mandatory, but it is recommended. For auto loading to work, each of the
+directories that have files that define a Blender class needs to have an empty
+`__init__.py` file, which are the files you see in the sub-directories above.
 
 This structure works for simple extensions. More complex extensions that
 utilize Cython should follow a more complex structure. This structure is
@@ -136,6 +139,12 @@ overriding the `getUsedModules` method. So the code should be:
     def getUsedModules(self):
             return ["an_<your_extension_name>"]
 ```
+
+## Sockets
+
+Add your sockets inside the `sockets` directory or any of its sub-directories. The
+directory and its sub-directories should each have an empty `__init__.py` file
+as we mentioned before.
 
 ## UI
 
