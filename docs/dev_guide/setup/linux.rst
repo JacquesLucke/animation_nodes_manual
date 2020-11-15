@@ -1,2 +1,0 @@
-Setup Environment on Linux
-==========================
