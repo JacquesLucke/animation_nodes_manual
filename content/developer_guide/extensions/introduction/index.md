@@ -44,10 +44,11 @@ described later in the Cython [section](#cython).
 
 ## Initialization
 
-In the top-level `__init__.py` file, we need to do two things:
+In the top-level `__init__.py` file, we need to do three things:
 
 - Make sure Animation Nodes is loaded and available.
 - Initialize the automatic loader and register/unregister the classes.
+- Update socket information. This is only needed if you define new sockets.
 
 ```python
 '''
@@ -87,12 +88,15 @@ import bpy
 import addon_utils
 from . import auto_load
 
-if not all(addon_utils.check("animation_nodes")):
-    module = addon_utils.enable("animation_nodes", default_set = False, persistent = True)
-    if not module:
+try: import animation_nodes
+except:
+    animation_nodes = addon_utils.enable("animation_nodes", default_set = False, persistent = True)
+    if not animation_nodes:
         raise Exception("Could not load Animation Nodes.")
 
 auto_load.init()
+
+animation_nodes.sockets.info.updateSocketInfo()
 
 def register():
     auto_load.register()
