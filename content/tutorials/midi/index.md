@@ -125,12 +125,10 @@ of the note (The Time Off minus the Time On). The mesh is generated, written to
 an object, and cached. The generated object is translated along the Y axis in
 the negative direction by the value of the time in seconds. Effectively, the
 planes pass the X axis at their start time, because that's when the Time On
-minus the time in seconds equals to zero. The result of the first and second
-tracks are shown below.
+minus the time in seconds equals to zero. The result of the first track is
+shown below.
 
 {{< video slidingNotes0.mp4 >}}
-
-{{< video slidingNotes1.mp4 >}}
 
 ## Exercise
 
