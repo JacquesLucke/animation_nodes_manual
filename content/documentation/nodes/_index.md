@@ -7,3 +7,5 @@ chapter : true
 # Nodes
 
 This is the reference for nodes in Animation Nodes.
+
+{{% children %}}

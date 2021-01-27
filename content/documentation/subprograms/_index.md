@@ -7,3 +7,5 @@ chapter : true
 # Subprograms
 
 This is the documentation for subprograms.
+
+{{% children %}}
