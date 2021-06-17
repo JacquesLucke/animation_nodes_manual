@@ -56,7 +56,7 @@ class GeneratePointsNode(bpy.types.Node, AnimationNode):
 
     # AnimationNode.refresh will cause AN to remove all sockets
     # and to call the create method again.
-    mode = EnumProperty(name = "Mode", default = "LINE",
+    mode: EnumProperty(name = "Mode", default = "LINE",
         items = modeItems, update = AnimationNode.refresh)
 
     def create(self):
@@ -113,7 +113,7 @@ class GeneratePointsNode(bpy.types.Node, AnimationNode):
     bl_idname = "an_GeneratePointsNode"
     bl_label = "Generate Points"
 
-    mode = EnumProperty(name = "Mode", default = "LINE",
+    mode: EnumProperty(name = "Mode", default = "LINE",
         items = modeItems, update = AnimationNode.refresh)
 
     def create(self):
