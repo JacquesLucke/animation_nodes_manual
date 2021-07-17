@@ -13,10 +13,13 @@ of the available algorithms.
     falloffs.
 - **Min** - The output float will be the lowest float of all falloffs.
 - **Add** - The output will be the sum of the floats of the falloffs.
+- **Subtract** - The output will be the difference between the floats
+    of the falloffs.
 - **Multiply** - The output will be the product of the floats of the
     falloffs.
 - **Use Falloff List** - It is the option you see beside the menu, if
-    enabled, the input will be a falloff list.
+    enabled, the input will be a falloff list. This is not available
+    for the *Subtract* option, as it is not commutative.
 
 ## Inputs
 

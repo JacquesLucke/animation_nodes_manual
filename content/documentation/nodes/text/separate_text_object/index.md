@@ -9,15 +9,13 @@ individual objects.
 
 ## Options
 
-- **Type** - Lets you choose the type of the output object, it can be
-    Text, Curve or a Mesh.
-
-## Inputs
-
 - **Source** - The source text object.
 - **Material** - A material to assign to the newly created objects.
 - **Origin** - The location of the object's origin.
-- **Type** - The type of the newly created object. (Text,Curve,Mesh)
+- **Type** - Lets you choose the type of the output object, it can be
+    Text, Curve or a Mesh.
+- **Dimensions** - If the type of output is a Spline. This option sets
+    its dimension to 2D or 3D.
 
 ## Outputs
 

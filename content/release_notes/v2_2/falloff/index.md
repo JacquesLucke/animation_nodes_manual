@@ -9,7 +9,9 @@ A new *Subtract* method was added to the node.
 ## Radial Falloff
 
 A new *Radial Falloff* node was added. The value of the falloff is equal to the
-normalized angle along a plane, with an input offset phase.
+normalized angle between the projection of two vectors on the plane defined by
+the inputs. The first vector is the positive x axis and the second vector is the
+vector in question.
 
 {{< video radial_falloff.mp4 >}}
 

@@ -11,10 +11,12 @@ Unlike other subprograms, a group has to have at least one input.
 
 ## Advanced Node Settings
 
-The inputs of a group can have default values. Default values can only
-be defined for basic data types like numbers, vectors and booleans. One
-can define the default values in the advanced node settings of the
-*Group Input* node.
+- **Default Value** - The default value of the input. When the user adds an
+  *Invoke Subprogram* node, the input will have its value set to this default
+  value. This option is only available for simple data types like integers and
+  floats. For instance, KDTree inputs will not have this option.
+- **Hide** - When enabled, the input will be hidden by default when
+    the user adds an *Invoke Subprogram* node.
 
 ## Example 1
 

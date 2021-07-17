@@ -115,6 +115,8 @@ present:
 - **Default** - The default value of the parameter, this option is
     only available for simple data types, so data types like BVH and KD
     Trees won't have this option.
+- **Hide** - When enabled, the parameter will be hidden by default when
+    the user adds an *Invoke Subprogram* node.
 
 #### Reassignment Operators
 

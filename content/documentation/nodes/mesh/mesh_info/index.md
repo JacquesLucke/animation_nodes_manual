@@ -27,6 +27,8 @@ vertices locations and polygon edge indices.
     the average of vertices of the polygon.
 - **Polygon Normals** - A vector list that contain unit vectors that
     represent the normals of the polygons of the input mesh.
+- **Material Indices** - An integer list that contain the material indices of
+    the input mesh.
 - **UV Map Names** - A string list that contains names of the uv map of the input mesh.
 - **Vertex Color Layers** - A string list that contains names of the vertex color layer of the input mesh.
 - **Custom Attribute Names** - A string list that contains names of the custom attribute of the input mesh.

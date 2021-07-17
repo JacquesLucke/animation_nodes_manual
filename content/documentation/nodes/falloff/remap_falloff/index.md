@@ -13,6 +13,7 @@ This node remaps the output values of the input falloff to a new range.
 - **Input Max** - The original maximum value.
 - **Output Min** - The target minimum value.
 - **Output Max** - The target maximum value.
+- **Interpolation** - The interpolation to evaluate the input at.
 
 ## Outputs
 

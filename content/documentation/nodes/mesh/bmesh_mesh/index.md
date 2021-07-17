@@ -13,9 +13,11 @@ This node returns the mesh data of the input bmesh.
 
 ## Outputs
 
-- **Vertex Locations** - A vector list that includes vertices
-    locations of the input bmesh.
-- **Edge Indices** - A list of edge indices that includes all the
-    edges of the input bmesh.
-- **Polygon Indices** - A list of polygon indices that includes all
-    the polygons of the input bmesh.
+- **Vertex Locations** - A vector list that includes vertices locations of the
+  input bmesh.
+- **Edge Indices** - A list of edge indices that includes all the edges of the
+  input bmesh.
+- **Polygon Indices** - A list of polygon indices that includes all the polygons
+  of the input bmesh.
+- **Material Indices** - An integer list that include the material indices of
+  all polygons.

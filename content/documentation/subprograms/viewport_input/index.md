@@ -10,3 +10,9 @@ interface elements added in node. The added node outputs store the values that
 the user inputs.
 
 ![View-port Input](viewport_input.png)
+
+## Advance Node Settings
+
+- **Order Weight** - Nodes with lower weights will have their view-port panels
+  placed at the top, while nodes with higher weights will have their view-port
+  panels placed at the bottom.

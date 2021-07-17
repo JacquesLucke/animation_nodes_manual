@@ -34,9 +34,6 @@ This node edits the input object's data based on a new input data.
     option)
 - **Vertices** - Vector list that represents the new locations for the
     vertices. (Only for the vertices option)
-- **Material Indices** - An integer list, the first integer represent
-    the index of the material of the first polygon, the 2nd integer
-    represent the index of the material of the 2nd polygon, ....
 
 ## Outputs
 

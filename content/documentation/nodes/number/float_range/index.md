@@ -19,13 +19,14 @@ sequence.
 
 ## Inputs
 
-- **Amount** - The length of the arithmetic sequence which is also the length
-  of the output integer list.
+- **Amount** - The length of the arithmetic sequence which is also the length of
+  the output integer list.
 - **Start** - It is the starting value of the arithmetic sequence.
 - **Step** - It is the difference between each two consecutive terms of the
   arithmetic sequence. (Only available in the *Start/Step* option)
-- **Stop** - It is the end value of the arithmetic sequence.  (Only available
-  in the *Start/Stop* option)
+- **Stop** - It is the end value of the arithmetic sequence.  (Only available in
+  the *Start/Stop* option)
+- **Interpolation** - The interpolation that the sequence will be evaluated at.
 
 ## Outputs
 

@@ -21,3 +21,7 @@ A new *Material Indices* output was added.
 ## Polygon List Socket
 
 Polygon Lists can now be implicitly converted into Integer Lists.
+
+## Mesh Info
+
+A new *Material Indices* output was added.

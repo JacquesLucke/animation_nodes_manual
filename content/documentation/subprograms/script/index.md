@@ -74,6 +74,20 @@ not recommended.
     initialized with a float, it will be converted to an integer by
     flooring.
 
+### Input Defaults
+
+- **Default Value** - The default value of the input. When the user adds an
+  *Invoke Subprogram* node, the input will have its value set to this default
+  value. This option is only available for simple data types like integers and
+  floats. For instance, KDTree inputs will not have this option.
+- **Hide** - When enabled, the input will be hidden by default when the user
+  adds an *Invoke Subprogram* node.
+
+### Output Defaults
+
+- **Hide** - When enabled, the output will be hidden by default when the user
+  adds an *Invoke Subprogram* node.
+
 ## Examples
 
 ### Example 1

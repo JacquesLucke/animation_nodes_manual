@@ -10,19 +10,20 @@ object, that distance can be 3D or 1D.
 
 ## Options
 
-- **Sphere** - This option associates to every object a float that is
-    equal to inverse the distance from it to some controller object.
-    This float is always in `[0,1]` range, So some distances will be
-    clamped to `1` or `0`. We conclude that objects that are closer to
-    the controller will have a large float that doesn't exceed `1` and
-    as objects gets away, their floats starts to fade till it becomes
-    zero at some point. This float is added to the scale of the
-    controller object, so scaling the controller object will result in
-    increase in the floats of every object.
+### Sphere
+
+This option associates to every object a float that is equal to inverse the
+distance from it to some controller object.  This float is always in `[0,1]`
+range, So some distances will be clamped to `1` or `0`. We conclude that objects
+that are closer to the controller will have a large float that doesn't exceed
+`1` and as objects gets away, their floats starts to fade till it becomes zero
+at some point. This float is added to the scale of the controller object, so
+scaling the controller object will result in increase in the floats of every
+object.
 
 {{< video object_controller_falloff_node_example.mp4 >}}
 
-### Illustration
+#### Illustration
 
 In this illustration, I set the z-position of the points of a line to
 their falloff floats which formed some kind of triangle. As we said, the
@@ -59,21 +60,28 @@ values before clamping. Notice how outline exceed one and deceed zero:
 
 {{< video point_distance_falloff_node_illustration.mp4 >}}
 
-- **Directional** - This option associates to every object a float
-    that is equal to inverse the distance from it to some controller
-    object along a single axis. The chosen axis will be the local axis
-    of the controller object, so rotating the object changes the
-    direction. This float is always in `[0,1]` range, So some distances
-    will be clamped to `1` or `0`. We conclude that objects that are
-    closer to the controller along some axis will have a large float
-    that doesn't exceed `1` and as object gets away, their floats starts
-    to fade till it becomes zero at some point. This float is multiplied
-    by the scale of the controller object, so scaling the controller
-    object will result in increase in the floats of every object.
+### Directional
+
+This option associates to every object a float that is equal to inverse the
+distance from it to some controller object along a single axis. The chosen axis
+will be the local axis of the controller object, so rotating the object changes
+the direction. This float is always in `[0,1]` range, So some distances will be
+clamped to `1` or `0`. We conclude that objects that are closer to the
+controller along some axis will have a large float that doesn't exceed `1` and
+as object gets away, their floats starts to fade till it becomes zero at some
+point. This float is multiplied by the scale of the controller object, so
+scaling the controller object will result in increase in the floats of every
+object.
 
 Use the same reasoning as the sphere option to understand this better.
 
 {{< video object_controller_falloff_node_example2.mp4 >}}
+
+### Radial
+
+This option creates a Radial Falloff where the plane is defined by the position
+and orientation of the input controller object. Any of the axis can be chosen as
+the normal of the plane. See the Radial Falloff node for more information.
 
 ## Inputs
 
@@ -93,3 +101,9 @@ Use the same reasoning as the sphere option to understand this better.
 ## Outputs
 
 - **Falloff** - The actual falloff object.
+
+## Advanced Node Settings
+
+- **Create Execution Trigger** - This operator will create execution triggers
+  for the location, rotation, and scale of the object if any of them is used by
+  the node.

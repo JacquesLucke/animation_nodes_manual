@@ -45,6 +45,7 @@ distance from the starting point where this distance is defined by the input
   the normal as the parameter change.
 - **Radius** - The radius of the spline at the point.
 - **Tilt** - The tilt of the spline at the point.
+- **Curvature** - The curvature of the spline at the point.
 
 ## Advanced Node Settings
 
