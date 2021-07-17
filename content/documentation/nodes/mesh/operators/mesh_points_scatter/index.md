@@ -18,6 +18,10 @@ This node scatters random points on a mesh surface based on weight.
     Animation Nodes automatically changes the *Node Seed* when you
     duplicate or add a new *Random Vector* node.
 
+- **Mode** -
+    - *Edges* - This allows to scatter points on the edges of a mesh.
+    - *Polygons* - This allows to scatter points on the polygons of a mesh.
+
 ## Inputs
 
 - **Mesh** - The mesh.
@@ -27,7 +31,9 @@ This node scatters random points on a mesh surface based on weight.
 
 ## Outputs
 
-- **Points** - A vector list that contains the random points.
+- **Matrices** - A matrix list that contains the matrices of random points.
+- **Vectors** - A vector list that contains the positions of random points.
+- **Normals** - A vector list that contains the normals of random points.
 
 ## Advanced Settings
 

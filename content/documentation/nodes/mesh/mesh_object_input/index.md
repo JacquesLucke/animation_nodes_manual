@@ -23,6 +23,7 @@ Changes in edit mode will not take effect until you change into object mode.
   not have modifiers applied even if this option is enabled.
 - **Load UVs** - If enabled, will load UV maps in mesh.
 - **Load Vertex Colors** - If enabled, will load vertex color layers in mesh.
+- **Load Custom Attributes** - If enabled, will load custom attributes in mesh.
 - **Scene** - The scene the object belong to.
 
 ## Outputs
