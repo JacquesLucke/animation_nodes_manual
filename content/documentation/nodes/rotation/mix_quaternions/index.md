@@ -4,7 +4,9 @@ title : Mix Quaternions
 
 ## Description
 
-This node mixes between two quaternions based on a factor.
+This node mixes between two quaternions based on a factor. The mixing is done
+using a spherical interpolation which ensures a linear angular rate of change of
+rotation.
 
 ## Inputs
 

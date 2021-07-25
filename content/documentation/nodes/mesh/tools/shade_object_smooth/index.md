@@ -10,8 +10,10 @@ This node set the shading of the input object to smooth or flat.
 ## Inputs
 
 - **Object** - An Object.
-- **Smooth** - A boolean which if True will shade the object smooth
-    and if False will shade the object flat.
+- **Smooth** - A boolean which if true will shade the object smooth and if false
+  will shade the object flat. The socket has an *Is Used* property, if true the
+  node will take effect, otherwise, the node will be disabled and will not take
+  effect.
 
 ## Outputs
 
