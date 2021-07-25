@@ -12,3 +12,6 @@ don't provide any signification information to the shape of the spline.
 
 {{< video spline_curvature.mp4 >}}
 
+## Offset Spline
+
+The *Offset Spline* node is now vectorized.
