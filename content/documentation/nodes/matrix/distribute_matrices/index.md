@@ -10,7 +10,13 @@ spiral, or based on a custom distribution.
 
 ## Linear
 
-This option distribute matrices along the x-axis centered at the world.
+This option distribute matrices along an axis.
+
+### Options
+
+- **Direction Axis** - The axis at which the matrices are distributed.
+- **Center** - If true, the matrices will be centered, otherwise, they will be
+  distributed in the positive direction of the chosen axis.
 
 ### Size
 
@@ -87,7 +93,11 @@ and polygons.
 
 ## Spiral
 
-This option lets you distribute matrices along an Archimedean spiral.
+This option lets you distribute matrices along a spiral.
+
+### Options
+
+- **Center Spiral** - If true, the spiral will be centered vertically.
 
 ### Inputs
 
@@ -98,8 +108,48 @@ This option lets you distribute matrices along an Archimedean spiral.
 - **End Size** - The scale of the matrix at the end of the spiral.
 - **Start Angle** - The angle from the positive X axis where the spiral will
   start. Angles can't be equivalent.
-- **End Angle** - The angle from the positive X axis where the spiral will
-  end. Angles can't be equivalent.
+- **End Angle** - The angle from the positive X axis where the spiral will end.
+  Angles can't be equivalent.
+- **Height** - The height of the spiral. A zero height means a spiral lying on
+  the XY plane.
+- **Radius Interpolation** - An interpolation controlling the rate of change of
+  the radius. For instance, an ease-in interpolation would mean the spaces
+  betweens the arms of the spiral closer to the center will be larger than the
+  spaces between the arms of the spiral away from the center.
+- **Height Interpolation** - An interpolation controlling the rate of change of
+  the height. For instance, an ease-in interpolation would mean the vertical
+  spaces betweens the arms of the spiral closer to the start will be larger than
+  the vertical spaces between the arms of the spiral away from the start.
+
+## Spline
+
+This option lets you distribute matrices along a spline. The matrices are
+oriented such that its local axis align with the tangent and normal to the
+spline.
+
+### Options
+
+- **Uniform** - Distribute the matrices uniformly such that the matrices would
+  have equal distances along the spline.
+- **Step** - Distribute the matrices uniformly given the input step size.
+- **Resolution** - Distribute the matrices based on the density of the spline.
+- **Vertices** - Distribute the matrices along the vertices of the spline.
+
+### Inputs
+
+- **Spline** - The spline to evaluate.
+- **Count** - The amount of matrices to compute. (Only available in the
+  *Uniform* and *Resolution* options.)
+- **Step** - The step size to use for the *Step* option.
+- **Start** - The start parameter to start evaluating at.
+- **End** - The end parameter to stop evaluating at.
+- **Use Radius** - If true, the matrices will be scaled by the radius of the
+  spline.
+
+### Advanced Node Settings
+
+- **Resolution** - It is the quality of the evaluated spline, in other words, it
+  is the number of point in the spline used in evaluation.
 
 ## Outputs
 

@@ -22,8 +22,11 @@ is possible to insert a single spline because the node is vectorized.
   connect the two handles)
 - **Taper Object** - A curve to use as a factor for the radius of the curve.
 - **Bevel Object** - A curve to use as a shape for the curve.
-- **Fill Mode** - A string that defines the mode for filling the curve,
-  Possible modes can be known from the advanced node setting panel.
+- **Fill Caps** - A boolean to determine if the curve is to be capped.
+- **Fill Mode** - A string that defines the mode for filling the curve, possible
+  modes can be known from the Advanced Node Setting panel.
+- **Bevel Mode** - A string that defines the mode for beveling the curve,
+  possible modes can be known from the Advanced Node Setting panel.
 
 ## Outputs
 

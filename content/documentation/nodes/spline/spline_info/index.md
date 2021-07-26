@@ -32,4 +32,5 @@ location of its points and handles.
     the input spline.
 - **Cyclic** - A boolean that is true if the spline is closed, that
     is, every handle is connected to two other handles.
+- **Material Index** - The material index of the spline.
 - **Point Amount** - The amount of points in the input spline.
