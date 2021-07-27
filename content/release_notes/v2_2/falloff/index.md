@@ -30,3 +30,9 @@ A new *Interpolation* input was added. The remapped range will be evaluated at
 the input interpolation if it is not linear.
 
 {{< video remap_falloff_interpolate.mp4 >}}
+
+## Clamp Falloff
+
+A new *Clamp Falloff* node was added. The node clamps falloff value to a certain range.
+
+{{< video clamp_falloff.mp4 >}}
