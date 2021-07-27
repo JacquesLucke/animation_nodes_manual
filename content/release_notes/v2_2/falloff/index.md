@@ -34,3 +34,5 @@ the input interpolation if it is not linear.
 ## Clamp Falloff
 
 A new *Clamp Falloff* node was added. The node clamps falloff value to a certain range.
+
+{{< video clamp_falloff.mp4 >}}
