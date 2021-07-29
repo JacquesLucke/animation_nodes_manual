@@ -36,3 +36,9 @@ the input interpolation if it is not linear.
 A new *Clamp Falloff* node was added. The node clamps falloff value to a certain range.
 
 {{< video clamp_falloff.mp4 >}}
+
+## Point Distance Falloff
+
+The *Point Distance Falloff* node is now vectorized. Max and Add mix types were added for list inputs.
+
+{{< video point_distance_falloff.mp4 >}}
