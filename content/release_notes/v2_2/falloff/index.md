@@ -4,7 +4,12 @@ title : Falloff
 
 ## Mix Falloff
 
-A new *Subtract* method was added to the node.
+A new *Subtract* and *Overlay* methods were added to the node. In the *Overlay*
+mode, the B falloff is added to the A falloff such that the addition is full
+when A is equal to 0.5 and decreases gradually as A goes to zero or one. The
+following shows an example of using the overlay mode.
+
+{{< video mix_falloff_overlay.mp4 >}}
 
 ## Radial Falloff
 
@@ -42,3 +47,13 @@ A new *Clamp Falloff* node was added. The node clamps falloff value to a certain
 The *Point Distance Falloff* node is now vectorized. Max and Add mix types were added for list inputs.
 
 {{< video point_distance_falloff.mp4 >}}
+
+## Spline Falloff
+
+A new *Parameter* mode was added to the node. In this mode, the falloff is equal
+to the parameter of the projection of the vector on the spline. If the
+projection of the vector is at the start of the spline, the value will be closer
+to zero, and if the projection of the vector is at the end of the spline the
+value will be closer to one.
+
+{{< video spline_falloff_parameter.mp4 >}}
