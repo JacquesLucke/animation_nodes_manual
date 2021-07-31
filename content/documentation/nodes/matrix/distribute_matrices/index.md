@@ -30,7 +30,7 @@ This option lets you define the size of the line explicitly.
 ### Step
 
 This option lets you define the distance between each two consecutive matrices.
-                
+
 - **Amount** - Number of matrices.
 - **Distance** - Distance between each two consecutive matrices.
 
@@ -49,20 +49,20 @@ This option distribute matrices on a 3D lattice.
 This option lets you define the dimensions of the lattice.
 
 #### Inputs
-                
+
 - **X Division** - Number of matrices in x-axis.
 - **Y Division** - Number of matrices in y-axis.
 - **Z Division** - Number of matrices in z-axis.
 - **Width** - The width of the lattice.
 - **Length** - The length of the lattice.
 - **Height** - The height of the lattice.
-        
+
 ### Step
 
 This option lets you define the distance between each two matrices in all axis.
 
 #### Inputs
-                
+
 - **X Division** - Number of matrices in x-axis.
 - **Y Division** - Number of matrices in y-axis.
 - **Z Division** - Number of matrices in z-axis.
@@ -73,7 +73,15 @@ This option lets you define the distance between each two matrices in all axis.
 ## Circle
 
 This option lets you distribute matrices around a circle centered at the world.
-        
+
+### Options
+
+This option lets you define the distribution in a given world plane.
+
+- **XY** - Grid in the XY plane.
+- **YZ** - Grid in the YZ plane.
+- **ZX** - Grid in the ZX plane.
+
 ### Inputs
 
 - **Amount** - The number of matrices around the circle.
@@ -86,7 +94,7 @@ This option lets you distribute matrices around a circle centered at the world.
 This option lets you distribute matrices along the vertices or polygons of a
 mesh. The orientation of the matrices align with the normals of the vertices
 and polygons.
-        
+
 ### Inputs
 
 - **Mesh** - The input mesh.
@@ -98,6 +106,10 @@ This option lets you distribute matrices along a spiral.
 ### Options
 
 - **Center Spiral** - If true, the spiral will be centered vertically.
+
+### Center Spiral
+
+This option center the spiral about its height.
 
 ### Inputs
 

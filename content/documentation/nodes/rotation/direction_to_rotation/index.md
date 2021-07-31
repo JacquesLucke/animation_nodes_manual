@@ -5,7 +5,7 @@ title : Direction To Rotation
 ## Description
 
 This node converts a direction to a rotation, A vector that defines a
-direction is inputed and a corresponding rotation is output.
+direction is inputted and a corresponding rotation is output.
 
 ## Demonstration
 

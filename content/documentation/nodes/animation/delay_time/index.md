@@ -14,10 +14,10 @@ input frame will result in zero for the first 20 frame.
 
 ## Inputs
 
-- **Time** - An input time.
-- **Delay** - A value to subtract from the time or the frame at which
+- **Time(s)** - An input time(s).
+- **Delay(s)** - A value or list to subtract from the time(s) or the frame(s) at which
     the animation will start.
 
 ## Outputs
 
-- **Time** - The delayed time.
+- **Time(s)** - The delayed time(s).

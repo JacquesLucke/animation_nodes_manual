@@ -15,7 +15,7 @@ This node combines individual mesh data into a mesh.
   for the output mesh.
 - **Polygons Indices** - A polygon indices list that contains the polygon
   information for the output mesh.
-- **Polygons Indices** - An integer list that contains the material indices for
+- **Material Indices** - An integer list that contains the material indices for
   the output mesh. This input is disabled by default and can be enabled by
   enabling the *Is Used* button. If disabled, material indices will not be
   stored in the mesh and will be considered all zero.

@@ -6,7 +6,7 @@ title : Spline Falloff
 
 This node creates a vector based falloff that associates a float to every
 vector. The float is equal to some property of the projection of the vector on
-the spline. See the options below for the available options. 
+the spline. See the options below for the available options.
 
 ## Options
 

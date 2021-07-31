@@ -23,5 +23,6 @@ This node returns information about the input gp stroke *e.g., Points, Strengths
 - **Cyclic** - A boolean value. True when the input gp stroke is cyclic.
 - **Start Cap Mode** - The start-shape of the input gp stroke, *e.g., FLAT, ROUND*.
 - **End Cap Mode** - The end-shape of the input gp stroke, *e.g., FLAT, ROUND*.
+- **Vertex Color Fill** - The fill vertex color of the input gp stroke.
 - **Material Index** - This is the 'Color Index' pass of the input gp stroke.
 - **Display Mode** - This is the display mode of the input gp stroke, *e.g., 3DSPACE, SCREEN, etc*.

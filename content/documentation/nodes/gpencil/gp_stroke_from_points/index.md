@@ -19,6 +19,7 @@ This node generates a gp stroke.
 - **Cyclic** - A boolean value. True when the output gp stroke is cyclic.
 - **Start Cap Mode** - The start-shape of the output gp stroke, *e.g., FLAT, ROUND*.
 - **End Cap Mode** - The end-shape of the output gp stroke, *e.g., FLAT, ROUND*.
+- **Vertex Color Fill** - The fill vertex color of the output gp stroke.
 - **Material Index** - This is the 'Color Index' pass of the output gp stroke.
 - **Display Mode** - This is the display mode of the output gp stroke, *e.g., 3DSPACE, SCREEN, etc*.
 
