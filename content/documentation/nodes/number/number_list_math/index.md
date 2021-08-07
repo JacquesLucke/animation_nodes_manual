@@ -19,3 +19,5 @@ This node performs the following math operations on float and integer lists.
 ## Outputs
 
 - **Result** - The result of the math operation.
+- **Index** - The index of the element that was returned. Only available for the
+  Min and Max options.

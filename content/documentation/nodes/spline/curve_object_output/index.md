@@ -27,6 +27,8 @@ is possible to insert a single spline because the node is vectorized.
   modes can be known from the Advanced Node Setting panel.
 - **Bevel Mode** - A string that defines the mode for beveling the curve,
   possible modes can be known from the Advanced Node Setting panel.
+- **Taper Mode** - A string that defines the mode for tapering the curve,
+  possible modes can be known from the Advanced Node Setting panel.
 
 ## Outputs
 

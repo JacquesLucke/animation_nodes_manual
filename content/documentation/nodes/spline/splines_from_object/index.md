@@ -9,6 +9,8 @@ This node returns the spline(s) of the input curve.
 ## Inputs
 
 - **Object** - A curve to return its splines.
+- **Apply Modifiers** - If true, spline deform modifiers will be applied to the
+  splines in the object.
 - **Use World Space** - If True, the splines will be in world space.
 
 ## Outputs
