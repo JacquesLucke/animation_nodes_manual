@@ -34,3 +34,22 @@ to an API change which removed the corresponding options from Blender.
 ## Shade Object Smooth
 
 The *Shade Object Smooth* node now allows smoothing curve objects.
+
+## Line Mesh
+
+The *Line Mesh* node now outputs the edge and polygon indices of the mesh.
+
+## Get Custom Attribute
+
+The *Get Custom Attribute* node was added. The node gets the data of a custom
+attribute.
+
+## Insert Custom Attribute
+
+The *Insert Custom Attribute* node was added. The node inserts a new custom
+attribute to the mesh.
+
+## Set Custom Attribute
+
+The *Set Custom Attribute* node was added. The node changes the value of an
+existing custom attribute.

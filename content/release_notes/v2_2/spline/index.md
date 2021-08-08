@@ -18,8 +18,8 @@ The *Offset Spline* node is now vectorized.
 
 ## Curve Object Output
 
-A new *Fill Caps* and *Bevel Mode* inputs were added to the *Curve Object
-Output* node.
+A new *Fill Caps*, *Bevel Mode*, and *Taper Mode* inputs were added to the
+*Curve Object Output* node.
 
 ## Evaluate Spline
 
@@ -52,7 +52,17 @@ spline.
 ## Spline From Object
 
 The *Spline From Object* node can now get splines from text objects.
+Additionally, a new *Apply Modifiers* input was added.
 
 ## Transform Spline
 
 The *Transform Spline* node was vectorized.
+
+## Set Spline Radius
+
+A new option to change the vectorization behavior was added. It is now possible
+to set the radius per spline or per point in each spline.
+
+## Bevel Spline
+
+The *Bevel Spline* node was added. The node bevels the points of a poly spline.

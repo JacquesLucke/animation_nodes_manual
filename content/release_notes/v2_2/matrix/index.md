@@ -18,6 +18,11 @@ radius and the height were added to the *Spiral* mode of the node.
 A center and an axis options were added to the *Linear* mode to center the
 distributed matrices and align them on the chosen axis.
 
+A plane axis option was added to the *Circle* mode to define the plane at which
+the circle will lie.
+
+A new *Hexagonal Grid* mode was added.
+
 It is now possible to search for the node using the name of its modes. For
 instance, searching for *Spiral* will add a node with its mode set to spiral.
 

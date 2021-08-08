@@ -31,3 +31,17 @@ alternative, though its use is discouraged.
 The output of the *Get Selected Objects* node is no longer ordered by the
 selection order. This is because ordering the objects was a very expensive
 background process.
+
+## Evaluate Object
+
+The *Evaluate Object* node was added. The node force evaluate the object after
+changes have happened in the node tree.
+
+## Object Attribute Input
+
+A new *Evaluate Object* option was added. If enabled, the object will be
+evaluated before retrieving the target attribute.
+
+## Object Instancer
+
+The *Object Instancer* node is about 4x faster.
