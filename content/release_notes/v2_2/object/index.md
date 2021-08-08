@@ -19,3 +19,15 @@ disabled and will not take effect.
 The *Copy Object Modifiers* node was added. This node copies the modifiers of
 some source object into some target object. The modifiers in the target object
 is first cleared and is effectively overwritten.
+
+## Update Object Matrices
+
+The *Update Object Matrices* node was removed. The node never worked correctly
+and was confusing to the end user. The *Evaluate Object* node was added as an
+alternative, though its use is discouraged.
+
+## Get Selected Objects
+
+The output of the *Get Selected Objects* node is no longer ordered by the
+selection order. This is because ordering the objects was a very expensive
+background process.

@@ -38,13 +38,15 @@ the input interpolation if it is not linear.
 
 ## Clamp Falloff
 
-A new *Clamp Falloff* node was added. The node clamps falloff value to a certain range.
+A new *Clamp Falloff* node was added. The node clamps falloff value to a certain
+range.
 
 {{< video clamp_falloff.mp4 >}}
 
 ## Point Distance Falloff
 
-The *Point Distance Falloff* node is now vectorized. Max and Add mix types were added for list inputs.
+The *Point Distance Falloff* node is now vectorized. Max and Add mix types were
+added for list inputs.
 
 {{< video point_distance_falloff.mp4 >}}
 
@@ -57,3 +59,7 @@ to zero, and if the projection of the vector is at the end of the spline the
 value will be closer to one.
 
 {{< video spline_falloff_parameter.mp4 >}}
+
+## Random Falloff
+
+The inputs of the *Random Falloff* node are no longer clamped.

@@ -48,3 +48,11 @@ input spline.
 
 A new *Material Index* input was added. It defines the material index of the
 spline.
+
+## Spline From Object
+
+The *Spline From Object* node can now get splines from text objects.
+
+## Transform Spline
+
+The *Transform Spline* node was vectorized.

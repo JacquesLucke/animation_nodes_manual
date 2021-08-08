@@ -20,3 +20,7 @@ vectorized.
 
 The *Random Quaternion* node now has a *Create List* option which allows the
 creation for a list of quaternions.
+
+## Convert Rotations
+
+The *Convert Rotations* node was vectorized.

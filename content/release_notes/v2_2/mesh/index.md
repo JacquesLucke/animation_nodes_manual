@@ -25,3 +25,12 @@ Polygon Lists can now be implicitly converted into Integer Lists.
 ## Mesh Info
 
 A new *Material Indices* output was added.
+
+## Bmesh From Object
+
+The *Apply Modifiers* and *Scene* inputs were removed. This was done in response
+to an API change which removed the corresponding options from Blender.
+
+## Shade Object Smooth
+
+The *Shade Object Smooth* node now allows smoothing curve objects.

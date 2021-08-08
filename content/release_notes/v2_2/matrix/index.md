@@ -20,3 +20,7 @@ distributed matrices and align them on the chosen axis.
 
 It is now possible to search for the node using the name of its modes. For
 instance, searching for *Spiral* will add a node with its mode set to spiral.
+
+## Transform Matrix
+
+The *Transform Matrix* node was vectorized.
