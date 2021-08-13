@@ -63,3 +63,10 @@ value will be closer to one.
 ## Random Falloff
 
 The inputs of the *Random Falloff* node are no longer clamped.
+
+## Mesh Falloff
+
+A new *Mesh Falloff* node was added. This node allows to generate falloff based on
+mesh surface and volume.
+
+{{< video mesh_falloff.mp4 >}}

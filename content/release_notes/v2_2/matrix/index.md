@@ -29,3 +29,11 @@ instance, searching for *Spiral* will add a node with its mode set to spiral.
 ## Transform Matrix
 
 The *Transform Matrix* node was vectorized.
+
+## Extract Matrix Basis
+
+The *Extract Matrix Basis* node was added.
+
+## Mix Matrices
+
+The *Mix Matrices* node was vectorized.

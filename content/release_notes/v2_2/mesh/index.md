@@ -53,3 +53,22 @@ attribute to the mesh.
 
 The *Set Custom Attribute* node was added. The node changes the value of an
 existing custom attribute.
+
+## Mesh Info
+
+Now, the *Mesh Info* node also outputs the *Custom Attribute* names.
+
+## Mesh Points Scatter
+
+The *Edges* mode is added to *Mesh Points Scatter* node. It allows scattering
+of points on mesh edges. Now, this node also outputs matrices and normals for
+random points.
+
+{{< video mesh_points_scatter_edge.mp4 >}}
+
+## Find Shortest Path
+
+The *Find Shortest Path* node was added. This node find path(s) from source(s)
+on mesh island(s) using modified Dijkstra’s algorithm.
+
+{{< video find_shortest_path.mp4 >}}

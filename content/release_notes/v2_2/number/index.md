@@ -18,3 +18,7 @@ The *Convert Angle* node is now vectorized.
 
 An index output was added to the Max and Min modes of the node. Additionally,
 the node now have search aliases.
+
+## Mix Floats
+
+The *Mix Floats* node is now vectorized.

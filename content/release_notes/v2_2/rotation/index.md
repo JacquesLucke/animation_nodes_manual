@@ -24,3 +24,7 @@ creation for a list of quaternions.
 ## Convert Rotations
 
 The *Convert Rotations* node was vectorized.
+
+## Mix Eulers
+
+The *Mix Eulers* node is now vectorized.
