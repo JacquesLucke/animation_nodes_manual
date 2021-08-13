@@ -26,7 +26,7 @@ instead of edges.
 
 ## Inputs
 
-- **Vertices** - A vector list that represent the position of the
+- **Vertex Locations** - A vector list that represent the position of the
     vertices of the edges.
 - **Edge Indices** - An Edge Indices list.
 - **Radius(radii)** - The radius of the splines or a list of radii of

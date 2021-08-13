@@ -9,7 +9,7 @@ This node separate input polygons.
 
 ## Inputs
 
-- **Vertices** - A vector list that represent the vertices locations
+- **Vertex Locations** - A vector list that represent the vertices locations
     of the polygons.
 - **Polygon Indices** - A polygon indices that define the polygons.
 

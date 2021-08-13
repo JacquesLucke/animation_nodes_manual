@@ -24,7 +24,7 @@ Polygon Lists can now be implicitly converted into Integer Lists.
 
 ## Mesh Info
 
-A new *Material Indices* output was added.
+New *Material Indices* and *Custom Attribute Names* outputs were added.
 
 ## Bmesh From Object
 
@@ -53,10 +53,6 @@ attribute to the mesh.
 
 The *Set Custom Attribute* node was added. The node changes the value of an
 existing custom attribute.
-
-## Mesh Info
-
-Now, the *Mesh Info* node also outputs the *Custom Attribute* names.
 
 ## Mesh Points Scatter
 
