@@ -66,3 +66,5 @@ to set the radius per spline or per point in each spline.
 ## Bevel Spline
 
 The *Bevel Spline* node was added. The node bevels the points of a poly spline.
+
+{{< video spline_bevel.mp4 >}}

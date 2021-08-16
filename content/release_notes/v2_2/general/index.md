@@ -17,3 +17,8 @@ starts recording.
 ## Implicit Conversion
 
 There is now an implicit conversion from Polygon Indices List to Integer List.
+
+## Extension
+
+Animation Nodes now support extensions, check the Developer Guide for more
+details.

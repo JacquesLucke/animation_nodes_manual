@@ -49,6 +49,8 @@ attribute.
 The *Insert Custom Attribute* node was added. The node inserts a new custom
 attribute to the mesh.
 
+{{< video attributes.mp4 >}}
+
 ## Set Custom Attribute
 
 The *Set Custom Attribute* node was added. The node changes the value of an
