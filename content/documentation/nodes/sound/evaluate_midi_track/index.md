@@ -30,9 +30,15 @@ are two modes of evaluation. You can either evaluate a single note number or all
 - **Attack Time** - The attack time of the ADSR envelope.
 - **Attack Interpolation** - An interpolation describing the rate of increase of
   the note value up to the maximum sustain level.
+- **Decay** - The decay of the ADSR envelope.
+- **Decay Interpolation** - An interpolation describing the rate of decrease of
+  the note value down to the maximum sustain level.
+- **Sustain** - The sustain level of the ADSR envelope.
 - **Release Time** - The release time of the ADSR envelope.
 - **Attack Interpolation** - An interpolation describing the rate of decrease of
   the note value to zero.
+- **Velocity Sensitivity** - Attenuate the MIDI note values by their velocity
+  if 1, has no effect if 0.
 - **Scene** - Only used to get the FPS to compute the time from the input frame.
 
 ## Outputs

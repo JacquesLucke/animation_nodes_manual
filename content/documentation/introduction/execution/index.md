@@ -25,18 +25,8 @@ of options that we list below.
 
 ### Always
 
-**Always** option is enabled by default and it does what we stated
-before, that is, execute the nodetree as much as possible. This option
-should not be used unless absolutely needed. A possible uses for it is
-as follows:
-
-- A lot of variables that Animation Nodes uses in the scene are
-    changing regularly and constantly, for instance, if the nodetree
-    relies on the locations of tenths of objects that are constantly
-    moving. Had they just been couple of object, then it would be better
-    to use *triggers* (Triggers will be presented later on).
-- When running a time based discretized simulations that need to be
-    computed as fast as possible.
+**Always** option does what we stated before, that is, execute the nodetree as
+much as possible. This option should not be used unless absolutely needed.
 
 {{< video always.mp4 >}}
 
@@ -49,6 +39,13 @@ didn't change)
 
 If always is disabled, then you get to control the execution through the
 options described below.
+
+### Scene Changed
+
+If enabled, the node tree will execute every time anything in the scene
+changes. This is the default and should be used when the node tree depends on
+the data in the scene, if not, then one of the following options should be used
+instead.
 
 ### Tree Changed
 

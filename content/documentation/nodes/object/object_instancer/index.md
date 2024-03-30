@@ -34,8 +34,12 @@ This node dynamically creates and duplicates objects.
 
 ## Advanced Node Settings
 
-- **Add To Main Container** - Add the resulted objects to the Animation Nodes
-  main container collection.
+- **Container Type** -
+  - **Main Container** - Add the resulted objects to the Animation Nodes main
+    container collection in all input scenes.
+  - **Scenes** - Add the resulted objects to the scene collection in all input
+    scenes.
+  - **Collections** - Add the resulted objects to all input collections.
 - **Remove Animation Data** - Clear the animation data of the newly created
   objects.
 - **Reset Source Data** - This will reset the source data for all instances.
